@@ -1,0 +1,1028 @@
+{
+    "hanging-punctuation-property": [
+        {
+            "slug": "CSS/hanging-punctuation",
+            "summary": "The hanging-punctuation CSS property specifies whether a punctuation mark should hang at the start or end of a line of text.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "version_added": "10"
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "hanging-punctuation"
+        }
+    ],
+    "hyphens-property": [
+        {
+            "slug": "CSS/hyphens",
+            "summary": "The hyphens CSS property specifies how words should be hyphenated when text wraps across multiple lines. You can prevent hyphenation entirely, use hyphenation in manually-specified points within the text, or let the browser automatically insert hyphens where appropriate.",
+            "support": {
+                "chrome": [
+                    {
+                        "notes": "<code>auto</code> value is only supported on macOS and Android.",
+                        "partial_implementation": true,
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "Only <code>-webkit-hyphens: none</code> is supported.",
+                        "prefix": "-webkit-",
+                        "version_added": "13"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "notes": "Automatic hyphenation only works for languages with hyphenation dictionaries that are integrated into Internet Explorer.",
+                    "prefix": "-ms-",
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "notes": "Automatic hyphenation only works for languages with hyphenation dictionaries that are integrated into Firefox.",
+                        "prefix": "-moz-",
+                        "version_added": "6"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "notes": "Automatic hyphenation only works for languages with hyphenation dictionaries that are integrated into Firefox.",
+                        "prefix": "-moz-",
+                        "version_added": "6"
+                    }
+                ],
+                "ie": {
+                    "notes": "Automatic hyphenation only works for languages with hyphenation dictionaries that are integrated into Internet Explorer.",
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": {
+                    "notes": "<code>auto</code> value is only supported on macOS and Android.",
+                    "partial_implementation": true,
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": "4.2"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "4"
+                    }
+                ]
+            },
+            "title": "hyphens"
+        }
+    ],
+    "letter-spacing-property": [
+        {
+            "slug": "CSS/letter-spacing",
+            "summary": "The letter-spacing CSS property sets the spacing behavior between text characters.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "letter-spacing"
+        }
+    ],
+    "line-break-property": [
+        {
+            "slug": "CSS/line-break",
+            "summary": "The line-break CSS property sets how to break lines of Chinese, Japanese, or Korean (CJK) text when working with punctuation and symbols.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "58"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "1"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "58"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "18"
+                    }
+                ],
+                "edge": {
+                    "version_added": "14"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": [
+                    {
+                        "version_added": "5.5"
+                    },
+                    {
+                        "prefix": "-ms-",
+                        "version_added": "8"
+                    }
+                ],
+                "opera": [
+                    {
+                        "version_added": "45"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "45"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": [
+                    {
+                        "version_added": "7.0"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": "58"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "line-break"
+        }
+    ],
+    "propdef-overflow-wrap": [
+        {
+            "slug": "CSS/overflow-wrap",
+            "summary": "The overflow-wrap CSS property sets whether the browser should insert line breaks within words to prevent text from overflowing its content box.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "word-wrap",
+                        "version_added": "1"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": [
+                    {
+                        "version_added": "18"
+                    },
+                    {
+                        "alternative_name": "word-wrap",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": {
+                    "alternative_name": "word-wrap",
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "alternative_name": "word-wrap",
+                        "version_added": "3.5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "alternative_name": "word-wrap",
+                        "version_added": "4"
+                    }
+                ],
+                "ie": {
+                    "alternative_name": "word-wrap",
+                    "version_added": "5.5"
+                },
+                "opera": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "word-wrap",
+                        "version_added": "10.5"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "word-wrap",
+                        "version_added": "1"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "word-wrap",
+                        "version_added": "1"
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "word-wrap",
+                        "version_added": "1"
+                    }
+                ]
+            },
+            "title": "overflow-wrap"
+        },
+        {
+            "slug": "CSS/overflow-wrap",
+            "summary": "The overflow-wrap CSS property sets whether the browser should insert line breaks within words to prevent text from overflowing its content box.",
+            "support": {
+                "chrome": [
+                    {
+                        "alternative_name": "overflow-wrap",
+                        "version_added": true
+                    },
+                    {
+                        "version_added": "1"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "alternative_name": "overflow-wrap",
+                        "version_added": "49"
+                    },
+                    {
+                        "version_added": "3.5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "alternative_name": "overflow-wrap",
+                        "version_added": "49"
+                    },
+                    {
+                        "version_added": "4"
+                    }
+                ],
+                "ie": {
+                    "version_added": "5.5"
+                },
+                "opera": [
+                    {
+                        "alternative_name": "overflow-wrap",
+                        "version_added": true
+                    },
+                    {
+                        "version_added": "10.5"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": [
+                    {
+                        "alternative_name": "overflow-wrap",
+                        "version_added": true
+                    },
+                    {
+                        "version_added": "1"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "alternative_name": "overflow-wrap",
+                        "version_added": true
+                    },
+                    {
+                        "version_added": "1"
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "alternative_name": "overflow-wrap",
+                        "version_added": true
+                    },
+                    {
+                        "version_added": "1"
+                    }
+                ]
+            },
+            "title": "overflow-wrap"
+        }
+    ],
+    "propdef-white-space": [
+        {
+            "slug": "CSS/white-space",
+            "summary": "The white-space CSS property sets how white space inside an element is handled.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "5.5"
+                },
+                "opera": {
+                    "version_added": "4"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "white-space"
+        }
+    ],
+    "propdef-word-spacing": [
+        {
+            "slug": "CSS/word-spacing",
+            "summary": "The word-spacing CSS property sets the length of space between words and between tags.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "word-spacing"
+        }
+    ],
+    "tab-size-property": [
+        {
+            "slug": "CSS/tab-size",
+            "summary": "The tab-size CSS property is used to customize the width of a tab (U+0009) character.",
+            "support": {
+                "chrome": {
+                    "notes": "This property is not yet animatable.",
+                    "version_added": "21"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": [
+                        "See <a href='https://bugzil.la/737785'>bug 737785</a> for the status of unprefixing this property.",
+                        "Before Firefox 53, this property was not animatable."
+                    ],
+                    "prefix": "-moz-",
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "notes": [
+                        "See <a href='https://bugzil.la/737785'>bug 737785</a> for the status of unprefixing this property.",
+                        "Before Firefox 53, this property was not animatable."
+                    ],
+                    "prefix": "-moz-",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "10.5"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "24"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "11.5"
+                    }
+                ],
+                "safari": {
+                    "version_added": "6.1"
+                },
+                "safari_ios": {
+                    "version_added": "7.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "4.4"
+                }
+            },
+            "title": "tab-size"
+        }
+    ],
+    "text-align-last-property": [
+        {
+            "slug": "CSS/text-align-last",
+            "summary": "The text-align-last CSS property sets how the last line of a block or a line, right before a forced line break, is aligned.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "47"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable Experimental Web Platform Features",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "35",
+                        "version_removed": "47"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "47"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable Experimental Web Platform Features",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "35",
+                        "version_removed": "47"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "12",
+                        "version_removed": "53"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "14",
+                        "version_removed": "53"
+                    }
+                ],
+                "ie": {
+                    "notes": [
+                        "IE only supports <code>text-align-last</code> when <code>text-align</code> is set to <code>justify</code>.",
+                        "The <code>start</code> and <code>end</code> values are not supported."
+                    ],
+                    "partial_implementation": true,
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "notes": "See WebKit <a href='https://bugs.webkit.org/show_bug.cgi?id=76173'>bug 76173</a>.",
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "notes": "See WebKit <a href='https://bugs.webkit.org/show_bug.cgi?id=76173'>bug 76173</a>.",
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": [
+                    {
+                        "version_added": "47"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable Experimental Web Platform Features",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "37",
+                        "version_removed": "47"
+                    }
+                ]
+            },
+            "title": "text-align-last"
+        }
+    ],
+    "text-align-property": [
+        {
+            "slug": "CSS/text-align",
+            "summary": "The text-align CSS property sets the horizontal alignment of an inline or table-cell box. This means it works like vertical-align but in the horizontal direction.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "text-align"
+        }
+    ],
+    "text-indent-property": [
+        {
+            "slug": "CSS/text-indent",
+            "summary": "The text-indent CSS property sets the length of empty space (indentation) that is put before lines of text in a block.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "text-indent"
+        }
+    ],
+    "text-justify-property": [
+        {
+            "slug": "CSS/text-justify",
+            "summary": "The text-justify CSS property sets what type of justification should be applied to text when text-align: justify; is set on an element.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Enable Experimental Web Platform Features",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "notes": "<code>inter-word</code> and <code>distribute</code> (deprecated) values are supported, but <code>distribute</code> behavior is buggy.",
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "Enable Experimental Web Platform Features",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "notes": "<code>inter-word</code> and <code>distribute</code> (deprecated) values are supported, but <code>distribute</code> behavior is buggy.",
+                    "version_added": true
+                },
+                "edge": {
+                    "notes": "Standard values <code>inter-character</code> and <code>none</code> are supported. The deprecated <code>distribute</code> value is also supported.",
+                    "version_added": "14"
+                },
+                "edge_mobile": {
+                    "notes": "Standard values <code>inter-character</code> and <code>none</code> are supported. The deprecated <code>distribute</code> value is also supported.",
+                    "version_added": "14"
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "notes": "Standard values <code>inter-character</code> and <code>none</code> are supported. The deprecated <code>distribute</code> value is also supported.",
+                    "version_added": "11"
+                },
+                "opera": {
+                    "flags": [
+                        {
+                            "name": "Enable Experimental Web Platform Features",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "notes": "<code>inter-word</code> and <code>distribute</code> (deprecated) values are supported, but <code>distribute</code> behavior is buggy.",
+                    "version_added": true
+                },
+                "opera_android": {
+                    "flags": [
+                        {
+                            "name": "Enable Experimental Web Platform Features",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "notes": "<code>inter-word</code> and <code>distribute</code> (deprecated) values are supported, but <code>distribute</code> behavior is buggy.",
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "text-justify"
+        }
+    ],
+    "text-transform": [
+        {
+            "slug": "CSS/text-transform",
+            "summary": "The text-transform CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized.",
+            "support": {
+                "chrome": {
+                    "notes": "The <code>text-transform</code> property does not work for <code>::first-line</code> pseudo-elements (nor for the one-colon syntax). See <a href='https://crbug.com/129669'>Chromium bug 129669</a>.",
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "notes": "Since Opera 15, the <code>text-transform</code> property does not work for <code>::first-line</code> pseudo-elements (nor for the one-colon syntax). See <a href='https://crbug.com/129669'>Chromium bug 129669</a>.",
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "notes": "The <code>text-transform</code> property does not work for <code>::first-line</code> pseudo-elements (also not for the old one-colon syntax). See <a href='https://bugs.webkit.org/show_bug.cgi?id=3409'>WebKit bug 3409</a>.",
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "notes": "The <code>text-transform</code> property does not work for <code>::first-line</code> pseudo-elements (also not for the old one-colon syntax). See <a href='https://bugs.webkit.org/show_bug.cgi?id=3409'>WebKit bug 3409</a>.",
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "notes": "The <code>text-transform</code> property does not work for <code>::first-line</code> pseudo-elements (nor for the one-colon syntax). See <a href='https://crbug.com/129669'>Chromium bug 129669</a>.",
+                    "version_added": "1"
+                }
+            },
+            "title": "text-transform"
+        }
+    ],
+    "word-break-property": [
+        {
+            "slug": "CSS/word-break",
+            "summary": "The word-break CSS property sets whether line breaks appear wherever the text would otherwise overflow its content box.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "15"
+                },
+                "firefox_android": {
+                    "version_added": "15"
+                },
+                "ie": [
+                    {
+                        "notes": "No version of Internet Explorer supports the <code>initial</code> value.",
+                        "version_added": "5.5"
+                    },
+                    {
+                        "notes": "Don't use <code>-ms-word-break</code>, which is a synonym for <code>word-break</code>.",
+                        "prefix": "-ms-",
+                        "version_added": "8"
+                    }
+                ],
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "word-break"
+        }
+    ]
+}

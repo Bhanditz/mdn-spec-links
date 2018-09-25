@@ -1,0 +1,4544 @@
+{
+    "cache": [
+        {
+            "slug": "API/Cache",
+            "summary": "The Cache interface provides a storage mechanism for Request / Response object pairs that are cached, for example as part of the ServiceWorker life cycle. Note that the Cache interface is exposed to windowed scopes as well as workers. You don't have to use it in conjunction with service workers, even though it is defined in the service worker spec.",
+            "support": {
+                "chrome": {
+                    "notes": "From 40 to 42, this was only available on service workers.",
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "notes": "From 40 to 42, this was only available on service workers.",
+                    "version_added": "43"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": [
+                        "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR)."
+                    ],
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": "From 27 to 29, this was only available on service workers.",
+                    "version_added": "30"
+                },
+                "opera_android": {
+                    "notes": "From 27 to 29, this was only available on service workers.",
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "notes": "From 40 to 42, this was only available on service workers.",
+                    "version_added": "43"
+                }
+            },
+            "title": "Cache"
+        }
+    ],
+    "cache-storage": [
+        {
+            "slug": "API/CacheStorage",
+            "summary": "The CacheStorage interface represents the storage for Cache objects.",
+            "support": {
+                "chrome": {
+                    "notes": [
+                        "Accessible from <code>Window</code> from version 43.",
+                        "Accessible from <code>WorkerGlobalScope</code> from version 43."
+                    ],
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "notes": [
+                        "Accessible from <code>Window</code> from version 43.",
+                        "Accessible from <code>WorkerGlobalScope</code> from version 43."
+                    ],
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR.)"
+                    ],
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "notes": [
+                        "Accessible from <code>Window</code> from version 43.",
+                        "Accessible from <code>WorkerGlobalScope</code> from version 43."
+                    ],
+                    "version_added": "40"
+                }
+            },
+            "title": "CacheStorage"
+        }
+    ],
+    "cache-storage-delete": [
+        {
+            "slug": "API/CacheStorage/delete",
+            "summary": "The delete() method of the CacheStorage interface finds the Cache object matching the cacheName, and if found, deletes the Cache object and returns a Promise that resolves to true. If no Cache object is found, it returns false.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR.)"
+                    ],
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "CacheStorage.delete()"
+        }
+    ],
+    "cache-storage-has": [
+        {
+            "slug": "API/CacheStorage/has",
+            "summary": "The has() method of the CacheStorage interface returns a Promise that resolves to true if a Cache object matches the cacheName.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR.)"
+                    ],
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "CacheStorage.has()"
+        }
+    ],
+    "client": [
+        {
+            "slug": "API/Client",
+            "summary": "The Client interface represents an executable context such as a Worker, or a SharedWorker. Window clients are represented by the more-specific WindowClient. You can get Client/WindowClient objects from methods such as Clients.matchAll() and Clients.get().",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "Client"
+        }
+    ],
+    "client-focus-method": [
+        {
+            "slug": "API/WindowClient/focus",
+            "summary": "The focus() method of the WindowClient interface gives user input focus to the current client and returns a Promise that resolves to the existing WindowClient.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "WindowClient.focus()"
+        }
+    ],
+    "client-frametype": [
+        {
+            "slug": "API/Client/frameType",
+            "summary": "The frameType read-only property of the Client interface indicates the type of browsing context of the current Client. This value can be one of auxiliary, top-level, nested, or none.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "43"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "30"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "Client.frameType"
+        }
+    ],
+    "client-id": [
+        {
+            "slug": "API/Client/id",
+            "summary": "The id read-only property of the Client interface returns the universally unique identifier of the Client object.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "Client.id"
+        }
+    ],
+    "client-navigate-method": [
+        {
+            "slug": "API/WindowClient/navigate",
+            "summary": "The navigate() method of the WindowClient interface loads a specified URL into a controlled client page then returns a Promise that resolves to the existing WindowClient.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "WindowClient.navigate()"
+        }
+    ],
+    "client-postmessage-method": [
+        {
+            "slug": "API/Client/postMessage",
+            "summary": "The postMessage() method of Client allows a service worker to send a message to a client (a Window, Worker, or SharedWorker). The message is received in the \"message\" event on navigator.serviceWorker. ",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "Client.postMessage()"
+        }
+    ],
+    "client-type": [
+        {
+            "slug": "API/Client/type",
+            "summary": "The type read-only property of the Client interface indicates the type of client the service worker is controlling.",
+            "support": {
+                "chrome": {
+                    "version_added": "60"
+                },
+                "chrome_android": {
+                    "version_added": "60"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "54"
+                },
+                "firefox_android": {
+                    "version_added": "54"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "47"
+                },
+                "opera_android": {
+                    "version_added": "47"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "60"
+                }
+            },
+            "title": "Client.type"
+        }
+    ],
+    "client-url": [
+        {
+            "slug": "API/Client/url",
+            "summary": "The url read-only property of the Client interface returns the URL of the current service worker client.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "Client.url"
+        }
+    ],
+    "clients": [
+        {
+            "slug": "API/Clients",
+            "summary": "The Clients interface provides access to Client objects. Access it via self.clients within a service worker.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "Clients"
+        }
+    ],
+    "clients-claim": [
+        {
+            "slug": "API/Clients/claim",
+            "summary": "The claim() method of the Clients allows an active service worker to set itself as the controller for all clients within its scope. This triggers a \"controllerchange\" event on navigator.serviceWorker in any clients that become controlled by this service worker.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "42"
+                }
+            },
+            "title": "Clients.claim()"
+        }
+    ],
+    "clients-get-method": [
+        {
+            "slug": "API/Clients/get",
+            "summary": "The get() method of the Clients interface gets a service worker client matching a given id and returns it in a Promise.",
+            "support": {
+                "chrome": {
+                    "version_added": "51"
+                },
+                "chrome_android": {
+                    "version_added": "51"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "38"
+                },
+                "opera_android": {
+                    "version_added": "38"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Clients.get()"
+        }
+    ],
+    "clients-matchall": [
+        {
+            "slug": "API/Clients/matchAll",
+            "summary": "The matchAll() method of the Clients interface returns a Promise for a list of service worker Client objects. Include the options parameter to return all service worker clients whose origin is the same as the associated service worker's origin. If options are not included, the method returns only the service worker clients controlled by the service worker.",
+            "support": {
+                "chrome": {
+                    "notes": "<code>Client</code> objects returned in most recent focus order.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "notes": "<code>Client</code> objects returned in most recent focus order.",
+                    "version_added": "47"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                        "version_added": "44"
+                    },
+                    {
+                        "notes": "<code>Client</code> objects returned in most recent focus order.",
+                        "version_added": "54"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "44"
+                    },
+                    {
+                        "notes": "<code>Client</code> objects returned in most recent focus order.",
+                        "version_added": "54"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "notes": "<code>Client</code> objects returned in most recent focus order.",
+                    "version_added": "47"
+                }
+            },
+            "title": "Clients.matchAll()"
+        }
+    ],
+    "dom-cache-add": [
+        {
+            "slug": "API/Cache/add",
+            "summary": "The add() method of the Cache interface takes a URL, retrieves it, and adds the resulting response object to the given cache. ",
+            "support": {
+                "chrome": {
+                    "notes": "Requires HTTPS from version 46.",
+                    "version_added": "44"
+                },
+                "chrome_android": {
+                    "notes": "Requires HTTPS from version 46.",
+                    "version_added": "44"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": [
+                        "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR)."
+                    ],
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": [
+                        "Requires HTTPS from version 33."
+                    ],
+                    "version_added": "31"
+                },
+                "opera_android": {
+                    "notes": [
+                        "Requires HTTPS from version 33."
+                    ],
+                    "version_added": "31"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "notes": "Requires HTTPS from version 46.",
+                    "version_added": "44"
+                }
+            },
+            "title": "Cache.add()"
+        }
+    ],
+    "dom-cache-addall": [
+        {
+            "slug": "API/Cache/addAll",
+            "summary": "The addAll() method of the Cache interface takes an array of URLs, retrieves them, and adds the resulting response objects to the given cache. The request objects created during retrieval become keys to the stored response operations. ",
+            "support": {
+                "chrome": {
+                    "notes": "Requires HTTPS.",
+                    "version_added": "46"
+                },
+                "chrome_android": {
+                    "notes": "Requires HTTPS.",
+                    "version_added": "46"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR).",
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": "Requires HTTPS.",
+                    "version_added": "33"
+                },
+                "opera_android": {
+                    "notes": "Requires HTTPS.",
+                    "version_added": "33"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "notes": "Requires HTTPS.",
+                    "version_added": "46"
+                }
+            },
+            "title": "Cache.addAll()"
+        }
+    ],
+    "dom-cache-delete": [
+        {
+            "slug": "API/Cache/delete",
+            "summary": "The delete() method of the Cache interface finds the Cache entry whose key is the request, and if found, deletes the Cache entry and returns a Promise that resolves to true. If no Cache entry is found, it resolves to false.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "43"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR).",
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "30"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "Cache.delete()"
+        }
+    ],
+    "dom-cache-keys": [
+        {
+            "slug": "API/Cache/keys",
+            "summary": "The keys() method of the Cache interface returns a Promise that resolves to an array of Cache keys.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "43"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR).",
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "30"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "Cache.keys()"
+        }
+    ],
+    "dom-cache-match": [
+        {
+            "slug": "API/Cache/match",
+            "summary": "The match() method of the Cache interface returns a Promise that resolves to the Response associated with the first matching request in the Cache object. If no match is found, the Promise resolves to undefined.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "43"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR).",
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "30"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "Cache.match()"
+        }
+    ],
+    "dom-cache-matchall": [
+        {
+            "slug": "API/Cache/matchAll",
+            "summary": "The matchAll() method of the Cache interface returns a Promise that resolves to an array of all matching requests in the Cache object.",
+            "support": {
+                "chrome": {
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "47"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR).",
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": "Requires HTTPS.",
+                    "version_added": "34"
+                },
+                "opera_android": {
+                    "version_added": "34"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "47"
+                }
+            },
+            "title": "Cache.matchAll()"
+        }
+    ],
+    "dom-cache-put": [
+        {
+            "slug": "API/Cache/put",
+            "summary": "The put() method of the Cache interface allows key/value pairs to be added to the current Cache object.",
+            "support": {
+                "chrome": {
+                    "notes": "Requires HTTPS from version 46.",
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "notes": "Requires HTTPS from version 46.",
+                    "version_added": "43"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR).",
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": "Requires HTTPS from version 33.",
+                    "version_added": "30"
+                },
+                "opera_android": {
+                    "notes": "Requires HTTPS from version 33.",
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "notes": "Requires HTTPS from version 46.",
+                    "version_added": "43"
+                }
+            },
+            "title": "Cache.put()"
+        }
+    ],
+    "dom-cachestorage-keys": [
+        {
+            "slug": "API/CacheStorage/keys",
+            "summary": "The keys() method of the CacheStorage interface returns a Promise that will resolve with an array containing strings corresponding to all of the named Cache objects tracked by the CacheStorage object in the order they were created. Use this method to iterate over a list of all Cache objects.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR.)"
+                    ],
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "CacheStorage.keys()"
+        }
+    ],
+    "dom-cachestorage-match": [
+        {
+            "slug": "API/CacheStorage/match",
+            "summary": "The match() method of the CacheStorage interface (available globally as caches) checks if a given Request or url string is a key for a stored Response. This method returns a Promise for a Response, or undefined if no match is found.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "The options parameter only supports <code>ignoreSearch</code>, and <code>cacheName</code>.",
+                        "partial_implementation": true,
+                        "version_added": "40"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "The options parameter only supports <code>ignoreSearch</code>, and <code>cacheName</code>.",
+                        "partial_implementation": true,
+                        "version_added": "40"
+                    }
+                ],
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR.)"
+                    ],
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "notes": "The options parameter only supports <code>ignoreSearch</code>, and <code>cacheName</code>.",
+                        "partial_implementation": true,
+                        "version_added": "27"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "notes": "The options parameter only supports <code>ignoreSearch</code>, and <code>cacheName</code>.",
+                        "partial_implementation": true,
+                        "version_added": "27"
+                    }
+                ],
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "The options parameter only supports <code>ignoreSearch</code>, and <code>cacheName</code>.",
+                        "partial_implementation": true,
+                        "version_added": "40"
+                    }
+                ]
+            },
+            "title": "CacheStorage.match()"
+        }
+    ],
+    "dom-cachestorage-open": [
+        {
+            "slug": "API/CacheStorage/open",
+            "summary": "The open() method of the CacheStorage interface returns a Promise that resolves to the Cache object matching the cacheName.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR.)"
+                    ],
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "CacheStorage.open()"
+        }
+    ],
+    "dom-clients-openwindow": [
+        {
+            "slug": "API/Clients/openWindow",
+            "summary": "The openWindow() method of the Clients interface creates a new top level browsing context and loads a given URL. If the calling script doesn't have permission to show popups, openWindow() will throw an InvalidAccessError.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "40"
+                    },
+                    {
+                        "notes": "Can only open URLs on the same origin.",
+                        "version_added": "42"
+                    },
+                    {
+                        "notes": "Can open any URL. ",
+                        "version_added": "43"
+                    },
+                    {
+                        "notes": "URLs may open inside an existing browsing context provided by a standalone web app",
+                        "version_added": "51"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "40"
+                    },
+                    {
+                        "notes": "Can only open URLs on the same origin.",
+                        "version_added": "42"
+                    },
+                    {
+                        "notes": "Can open any URL. ",
+                        "version_added": "43"
+                    },
+                    {
+                        "notes": "URLs may open inside an existing browsing context provided by a standalone web app",
+                        "version_added": "51"
+                    }
+                ],
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "38"
+                },
+                "opera_android": {
+                    "version_added": "38"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": [
+                    {
+                        "version_added": "4.0"
+                    },
+                    {
+                        "notes": "URLs may open inside an existing browsing context provided by a standalone web app",
+                        "version_added": "5.0"
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": "40"
+                    },
+                    {
+                        "notes": "Can only open URLs on the same origin.",
+                        "version_added": "42"
+                    },
+                    {
+                        "notes": "Can open any URL. ",
+                        "version_added": "43"
+                    },
+                    {
+                        "notes": "URLs may open inside an existing browsing context provided by a standalone web app",
+                        "version_added": "51"
+                    }
+                ]
+            },
+            "title": "Clients.openWindow()"
+        }
+    ],
+    "dom-extendableevent-extendableevent": [
+        {
+            "slug": "API/ExtendableEvent/ExtendableEvent",
+            "summary": "The ExtendableEvent() constructor creates a new ExtendableEvent object.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ExtendableEvent.ExtendableEvent()"
+        }
+    ],
+    "dom-extendablemessageevent-extendablemessageevent": [
+        {
+            "slug": "API/ExtendableMessageEvent/ExtendableMessageEvent",
+            "summary": "The ExtendableMessageEvent() constructor creates a new ExtendableMessageEvent object instance.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "ExtendableMessageEvent.ExtendableMessageEvent()"
+        }
+    ],
+    "dom-fetchevent-fetchevent": [
+        {
+            "slug": "API/FetchEvent",
+            "summary": "This is the event type for fetch events dispatched on the service worker global scope. It contains information about the fetch, including the request and how the receiver will treat the response. It provides the event.respondWith() method, which allows us to provide a response to this fetch.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/en-US/firefox/organizations/'>Firefox 45 and 52 Extended Support Releases</a> (ESR.)",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "FetchEvent"
+        }
+    ],
+    "dom-fetchevent-replacesclientid": [
+        {
+            "slug": "API/FetchEvent/replacesClientId",
+            "summary": "The replacesClientId read-only property of the FetchEvent interface is the id of the client that is being replaced during a page navigation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": "18"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "65"
+                },
+                "firefox_android": {
+                    "version_added": "65"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "FetchEvent.replacesClientId"
+        }
+    ],
+    "dom-fetchevent-resultingclientid": [
+        {
+            "slug": "API/FetchEvent/resultingClientId",
+            "summary": "The resultingClientId read-only property of the FetchEvent interface is the id of the client that replaces the previous client during a page navigation.",
+            "support": {
+                "chrome": {
+                    "version_added": "72"
+                },
+                "chrome_android": {
+                    "version_added": "72"
+                },
+                "edge": {
+                    "version_added": "18"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "65"
+                },
+                "firefox_android": {
+                    "version_added": "65"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "59"
+                },
+                "opera_android": {
+                    "version_added": "59"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "72"
+                }
+            },
+            "title": "FetchEvent.resultingClientId"
+        }
+    ],
+    "dom-serviceworkercontainer-getregistration": [
+        {
+            "slug": "API/ServiceWorkerContainer/getRegistration",
+            "summary": "The getRegistration() method of the ServiceWorkerContainer interface gets a ServiceWorkerRegistration object whose scope URL matches the provided document URL.  The method returns a Promise that resolves to a ServiceWorkerRegistration or undefined.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerContainer.getRegistration()"
+        }
+    ],
+    "dom-serviceworkercontainer-oncontrollerchange": [
+        {
+            "slug": "API/ServiceWorkerContainer/oncontrollerchange",
+            "summary": "The oncontrollerchange property of the ServiceWorkerContainer interface is an event handler fired whenever a controllerchange event occurs \u2014 when the document's associated ServiceWorkerRegistration acquires a new ServiceWorkerRegistration.active worker.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerContainer.oncontrollerchange"
+        }
+    ],
+    "dom-serviceworkercontainer-register": [
+        {
+            "slug": "API/ServiceWorkerContainer/register",
+            "summary": "The register() method of the ServiceWorkerContainer interface creates or updates a ServiceWorkerRegistration for the given scriptURL.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerContainer.register()"
+        }
+    ],
+    "dom-serviceworkercontainer-startmessages": [
+        {
+            "slug": "API/ServiceWorkerContainer/startMessages",
+            "summary": "The startMessages() method of the ServiceWorkerContainer interface explicitly starts the flow of messages being dispatched from a service worker to pages under its control (e.g. sent via Client.postMessage()). This can be used to react to sent messages earlier, even before that page's content has finished loading.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "64"
+                },
+                "firefox_android": {
+                    "version_added": "64"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "ServiceWorkerContainer.startMessages()"
+        }
+    ],
+    "dom-serviceworkerglobalscope-onmessage": [
+        {
+            "slug": "API/ServiceWorkerContainer/onmessage",
+            "summary": "The onmessage property of the ServiceWorkerContainer interface is an event handler fired whenever a message event occurs \u2014 when incoming messages are received to the ServiceWorkerContainer object (e.g., via a MessagePort.postMessage() call).",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerContainer.onmessage"
+        }
+    ],
+    "dom-windowclient-focused": [
+        {
+            "slug": "API/WindowClient/focused",
+            "summary": "The focused read-only property of the WindowClient interface is a Boolean that indicates whether the current client has focus.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "WindowClient.focused"
+        }
+    ],
+    "dom-windowclient-visibilitystate": [
+        {
+            "slug": "API/WindowClient/visibilityState",
+            "summary": "The visibilityState read-only property of the WindowClient interface indicates the visibility of the current client. This value can be one of hidden, visible, prerender, or unloaded.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "WindowClient.visibilityState"
+        }
+    ],
+    "extendable-event": [
+        {
+            "slug": "API/ExtendableEvent",
+            "summary": "The ExtendableEvent interface extends the lifetime of the install and activate events dispatched on the global scope as part of the service worker lifecycle. This ensures that any functional events (like FetchEvent) are not dispatched until it upgrades database schemas and deletes the outdated cache entries.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ExtendableEvent"
+        }
+    ],
+    "extendable-event-waituntil-method": [
+        {
+            "slug": "API/ExtendableEvent/waitUntil",
+            "summary": "The extendableEvent.waitUntil() method tells the event dispatcher that work is ongoing. It can also be used to detect whether that work was successful. In service workers, waitUntil() tells the browser that work is ongoing until the promise settles, and it shouldn't terminate the service worker if it wants that work to complete.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ExtendableEvent.waitUntil()"
+        }
+    ],
+    "extendablemessage-event-data-attribute": [
+        {
+            "slug": "API/ExtendableMessageEvent/data",
+            "summary": "The data read-only property of the ExtendableMessageEvent interface returns the event's data. It can be any data type.",
+            "support": {
+                "chrome": {
+                    "version_added": "51"
+                },
+                "chrome_android": {
+                    "version_added": "51"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "ExtendableMessageEvent.data"
+        }
+    ],
+    "extendablemessage-event-interface": [
+        {
+            "slug": "API/ExtendableMessageEvent",
+            "summary": "The ExtendableMessageEvent interface of the ServiceWorker API represents the event object of a message event fired on a service worker (when a channel message is received on the ServiceWorkerGlobalScope from another context) \u2014 extends the lifetime of such events.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "ExtendableMessageEvent"
+        }
+    ],
+    "extendablemessage-event-lasteventid-attribute": [
+        {
+            "slug": "API/ExtendableMessageEvent/lastEventId",
+            "summary": "The lastEventID read-only property of the ExtendableMessageEvent interface represents, in server-sent events, the last event ID of the event source.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "ExtendableMessageEvent.lastEventId"
+        }
+    ],
+    "extendablemessage-event-origin-attribute": [
+        {
+            "slug": "API/ExtendableMessageEvent/origin",
+            "summary": "The origin read-only property of the ExtendableMessageEvent interface returns the origin of the ServiceWorkerClient that sent the message.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "ExtendableMessageEvent.origin"
+        }
+    ],
+    "extendablemessage-event-ports-attribute": [
+        {
+            "slug": "API/ExtendableMessageEvent/ports",
+            "summary": "The ports read-only property of the ExtendableMessageEvent interface returns the array containing the MessagePort objects representing the ports of the associated message channel (the channel the message is being sent through.)",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "ExtendableMessageEvent.ports"
+        }
+    ],
+    "extendablemessage-event-source-attribute": [
+        {
+            "slug": "API/ExtendableMessageEvent/source",
+            "summary": "The source read-only property of the ExtendableMessageEvent returns a reference to the Client object from which the message was sent.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "ExtendableMessageEvent.source"
+        }
+    ],
+    "fetch-event-clientid-attribute": [
+        {
+            "slug": "API/FetchEvent/clientId",
+            "summary": "The clientId read-only property of the FetchEvent returns the id of the Client that the current service worker is controlling.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/en-US/firefox/organizations/'>Firefox 45 and 52 Extended Support Releases</a> (ESR.)",
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "FetchEvent.clientId"
+        }
+    ],
+    "fetch-event-isreload-attribute": [
+        {
+            "slug": "API/FetchEvent/isReload",
+            "summary": "The isReload read-only property of the FetchEvent interface returns true if the event was dispatched by the user attempting to reload the page, and false otherwise. Pressing the refresh button is a reload while clicking a link and pressing the back button is not.",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/en-US/firefox/organizations/'>Firefox 45 and 52 Extended Support Releases</a> (ESR.)",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "FetchEvent.isReload"
+        }
+    ],
+    "fetch-event-respondwith-method": [
+        {
+            "slug": "API/FetchEvent/respondWith",
+            "summary": "The respondWith() method of FetchEvent prevents the browser's default fetch handling, and allows you to provide a promise for a Response yourself.",
+            "support": {
+                "chrome": {
+                    "notes": "NetworkError thrown if request mode is same-origin and response type is cors (see <a href='https://bugzil.la/1222008'>bug 1222008</a>). This is being worked on \u2014 see <a href='https://www.chromestatus.com/feature/5694278818856960'>https://www.chromestatus.com/feature/5694278818856960</a>.",
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "notes": "NetworkError thrown if request mode is same-origin and response type is cors (see <a href='https://bugzil.la/1222008'>bug 1222008</a>). This is being worked on \u2014 see <a href='https://www.chromestatus.com/feature/5694278818856960'>https://www.chromestatus.com/feature/5694278818856960</a>.",
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "NetworkError thrown if request mode is same-origin and response type is cors (see <a href='https://bugzil.la/1222008'>bug 1222008</a>).",
+                        "version_added": "59"
+                    },
+                    {
+                        "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/en-US/firefox/organizations/'>Firefox 45 and 52 Extended Support Releases</a> (ESR.)",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "notes": "NetworkError thrown if request mode is same-origin and response type is cors (see <a href='https://bugzil.la/1222008'>bug 1222008</a>). This is being worked on \u2014 see <a href='https://www.chromestatus.com/feature/5694278818856960'>https://www.chromestatus.com/feature/5694278818856960</a>.",
+                    "version_added": "42"
+                }
+            },
+            "title": "FetchEvent.respondWith()"
+        }
+    ],
+    "fetch-event-section": [
+        {
+            "slug": "API/FetchEvent/FetchEvent",
+            "summary": "The FetchEvent() constructor creates a new FetchEvent object.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/en-US/firefox/organizations/'>Firefox 45 and 52 Extended Support Releases</a> (ESR.)",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "FetchEvent.FetchEvent()"
+        },
+        {
+            "slug": "API/FetchEvent/request",
+            "summary": "The request read-only property of the FetchEvent interface returns the Request that triggered the event handler.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "FetchEvent.request"
+        }
+    ],
+    "global-caches": [
+        {
+            "slug": "API/ServiceWorkerGlobalScope/caches",
+            "summary": "The ServiceWorkerGlobalScope.caches read-only property returns the CacheStorage object associated with the service worker.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerGlobalScope.caches"
+        }
+    ],
+    "install-event-section": [
+        {
+            "slug": "API/InstallEvent/InstallEvent",
+            "summary": "The InstallEvent() constructor creates a new InstallEvent object.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "InstallEvent.InstallEvent()"
+        },
+        {
+            "slug": "API/InstallEvent/activeWorker",
+            "summary": "The activeWorker read-only property of the InstallEvent interface returns the ServiceWorker that is currently actively controlling the page.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 & 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "InstallEvent.activeWorker"
+        }
+    ],
+    "navigation-preload-manager": [
+        {
+            "slug": "API/NavigationPreloadManager",
+            "summary": "The NavigationPreloadManager interface of the the Service Worker API provides methods for managing the preloading of resources with a service worker.",
+            "support": {
+                "chrome": {
+                    "version_added": "62"
+                },
+                "chrome_android": {
+                    "version_added": "62"
+                },
+                "edge": {
+                    "version_added": "18"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Implementation tracked in <a href='https://bugzil.la/1290958'>bug 1290958</a>",
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "notes": "Implementation tracked in <a href='https://bugzil.la/1290958'>bug 1290958</a>",
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "49"
+                },
+                "opera_android": {
+                    "version_added": "49"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "62"
+                }
+            },
+            "title": "NavigationPreloadManager"
+        }
+    ],
+    "navigator-service-worker": [
+        {
+            "slug": "API/Navigator/serviceWorker",
+            "summary": "The Navigator.serviceWorker read-only property returns the ServiceWorkerContainer object for the associated document, which provides access to registration, removal, upgrade, and communication with the ServiceWorker.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "Navigator.serviceWorker"
+        }
+    ],
+    "navigator-service-worker-controller": [
+        {
+            "slug": "API/ServiceWorkerContainer/controller",
+            "summary": "The controller read-only property of the ServiceWorkerContainer interface returns a ServiceWorker object if its state is activated (the same object returned by ServiceWorkerRegistration.active). This property returns null if the request is a force refresh (Shift + refresh) or if there is no active worker.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerContainer.controller"
+        }
+    ],
+    "navigator-service-worker-getRegistrations": [
+        {
+            "slug": "API/ServiceWorkerContainer/getRegistrations",
+            "summary": "The getRegistrations() method of the ServiceWorkerContainer interface returns all ServiceWorkerRegistrations associated with a ServiceWorkerContainer in an array.  If the method can't return ServiceWorkerRegistrations, it returns a Promise.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerContainer.getRegistrations()"
+        }
+    ],
+    "navigator-service-worker-ready": [
+        {
+            "slug": "API/ServiceWorkerContainer/ready",
+            "summary": "The ready read-only property of the ServiceWorkerContainer interface provides a way of delaying code execution until a service worker is active. It returns a Promise that will never reject, and which waits indefinitely until the ServiceWorkerRegistration associated with the current page has an active worker. Once that condition is met, it resolves with the ServiceWorkerRegistration.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerContainer.ready"
+        }
+    ],
+    "self-caches": [
+        {
+            "slug": "API/WindowOrWorkerGlobalScope/caches",
+            "summary": "The caches read-only property of the WindowOrWorkerGlobalScope interface returns the CacheStorage object associated with the current context. This object enables functionality such as storing assets for offline use, and generating custom responses to requests.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "notes": "<code>caches</code> now defined on <code><a href='https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope'>WindowOrWorkerGlobalScope</a></code> mixin.",
+                        "version_added": "52"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "notes": "<code>caches</code> now defined on <code><a href='https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope'>WindowOrWorkerGlobalScope</a></code> mixin.",
+                        "version_added": "52"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WindowOrWorkerGlobalScope.caches"
+        }
+    ],
+    "service-worker-container": [
+        {
+            "slug": "API/ServiceWorkerContainer",
+            "summary": "The ServiceWorkerContainer interface of the ServiceWorker API provides an object representing the service worker as an overall unit in the network ecosystem, including facilities to register, unregister and update service workers, and access the state of service workers and their registrations.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerContainer"
+        }
+    ],
+    "service-worker-global-scope-clients": [
+        {
+            "slug": "API/ServiceWorkerGlobalScope/clients",
+            "summary": "The clients read-only property of the ServiceWorkerGlobalScope interface returns the Clients object associated with the service worker.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerGlobalScope.clients"
+        }
+    ],
+    "service-worker-global-scope-event-handlers": [
+        {
+            "slug": "API/ServiceWorkerGlobalScope/onactivate",
+            "summary": "The onactivate property of the ServiceWorkerGlobalScope interface is an event handler fired whenever an activate event occurs (when the service worker activates). This happens after installation, when the page to be controlled by the service worker refreshes.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerGlobalScope.onactivate"
+        },
+        {
+            "slug": "API/ServiceWorkerGlobalScope/onfetch",
+            "summary": "The onfetch property of the ServiceWorkerGlobalScope interface is an event handler fired whenever a fetch event occurs (usually when the ServiceWorkerGlobalScope.fetch method is called.)",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerGlobalScope.onfetch"
+        },
+        {
+            "slug": "API/ServiceWorkerGlobalScope/oninstall",
+            "summary": "The oninstall property of the ServiceWorkerGlobalScope interface is an event handler fired whenever an install event occurs (when the service worker installs). This happens before activation.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerGlobalScope.oninstall"
+        },
+        {
+            "slug": "API/ServiceWorkerGlobalScope/onmessage",
+            "summary": "The ServiceWorkerGlobalScope.onmessage event of the ServiceWorkerGlobalScope interface is called whenever incoming messages are received.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerGlobalScope.onmessage"
+        }
+    ],
+    "service-worker-global-scope-registration": [
+        {
+            "slug": "API/ServiceWorkerGlobalScope/registration",
+            "summary": "The registration read-only property of the ServiceWorkerGlobalScope interface returns a reference to the ServiceWorkerRegistration object, which represents the service worker's registration.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerGlobalScope.registration"
+        }
+    ],
+    "service-worker-obj": [
+        {
+            "slug": "API/ServiceWorker",
+            "summary": "The ServiceWorker interface of the ServiceWorker API provides a reference to a service worker. Multiple browsing contexts (e.g. pages, workers, etc.) can be associated with the same service worker, each through a unique ServiceWorker object.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/en-US/firefox/organizations/'>Firefox 45 and 52 Extended Support Releases</a> (ESR.)",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorker"
+        },
+        {
+            "slug": "API/ServiceWorkerGlobalScope/skipWaiting",
+            "summary": "The ServiceWorkerGlobalScope.skipWaiting() method of the ServiceWorkerGlobalScope forces the waiting service worker to become the active service worker.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "ServiceWorkerGlobalScope.skipWaiting()"
+        }
+    ],
+    "service-worker-onstatechange-attribute": [
+        {
+            "slug": "API/ServiceWorker/onstatechange",
+            "summary": "An EventListener property called whenever an event of type statechange is fired; it is basically fired anytime the ServiceWorker.state changes.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/en-US/firefox/organizations/'>Firefox 45 and 52 Extended Support Releases</a> (ESR.)",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorker.onstatechange"
+        }
+    ],
+    "service-worker-registration-active-attribute": [
+        {
+            "slug": "API/ServiceWorkerRegistration/active",
+            "summary": "The active property of the ServiceWorkerRegistration interface returns a service worker whose ServiceWorker.state is activating or activated. This property is initially set to null.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerRegistration.active"
+        }
+    ],
+    "service-worker-registration-installing-attribute": [
+        {
+            "slug": "API/ServiceWorkerRegistration/installing",
+            "summary": "The installing property of the ServiceWorkerRegistration interface returns a service worker whose ServiceWorker.state is installing. This property is initially set to null.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerRegistration.installing"
+        }
+    ],
+    "service-worker-registration-navigationpreload": [
+        {
+            "slug": "API/FetchEvent/navigationPreload",
+            "summary": "The navigationPreload read-only property of the FetchEvent interface returns a Promise that resolves to the instance of NavigationPreloadManager associated with the current service worker registration.",
+            "support": {
+                "chrome": {
+                    "version_added": "59"
+                },
+                "chrome_android": {
+                    "version_added": "59"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "46"
+                },
+                "opera_android": {
+                    "version_added": "46"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "59"
+                }
+            },
+            "title": "FetchEvent.navigationPreload"
+        },
+        {
+            "slug": "API/ServiceWorkerRegistration/navigationPreload",
+            "summary": "The navigationPreload read-only property of the ServiceWorkerRegistration interface returns the NavigationPreloadManager associated with the current service worker registration.",
+            "support": {
+                "chrome": {
+                    "version_added": "59"
+                },
+                "chrome_android": {
+                    "version_added": "59"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "46"
+                },
+                "opera_android": {
+                    "version_added": "46"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "59"
+                }
+            },
+            "title": "ServiceWorkerRegistration.navigationPreload"
+        }
+    ],
+    "service-worker-registration-obj": [
+        {
+            "slug": "API/ServiceWorkerRegistration",
+            "summary": "The ServiceWorkerRegistration interface of the ServiceWorker API represents the service worker registration. You register a service worker to control one or more pages that share the same origin.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerRegistration"
+        }
+    ],
+    "service-worker-registration-onupdatefound-attribute": [
+        {
+            "slug": "API/ServiceWorkerRegistration/onupdatefound",
+            "summary": "The onupdatefound property of the ServiceWorkerRegistration interface is an EventListener property called whenever an event of type statechange is fired; it is fired any time the ServiceWorkerRegistration.installing property acquires a new service worker.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "ServiceWorkerRegistration.onupdatefound"
+        }
+    ],
+    "service-worker-registration-scope-attribute": [
+        {
+            "slug": "API/ServiceWorkerRegistration/scope",
+            "summary": "The scope read-only property of the ServiceWorkerRegistration interface returns a unique identifier for a service worker registration. The service worker must be on the same origin as the document that registers the ServiceWorker.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerRegistration.scope"
+        }
+    ],
+    "service-worker-registration-unregister-method": [
+        {
+            "slug": "API/ServiceWorkerRegistration/unregister",
+            "summary": "The unregister method of the ServiceWorkerRegistration interface unregisters the service worker registration and returns a Promise. The promise will resolve to false if no registration was found, otherwise it resolves to true irrespective of whether unregistration happened or not (it may not unregister if someone else just called ServiceWorkerContainer.register with the same scope.) The service worker will finish any ongoing operations before it is unregistered.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerRegistration.unregister()"
+        }
+    ],
+    "service-worker-registration-update-method": [
+        {
+            "slug": "API/ServiceWorkerRegistration/update",
+            "summary": "The update method of the ServiceWorkerRegistration interface attempts to update the service worker. It fetches the worker's script URL, and if the new worker is not byte-by-byte identical to the current worker, it installs the new worker. The fetch of the worker bypasses any browser caches if the previous fetch occurred over 24 hours ago.",
+            "support": {
+                "chrome": {
+                    "notes": [
+                        "Starting with Chrome 46, update() returns a promise that resolves with 'undefined' if the operation completed successfully or there was no update, and rejects if update failed. If the new worker ran but installation failed, the promise still resolves. Formerly, it raised an exception.",
+                        "Before Chrome 48, this method always bypassed the browser cache. Starting with Chrome 48, it only bypasses the cache when the previous service worker check was more than twenty-four hours ago."
+                    ],
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "notes": [
+                        "Starting with Chrome 46, update() returns a promise that resolves with 'undefined' if the operation completed successfully or there was no update, and rejects if update failed. If the new worker ran but installation failed, the promise still resolves. Formerly, it raised an exception.",
+                        "Before Chrome 48, this method always bypassed the browser cache. Starting with Chrome 48, it only bypasses the cache when the previous service worker check was more than twenty-four hours ago."
+                    ],
+                    "version_added": "45"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": [
+                        "Starting with Opera 33, update() returns a promise that resolves with 'undefined' if the operation completed successfully or there was no update, and rejects if update failed. If the new worker ran but installation failed, the promise still resolves. Formerly, it raised an exception.",
+                        "Before Opera 35, this method always bypassed the browser cache. Starting with Opera 35, it only bypasses the cache when the previous service worker check was more than twenty-four hours ago."
+                    ],
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "notes": [
+                        "Starting with Opera 33, update() returns a promise that resolves with 'undefined' if the operation completed successfully or there was no update, and rejects if update failed. If the new worker ran but installation failed, the promise still resolves. Formerly, it raised an exception.",
+                        "Before Opera 35, this method always bypassed the browser cache. Starting with Opera 35, it only bypasses the cache when the previous service worker check was more than twenty-four hours ago."
+                    ],
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "notes": [
+                        "Starting with Chrome 46, update() returns a promise that resolves with 'undefined' if the operation completed successfully or there was no update, and rejects if update failed. If the new worker ran but installation failed, the promise still resolves. Formerly, it raised an exception.",
+                        "Before Chrome 48, this method always bypassed the browser cache. Starting with Chrome 48, it only bypasses the cache when the previous service worker check was more than twenty-four hours ago."
+                    ],
+                    "version_added": "45"
+                }
+            },
+            "title": "ServiceWorkerRegistration.update()"
+        }
+    ],
+    "service-worker-registration-waiting-attribute": [
+        {
+            "slug": "API/ServiceWorkerRegistration/waiting",
+            "summary": "The waiting property of the ServiceWorkerRegistration interface returns a service worker whose ServiceWorker.state is installed. This property is initially set to null.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerRegistration.waiting"
+        }
+    ],
+    "service-worker-state-attribute": [
+        {
+            "slug": "API/ServiceWorker/state",
+            "summary": "The state read-only property of the ServiceWorker interface returns a string representing the current state of the service worker. It can be one of the following values: installing, installed, activating, activated, or redundant.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/en-US/firefox/organizations/'>Firefox 45 and 52 Extended Support Releases</a> (ESR.)",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorker.state"
+        }
+    ],
+    "service-worker-url-attribute": [
+        {
+            "slug": "API/ServiceWorker/scriptURL",
+            "summary": "Returns the ServiceWorker serialized script URL defined as part of ServiceWorkerRegistration. Must be on the same origin as the document that registers the ServiceWorker.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": [
+                    {
+                        "version_added": "17"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable service workers",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/en-US/firefox/organizations/'>Firefox 45 and 52 Extended Support Releases</a> (ESR.)",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorker.scriptURL"
+        }
+    ],
+    "serviceworkerglobalscope-interface": [
+        {
+            "slug": "API/ServiceWorkerGlobalScope",
+            "summary": "The ServiceWorkerGlobalScope interface of the ServiceWorker API represents the global execution context of a service worker.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                }
+            },
+            "title": "ServiceWorkerGlobalScope"
+        }
+    ],
+    "window-client-interface": [
+        {
+            "slug": "API/WindowClient",
+            "summary": "The WindowClient interface of the ServiceWorker API represents the scope of a service worker client that is a document in a browser context, controlled by an active worker. The service worker client independently selects and uses a service worker for its own loading and sub-resources.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Service workers (and Push) have been disabled in the Firefox 45 and 52 Extended Support Releases (ESR).",
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "WindowClient"
+        }
+    ]
+}

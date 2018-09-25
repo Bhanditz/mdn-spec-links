@@ -1,0 +1,222 @@
+{
+    "ambient-light-sensor-interface": [
+        {
+            "slug": "API/AmbientLightSensor",
+            "summary": "The AmbientLightSensor interface of the the Sensor APIs returns the current light level or illuminance of the ambient light around the hosting device.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "Based on Generic Sensor API.",
+                        "version_added": "69"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "Based on Generic Sensor API.",
+                        "version_added": "69"
+                    }
+                ],
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "Based on Generic Sensor API.",
+                        "version_added": "69"
+                    }
+                ]
+            },
+            "title": "AmbientLightSensor"
+        }
+    ],
+    "ambient-light-sensor-reading-attribute": [
+        {
+            "slug": "API/AmbientLightSensor/illuminance",
+            "summary": "The illuminance property of the AmbientLightSensor interface returns the current light level in lux of the ambient light level around the hosting device.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "Based on Generic Sensor API.",
+                        "version_added": "69"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "Based on Generic Sensor API.",
+                        "version_added": "69"
+                    }
+                ],
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "Based on Generic Sensor API.",
+                        "version_added": "69"
+                    }
+                ]
+            },
+            "title": "AmbientLightSensor.illuminance"
+        }
+    ],
+    "dom-ambientlightsensor-ambientlightsensor": [
+        {
+            "slug": "API/AmbientLightSensor/AmbientLightSensor",
+            "summary": "The AmbinentLightSensor() constructor creates a new AmbientLightSensor object, which returns the current light level or illuminance of the ambient light around the hosting device.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "Based on Generic Sensor API.",
+                        "version_added": "69"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "Based on Generic Sensor API.",
+                        "version_added": "69"
+                    }
+                ],
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "Based on Generic Sensor API.",
+                        "version_added": "69"
+                    }
+                ]
+            },
+            "title": "AmbientLightSensor.AmbientLightSensor()"
+        }
+    ],
+    "event-handlers": [
+        {
+            "slug": "API/Window/ondevicelight",
+            "summary": "Specifies an event listener to receive devicelight events. These events occur when the device's light level sensor detects a change in the intensity of the ambient light level.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "22",
+                    "version_removed": "60"
+                },
+                "firefox_android": {
+                    "version_added": "15"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Window.ondevicelight"
+        }
+    ]
+}

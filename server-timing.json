@@ -1,0 +1,290 @@
+{
+    "-dfn-servertiming-dfn-attribute": [
+        {
+            "slug": "API/PerformanceResourceTiming/serverTiming",
+            "summary": "The serverTiming read-only property returns an array of PerformanceServerTiming entries containing server timing metrics.",
+            "support": {
+                "chrome": {
+                    "version_added": "65"
+                },
+                "chrome_android": {
+                    "version_added": "65"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "61"
+                },
+                "firefox_android": {
+                    "version_added": "61"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "52"
+                },
+                "opera_android": {
+                    "version_added": "52"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "65"
+                }
+            },
+            "title": "PerformanceResourceTiming.serverTiming"
+        }
+    ],
+    "dom-performanceservertiming-description": [
+        {
+            "slug": "API/PerformanceServerTiming/description",
+            "summary": "The description read-only property returns a DOMString value of the server-specified metric description, or an empty string.",
+            "support": {
+                "chrome": {
+                    "version_added": "65"
+                },
+                "chrome_android": {
+                    "version_added": "65"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "61"
+                },
+                "firefox_android": {
+                    "version_added": "61"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "52"
+                },
+                "opera_android": {
+                    "version_added": "52"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "65"
+                }
+            },
+            "title": "PerformanceServerTiming.description"
+        }
+    ],
+    "dom-performanceservertiming-duration": [
+        {
+            "slug": "API/PerformanceServerTiming/duration",
+            "summary": "The duration read-only property returns a double that contains the server-specified metric duration, or value 0.0.",
+            "support": {
+                "chrome": {
+                    "version_added": "65"
+                },
+                "chrome_android": {
+                    "version_added": "65"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "61"
+                },
+                "firefox_android": {
+                    "version_added": "61"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "52"
+                },
+                "opera_android": {
+                    "version_added": "52"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "65"
+                }
+            },
+            "title": "PerformanceServerTiming.duration"
+        }
+    ],
+    "dom-performanceservertiming-name": [
+        {
+            "slug": "API/PerformanceServerTiming/name",
+            "summary": "The name read-only property returns a DOMString value of the server-specified metric name.",
+            "support": {
+                "chrome": {
+                    "version_added": "65"
+                },
+                "chrome_android": {
+                    "version_added": "65"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "61"
+                },
+                "firefox_android": {
+                    "version_added": "61"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "52"
+                },
+                "opera_android": {
+                    "version_added": "52"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "65"
+                }
+            },
+            "title": "PerformanceServerTiming.name"
+        }
+    ],
+    "the-dfn-performanceservertiming-dfn-interface": [
+        {
+            "slug": "API/PerformanceServerTiming",
+            "summary": "The PerformanceServerTiming interface surfaces server metrics that are sent with the response in the Server-Timing HTTP header.",
+            "support": {
+                "chrome": {
+                    "version_added": "65"
+                },
+                "chrome_android": {
+                    "version_added": "65"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "61"
+                },
+                "firefox_android": {
+                    "version_added": "61"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "52"
+                },
+                "opera_android": {
+                    "version_added": "52"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "65"
+                }
+            },
+            "title": "PerformanceServerTiming"
+        }
+    ],
+    "the-server-timing-header-field": [
+        {
+            "slug": "HTTP/Headers/Server-Timing",
+            "summary": "The Server-Timing header communicates one or more metrics and descriptions for a given request-response cycle. It is used to surface any backend server timing metrics (e.g. database read/write, CPU time, file system access, etc.) in the developer tools in the user's browser or in the PerformanceServerTiming interface.",
+            "support": {
+                "chrome": {
+                    "version_added": "65"
+                },
+                "chrome_android": {
+                    "version_added": "65"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "61"
+                },
+                "firefox_android": {
+                    "version_added": "61"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "52"
+                },
+                "opera_android": {
+                    "version_added": "52"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "65"
+                }
+            },
+            "title": "Server-Timing"
+        }
+    ]
+}

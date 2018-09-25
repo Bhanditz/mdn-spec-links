@@ -1,0 +1,460 @@
+{
+    "accelerometer": [
+        {
+            "slug": "API/Accelerometer/Accelerometer",
+            "summary": "The Accelerometer constructor creates a new Accelerometer object which returns the acceleration of the device along all three axes at the time it is read.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Accelerometer.Accelerometer()"
+        }
+    ],
+    "accelerometer-interface": [
+        {
+            "slug": "API/Accelerometer",
+            "summary": "The Accelerometer interface of the Sensor APIs provides on each reading the acceleration applied to the device along all three axes. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Accelerometer"
+        }
+    ],
+    "accelerometer-x": [
+        {
+            "slug": "API/Accelerometer/x",
+            "summary": "The x read-only property of the Accelerometer interface returns a double precision integer containing the acceleration of the device along the its x axis. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Accelerometer.x"
+        }
+    ],
+    "accelerometer-y": [
+        {
+            "slug": "API/Accelerometer/y",
+            "summary": "The y read-only property of the Accelerometer interface returns a double precision integer containing the acceleration of the device along the its y axis. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Accelerometer.y"
+        },
+        {
+            "slug": "API/LinearAccelerationSensor/y",
+            "summary": "The y read-only property of the LinearAccelerationSensor interface returns a double precision integer containing the acceleration of the device along the device's y axis. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "LinearAccelerationSensor.y"
+        }
+    ],
+    "accelerometer-z": [
+        {
+            "slug": "API/Accelerometer/z",
+            "summary": "The z read-only property of the Accelerometer interface returns a double precision integer containing the acceleration of the device along the its z axis. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Accelerometer.z"
+        },
+        {
+            "slug": "API/LinearAccelerationSensor/z",
+            "summary": "The z read-only property of the LinearAccelerationSensor interface returns a double precision integer containing the acceleration of the device along the device's z axis. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "LinearAccelerationSensor.z"
+        }
+    ],
+    "dom-linearaccelerationsensor-linearaccelerationsensor": [
+        {
+            "slug": "API/LinearAccelerationSensor/LinearAccelerationSensor",
+            "summary": "The LinearAccelerationSensor constructor creates a new LinearAccelerationSensor object which provides on each reading the acceleration applied to the device along all three axes, but without the contribution of gravity.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "LinearAccelerationSensor.LinearAccelerationSensor()"
+        }
+    ],
+    "linearaccelerationsensor-interface": [
+        {
+            "slug": "API/LinearAccelerationSensor",
+            "summary": "The LinearAccelerationSensor interface of the Sensor APIs provides on each reading the acceleration applied to the device along all three axes, but without the contribution of gravity. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "LinearAccelerationSensor"
+        }
+    ],
+    "linearaccelerationsensor-x": [
+        {
+            "slug": "API/LinearAccelerationSensor/x",
+            "summary": "The x read-only property of the LinearAccelerationSensor interface returns a double precision integer containing the linear acceleration of the device along the device's x axis. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "LinearAccelerationSensor.x"
+        }
+    ]
+}

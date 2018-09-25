@@ -1,0 +1,65 @@
+{
+    "sec-intro": [
+        {
+            "slug": "JavaScript/Reference/Operators/Pipeline_operator",
+            "summary": "The experimental pipeline operator | (currently at stage 1) allows the creation of chained function calls in a readable manner. Basically, the pipeline operator provides syntactic sugar on a function call with a single argument allowing you to write",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "--enable-pipeline-operator",
+                            "type": "compile_flag"
+                        }
+                    ],
+                    "version_added": "58"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "--enable-pipeline-operator",
+                            "type": "compile_flag"
+                        }
+                    ],
+                    "version_added": "58"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Pipeline operator"
+        }
+    ]
+}

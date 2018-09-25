@@ -1,0 +1,716 @@
+{
+    "css-media-queries-webkit-device-pixel-ratio": [
+        {
+            "slug": "CSS/@media/-webkit-device-pixel-ratio",
+            "summary": "The -webkit-device-pixel-ratio is a non-standard Boolean CSS media feature which is an alternative to the standard resolution media feature.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.device-pixel-ratio-webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Implemented as an alias for for <code>-moz-device-pixel-ratio</code>."
+                        ],
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            },
+                            {
+                                "name": "layout.css.prefixes.device-pixel-ratio-webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Implemented as an alias for for <code>-moz-device-pixel-ratio</code>."
+                        ],
+                        "version_added": "45"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "-webkit-device-pixel-ratio"
+        },
+        {
+            "slug": "CSS/@media/-webkit-device-pixel-ratio",
+            "summary": "The -webkit-device-pixel-ratio is a non-standard Boolean CSS media feature which is an alternative to the standard resolution media feature.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.device-pixel-ratio-webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Implemented as an alias for for <code>max--moz-device-pixel-ratio</code>."
+                        ],
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            },
+                            {
+                                "name": "layout.css.prefixes.device-pixel-ratio-webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Implemented as an alias for for <code>max--moz-device-pixel-ratio</code>."
+                        ],
+                        "version_added": "45"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "-webkit-device-pixel-ratio"
+        },
+        {
+            "slug": "CSS/@media/-webkit-device-pixel-ratio",
+            "summary": "The -webkit-device-pixel-ratio is a non-standard Boolean CSS media feature which is an alternative to the standard resolution media feature.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": [
+                            "Implemented as an alias for for <code>-moz-device-pixel-ratio</code>."
+                        ],
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.device-pixel-ratio-webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Implemented as an alias for for <code>min--moz-device-pixel-ratio</code>."
+                        ],
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            },
+                            {
+                                "name": "layout.css.prefixes.device-pixel-ratio-webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Implemented as an alias for for <code>min--moz-device-pixel-ratio</code>."
+                        ],
+                        "version_added": "45"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "-webkit-device-pixel-ratio"
+        }
+    ],
+    "css-media-queries-webkit-transform-3d": [
+        {
+            "slug": "CSS/@media/-webkit-transform-3d",
+            "summary": "The -webkit-transform-3d Boolean CSS media feature is a Chrome extension whose value is true if vendor-prefixed CSS 3D transforms are supported.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "46"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "-webkit-transform-3d"
+        }
+    ],
+    "the-webkit-text-fill-color": [
+        {
+            "slug": "CSS/-webkit-text-fill-color",
+            "summary": "The -webkit-text-fill-color CSS property specifies the fill color of characters of text. If this property is not set, the value of the color property is used.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "-webkit-text-fill-color"
+        }
+    ],
+    "the-webkit-text-stroke": [
+        {
+            "slug": "CSS/-webkit-text-stroke",
+            "summary": "The -webkit-text-stroke CSS property specifies the width and color of strokes for text characters. This is a shorthand property for the longhand properties -webkit-text-stroke-width and -webkit-text-stroke-color.",
+            "support": {
+                "chrome": {
+                    "version_added": "4"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": "15"
+                },
+                "firefox": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": "3.1"
+                },
+                "safari_ios": {
+                    "version_added": "4"
+                },
+                "webview_android": {
+                    "version_added": "4"
+                }
+            },
+            "title": "-webkit-text-stroke"
+        }
+    ],
+    "the-webkit-text-stroke-color": [
+        {
+            "slug": "CSS/-webkit-text-stroke-color",
+            "summary": "The -webkit-text-stroke-color CSS property specifies the stroke color of characters of text. If this property is not set, the value of the color property is used.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": "15"
+                },
+                "firefox": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "-webkit-text-stroke-color"
+        }
+    ],
+    "the-webkit-text-stroke-width": [
+        {
+            "slug": "CSS/-webkit-text-stroke-width",
+            "summary": "The -webkit-text-stroke-width CSS property specifies the width of the stroke for text.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": "15"
+                },
+                "firefox": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "-webkit-text-stroke-width"
+        }
+    ],
+    "touch-action": [
+        {
+            "slug": "CSS/touch-action",
+            "summary": "The touch-action CSS property sets how a region can be manipulated by a touchscreen user (for example, by zooming features built into the browser).",
+            "support": {
+                "chrome": {
+                    "version_added": "36"
+                },
+                "chrome_android": {
+                    "version_added": "36"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Not applicable to Firefox platforms that support neither pointer nor touch events.",
+                        "version_added": "52"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.touch_action.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Not applicable to Firefox platforms that support neither pointer nor touch events.",
+                        "version_added": "29"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.touch_action.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "29"
+                    }
+                ],
+                "ie": [
+                    {
+                        "version_added": "11"
+                    },
+                    {
+                        "prefix": "-ms-",
+                        "version_added": "10"
+                    }
+                ],
+                "opera": {
+                    "version_added": "23"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "notes": "See <a href='https://bugs.webkit.org/show_bug.cgi?id=133112'>WebKit bug 133112</a>.",
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "notes": "See <a href='https://bugs.webkit.org/show_bug.cgi?id=133112'>WebKit bug 133112</a>.",
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "touch-action"
+        }
+    ],
+    "webkitcssmatrix-interface": [
+        {
+            "slug": "API/CSSMatrix",
+            "summary": "A CSSMatrix represents a homogeneous 4x4 matrix to which 2D or 3D transforms can be applied. This class was allegedly part of CSS Transitions Module Level 3 at some point, but is not present in the current Working Draft. Use DOMMatrix instead.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": [
+                    {
+                        "alternative_name": "WebKitCSSMatrix",
+                        "version_added": "11"
+                    },
+                    {
+                        "alternative_name": "MSCSSMatrix",
+                        "version_added": "10"
+                    }
+                ],
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "alternative_name": "WebKitCSSMatrix",
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "alternative_name": "WebKitCSSMatrix",
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "CSSMatrix"
+        }
+    ]
+}

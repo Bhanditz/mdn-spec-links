@@ -1,0 +1,1113 @@
+{
+    "FileReader-interface": [
+        {
+            "slug": "API/FileReader/abort",
+            "summary": "The abort method aborts the read operation. Upon return, the readyState will be DONE.",
+            "support": {
+                "chrome": {
+                    "version_added": "7"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": "32"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "11"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": "6.1"
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "FileReader.abort()"
+        },
+        {
+            "slug": "API/FileReader/error",
+            "summary": "Returns the error that occurred while reading the file.",
+            "support": {
+                "chrome": {
+                    "version_added": "7"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "Prior to Firefox 13, the <code>error</code> property returned a <code>FileError</code> object.",
+                        "From Firefox 13 to Firefox 58, the <code>error</code> property returned a <code>DOMError</code> object.",
+                        "From Firefox 58, the <code>error</code> property returns a <code>DOMException</code> object."
+                    ],
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "notes": [
+                        "From Firefox 32 to Firefox 58, the <code>error</code> property returned a <code>DOMError</code> object.",
+                        "From Firefox 58, the <code>error</code> property returns a <code>DOMException</code> object."
+                    ],
+                    "version_added": "32"
+                },
+                "ie": {
+                    "notes": "The <code>error</code> property returns a <code>DOMError</code> object.",
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "11"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "notes": "The <code>error</code> property returns a <code>DOMError</code> object.",
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "notes": "The <code>error</code> property returns a <code>DOMError</code> object.",
+                    "version_added": "6.1"
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "FileReader.error"
+        },
+        {
+            "slug": "API/FileReader/readyState",
+            "summary": "The FileReader.readyState property provides the current state of the reading operation a FileReader is in. A FileReader exists in one of the following states:",
+            "support": {
+                "chrome": {
+                    "version_added": "7"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": "32"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "11"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": "6.1"
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "FileReader.readyState"
+        },
+        {
+            "slug": "API/FileReader/readAsDataURL",
+            "summary": "The readAsDataURL method is used to read the contents of the specified Blob or File. When the read operation is finished, the readyState becomes DONE, and the loadend is triggered. At that time, the result attribute contains  the data as a data: URL representing the file's data as a base64 encoded string.",
+            "support": {
+                "chrome": {
+                    "version_added": "7"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": "32"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "11"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": "6.1"
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "FileReader.readAsDataURL()"
+        },
+        {
+            "slug": "API/FileReader/readAsText",
+            "summary": "The readAsText method is used to read the contents of the specified Blob or File. When the read operation is complete, the readyState is changed to DONE, the loadend event is triggered, and the result attribute contains the contents of the file as a text string.",
+            "support": {
+                "chrome": {
+                    "version_added": "7"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": "32"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "11"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": "6.1"
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "FileReader.readAsText()"
+        },
+        {
+            "slug": "API/FileReader/result",
+            "summary": "The FileReader result property returns the file's contents. This property is only valid after the read operation is complete, and the format of the data depends on which of the methods was used to initiate the read operation.",
+            "support": {
+                "chrome": {
+                    "version_added": "7"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": "32"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "11"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": "6.1"
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "FileReader.result"
+        }
+    ],
+    "FileReaderSync": [
+        {
+            "slug": "API/FileReaderSync",
+            "summary": "The FileReaderSync interface allows to read File or Blob objects in a synchronous way.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "8"
+                },
+                "firefox_android": {
+                    "version_added": "8"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileReaderSync"
+        }
+    ],
+    "blob": [
+        {
+            "slug": "API/Blob",
+            "summary": "A Blob object represents a file-like object of immutable, raw data. Blobs represent data that isn't necessarily in a JavaScript-native format. The File interface is based on Blob, inheriting blob functionality and expanding it to support files on the user's system.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": "14"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "11"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Blob"
+        }
+    ],
+    "constructorBlob": [
+        {
+            "slug": "API/Blob/Blob",
+            "summary": "The Blob() constructor returns a new Blob object. The content of the blob consists of the concatenation of the values given in the parameter array.",
+            "support": {
+                "chrome": {
+                    "version_added": "20"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Before Firefox 16, the second parameter, when set to <code>null</code> or <code>undefined</code>, leads to an error instead of being handled as an empty dictionary.",
+                    "version_added": "13"
+                },
+                "firefox_android": {
+                    "notes": "Before Firefox 16, the second parameter, when set to <code>null</code> or <code>undefined</code>, leads to an error instead of being handled as an empty dictionary.",
+                    "version_added": "14"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Blob()"
+        }
+    ],
+    "creating-revoking": [
+        {
+            "slug": "API/URL",
+            "summary": "The URL interface represents an object providing static methods used for creating object URLs.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "32"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "2"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "32"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "18"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "notes": [
+                            "Firefox had a bug whereby single quotes contained in URLs are escaped when accessed via URL APIs (see <a href='https://bugzil.la/1386683'>bug 1386683</a>). This has been fixed as of Firefox 57.",
+                            "To use it from chrome code, JSM and Bootstrap scope, you have to import it with <code>Cu.importGlobalProperties(['URL']);</code>."
+                        ],
+                        "version_added": "19"
+                    },
+                    {
+                        "notes": "This interface was supported with the non-standard <code>nsIDOMMozURLProperty</code> internal type. However this didn't make any difference in practice, as the only way to access such an object was through <code>window.URL</code>.",
+                        "version_added": "4",
+                        "version_removed": "18"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "notes": [
+                            "Firefox had a bug whereby single quotes contained in URLs are escaped when accessed via URL APIs (see <a href='https://bugzil.la/1386683'>bug 1386683</a>). This has been fixed as of Firefox 57.",
+                            "To use it from chrome code, JSM and Bootstrap scope, you have to import it with <code>Cu.importGlobalProperties(['URL']);</code>."
+                        ],
+                        "version_added": "19"
+                    },
+                    {
+                        "notes": "This interface was supported with the non-standard <code>nsIDOMMozURLProperty</code> internal type. However this didn't make any difference in practice, as the only way to access such an object was through <code>window.URL</code>.",
+                        "version_added": "14",
+                        "version_removed": "18"
+                    }
+                ],
+                "ie": {
+                    "version_added": null
+                },
+                "opera": [
+                    {
+                        "version_added": "19"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "19"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "15"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": "7"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "6"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "7"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "6"
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "4"
+                    }
+                ]
+            },
+            "title": "URL"
+        }
+    ],
+    "dfn-createObjectURL": [
+        {
+            "slug": "API/URL/createObjectURL",
+            "summary": "The URL.createObjectURL() static method creates a DOMString containing a URL representing the object given in the parameter. The URL lifetime is tied to the document in the window on which it was created. The new object URL represents the specified File object or Blob object.",
+            "support": {
+                "chrome": {
+                    "version_added": "8"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "<code>createObjectURL()</code> is no longer available within the context of a <code>ServiceWorker</code>.",
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "notes": "<code>createObjectURL()</code> is no longer available within the context of a <code>ServiceWorker</code>.",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": "6"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "URL.createObjectURL()"
+        }
+    ],
+    "dfn-filereader": [
+        {
+            "slug": "API/FileReader",
+            "summary": "The FileReader object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user's computer, using File or Blob objects to specify the file or data to read.",
+            "support": {
+                "chrome": {
+                    "version_added": "7"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Prior to Firefox 4, <code>Blob</code> parameters were <code>File</code> parameters.",
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": "32"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "11"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": "6.1"
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "FileReader"
+        }
+    ],
+    "dfn-revokeObjectURL": [
+        {
+            "slug": "API/URL/revokeObjectURL",
+            "summary": "The URL.revokeObjectURL() static method releases an existing object URL which was previously created by calling URL.createObjectURL().",
+            "support": {
+                "chrome": {
+                    "version_added": "8"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "<code>revokeObjectURL()</code> is no longer available within the context of a <code>ServiceWorker</code>.",
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "notes": "<code>revokeObjectURL()</code> is no longer available within the context of a <code>ServiceWorker</code>.",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": "6"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "URL.revokeObjectURL()"
+        }
+    ],
+    "dfn-size": [
+        {
+            "slug": "API/Blob/size",
+            "summary": "The Blob.size property returns the size in bytes of the Blob or a File.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "11"
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Blob.size"
+        }
+    ],
+    "dfn-slice": [
+        {
+            "slug": "API/Blob/slice",
+            "summary": "The Blob.slice() method is used to create a new Blob object containing the data in the specified range of bytes of the source Blob.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "21"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "5",
+                        "version_removed": "21"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Prior to Gecko 12.0 (Firefox 12.0 / Thunderbird 12.0 / SeaMonkey 2.9), there was a bug that affected the behavior of <code>Blob.slice()</code>; it did not work for <code>start</code> and end positions outside the range of signed 64-bit values; it has now been fixed to support unsigned 64-bit values.",
+                        "version_added": "13"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "5",
+                        "version_removed": "13"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "14"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "prefix": "webkit",
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Blob.slice()"
+        }
+    ],
+    "dfn-type": [
+        {
+            "slug": "API/Blob/type",
+            "summary": "The type property of a Blob object provides the MIME type of the file. It returns an empty string if the type couldn't determined.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "11"
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Blob.type"
+        },
+        {
+            "slug": "API/File/type",
+            "summary": "Returns the media type (MIME) of the file represented by a File object.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "16"
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "File.type"
+        }
+    ],
+    "file-attrs": [
+        {
+            "slug": "API/File/lastModified",
+            "summary": "The File.lastModified read-only property provides the last modified date of the file as the number of milliseconds since the Unix epoch (January 1, 1970 at midnight). Files without a known last modified date return the current date.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "18"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "15"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "16"
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "File.lastModified"
+        },
+        {
+            "slug": "API/File/name",
+            "summary": "Returns the name of the file represented by a File object. For security reasons, the path is excluded from this property.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "16"
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "File.name"
+        }
+    ],
+    "filelist-section": [
+        {
+            "slug": "API/FileList",
+            "summary": "An object of this type is returned by the files property of the HTML input element; this lets you access the list of files selected with the input type=\"file\" element. It's also used for a list of files dropped into web content when using the drag and drop API; see the DataTransfer object for details on this usage.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "FileList"
+        }
+    ],
+    "readAsArrayBuffer": [
+        {
+            "slug": "API/FileReader/readAsArrayBuffer",
+            "summary": "The FileReader interface's readAsArrayBuffer() method is used to start reading the contents of a specified Blob or File. When the read operation is finished, the readyState becomes DONE, and the loadend is triggered. At that time, the result attribute contains an ArrayBuffer representing the file's data.",
+            "support": {
+                "chrome": {
+                    "version_added": "7"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": "32"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": "6.1"
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "FileReader.readAsArrayBuffer()"
+        }
+    ],
+    "readAsBinaryString": [
+        {
+            "slug": "API/FileReader/readAsBinaryString",
+            "summary": "The readAsBinaryString method is used to start reading the contents of the specified Blob or File. When the read operation is finished, the readyState becomes DONE, and the loadend is triggered. At that time, the result attribute contains the raw binary data from the file.",
+            "support": {
+                "chrome": {
+                    "version_added": "7"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": "32"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "11"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": "6.1"
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "FileReader.readAsBinaryString()"
+        }
+    ]
+}

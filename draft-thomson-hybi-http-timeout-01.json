@@ -1,0 +1,50 @@
+{
+    "rfc.section.2": [
+        {
+            "slug": "HTTP/Headers/Keep-Alive",
+            "summary": "The Keep-Alive general header allows the sender to hint about how the connection may be used to set a timeout and a maximum amount of requests.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Keep-Alive"
+        }
+    ]
+}

@@ -1,0 +1,1529 @@
+{
+    "touch-interface": [
+        {
+            "slug": "API/Touch",
+            "summary": "The Touch interface represents a single contact point on a touch-sensitive device. The contact point is commonly a finger or stylus and the device may be a touchscreen or trackpad.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms.",
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>.",
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Touch"
+        }
+    ],
+    "touchevent-interface": [
+        {
+            "slug": "API/Touch/Touch",
+            "summary": "The Touch() constructor creates a new Touch object.",
+            "support": {
+                "chrome": {
+                    "version_added": "48"
+                },
+                "chrome_android": {
+                    "version_added": "48"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "46"
+                },
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "35"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "48"
+                }
+            },
+            "title": "Touch()"
+        },
+        {
+            "slug": "API/TouchEvent",
+            "summary": "The TouchEvent interface represents an event sent when the state of contacts with a touch-sensitive surface changes. This surface can be a touch screen or trackpad, for example. The event can describe one or more points of contact with the screen and includes support for detecting movement, addition and removal of contact points, and so forth.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "flags": [
+                        {
+                            "name": "Standards Preview",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Removed in <a href='https://bugzil.la/888304'>bug 888304</a> due to web compatibility issues.",
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TouchEvent"
+        }
+    ],
+    "touchlist-interface": [
+        {
+            "slug": "API/TouchList",
+            "summary": "The TouchList interface represents a list of contact points on a touch surface. For example, if the user has three fingers on the touch surface (such as a screen or trackpad), the corresponding TouchList object would have one Touch object for each finger, for a total of three entries.",
+            "support": {
+                "chrome": {
+                    "version_added": "18"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TouchList"
+        }
+    ],
+    "widl-GlobalEventHandlers-ontouchcancel": [
+        {
+            "slug": "API/GlobalEventHandlers/ontouchcancel",
+            "summary": "The ontouchcancel property of the GlobalEventHandlers mixin is an EventHandler that processes touchcancel events.",
+            "support": {
+                "chrome": {
+                    "version_added": "18"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "GlobalEventHandlers.ontouchcancel"
+        }
+    ],
+    "widl-GlobalEventHandlers-ontouchend": [
+        {
+            "slug": "API/GlobalEventHandlers/ontouchend",
+            "summary": "A global event handler for the touchend event.",
+            "support": {
+                "chrome": {
+                    "version_added": "18"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "GlobalEventHandlers.ontouchend"
+        }
+    ],
+    "widl-GlobalEventHandlers-ontouchmove": [
+        {
+            "slug": "API/GlobalEventHandlers/ontouchmove",
+            "summary": "A global event handler for the touchmove event.",
+            "support": {
+                "chrome": {
+                    "version_added": "18"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "GlobalEventHandlers.ontouchmove"
+        }
+    ],
+    "widl-GlobalEventHandlers-ontouchstart": [
+        {
+            "slug": "API/GlobalEventHandlers/ontouchstart",
+            "summary": "The ontouchstart property of the GlobalEventHandlers mixin is an EventHandler that processes touchstart events.",
+            "support": {
+                "chrome": {
+                    "version_added": "18"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "GlobalEventHandlers.ontouchstart"
+        }
+    ],
+    "widl-Touch-clientX": [
+        {
+            "slug": "API/Touch/clientX",
+            "summary": "The Touch.clientX read-only property returns the X coordinate of the touch point relative to the viewport, not including any scroll offset.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms.",
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>.",
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Touch.clientX"
+        }
+    ],
+    "widl-Touch-clientY": [
+        {
+            "slug": "API/Touch/clientY",
+            "summary": "The Touch.clientY read-only property returns the Y coordinate of the touch point relative to the browser's viewport, not including any scroll offset.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms.",
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>.",
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Touch.clientY"
+        }
+    ],
+    "widl-Touch-force": [
+        {
+            "slug": "API/Touch/force",
+            "summary": "The Touch.force read-only property returns the amount of pressure the user is applying to the touch surface for a Touch point.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Touch.force"
+        }
+    ],
+    "widl-Touch-identifier": [
+        {
+            "slug": "API/Touch/identifier",
+            "summary": "The Touch.identifier returns a value uniquely identifying this point of contact with the touch surface. This value remains consistent for every event involving this finger's (or stylus's) movement on the surface until it is lifted off the surface.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms.",
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>.",
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Touch.identifier"
+        }
+    ],
+    "widl-Touch-pageX": [
+        {
+            "slug": "API/Touch/pageX",
+            "summary": "The Touch.pageX read-only property returns the X coordinate of the touch point relative to the viewport, including any scroll offset.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms.",
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>.",
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Touch.pageX"
+        }
+    ],
+    "widl-Touch-pageY": [
+        {
+            "slug": "API/Touch/pageY",
+            "summary": "The Touch.pageY read-only property returns the Y coordinate of the touch point relative to the viewport, including any scroll offset.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms.",
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>.",
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Touch.pageY"
+        }
+    ],
+    "widl-Touch-radiusX": [
+        {
+            "slug": "API/Touch/radiusX",
+            "summary": "Returns the X radius of the ellipse that most closely circumscribes the area of contact with the touch surface. The value is in CSS pixels of the same scale as Touch.screenX.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "43"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "Touch.radiusX"
+        }
+    ],
+    "widl-Touch-radiusY": [
+        {
+            "slug": "API/Touch/radiusY",
+            "summary": "Returns the Y radius of the ellipse that most closely circumscribes the area of contact with the touch surface. The value is in CSS pixels of the same scale as Touch.screenX.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "43"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "Touch.radiusY"
+        }
+    ],
+    "widl-Touch-rotationAngle": [
+        {
+            "slug": "API/Touch/rotationAngle",
+            "summary": "Returns the rotation angle, in degrees, of the contact area ellipse defined by Touch.radiusX and Touch.radiusY. The value may be between 0 and 90. Together, these three values describe an ellipse that approximates the size and shape of the area of contact between the user and the screen. This may be a relatively large ellipse representing the contact between a fingertip and the screen or a small area representing the tip of a stylus, for example.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "43"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "Touch.rotationAngle"
+        }
+    ],
+    "widl-Touch-screenX": [
+        {
+            "slug": "API/Touch/screenX",
+            "summary": "Returns the X coordinate of the touch point relative to the screen, not including any scroll offset.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms.",
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>.",
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Touch.screenX"
+        }
+    ],
+    "widl-Touch-screenY": [
+        {
+            "slug": "API/Touch/screenY",
+            "summary": "Returns the Y coordinate of the touch point relative to the screen, not including any scroll offset.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms.",
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>.",
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Touch.screenY"
+        }
+    ],
+    "widl-Touch-target": [
+        {
+            "slug": "API/Touch/target",
+            "summary": "Returns the Element (EventTarget) on which the touch contact started when it was first placed on the surface, even if the touch point has since moved outside the interactive area of that element or even been removed from the document. Note that if the target element is removed from the document, events will still be targeted at it, and hence won't necessarily bubble up to the window or document anymore. If there is any risk of an element being removed while it is being touched, the best practice is to attach the touch listeners directly to the target.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Touch events support has been fixed and reenabled in Windows desktop platforms.",
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Web compatibility issues seen in <a href='https://bugzil.la/888304'>bug 888304</a>.",
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Touch.target"
+        }
+    ],
+    "widl-TouchEvent-altKey": [
+        {
+            "slug": "API/TouchEvent/altKey",
+            "summary": "A Boolean value indicating whether or not the alt (Alternate) key is enabled when the touch event is created. If the alt key is enabled, the attribute's value is true. Otherwise, it is false.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TouchEvent.altKey"
+        }
+    ],
+    "widl-TouchEvent-changedTouches": [
+        {
+            "slug": "API/TouchEvent/changedTouches",
+            "summary": "The changedTouches read-only property is a TouchList whose touch points (Touch objects) varies depending on the event type, as follows:",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TouchEvent.changedTouches"
+        }
+    ],
+    "widl-TouchEvent-ctrlKey": [
+        {
+            "slug": "API/TouchEvent/ctrlKey",
+            "summary": "A Boolean value indicating whether the control (Control) key is enabled when the touch event is created. If this key is enabled, the attribute's value is true. Otherwise, it is false.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TouchEvent.ctrlKey"
+        }
+    ],
+    "widl-TouchEvent-metaKey": [
+        {
+            "slug": "API/TouchEvent/metaKey",
+            "summary": "A Boolean value indicating whether or not the Meta key is enabled when the touch event is created. If this key is enabled, the attribute's value is true. Otherwise, it is false.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TouchEvent.metaKey"
+        }
+    ],
+    "widl-TouchEvent-shiftKey": [
+        {
+            "slug": "API/TouchEvent/shiftKey",
+            "summary": "A Boolean value indicating whether or not the shift key is enabled when the touch event is created. If this key is enabled, the attribute's value is true. Otherwise, it is false.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TouchEvent.shiftKey"
+        }
+    ],
+    "widl-TouchEvent-targetTouches": [
+        {
+            "slug": "API/TouchEvent/targetTouches",
+            "summary": "The targetTouches read-only property is a TouchList listing all the Touch objects for touch points that are still in contact with the touch surface and whose touchstart event occurred inside the same target element as the current target element.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TouchEvent.targetTouches"
+        }
+    ],
+    "widl-TouchEvent-touches": [
+        {
+            "slug": "API/TouchEvent/touches",
+            "summary": "touches is a read-only TouchList listing all the Touch objects for touch points that are currently in contact with the touch surface, regardless of whether or not they've changed or what their target element was at touchstart time.",
+            "support": {
+                "chrome": {
+                    "version_added": "22"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TouchEvent.touches"
+        }
+    ],
+    "widl-TouchList-item-getter-Touch-unsigned-long-index": [
+        {
+            "slug": "API/TouchList/item",
+            "summary": "The item() method returns the Touch object at the specified index in the TouchList.",
+            "support": {
+                "chrome": {
+                    "version_added": "18"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TouchList.item()"
+        }
+    ],
+    "widl-TouchList-length": [
+        {
+            "slug": "API/TouchList/length",
+            "summary": "The length read-only property indicates the number of items (touch points) in a given TouchList.",
+            "support": {
+                "chrome": {
+                    "version_added": "18"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "version_added": "18",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TouchList.length"
+        }
+    ]
+}

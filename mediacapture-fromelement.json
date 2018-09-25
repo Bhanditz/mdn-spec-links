@@ -1,0 +1,320 @@
+{
+    "dom-canvascapturemediastreamtrack-canvas": [
+        {
+            "slug": "API/CanvasCaptureMediaStreamTrack/canvas",
+            "summary": "The CanvasCaptureMediaStreamTrack canvas read-only property returns the HTMLCanvasElement from which frames are being captured.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "canvas.capturestream.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "canvas.capturestream.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "41"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "CanvasCaptureMediaStreamTrack.canvas"
+        }
+    ],
+    "html-media-element-media-capture-extensions": [
+        {
+            "slug": "API/HTMLCanvasElement",
+            "summary": "The HTMLCanvasElement interface provides properties and methods for manipulating the layout and presentation of canvas elements. The HTMLCanvasElement interface also inherits the properties and methods of the HTMLElement interface.",
+            "support": {
+                "chrome": {
+                    "version_added": "4"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "notes": "Opera Mini 5.0 and later has partial support.",
+                    "version_added": "9"
+                },
+                "opera_android": {
+                    "notes": "Opera Mini 5.0 and later has partial support.",
+                    "version_added": "10"
+                },
+                "safari": {
+                    "version_added": "3.1"
+                },
+                "safari_ios": {
+                    "version_added": "3.2"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLCanvasElement"
+        }
+    ],
+    "the-canvascapturemediastreamtrack": [
+        {
+            "slug": "API/CanvasCaptureMediaStreamTrack",
+            "summary": "The CanvasCaptureMediaStreamTrack interface represents the video track contained in a MediaStream being generated from a canvas following a call to HTMLCanvasElement.captureStream().",
+            "support": {
+                "chrome": {
+                    "version_added": "51"
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "canvas.capturestream.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "canvas.capturestream.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "41"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "CanvasCaptureMediaStreamTrack"
+        }
+    ],
+    "widl-CanvasCaptureMediaStream-requestFrame-void": [
+        {
+            "slug": "API/CanvasCaptureMediaStreamTrack/requestFrame",
+            "summary": "The CanvasCaptureMediaStreamTrack method requestFrame() requests that a frame be captured from the canvas and sent to the stream.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "canvas.capturestream.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "CanvasCaptureMediaStreamTrack.requestFrame()"
+        }
+    ],
+    "widl-HTMLCanvasElement-captureStream-CanvasCaptureMediaStream-double-frameRate": [
+        {
+            "slug": "API/HTMLCanvasElement/captureStream",
+            "summary": "The HTMLCanvasElement captureStream() method returns a MediaStream which includes a CanvasCaptureMediaStreamTrack containing a real-time video capture of the canvas's contents.",
+            "support": {
+                "chrome": {
+                    "version_added": "51"
+                },
+                "chrome_android": {
+                    "version_added": "51"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "43"
+                },
+                "firefox_android": {
+                    "version_added": "43"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "38"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "51"
+                }
+            },
+            "title": "HTMLCanvasElement.captureStream()"
+        }
+    ],
+    "widl-HTMLMediaElement-captureStream-MediaStream": [
+        {
+            "slug": "API/HTMLMediaElement/captureStream",
+            "summary": "The captureStream() property of the HTMLMediaElement interface returns a MediaStream object which is streaming a real-time capture of the content being rendered in the media element.",
+            "support": {
+                "chrome": {
+                    "version_added": "62"
+                },
+                "chrome_android": {
+                    "version_added": "53"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "prefix": "moz",
+                    "version_added": "15"
+                },
+                "firefox_android": {
+                    "prefix": "moz",
+                    "version_added": "15"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "53"
+                }
+            },
+            "title": "HTMLMediaElement.captureStream()"
+        }
+    ]
+}

@@ -1,0 +1,1278 @@
+{
+    "api": [
+        {
+            "slug": "API/URL",
+            "summary": "The URL interface represents an object providing static methods used for creating object URLs.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "32"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "2"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "32"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "18"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "notes": [
+                            "Firefox had a bug whereby single quotes contained in URLs are escaped when accessed via URL APIs (see <a href='https://bugzil.la/1386683'>bug 1386683</a>). This has been fixed as of Firefox 57.",
+                            "To use it from chrome code, JSM and Bootstrap scope, you have to import it with <code>Cu.importGlobalProperties(['URL']);</code>."
+                        ],
+                        "version_added": "19"
+                    },
+                    {
+                        "notes": "This interface was supported with the non-standard <code>nsIDOMMozURLProperty</code> internal type. However this didn't make any difference in practice, as the only way to access such an object was through <code>window.URL</code>.",
+                        "version_added": "4",
+                        "version_removed": "18"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "notes": [
+                            "Firefox had a bug whereby single quotes contained in URLs are escaped when accessed via URL APIs (see <a href='https://bugzil.la/1386683'>bug 1386683</a>). This has been fixed as of Firefox 57.",
+                            "To use it from chrome code, JSM and Bootstrap scope, you have to import it with <code>Cu.importGlobalProperties(['URL']);</code>."
+                        ],
+                        "version_added": "19"
+                    },
+                    {
+                        "notes": "This interface was supported with the non-standard <code>nsIDOMMozURLProperty</code> internal type. However this didn't make any difference in practice, as the only way to access such an object was through <code>window.URL</code>.",
+                        "version_added": "14",
+                        "version_removed": "18"
+                    }
+                ],
+                "ie": {
+                    "version_added": null
+                },
+                "opera": [
+                    {
+                        "version_added": "19"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "19"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "15"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": "7"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "6"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "7"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "6"
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "4"
+                    }
+                ]
+            },
+            "title": "URL"
+        }
+    ],
+    "constructors": [
+        {
+            "slug": "API/URL/URL",
+            "summary": "The URL() constructor returns a newly created URL object representing the URL defined by the parameters.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": {
+                    "version_added": "26"
+                },
+                "firefox_android": {
+                    "version_added": "26"
+                },
+                "ie": {
+                    "version_added": true,
+                    "version_removed": "11"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "URL()"
+        }
+    ],
+    "dom-url-hash": [
+        {
+            "slug": "API/URLUtilsReadOnly/hash",
+            "summary": "The URLUtilsReadOnly.hash read-only property returns a DOMString containing a '#' followed by the fragment identifier of the URL. The hash is not percent encoded.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "38"
+                    },
+                    {
+                        "notes": "Before Firefox 38, Firefox returned the hash percent encoded. This has been fixed to match the spec.",
+                        "partial_implementation": true,
+                        "version_added": "3.5",
+                        "version_removed": "38"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "38"
+                    },
+                    {
+                        "notes": "Before Firefox 38, Firefox returned the hash percent encoded. This has been fixed to match the spec.",
+                        "partial_implementation": true,
+                        "version_added": "4",
+                        "version_removed": "38"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "URLUtilsReadOnly.hash"
+        }
+    ],
+    "dom-url-host": [
+        {
+            "slug": "API/URLUtilsReadOnly/host",
+            "summary": "The URLUtilsReadOnly.host read-only property returns a DOMString containing the host, that is the hostname, a ':', and the port of the URL.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "URLUtilsReadOnly.host"
+        }
+    ],
+    "dom-url-hostname": [
+        {
+            "slug": "API/URLUtilsReadOnly/hostname",
+            "summary": "The URLUtilsReadOnly.hostname read-only property returns a DOMString containing the domain of the URL.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "URLUtilsReadOnly.hostname"
+        }
+    ],
+    "dom-url-href": [
+        {
+            "slug": "API/URLUtilsReadOnly/href",
+            "summary": "The URLUtilsReadOnly.href read-only property returns a DOMString containing the whole URL.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "URLUtilsReadOnly.href"
+        }
+    ],
+    "dom-url-origin": [
+        {
+            "slug": "API/URL/origin",
+            "summary": "The URL.origin read-only property returns a USVString containing the Unicode serialization of the origin of the represented URL, that is:",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "notes": "Defined in another interface but available to use from <code>URL</code>.",
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "notes": "Defined in another interface but available to use from <code>URL</code>.",
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "26"
+                    },
+                    {
+                        "notes": "This property was on the <code>URLUtils</code> mixin. It has been moved either to the <code>HTMLHyperlinkElementUtils</code> mixin, or directly on the interface.",
+                        "version_added": "26",
+                        "version_removed": "44"
+                    },
+                    {
+                        "notes": "Results for <code>URL</code> using the <code>blob</code> scheme incorrectly returned <code>null</code>.",
+                        "version_added": "26",
+                        "version_removed": "49"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "26"
+                    },
+                    {
+                        "notes": "This property was on the <code>URLUtils</code> mixin. It has been moved either to the <code>HTMLHyperlinkElementUtils</code> mixin, or directly on the interface.",
+                        "version_added": "26",
+                        "version_removed": "44"
+                    },
+                    {
+                        "notes": "Results for <code>URL</code> using the <code>blob</code> scheme incorrectly returned <code>null</code>.",
+                        "version_added": "26",
+                        "version_removed": "49"
+                    }
+                ],
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "notes": "Defined in another interface but available to use from <code>URL</code>.",
+                    "version_added": true
+                },
+                "opera_android": {
+                    "notes": "Defined in another interface but available to use from <code>URL</code>.",
+                    "version_added": true
+                },
+                "safari": {
+                    "notes": "Defined in another interface but available to use from <code>URL</code>.",
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "notes": "Defined in another interface but available to use from <code>URL</code>.",
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "52"
+                }
+            },
+            "title": "URL.origin"
+        },
+        {
+            "slug": "API/URLUtilsReadOnly/origin",
+            "summary": "The URLUtilsReadOnly.origin read-only property is a DOMString containing the Unicode serialization of the origin of the represented URL, that is, for http and https, the scheme followed by '://', followed by the domain, followed by ':', followed by the port (the default port, 80 and 443 respectively, if explicitely specified). For URL using file: scheme, the value is browser dependant.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "29"
+                },
+                "firefox_android": {
+                    "version_added": "29"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "URLUtilsReadOnly.origin"
+        }
+    ],
+    "dom-url-pathname": [
+        {
+            "slug": "API/URLUtilsReadOnly/pathname",
+            "summary": "The URLUtilsReadOnly.pathname read-only property returns a DOMString containing an initial '/' followed by the path of the URL.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "URLUtilsReadOnly.pathname"
+        }
+    ],
+    "dom-url-port": [
+        {
+            "slug": "API/URLUtilsReadOnly/port",
+            "summary": "The URLUtilsReadOnly.port read-only property returns a DOMString containing the port number of the URL.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "URLUtilsReadOnly.port"
+        }
+    ],
+    "dom-url-protocol": [
+        {
+            "slug": "API/URLUtilsReadOnly/protocol",
+            "summary": "The URLUtilsReadOnly.protocol read-only property returns a DOMString containing the protocol scheme of the URL, including the final ':'.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "URLUtilsReadOnly.protocol"
+        }
+    ],
+    "dom-url-search": [
+        {
+            "slug": "API/URLUtilsReadOnly/search",
+            "summary": "The URLUtilsReadOnly.search read-only property returns a DOMString containing a '?' followed by the parameters of the URL.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "URLUtilsReadOnly.search"
+        }
+    ],
+    "dom-url-searchparams": [
+        {
+            "slug": "API/URL/searchParams",
+            "summary": "The searchParams property of the URL interface returns a URLSearchParams object allowing access to the GET query arguments contained in the URL.",
+            "support": {
+                "chrome": {
+                    "version_added": "51"
+                },
+                "chrome_android": {
+                    "version_added": "51"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "51"
+                }
+            },
+            "title": "URL.searchParams"
+        }
+    ],
+    "dom-url-tojson": [
+        {
+            "slug": "API/URL/toJSON",
+            "summary": "The toJSON() method of the URL interface returns a DOMString containing the whole URL. It returns the same string as the href property.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "54"
+                },
+                "firefox_android": {
+                    "version_added": "54"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "URL.toJSON()"
+        }
+    ],
+    "dom-urlsearchparams-append": [
+        {
+            "slug": "API/URLSearchParams/append",
+            "summary": "The append() method of the URLSearchParams interface appends a specified key/value pair as a new search parameter.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": "29"
+                },
+                "firefox_android": {
+                    "version_added": "29"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "URLSearchParams.append()"
+        }
+    ],
+    "dom-urlsearchparams-delete": [
+        {
+            "slug": "API/URLSearchParams/delete",
+            "summary": "The delete() method of the URLSearchParams interface deletes the given search parameter and its associated value, from the list of all search parameters.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": "29"
+                },
+                "firefox_android": {
+                    "version_added": "29"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "URLSearchParams.delete()"
+        }
+    ],
+    "dom-urlsearchparams-get": [
+        {
+            "slug": "API/URLSearchParams/get",
+            "summary": "The get() method of the URLSearchParams interface returns the first value associated to the given search parameter.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": "26"
+                },
+                "firefox_android": {
+                    "version_added": "26"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "URLSearchParams.get()"
+        }
+    ],
+    "dom-urlsearchparams-getall": [
+        {
+            "slug": "API/URLSearchParams/getAll",
+            "summary": "The getAll() method of the URLSearchParams interface returns all the values associated with a given search parameter as an array.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": "26"
+                },
+                "firefox_android": {
+                    "version_added": "26"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "URLSearchParams.getAll()"
+        }
+    ],
+    "dom-urlsearchparams-has": [
+        {
+            "slug": "API/URLSearchParams/has",
+            "summary": "The has() method of the URLSearchParams interface returns a Boolean that indicates whether a parameter with the specified name exists.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": "26"
+                },
+                "firefox_android": {
+                    "version_added": "26"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "URLSearchParams.has()"
+        }
+    ],
+    "dom-urlsearchparams-set": [
+        {
+            "slug": "API/URLSearchParams/set",
+            "summary": "The set() method of the URLSearchParams interface sets the value associated with a given search parameter to the given value. If there were several matching values, this method deletes the others. If the search parameter doesn't exist, this method creates it.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": "26"
+                },
+                "firefox_android": {
+                    "version_added": "26"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "URLSearchParams.set()"
+        }
+    ],
+    "dom-urlsearchparams-sort": [
+        {
+            "slug": "API/URLSearchParams/sort",
+            "summary": "The URLSearchParams.sort() method sort all key/value pairs contained in this object in place and return undefined. The sort order is according to Unicode code points of the keys. This method uses a stable sorting algorithm (i.e. the relative order between key/value pairs with equal keys will be preserved).",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": "54"
+                },
+                "firefox_android": {
+                    "version_added": "54"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "URLSearchParams.sort()"
+        }
+    ],
+    "urls": [
+        {
+            "slug": "HTML/Element/input/url",
+            "summary": "input elements of type url are used to let the user enter and edit a URL.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "11"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "<input type=\"url\">"
+        }
+    ],
+    "urlsearchparams": [
+        {
+            "slug": "API/URLSearchParams",
+            "summary": "The URLSearchParams interface defines utility methods to work with the query string of a URL.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "notes": "Prior to version 57 single quotes in URLs were escaped (see <a href='https://bugzil.la/1386683'>bug 1386683</a>).",
+                    "version_added": "29"
+                },
+                "firefox_android": {
+                    "notes": "Prior to version 57 single quotes in URLs were escaped (see <a href='https://bugzil.la/1386683'>bug 1386683</a>).",
+                    "version_added": "29"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "URLSearchParams"
+        }
+    ],
+    "urlutilsreadonly": [
+        {
+            "slug": "API/URLUtilsReadOnly",
+            "summary": "The URLUtilsReadOnly interface defines utility methods to work with URLs. It defines only non-modifying methods intended to be used on data that cannot be changed.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "57"
+                    },
+                    {
+                        "notes": "Firefox has a bug whereby single quotes contained in URLs are escaped when accessed via URL APIs (see <a href='https://bugzil.la/1386683'>bug 1386683</a>).",
+                        "partial_implementation": true,
+                        "version_added": "3.5",
+                        "version_removed": "57"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "57"
+                    },
+                    {
+                        "notes": "Firefox has a bug whereby single quotes contained in URLs are escaped when accessed via URL APIs (see <a href='https://bugzil.la/1386683'>bug 1386683</a>).",
+                        "partial_implementation": true,
+                        "version_added": "4",
+                        "version_removed": "57"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "URLUtilsReadOnly"
+        }
+    ]
+}

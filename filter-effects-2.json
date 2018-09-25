@@ -1,0 +1,71 @@
+{
+    "BackdropFilterProperty": [
+        {
+            "slug": "CSS/backdrop-filter",
+            "summary": "The backdrop-filter CSS property lets you apply graphical effects such as blurring or color shifting to the area behind an element. Because it applies to everything behind the element, to see the effect you must make the element or its background at least partially transparent.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Enable Experimental Web Platform Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "Enable Experimental Web Platform Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": "47"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "notes": "See <a href='https://bugzil.la/1178765'>bug 1178765</a>.",
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "notes": "See <a href='https://bugzil.la/1178765'>bug 1178765</a>.",
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "flags": [
+                        {
+                            "name": "Enable Experimental Web Platform Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": "34"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": "9"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "backdrop-filter"
+        }
+    ]
+}

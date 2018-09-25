@@ -1,0 +1,557 @@
+{
+    "referrer-policy-delivery-meta": [
+        {
+            "slug": "HTML/Element/meta",
+            "summary": "The HTML meta element represents metadata that cannot be represented by other HTML meta-related elements, like base, link, script, style or title.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "<meta>: The Document-level Metadata element"
+        }
+    ],
+    "referrer-policy-delivery-referrer-attribute": [
+        {
+            "slug": "API/HTMLAnchorElement/referrerPolicy",
+            "summary": "The HTMLAnchorElement.referrerPolicy property reflect the HTML referrerpolicy attribute of the a element defining which referrer is sent when fetching the resource.",
+            "support": {
+                "chrome": {
+                    "version_added": "51"
+                },
+                "chrome_android": {
+                    "version_added": "51"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "38"
+                },
+                "opera_android": {
+                    "version_added": "38"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.2"
+                },
+                "webview_android": {
+                    "version_added": "51"
+                }
+            },
+            "title": "HTMLAnchorElement.referrerPolicy"
+        },
+        {
+            "slug": "API/HTMLAreaElement/referrerPolicy",
+            "summary": "The HTMLAreaElement.referrerPolicy property reflect the HTML referrerpolicy attribute of the area element defining which referrer is sent when fetching the resource.",
+            "support": {
+                "chrome": {
+                    "version_added": "51"
+                },
+                "chrome_android": {
+                    "version_added": "51"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "38"
+                },
+                "opera_android": {
+                    "version_added": "38"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.2"
+                },
+                "webview_android": {
+                    "version_added": "51"
+                }
+            },
+            "title": "HTMLAreaElement.referrerPolicy"
+        },
+        {
+            "slug": "API/HTMLIFrameElement/referrerPolicy",
+            "summary": "The HTMLIFrameElement.referrerPolicy property reflects the HTML referrerpolicy attribute of the iframe element defining which referrer is sent when fetching the resource.",
+            "support": {
+                "chrome": {
+                    "version_added": "51"
+                },
+                "chrome_android": {
+                    "version_added": "51"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "38"
+                },
+                "opera_android": {
+                    "version_added": "38"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "51"
+                }
+            },
+            "title": "HTMLIFrameElement.referrerPolicy"
+        },
+        {
+            "slug": "API/HTMLImageElement/referrerPolicy",
+            "summary": "The HTMLImageElement.referrerPolicy property reflects the HTML referrerpolicy attribute of the img element defining which referrer is sent when fetching the resource.",
+            "support": {
+                "chrome": {
+                    "version_added": "51"
+                },
+                "chrome_android": {
+                    "version_added": "51"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "38"
+                },
+                "opera_android": {
+                    "version_added": "38"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "51"
+                }
+            },
+            "title": "HTMLImageElement.referrerPolicy"
+        },
+        {
+            "slug": "API/HTMLLinkElement/referrerPolicy",
+            "summary": "The HTMLLinkElement.referrerPolicy property reflect the HTML referrerpolicy attribute of the link element defining which referrer is sent when fetching the resource.",
+            "support": {
+                "chrome": {
+                    "version_added": "51"
+                },
+                "chrome_android": {
+                    "version_added": "51"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "38"
+                },
+                "opera_android": {
+                    "version_added": "38"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "51"
+                }
+            },
+            "title": "HTMLLinkElement.referrerPolicy"
+        },
+        {
+            "slug": "HTML/Element/a",
+            "summary": "The HTML a element (or anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Starting with Firefox 41, &lt;a&gt; without <code>href</code> attribute is no longer classified as interactive content: clicking it inside &lt;label&gt; will activate labelled content (<a href='https://bugzil.la/1167816'>bug 1167816</a>).",
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "notes": "Starting with Firefox 41, &lt;a&gt; without <code>href</code> attribute is no longer classified as interactive content: clicking it inside &lt;label&gt; will activate labelled content (<a href='https://bugzil.la/1167816'>bug 1167816</a>).",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "<a>: The Anchor element"
+        },
+        {
+            "slug": "HTML/Element/area",
+            "summary": "The HTML area element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a map element.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "<area>"
+        },
+        {
+            "slug": "HTML/Element/iframe",
+            "summary": "The HTML Inline Frame element (iframe) represents a nested browsing context, embedding another HTML page into the current one.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "The <code>resize</code> CSS property doesn't have any effect on this element due to <a href='https://bugzil.la/680823'>bug 680823</a>.",
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "notes": "The <code>resize</code> CSS property doesn't have any effect on this element due to <a href='https://bugzil.la/680823'>bug 680823</a>.",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "notes": "Safari has a <a href='https://www.quirksmode.org/bugreports/archives/2005/02/hidden_iframes.html'>bug</a> that prevents iframes from loading if the <code>iframe</code> element was hidden when added to the page. <code>iframeElement.src = iframeElement.src</code> should cause it to load the iframe.",
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "notes": "Safari has a <a href='https://www.quirksmode.org/bugreports/archives/2005/02/hidden_iframes.html'>bug</a> that prevents iframes from loading if the <code>iframe</code> element was hidden when added to the page. <code>iframeElement.src = iframeElement.src</code> should cause it to load the iframe.",
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "<iframe>: The Inline Frame element"
+        },
+        {
+            "slug": "HTML/Element/img",
+            "summary": "The HTML img element embeds an image into the document. It is a replaced element.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "<img>: The Image Embed element"
+        },
+        {
+            "slug": "SVG/Element/a",
+            "summary": "The a SVG element creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "9"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "3.1"
+                },
+                "safari_ios": {
+                    "version_added": "3.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "3"
+                }
+            },
+            "title": "<a>"
+        }
+    ],
+    "referrer-policy-header": [
+        {
+            "slug": "HTTP/Headers/Referrer-Policy",
+            "summary": "The Referrer-Policy HTTP header governs which referrer information, sent in the Referer header, should be included with requests made.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.2"
+                },
+                "webview_android": {
+                    "version_added": "56"
+                }
+            },
+            "title": "Referrer-Policy"
+        }
+    ]
+}

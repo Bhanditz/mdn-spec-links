@@ -1,0 +1,47 @@
+{
+    "MarkerElement": [
+        {
+            "slug": "SVG/Element/marker",
+            "summary": "The marker element defines the graphic that is to be used for drawing arrowheads or polymarkers on a given path, line, polyline or polygon element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "9"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "version_added": "3"
+                },
+                "webview_android": {
+                    "version_added": "3"
+                }
+            },
+            "title": "<marker>"
+        }
+    ]
+}

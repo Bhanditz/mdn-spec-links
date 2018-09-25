@@ -1,0 +1,498 @@
+{
+    "instrumentkey-attribute": [
+        {
+            "slug": "API/PaymentRequestEvent/instrumentKey",
+            "summary": "The instrumentKey read-only property of the PaymentRequestEvent interface returns a PaymentInstrument object reflecting the payment instrument selected by the user or an empty string if the user has not registered or chosen a payment instrument.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PaymentRequestEvent.instrumentKey"
+        }
+    ],
+    "methoddata-attribute": [
+        {
+            "slug": "API/PaymentRequestEvent/methodData",
+            "summary": "The methodData read-only property of the PaymentRequestEvent interface returns an array of PaymentMethodData objects containing payment method identifers for the payment methods that the web site accepts and any associated payment method specific data.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PaymentRequestEvent.methodData"
+        }
+    ],
+    "modifiers-attribute": [
+        {
+            "slug": "API/PaymentRequestEvent/modifiers",
+            "summary": "The modifiers read-only property of the PaymentRequestEvent interface returns an array of objects containing changes to payment details.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PaymentRequestEvent.modifiers"
+        }
+    ],
+    "openwindow-method": [
+        {
+            "slug": "API/PaymentRequestEvent/openWindow",
+            "summary": "The openWindow property of the PaymentRequestEvent interface opens the specified URL in a new window, if and only if the given URL is on the same origin as the calling page. It returns a Promise that resolves with a reference to a WindowClient.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PaymentRequestEvent.openWindow()"
+        }
+    ],
+    "paymentrequestid-attribute": [
+        {
+            "slug": "API/PaymentRequestEvent/paymentRequestId",
+            "summary": "The paymentRequestId read-only property of the PaymentRequestEvent interface returns the ID of the PaymentRequest object.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "paymentRequestId"
+        }
+    ],
+    "paymentrequestorigin-attribute": [
+        {
+            "slug": "API/PaymentRequestEvent/paymentRequestOrigin",
+            "summary": "The paymentRequestOrigin read-only property of the PaymentRequestEvent interface returns the origin where the PaymentRequest object was initialized.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PaymentRequestEvent.paymentRequestOrigin"
+        }
+    ],
+    "the-paymentrequestevent": [
+        {
+            "slug": "API/PaymentRequestEvent",
+            "summary": "The PaymentRequestEvent interface of the the Payment Request API is the object passed to a payment handler when a PaymentRequest is made.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PaymentRequestEvent"
+        }
+    ],
+    "total-attribute": [
+        {
+            "slug": "API/PaymentRequestEvent/total",
+            "summary": "The total readonly property of the PaymentRequestEvent interface returns a PaymentCurrencyAmount object containing the total amount being requested for payment.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "#service-worker-payment-apps",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PaymentRequestEvent.total"
+        }
+    ]
+}

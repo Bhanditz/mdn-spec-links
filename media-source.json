@@ -1,0 +1,2685 @@
+{
+    "dom-audiotrack-sourcebuffer": [
+        {
+            "slug": "API/AudioTrack/sourceBuffer",
+            "summary": "The read-only AudioTrack property sourceBuffer returns the SourceBuffer that created the track, or null if the track was not created by a SourceBuffer or the SourceBuffer has been removed from the MediaSource.sourceBuffers attribute of its parent media source.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "AudioTrack.sourceBuffer"
+        }
+    ],
+    "dom-mediasource-clearliveseekablerange": [
+        {
+            "slug": "API/MediaSource/clearLiveSeekableRange",
+            "summary": "The clearLiveSeekableRange() method of the MediaSource interface clears a seekable range privious set with a call to setLiveSeekableRange().",
+            "support": {
+                "chrome": {
+                    "version_added": "62"
+                },
+                "chrome_android": {
+                    "version_added": "62"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "49"
+                },
+                "opera_android": {
+                    "version_added": "49"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "62"
+                }
+            },
+            "title": "MediaSource.clearLiveSeekableRange()"
+        }
+    ],
+    "dom-mediasource-setliveseekablerange": [
+        {
+            "slug": "API/MediaSource/setLiveSeekableRange",
+            "summary": "The setLiveSeekableRange() method of the MediaSource interface sets the range that the user can seek to in the media element.",
+            "support": {
+                "chrome": {
+                    "version_added": "62"
+                },
+                "chrome_android": {
+                    "version_added": "62"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "49"
+                },
+                "opera_android": {
+                    "version_added": "49"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "62"
+                }
+            },
+            "title": "MediaSource.setLiveSeekableRange()"
+        }
+    ],
+    "dom-sourcebuffer-changetype": [
+        {
+            "slug": "API/SourceBuffer/changeType",
+            "summary": "The SourceBuffer method changeType() sets the MIME type that future calls to appendBuffer() should expect the new media data to conform to.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "70"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "MediaSourceExperimental",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "69",
+                        "version_removed": "70"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "70"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "MediaSourceExperimental",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "69",
+                        "version_removed": "70"
+                    }
+                ],
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.experimental.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "61",
+                        "version_removed": "63"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.experimental.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "61",
+                        "version_removed": "63"
+                    }
+                ],
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "SourceBuffer.changeType()"
+        }
+    ],
+    "dom-url-createobjecturl": [
+        {
+            "slug": "API/URL/createObjectURL",
+            "summary": "The URL.createObjectURL() static method creates a DOMString containing a URL representing the object given in the parameter. The URL lifetime is tied to the document in the window on which it was created. The new object URL represents the specified File object or Blob object.",
+            "support": {
+                "chrome": {
+                    "version_added": "8"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "<code>createObjectURL()</code> is no longer available within the context of a <code>ServiceWorker</code>.",
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "notes": "<code>createObjectURL()</code> is no longer available within the context of a <code>ServiceWorker</code>.",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": "6"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "URL.createObjectURL()"
+        }
+    ],
+    "dom-videotrack-sourcebuffer": [
+        {
+            "slug": "API/VideoTrack/sourceBuffer",
+            "summary": "The read-only VideoTrack property sourceBuffer returns the SourceBuffer that created the track, or null if the track was not created by a SourceBuffer or the SourceBuffer has been removed from the MediaSource.sourceBuffers attribute of its parent media source.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "VideoTrack.sourceBuffer"
+        }
+    ],
+    "htmlmediaelement-extensions": [
+        {
+            "slug": "API/HTMLMediaElement/seekable",
+            "summary": "The seekable read-only property of the HTMLMediaElement returns a TimeRanges object that contains the time ranges that the user is able to seek to, if any.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "8"
+                },
+                "firefox_android": {
+                    "version_added": "8"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLMediaElement.seekable"
+        }
+    ],
+    "idl-def-HTMLVideoElement": [
+        {
+            "slug": "API/HTMLVideoElement",
+            "summary": "The HTMLVideoElement interface provides special properties and methods for manipulating video objects. It also inherits properties and methods of HTMLMediaElement and HTMLElement.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "10.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLVideoElement"
+        }
+    ],
+    "mediasource": [
+        {
+            "slug": "API/MediaSource",
+            "summary": "The MediaSource interface of the Media Source Extensions API represents a source of media data for an HTMLMediaElement object. A MediaSource object can be attached to a HTMLMediaElement to be played in the user agent.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": "33"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "MediaSource"
+        }
+    ],
+    "sourcebuffer": [
+        {
+            "slug": "API/SourceBuffer",
+            "summary": "The SourceBuffer interface represents a chunk of media to be passed into an HTMLMediaElement and played, via a MediaSource object. This can be made up of one or several media segments.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer"
+        }
+    ],
+    "sourcebufferlist": [
+        {
+            "slug": "API/SourceBufferList",
+            "summary": "The SourceBufferList interface represents a simple container list for multiple SourceBuffer objects.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": "33"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBufferList"
+        }
+    ],
+    "trackdefault": [
+        {
+            "slug": "API/TrackDefault",
+            "summary": "The TrackDefault interface provides a SourceBuffer with kind, label, and language information for tracks that do not contain this information in the initialization segments of a media chunk.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "TrackDefault"
+        }
+    ],
+    "trackdefaultlist": [
+        {
+            "slug": "API/TrackDefaultList",
+            "summary": "The TrackDefaultList interface represents a simple container list for multiple TrackDefault objects.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "TrackDefaultList"
+        }
+    ],
+    "widl-MediaSource-activeSourceBuffers": [
+        {
+            "slug": "API/MediaSource/activeSourceBuffers",
+            "summary": "The activeSourceBuffers read-only property of the MediaSource interface returns a SourceBufferList object containing a subset of the SourceBuffer objects contained within sourceBuffers \u2014 the list of objects providing the selected video track, enabled audio tracks, and shown/hidden text tracks.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": "33"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "MediaSource.activeSourceBuffers"
+        }
+    ],
+    "widl-MediaSource-addSourceBuffer-SourceBuffer-DOMString-type": [
+        {
+            "slug": "API/MediaSource/addSourceBuffer",
+            "summary": "The addSourceBuffer() method of the MediaSource interface creates a new SourceBuffer of the given MIME type and adds it to the MediaSource's sourceBuffers list. The new SourceBuffer is also returned.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": "33"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "MediaSource.addSourceBuffer()"
+        }
+    ],
+    "widl-MediaSource-duration": [
+        {
+            "slug": "API/MediaSource/duration",
+            "summary": "The duration property of the MediaSource interface gets and sets the duration of the current media being presented.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": "33"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "MediaSource.duration"
+        }
+    ],
+    "widl-MediaSource-endOfStream-void-EndOfStreamError-error": [
+        {
+            "slug": "API/MediaSource/endOfStream",
+            "summary": "The endOfStream() method of the MediaSource interface signals the end of the stream.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": "33"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "MediaSource.endOfStream()"
+        }
+    ],
+    "widl-MediaSource-isTypeSupported-boolean-DOMString-type": [
+        {
+            "slug": "API/MediaSource/isTypeSupported",
+            "summary": "The isTypeSupported() method of the MediaSource interface returns a Boolean value indicating if the given MIME type is supported by the current user agent \u2014 this is, if it can successfully create SourceBuffer objects for that MIME type.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": "33"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "MediaSource.isTypeSupported()"
+        }
+    ],
+    "widl-MediaSource-readyState": [
+        {
+            "slug": "API/MediaSource/readyState",
+            "summary": "The readyState read-only property of the MediaSource interface returns an enum representing the state of the current MediaSource. The three possible values are:",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": "33"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "MediaSource.readyState"
+        }
+    ],
+    "widl-MediaSource-removeSourceBuffer-void-SourceBuffer-sourceBuffer": [
+        {
+            "slug": "API/MediaSource/removeSourceBuffer",
+            "summary": "The removeSourceBuffer() method of the MediaSource interface removes the given SourceBuffer from the SourceBuffers list associated with this MediaSource object.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": "33"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "MediaSource.removeSourceBuffer()"
+        }
+    ],
+    "widl-MediaSource-sourceBuffers": [
+        {
+            "slug": "API/MediaSource/sourceBuffers",
+            "summary": "The sourceBuffers read-only property of the MediaSource interface returns a SourceBufferList object containing the list of SourceBuffer objects associated with this MediaSource.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": "33"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "MediaSource.sourceBuffers"
+        }
+    ],
+    "widl-SourceBuffer-abort-void": [
+        {
+            "slug": "API/SourceBuffer/abort",
+            "summary": "The abort() method of the SourceBuffer interface aborts the current segment and resets the segment parser.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer.abort()"
+        }
+    ],
+    "widl-SourceBuffer-appendBuffer-void-ArrayBuffer-data": [
+        {
+            "slug": "API/SourceBuffer/appendBuffer",
+            "summary": "The appendBuffer() method of the SourceBuffer interface appends media segment data from an ArrayBuffer or ArrayBufferView object to the SourceBuffer.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer.appendBuffer()"
+        }
+    ],
+    "widl-SourceBuffer-appendStream-void-ReadableStream-stream-unsigned-long-long-maxSize": [
+        {
+            "slug": "API/SourceBuffer/appendStream",
+            "summary": "The appendStream() method of the SourceBuffer interface appends media segment data from a ReadableStream object to the SourceBuffer.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                }
+            },
+            "title": "SourceBuffer.appendStream()"
+        }
+    ],
+    "widl-SourceBuffer-appendWindowEnd": [
+        {
+            "slug": "API/SourceBuffer/appendWindowEnd",
+            "summary": "The appendWindowEnd property of the SourceBuffer interface controls the timestamp for the end of the append window, a timestamp range that can be used to filter what media data is appended to the SourceBuffer. Coded media frames with timestamps wthin this range will be appended, whereas those outside the range will be filtered out.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer.appendWindowEnd"
+        }
+    ],
+    "widl-SourceBuffer-appendWindowStart": [
+        {
+            "slug": "API/SourceBuffer/appendWindowStart",
+            "summary": "The appendWindowStart property of the SourceBuffer interface controls the timestamp for the start of the append window, a timestamp range that can be used to filter what media data is appended to the SourceBuffer. Coded media frames with timestamps wthin this range will be appended, whereas those outside the range will be filtered out.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer.appendWindowStart"
+        }
+    ],
+    "widl-SourceBuffer-audioTracks": [
+        {
+            "slug": "API/SourceBuffer/audioTracks",
+            "summary": "The audioTracks read-only property of the SourceBuffer interface returns a list of the audio tracks currently contained inside the SourceBuffer.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer.audioTracks"
+        }
+    ],
+    "widl-SourceBuffer-buffered": [
+        {
+            "slug": "API/SourceBuffer/buffered",
+            "summary": "The buffered read-only property of the SourceBuffer interface returns the time ranges that are currently buffered in the SourceBuffer as a normalized TimeRanges object.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer.buffered"
+        }
+    ],
+    "widl-SourceBuffer-mode": [
+        {
+            "slug": "API/SourceBuffer/mode",
+            "summary": "The mode property of the SourceBuffer interface controls whether media segments can be appended to the SourceBuffer in any order, or in a strict sequence.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer.mode"
+        }
+    ],
+    "widl-SourceBuffer-remove-void-double-start-unrestricted-double-end": [
+        {
+            "slug": "API/SourceBuffer/remove",
+            "summary": "The remove() method of the SourceBuffer interface removes media segments within a specific time range from the SourceBuffer. This method can only be called when SourceBuffer.updating equals false. If SourceBuffer.updating is not equal to false, call SourceBuffer.abort().",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer.remove()"
+        }
+    ],
+    "widl-SourceBuffer-textTracks": [
+        {
+            "slug": "API/SourceBuffer/textTracks",
+            "summary": "The textTracks read-only property of the SourceBuffer interface returns a list of the text tracks currently contained inside the SourceBuffer.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer.textTracks"
+        }
+    ],
+    "widl-SourceBuffer-timestampOffset": [
+        {
+            "slug": "API/SourceBuffer/timestampOffset",
+            "summary": "The timestampOffset property of the SourceBuffer interface controls the offset applied to timestamps inside media segments that are appended to the SourceBuffer.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer.timestampOffset"
+        }
+    ],
+    "widl-SourceBuffer-trackDefaults": [
+        {
+            "slug": "API/SourceBuffer/trackDefaults",
+            "summary": "The trackDefaults property of the SourceBuffer interface specifies the default values to use if kind, label, and/or language information is not available in the initialization segment of the media to be appended to the SourceBuffer.",
+            "support": {
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                }
+            },
+            "title": "SourceBuffer.trackDefaults"
+        }
+    ],
+    "widl-SourceBuffer-updating": [
+        {
+            "slug": "API/SourceBuffer/updating",
+            "summary": "The updating read-only property of the SourceBuffer interface indicates whether the SourceBuffer is currently being updated \u2014 i.e. whether an SourceBuffer.appendBuffer(),  SourceBuffer.appendStream(), or SourceBuffer.remove() operation is currently in progress.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer.updating"
+        }
+    ],
+    "widl-SourceBuffer-videoTracks": [
+        {
+            "slug": "API/SourceBuffer/videoTracks",
+            "summary": "The videoTracks read-only property of the SourceBuffer interface returns a list of the video tracks currently contained inside the SourceBuffer.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBuffer.videoTracks"
+        }
+    ],
+    "widl-SourceBufferList-SourceBuffer-getter-unsigned-long-index": [
+        {
+            "slug": "API/SourceBufferList/SourceBuffer",
+            "summary": "The SourceBuffer() getter method of the SourceBufferList interface allows the SourceBuffer objects in the list to be accessed with an array operator (i.e. [].)",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "SourceBufferList.SourceBuffer()"
+        }
+    ],
+    "widl-SourceBufferList-length": [
+        {
+            "slug": "API/SourceBufferList/length",
+            "summary": "The length read-only property of the SourceBufferList interface returns the number of SourceBuffer objects in the list.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "31"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "23",
+                        "version_removed": "31"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": "33"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "42"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.mediasource.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "notes": [
+                            "Limited support to a whitelist of sites, for example YouTube, Netflix, and other popular streaming sites. The whitelist was removed when Media Source Extensions was enabled by default in Firefox 42."
+                        ],
+                        "version_added": "25",
+                        "version_removed": "42"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "notes": [
+                        "Only works on Windows 8+."
+                    ],
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "SourceBufferList.length"
+        }
+    ],
+    "widl-TrackDefault-byteStreamTrackID": [
+        {
+            "slug": "API/TrackDefault/byteStreamTrackID",
+            "summary": "The byteStreamTrackID read-only property of the TrackDefault interface returns the ID of the specific track that the SourceBuffer should apply to.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "TrackDefault.byteStreamTrackID"
+        }
+    ],
+    "widl-TrackDefault-kinds": [
+        {
+            "slug": "API/TrackDefault/kinds",
+            "summary": "The kinds read-only property of the TrackDefault interface returns default kinds for an associated SourceBuffer to use when an initialization segment does not contain label information for a new track.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "TrackDefault.kinds"
+        }
+    ],
+    "widl-TrackDefault-label": [
+        {
+            "slug": "API/TrackDefault/label",
+            "summary": "The label read-only property of the TrackDefault interface returns the default label for an associated SourceBuffer to use when an initialization segment does not contain label information for a new track.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "TrackDefault.label"
+        }
+    ],
+    "widl-TrackDefault-language": [
+        {
+            "slug": "API/TrackDefault/language",
+            "summary": "The language read-only property of the TrackDefault interface returns a default language for an associated SourceBuffer to use when an initialization segment does not contain language information for a new track.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "TrackDefault.language"
+        }
+    ],
+    "widl-TrackDefault-type": [
+        {
+            "slug": "API/TrackDefault/type",
+            "summary": "The type read-only property of the TrackDefault interface returns the type of track that this SourceBuffer's media segment data relates to (i.e. audio, video, or text track.)",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "TrackDefault.type"
+        }
+    ],
+    "widl-TrackDefaultList-TrackDefault-getter-unsigned-long-index": [
+        {
+            "slug": "API/TrackDefaultList/TrackDefault",
+            "summary": "The TrackDefault() getter method of the TrackDefaultList interface allows the TrackDefault objects in the list to be accessed with an array operator (i.e. [].)",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "TrackDefaultList.TrackDefault()"
+        }
+    ],
+    "widl-TrackDefaultList-length": [
+        {
+            "slug": "API/TrackDefaultList/length",
+            "summary": "The length read-only property of the TrackDefaultList interface returns the number of TrackDefault objects in the list.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "TrackDefaultList.length"
+        }
+    ],
+    "widl-ctor-TrackDefault--TrackDefaultType-type-DOMString-language-DOMString-label-sequence-DOMString--kinds-DOMString-byteStreamTrackID": [
+        {
+            "slug": "API/TrackDefault/TrackDefault",
+            "summary": "The TrackDefault() constructor of the TrackDefault interface constructs and returns a new TrackDefault object.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "TrackDefault.TrackDefault()"
+        }
+    ],
+    "widl-ctor-TrackDefaultList--sequence-TrackDefault--trackDefaults": [
+        {
+            "slug": "API/TrackDefaultList/TrackDefaultList",
+            "summary": "The TrackDefaultList() constructor of the TrackDefaultList interface constructs and returns a new TrackDefaultList object.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "TrackDefaultList.TrackDefaultList()"
+        }
+    ]
+}

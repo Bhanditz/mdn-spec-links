@@ -1,0 +1,470 @@
+{
+    "clipboard-event-interfaces": [
+        {
+            "slug": "API/ClipboardEvent",
+            "summary": "The ClipboardEvent interface represents events providing information related to modification of the clipboard, that is cut, copy, and paste events.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "ClipboardEvent"
+        }
+    ],
+    "clipboard-interface": [
+        {
+            "slug": "API/Clipboard",
+            "summary": "The Clipboard interface implements the Clipboard API, providing\u2014if the user grants permission\u2014both read and write access to the contents of the system clipboard.",
+            "support": {
+                "chrome": {
+                    "version_added": "66"
+                },
+                "chrome_android": {
+                    "version_added": "66"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "53"
+                },
+                "opera_android": {
+                    "version_added": "53"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Clipboard"
+        }
+    ],
+    "h-clipboard-read": [
+        {
+            "slug": "API/Clipboard/read",
+            "summary": "The read() method of the Clipboard interface requests a copy of the clipboard's contents, delivering the data to the returned Promise when the promise is resolved. Unlike readText(), the read() method can return arbitrary data, such as images.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.events.asyncClipboard.dataTransfer",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "notes": "Currently works just like <code>readText()</code>; non-text content is not currently supported.",
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.events.asyncClipboard.dataTransfer",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "notes": "Currently works just like <code>readText()</code>; non-text content is not currently supported.",
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Clipboard.read()"
+        }
+    ],
+    "h-clipboard-readtext": [
+        {
+            "slug": "API/Clipboard/readText",
+            "summary": "The Clipboard interface's readText() method returns a Promise which resolves with a copy of the textual contents of the system clipboard.",
+            "support": {
+                "chrome": {
+                    "version_added": "66"
+                },
+                "chrome_android": {
+                    "version_added": "66"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Firefox only supports reading the clipboard in browser extensions, using the <code>\"clipboardRead\"</code> extension permission.",
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "notes": "Firefox only supports reading the clipboard in browser extensions, using the <code>\"clipboardRead\"</code> extension permission.",
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "53"
+                },
+                "opera_android": {
+                    "version_added": "53"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Clipboard.readText()"
+        }
+    ],
+    "h-clipboard-write-data": [
+        {
+            "slug": "API/Clipboard/write",
+            "summary": "The Clipboard method write() writes arbitrary data, such as images, to the clipboard.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.events.asyncClipboard.dataTransfer",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "notes": "Currently works exactly like <code>writeText()</code>, including the availability limitations currently imposed by Firefox.",
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.events.asyncClipboard.dataTransfer",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "notes": "Currently works exactly like <code>writeText()</code>, including the availability limitations currently imposed by Firefox.",
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Clipboard.write()"
+        }
+    ],
+    "h-clipboard-writetext-data": [
+        {
+            "slug": "API/Clipboard/writeText",
+            "summary": "The Clipboard interface's writeText() property writes the specified text string to the system clipboard.",
+            "support": {
+                "chrome": {
+                    "version_added": "66"
+                },
+                "chrome_android": {
+                    "version_added": "66"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Writing to the clipboard is available without permission in secure contexts and browser extensions, but only from user-initiated event callbacks. Browser extensions with the <code>\"clipboardWrite\"</code> permission can write to the clipboard at any time.",
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "notes": "Writing to the clipboard is available without permission in secure contexts and browser extensions, but only from user-initiated event callbacks. Browser extensions with the <code>\"clipboardWrite\"</code> permission can write to the clipboard at any time.",
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "53"
+                },
+                "opera_android": {
+                    "version_added": "53"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Clipboard.writeText()"
+        }
+    ],
+    "idl-def-ClipboardEventInit": [
+        {
+            "slug": "API/ClipboardEvent/ClipboardEvent",
+            "summary": "The ClipboardEvent() constructor returns a newly created ClipboardEvent, representing an event providing information related to modification of the clipboard, that is cut, copy, and paste events.",
+            "support": {
+                "chrome": {
+                    "version_added": "58"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "45"
+                },
+                "opera_android": {
+                    "version_added": "45"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "ClipboardEvent()"
+        }
+    ],
+    "navigator-clipboard": [
+        {
+            "slug": "API/Navigator/clipboard",
+            "summary": "The Clipboard API adds to the Navigator interface the read-only clipboard property, which returns the Clipboard object used to read and write the clipboard's contents.",
+            "support": {
+                "chrome": {
+                    "version_added": "66"
+                },
+                "chrome_android": {
+                    "version_added": "66"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "66"
+                }
+            },
+            "title": "Navigator.clipboard"
+        }
+    ],
+    "widl-ClipboardEvent-clipboardData": [
+        {
+            "slug": "API/ClipboardEvent/clipboardData",
+            "summary": "The ClipboardEvent.clipboardData property holds a DataTransfer object, which can be used:",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "22"
+                },
+                "firefox_android": {
+                    "version_added": "22"
+                },
+                "ie": {
+                    "version_added": "5"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "ClipboardEvent.clipboardData"
+        }
+    ]
+}

@@ -1,0 +1,2085 @@
+{
+    "AnimationEvent-animationName": [
+        {
+            "slug": "API/AnimationEvent/animationName",
+            "summary": "The AnimationEvent.animationName read-only property is a DOMString containing the value of the animation-name CSS property associated with the transition.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "6"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "9"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "AnimationEvent.animationName"
+        }
+    ],
+    "AnimationEvent-elapsedTime": [
+        {
+            "slug": "API/AnimationEvent/elapsedTime",
+            "summary": "The AnimationEvent.elapsedTime read-only property is a float giving the amount of time the animation has been running, in seconds, when this event fired, excluding any time the animation was paused. For an \"animationstart\" event, elapsedTime is 0.0 unless there was a negative value for animation-delay, in which case the event will be fired with elapsedTime containing  (-1 * delay).",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "43"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "6"
+                },
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "9"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "AnimationEvent.elapsedTime"
+        }
+    ],
+    "AnimationEvent-interface": [
+        {
+            "slug": "API/AnimationEvent/AnimationEvent",
+            "summary": "The AnimationEvent() constructor returns a newly created AnimationEvent, representing an event in relation with an animation.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "23"
+                },
+                "firefox_android": {
+                    "version_added": "23"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "AnimationEvent()"
+        }
+    ],
+    "AnimationEvent-pseudoElement": [
+        {
+            "slug": "API/AnimationEvent/pseudoElement",
+            "summary": "The AnimationEvent.pseudoElement read-only property is a DOMString, starting with '::', containing the name of the pseudo-element the animation runs on. If the animation doesn't run on a pseudo-element but on the element, an empty string: ''.",
+            "support": {
+                "chrome": {
+                    "version_added": "68"
+                },
+                "chrome_android": {
+                    "version_added": "68"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "23"
+                },
+                "firefox_android": {
+                    "version_added": "23"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "68"
+                }
+            },
+            "title": "AnimationEvent.pseudoElement"
+        }
+    ],
+    "CSSKeyframeRule-interface": [
+        {
+            "slug": "API/CSSKeyframeRule",
+            "summary": "The CSSKeyframeRule interface describes an object representing a set of style for a given keyframe. It corresponds to the contains of a single keyframe of a @keyframes at-rule. It implements the CSSRule interface with a type value of 8 (CSSRule.KEYFRAME_RULE).",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "5"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "prefix": "-o",
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "4"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "CSSKeyframeRule"
+        }
+    ],
+    "animation": [
+        {
+            "slug": "CSS/animation",
+            "summary": "The animation shorthand CSS property sets an animated transition between styles.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "14"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "4"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": "4.0"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "notes": "The <a href='https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode'><code>animation-fill-mode</code></a> property is not supported in Android browsers below 2.3.",
+                        "prefix": "-webkit-",
+                        "version_added": "2"
+                    }
+                ]
+            },
+            "title": "animation"
+        }
+    ],
+    "animation-delay": [
+        {
+            "slug": "CSS/animation-delay",
+            "summary": "The animation-delay CSS property sets when an animation starts. The animation can start later, immediately from its beginning, or immediately and partway through the animation.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Before Firefox 57, Firefox does not repaint elements outside the viewport that are animated into the viewport with a delay. This bug affects only some platforms, such as Windows.",
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "14"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "4"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "animation-delay"
+        }
+    ],
+    "animation-fill-mode": [
+        {
+            "slug": "CSS/animation-fill-mode",
+            "summary": "The animation-fill-mode CSS property sets how a CSS animation applies styles to its target before and after its execution.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "14"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "4"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": "4.0"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "animation-fill-mode"
+        }
+    ],
+    "animation-iteration-count": [
+        {
+            "slug": "CSS/animation-iteration-count",
+            "summary": "The animation-iteration-count CSS property sets the number of times an animation cycle should be played before stopping.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "14"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "4"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": "4.0"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "animation-iteration-count"
+        }
+    ],
+    "animation-name": [
+        {
+            "slug": "CSS/animation-name",
+            "summary": "The animation-name CSS property sets one or more animations to apply to an element. Each name is an @keyframes at-rule that sets the property values for the animation sequence.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "14"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "4"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": "4.0"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "animation-name"
+        }
+    ],
+    "animation-play-state": [
+        {
+            "slug": "CSS/animation-play-state",
+            "summary": "The animation-play-state CSS property sets whether an animation is running or paused.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "14"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": "4.0"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "animation-play-state"
+        }
+    ],
+    "animation-timing-function": [
+        {
+            "slug": "CSS/animation-timing-function",
+            "summary": "The animation-timing-function CSS property sets how an animation progresses through the duration of each cycle.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "14"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "4"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": "4.0"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "animation-timing-function"
+        },
+        {
+            "slug": "CSS/single-transition-timing-function",
+            "summary": "The single-transition-timing-function CSS data type denotes a mathematical function that describes how fast one-dimensional values change during animations. This lets you vary the animation's speed over the course of its duration.",
+            "support": {
+                "chrome": {
+                    "version_added": "4"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "10.5"
+                },
+                "opera_android": {
+                    "version_added": "10"
+                },
+                "safari": {
+                    "version_added": "3.1"
+                },
+                "safari_ios": {
+                    "version_added": "2"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "4"
+                }
+            },
+            "title": "<single-transition-timing-function>"
+        }
+    ],
+    "eventdef-animationevent-animationcancel": [
+        {
+            "slug": "API/GlobalEventHandlers/onanimationcancel",
+            "summary": "The onanimationcancel property of the GlobalEventHandlers mixin is the EventHandler for processing animationcancel events.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "54"
+                },
+                "firefox_android": {
+                    "version_added": "54"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "GlobalEventHandlers.onanimationcancel"
+        }
+    ],
+    "eventdef-animationevent-animationend": [
+        {
+            "slug": "API/GlobalEventHandlers/onanimationend",
+            "summary": "The onanimationend property of the GlobalEventHandlers mixin is the EventHandler for processing animationend events.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "onwebkitanimationend",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "onwebkitanimationend",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "onwebkitanimationend",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "GlobalEventHandlers.onanimationend"
+        }
+    ],
+    "eventdef-animationevent-animationiteration": [
+        {
+            "slug": "API/GlobalEventHandlers/onanimationiteration",
+            "summary": "The onanimationiteration property of the GlobalEventHandlers mixin is the EventHandler for processing animationiteration events.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "onwebkitanimationiteration",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "onwebkitanimationiteration",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "onwebkitanimationiteration",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "GlobalEventHandlers.onanimationiteration"
+        }
+    ],
+    "eventdef-animationevent-animationstart": [
+        {
+            "slug": "API/GlobalEventHandlers/onanimationstart",
+            "summary": "An event handler for the animationstart event. This event is sent when a CSS Animation starts to play.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "onwebkitanimationstart",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "onwebkitanimationstart",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "onwebkitanimationstart",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "GlobalEventHandlers.onanimationstart"
+        }
+    ],
+    "interface-animationevent": [
+        {
+            "slug": "API/AnimationEvent",
+            "summary": "The AnimationEvent interface represents events providing information related to animations.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "6"
+                },
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "prefix": "webkit",
+                        "version_added": "30"
+                    },
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "o",
+                        "version_added": "12"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "prefix": "webkit",
+                        "version_added": "30"
+                    },
+                    {
+                        "version_added": "12.10"
+                    },
+                    {
+                        "prefix": "o",
+                        "version_added": "12"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": "9.1"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "4"
+                    }
+                ],
+                "safari_ios": {
+                    "prefix": "webkit",
+                    "version_added": null
+                },
+                "samsunginternet_android": [
+                    {
+                        "version_added": "4.0"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": {
+                    "prefix": "webkit",
+                    "version_added": true
+                }
+            },
+            "title": "AnimationEvent"
+        }
+    ],
+    "interface-csskeyframesrule": [
+        {
+            "slug": "API/CSSKeyframesRule",
+            "summary": "The CSSKeyframesRule interface describes an object representing a complete set of keyframes for a CSS animation. It corresponds to the contains of a whole @keyframes at-rule. It implements the CSSRule interface with a type value of 7 (CSSRule.KEYFRAMES_RULE).",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "5"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "prefix": "-o",
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "prefix": "-o",
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "4"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSKeyframesRule"
+        }
+    ],
+    "interface-cssrule": [
+        {
+            "slug": "API/CSSRule",
+            "summary": "The CSSRule interface represents a single CSS rule. There are several types of rules, listed in the Type constants section below.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSRule"
+        }
+    ],
+    "keyframes": [
+        {
+            "slug": "CSS/@keyframes",
+            "summary": "The @keyframes CSS at-rule controls the intermediate steps in a CSS animation sequence by defining styles for keyframes (or waypoints) along the animation sequence.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "<code>@keyframes</code> is unsupported in scoped stylesheets in Firefox (<a href='https://bugzil.la/830056'>bug 830056</a>).",
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "5"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "30"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "12.1",
+                        "version_removed": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "12",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "4"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": "4.0"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": "43"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "@keyframes"
+        }
+    ]
+}

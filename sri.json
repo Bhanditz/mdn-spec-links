@@ -1,0 +1,159 @@
+{
+    "htmlscriptelement": [
+        {
+            "slug": "HTML/Element/link",
+            "summary": "The HTML External Resource Link element (link) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both \"favicon\" style icons and mobile home screen/app icons) among other things.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "<link>: The External Resource Link element"
+        },
+        {
+            "slug": "HTML/Element/script",
+            "summary": "The HTML script element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Starting in Firefox 4, inserting &lt;script&gt; elements that have been created by calling <code>document.createElement(\"script\")</code> no longer enforces execution in insertion order. This change lets Firefox properly abide by the specification. To make script-inserted external scripts execute in their insertion order, set <code>.async=false</code> on them.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "<script>: The Script element"
+        }
+    ],
+    "opt-in-require-sri-for": [
+        {
+            "slug": "HTTP/Headers/Content-Security-Policy/require-sri-for",
+            "summary": "The HTTP Content-Security-Policy require-sri-for directive instructs the client to require the use of Subresource Integrity for scripts or styles on the page.",
+            "support": {
+                "chrome": {
+                    "version_added": "54"
+                },
+                "chrome_android": {
+                    "version_added": "54"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "security.csp.experimentalEnabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "49"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "security.csp.experimentalEnabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "49"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "41"
+                },
+                "opera_android": {
+                    "version_added": "41"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "54"
+                }
+            },
+            "title": "CSP: require-sri-for"
+        }
+    ]
+}

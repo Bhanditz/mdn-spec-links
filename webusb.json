@@ -1,0 +1,1778 @@
+{
+    "device-usage": [
+        {
+            "slug": "API/USBDevice",
+            "summary": "The USBDevice interface of the the WebUSB API provides access to metadata about a paired USB device and methods for controlling it.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice"
+        }
+    ],
+    "dom-usb-getdevices": [
+        {
+            "slug": "API/USB/getDevices",
+            "summary": "The getDevices method of the USB interface returns a Promise that resolves with an array of USBDevice objects for paired attached devices. For information on pairing devices, see USB.requestDevice().",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USB.getDevices()"
+        }
+    ],
+    "dom-usb-onconnect": [
+        {
+            "slug": "API/USB/onconnect",
+            "summary": "The onconnect property of the USB interface is an event handler called whenever a paired device is connected.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USB.onconnect"
+        }
+    ],
+    "dom-usb-ondisconnect": [
+        {
+            "slug": "API/USB/ondisconnect",
+            "summary": "The ondisconnect property of the USB is an event handler called whenever a paired device is disconnected.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USB.ondisconnect"
+        }
+    ],
+    "dom-usb-requestdevice-options-options": [
+        {
+            "slug": "API/USB/requestDevice",
+            "summary": "The requestDevice() method of the USB interface returns a Promise that resolves with an instance of USBDevice if the specified device is found. Calling this function triggers the user agent's pairing flow.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USB.requestDevice()"
+        }
+    ],
+    "dom-usbdevice-claiminterface": [
+        {
+            "slug": "API/USBDevice/claimInterface",
+            "summary": "The claimInterface() method of the USBDevice interface returns a promise that resolves when the requested interface is claimed for exclusive access.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.claimInterface()"
+        }
+    ],
+    "dom-usbdevice-clearhalt": [
+        {
+            "slug": "API/USBDevice/clearHalt",
+            "summary": "The clearHalt() method of the USBDevice interface returns a promise that resolves when a halt condition is cleared. A halt condition is when a data tranfer to or from the device has a status of 'stall', which requires the web page (the host system, in USB terminology) to clear that condition. See the for details.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.clearHalt()"
+        }
+    ],
+    "dom-usbdevice-close": [
+        {
+            "slug": "API/USBDevice/close",
+            "summary": "The close() method of the USBDevice interface returns a promise that resolves when all open interfaces are released and the device session has ended.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.close()"
+        }
+    ],
+    "dom-usbdevice-configuration": [
+        {
+            "slug": "API/USBDevice/configuration",
+            "summary": "The configuration read only property of the USBDevice interface returns a USBConfiguration object for the currently selected interface for a paired USB device.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.configuration"
+        }
+    ],
+    "dom-usbdevice-configurations": [
+        {
+            "slug": "API/USBDevice/configurations",
+            "summary": "The configurations read only property of the USBDevice interface an array of device-specific interfaces for controlling a paired USB device.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.configurations"
+        }
+    ],
+    "dom-usbdevice-controltransferin": [
+        {
+            "slug": "API/USBDevice/controlTransferIn",
+            "summary": "The controlTransferIn() method of the USBDevice interface returns a promise that resolves with a USBInTransferResult when a command or status operation has been transmitted to the USB device.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.controlTransferIn()"
+        }
+    ],
+    "dom-usbdevice-controltransferout": [
+        {
+            "slug": "API/USBDevice/controlTransferOut",
+            "summary": "The controlTransferOut() method of the USBDevice interface returns a promise that resolves with a USBOutTransferResult when a command or status operation has been transmitted from the USB device.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.controlTransferOut()"
+        }
+    ],
+    "dom-usbdevice-deviceclass": [
+        {
+            "slug": "API/USBDevice/deviceClass",
+            "summary": "The deviceClass read only property of the USBDevice interface one of three properties that identify USB devices for the purpose of loading a USB driver that will work with that device. The other two properties are USBDevice.deviceSubclass and USBDevice.deviceprotocol.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.deviceClass"
+        }
+    ],
+    "dom-usbdevice-deviceprotocol": [
+        {
+            "slug": "API/USBDevice/deviceProtocol",
+            "summary": "The deviceProtocol read only property of the USBDevice interface one of three properties that identify USB devices for the purpose of loading a USB driver that will work with that device. The other two properties are USBDevice.deviceClass and USBDevice.deviceSubclass.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.deviceProtocol"
+        }
+    ],
+    "dom-usbdevice-devicesubclass": [
+        {
+            "slug": "API/USBDevice/deviceSubclass",
+            "summary": "The deviceSubclass read only property of the USBDevice interface one of three properties that identify USB devices for the purpose of loading a USB driver that will work with that device. The other two properties are USBDevice.deviceClass and USBDevice.deviceProtocol.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.deviceSubclass"
+        }
+    ],
+    "dom-usbdevice-deviceversionmajor": [
+        {
+            "slug": "API/USBDevice/deviceVersionMajor",
+            "summary": "The deviceVersionMajor read only property of the USBDevice interface he major version number of the device in a semantic versioning scheme.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.deviceVersionMajor"
+        }
+    ],
+    "dom-usbdevice-deviceversionminor": [
+        {
+            "slug": "API/USBDevice/deviceVersionMinor",
+            "summary": "The deviceVersionMinor read only property of the USBDevice interface the minor version number of the device in a semantic versioning scheme.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.deviceVersionMinor"
+        }
+    ],
+    "dom-usbdevice-deviceversionsubminor": [
+        {
+            "slug": "API/USBDevice/deviceVersionSubminor",
+            "summary": "The deviceVersionSubminor read only property of the USBDevice interface the patch version number of the device in a semantic versioning scheme.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.deviceVersionSubminor"
+        }
+    ],
+    "dom-usbdevice-isochronoustransferin": [
+        {
+            "slug": "API/USBDevice/isochronousTransferIn",
+            "summary": "The isochronousTransferIn() method of the USBDevice interface returns a promise that resolves with a USBIsochronousInTransferResult when time sensitive information has been transmitted to the USB device.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.isochronousTransferIn()"
+        }
+    ],
+    "dom-usbdevice-isochronoustransferout": [
+        {
+            "slug": "API/USBDevice/isochronousTransferOut",
+            "summary": "The isochronousTransferOut() method of the USBDevice interface returns a promise that resolves with a USBIsochronousOutTransferResult when time sensitive information has been transmitted from the USB device.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.isochronousTransferOut()"
+        }
+    ],
+    "dom-usbdevice-manufacturername": [
+        {
+            "slug": "API/USBDevice/manufacturerName",
+            "summary": "The manufacturerName read only property of the USBDevice interface the of the organization that manufactured the USB device.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.manufacturerName"
+        }
+    ],
+    "dom-usbdevice-open": [
+        {
+            "slug": "API/USBDevice/open",
+            "summary": "The open() method of the USBDevice interface returns a promise that resolves when a device session has started.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.open()"
+        }
+    ],
+    "dom-usbdevice-opened": [
+        {
+            "slug": "API/USBDevice/opened",
+            "summary": "The opened read only property of the USBDevice interface indicates whether a session has been started with a paired USB device. A device must be opened before it can conrolled by a web page.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.opened"
+        }
+    ],
+    "dom-usbdevice-productid": [
+        {
+            "slug": "API/USBDevice/productId",
+            "summary": "The productID read only property of the USBDevice interface the manufacturer-defined code that identifies a USB device.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.productID"
+        }
+    ],
+    "dom-usbdevice-productname": [
+        {
+            "slug": "API/USBDevice/productName",
+            "summary": "The productName read only property of the USBDevice interface the manufacturer-defined name that identifies a USB device.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.productName"
+        }
+    ],
+    "dom-usbdevice-releaseinterface": [
+        {
+            "slug": "API/USBDevice/releaseInterface",
+            "summary": "The releaseInterface() method of the USBDevice interface returns a promise that resolves when a cliamed interface is released from exclusive access.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.releaseInterface()"
+        }
+    ],
+    "dom-usbdevice-reset": [
+        {
+            "slug": "API/USBDevice/reset",
+            "summary": "The reset() method of the USBDevice interface eturns a promise that resolves when the device is reset and all app operations canceled and their promises rejected.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.reset()"
+        }
+    ],
+    "dom-usbdevice-selectalternateinterface": [
+        {
+            "slug": "API/USBDevice/selectAlternateInterface",
+            "summary": "The selectAlternateInterface() method of the USBDevice interface returns a promise that resolves when the specified alternative endpoint is selected.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.selectAlternateInterface()"
+        }
+    ],
+    "dom-usbdevice-selectconfiguration": [
+        {
+            "slug": "API/USBDevice/selectConfiguration",
+            "summary": "The selectConfiguration() method of the USBDevice interface returns a promise that resolves when the specified configuration is selected.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.selectConfiguration()"
+        }
+    ],
+    "dom-usbdevice-serialnumber": [
+        {
+            "slug": "API/USBDevice/serialNumber",
+            "summary": "The serialNumber read only property of the USBDevice interface is the manufacturer-defined serial number for the specific USB device.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.serialNumber"
+        }
+    ],
+    "dom-usbdevice-transferin": [
+        {
+            "slug": "API/USBDevice/transferIn",
+            "summary": "The transferIn() method of the USBDevice interface returns a promise that resolves with a USBTransferInResult when bulk or interrupt data is transmitted to the USB device.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.transferIn()"
+        }
+    ],
+    "dom-usbdevice-transferout": [
+        {
+            "slug": "API/USBDevice/transferOut",
+            "summary": "The transferOut() method of the USBDevice interface returns a promise that resolves with a USBTransferOutResult when bulk or interrupt data is transmitted from the USB device.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.transferOut()"
+        }
+    ],
+    "dom-usbdevice-usbversionmajor": [
+        {
+            "slug": "API/USBDevice/usbVersionMajor",
+            "summary": "The usbVersionMajor read only property of the USBDevice interface is one of three properties that declare the USB protocol version supported by the device. The other two properties are USBDevice.usbVersionMinor and USBDevice.usbVersionSubminor.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.usbVersionMajor"
+        }
+    ],
+    "dom-usbdevice-usbversionminor": [
+        {
+            "slug": "API/USBDevice/usbVersionMinor",
+            "summary": "The usbVersionMinor read only property of the USBDevice interface is one of three properties that declare the USB protocol version supported by the device. The other two properties are USBDevice.usbVersionMajor and USBDevice.usbVersionSubminor.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.usbVersionMinor"
+        }
+    ],
+    "dom-usbdevice-usbversionsubminor": [
+        {
+            "slug": "API/USBDevice/usbVersionSubminor",
+            "summary": "The usbVersionSubminor read only property of the USBDevice interface is one of three properties that declare the USB protocol version supported by the device. The other two properties are USBDevice.usbVersionMajor and USBDevice.usbVersionMinor.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.usbVersionSubminor"
+        }
+    ],
+    "dom-usbdevice-vendorid": [
+        {
+            "slug": "API/USBDevice/vendorId",
+            "summary": "The vendorID read only property of the USBDevice interface is the official usg.org-assigned vendor ID.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USBDevice.vendorID"
+        }
+    ],
+    "enumeration": [
+        {
+            "slug": "API/USB",
+            "summary": "The USB interface of the WebUSB API provides attributes and methods for finding and connecting USB devices from a web page.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "USB"
+        }
+    ]
+}

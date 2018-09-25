@@ -1,0 +1,707 @@
+{
+    "descdef-viewport-height": [
+        {
+            "slug": "CSS/@viewport/height",
+            "summary": "The height CSS descriptor is a shorthand descriptor for setting both min-height and max-height of the viewport. by providing one viewport length value will set both, the minimum height and the maximum height, to the value provided.",
+            "support": {
+                "chrome": {
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": "29"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4"
+                }
+            },
+            "title": "height"
+        }
+    ],
+    "descdef-viewport-max-height": [
+        {
+            "slug": "CSS/@viewport/max-height",
+            "summary": "The max-height CSS descriptor specifies the maximum height of the viewport of a document defined via the @viewport at-rule.",
+            "support": {
+                "chrome": {
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": "29"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4"
+                }
+            },
+            "title": "max-height"
+        }
+    ],
+    "descdef-viewport-max-width": [
+        {
+            "slug": "CSS/@viewport/max-width",
+            "summary": "The max-width CSS descriptor specifies the maximum width of the viewport of a document defined via the @viewport at-rule.",
+            "support": {
+                "chrome": {
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": "29"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4"
+                }
+            },
+            "title": "max-width"
+        }
+    ],
+    "descdef-viewport-min-height": [
+        {
+            "slug": "CSS/@viewport/min-height",
+            "summary": "The min-height CSS descriptor specifies the minimum height of the viewport of a document defined via the @viewport at-rule.",
+            "support": {
+                "chrome": {
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": "29"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4"
+                }
+            },
+            "title": "min-height"
+        }
+    ],
+    "descdef-viewport-min-width": [
+        {
+            "slug": "CSS/@viewport/min-width",
+            "summary": "The min-width CSS descriptor specifies the minimum width of the viewport of a document defined via @viewport.",
+            "support": {
+                "chrome": {
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": "29"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4"
+                }
+            },
+            "title": "min-width"
+        },
+        {
+            "slug": "CSS/@viewport/width",
+            "summary": "The width CSS descriptor is shorthand for setting both the min-width and the max-width of the viewport. By providing one viewport length value, that value will determine both the min-width and the max-width to the value provided.",
+            "support": {
+                "chrome": {
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": "29"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4"
+                }
+            },
+            "title": "width"
+        }
+    ],
+    "max-zoom-desc": [
+        {
+            "slug": "CSS/@viewport/max-zoom",
+            "summary": "The max-zoom CSS descriptor sets the maximum zoom factor of a document defined by the @viewport at-rule. The browser will not zoom in any further than this, whether automatically or at the user's request.",
+            "support": {
+                "chrome": {
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": "29"
+                },
+                "edge": {
+                    "prefix": "-ms-",
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "prefix": "-ms-",
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "max-zoom"
+        }
+    ],
+    "min-zoom-desc": [
+        {
+            "slug": "CSS/@viewport/min-zoom",
+            "summary": "The min-zoom CSS descriptor sets the minimum zoom factor of a document defined by the @viewport at-rule. The browser will not zoom out any further than this, whether automatically or at the user's request.",
+            "support": {
+                "chrome": {
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": "29"
+                },
+                "edge": {
+                    "prefix": "-ms-",
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "prefix": "-ms-",
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "min-zoom"
+        }
+    ],
+    "the-atviewport-rule": [
+        {
+            "slug": "CSS/@viewport",
+            "summary": "The @viewport CSS at-rule lets you configure the viewport through which the document is viewed. It's primarily used for mobile devices, but is also used by desktop browsers that support features like \"snap to edge\" (such as Microsoft Edge).",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "--enable-experimental-webkit-features",
+                            "type": "runtime_flag"
+                        },
+                        {
+                            "name": "--enable-viewport",
+                            "type": "runtime_flag"
+                        }
+                    ],
+                    "notes": "See Chromium <a href='https://crbug.com/235457'>bug 235457</a>.",
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": "29"
+                },
+                "edge": {
+                    "flags": [
+                        {
+                            "name": "Enable @-ms-viewport rules",
+                            "type": "preference"
+                        }
+                    ],
+                    "prefix": "-ms-",
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Enable @-ms-viewport rules",
+                            "type": "preference"
+                        }
+                    ],
+                    "prefix": "-ms-",
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "See Firefox <a href='https://bugzil.la/747754'>bug 747754</a>.",
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "notes": "See Firefox <a href='https://bugzil.la/747754'>bug 747754</a>.",
+                    "version_added": false
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "flags": [
+                            {
+                                "name": "--enable-experimental-webkit-features",
+                                "type": "runtime_flag"
+                            },
+                            {
+                                "name": "--enable-viewport",
+                                "type": "runtime_flag"
+                            }
+                        ],
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "11.1",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "notes": "See WebKit <a href='https://bugs.webkit.org/show_bug.cgi?id=95959'>bug 95959</a>.",
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "notes": "See WebKit <a href='https://bugs.webkit.org/show_bug.cgi?id=95959'>bug 95959</a>.",
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4"
+                }
+            },
+            "title": "@viewport"
+        }
+    ],
+    "the-lsquoorientationrsquo-descriptor": [
+        {
+            "slug": "CSS/@viewport/orientation",
+            "summary": "The orientation CSS descriptor controls the orientation of a document defined by @viewport.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "prefix": "-o-",
+                    "version_added": "8"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "orientation"
+        }
+    ],
+    "the-lsquouser-zoomrsquo-descriptor": [
+        {
+            "slug": "CSS/@viewport/user-zoom",
+            "summary": "The user-zoom CSS descriptor controls whether or not the user can change the zoom factor of a document defined by @viewport.",
+            "support": {
+                "chrome": {
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": "29"
+                },
+                "edge": {
+                    "prefix": "-ms-",
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "prefix": "-ms-",
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "user-zoom"
+        }
+    ],
+    "zoom-desc": [
+        {
+            "slug": "CSS/@viewport/zoom",
+            "summary": "The zoom CSS descriptor sets the initial zoom factor of a document defined by the @viewport at-rule.",
+            "support": {
+                "chrome": {
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "16"
+                },
+                "opera_android": {
+                    "version_added": "37"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "4.4"
+                }
+            },
+            "title": "zoom"
+        }
+    ]
+}

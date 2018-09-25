@@ -1,0 +1,1441 @@
+{
+    "Crypto-method-getRandomValues": [
+        {
+            "slug": "API/Crypto/getRandomValues",
+            "summary": "The Crypto.getRandomValues() method lets you get cryptographically strong random values. The array given as the parameter is filled with random numbers (random in its cryptographic meaning).",
+            "support": {
+                "chrome": {
+                    "version_added": "11"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": {
+                    "version_added": "26"
+                },
+                "firefox_android": {
+                    "version_added": "26"
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "14"
+                },
+                "safari": {
+                    "version_added": "4"
+                },
+                "safari_ios": {
+                    "version_added": "4"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Crypto.getRandomValues()"
+        }
+    ],
+    "SubtleCrypto-method-decrypt": [
+        {
+            "slug": "API/SubtleCrypto/decrypt",
+            "summary": "The SubtleCrypto.decrypt() method decrypts some encrypted data. It takes as arguments a key to decrypt with, some optional extra parameters, and the data to decrypt (also known as ciphertext). It returns a Promise which will be resolved with the decrypted data (also known as \"plaintext\").",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "notes": [
+                        "Not supported: AES-CTR."
+                    ],
+                    "partial_implementation": true,
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "notes": "Returns <code>CryptoOperation</code> instead of <code>Promise</code>",
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "SubtleCrypto.decrypt()"
+        }
+    ],
+    "SubtleCrypto-method-encrypt": [
+        {
+            "slug": "API/SubtleCrypto/encrypt",
+            "summary": "The SubtleCrypto.encrypt() method encrypts data.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "notes": [
+                        "Not supported: AES-CTR."
+                    ],
+                    "partial_implementation": true,
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "notes": "Returns <code>CryptoOperation</code> instead of <code>Promise</code>",
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "SubtleCrypto.encrypt()"
+        }
+    ],
+    "crypto-interface": [
+        {
+            "slug": "API/Crypto",
+            "summary": "The Crypto interface represents basic cryptography features available in the current context. It allows access to a cryptographically strong random number generator and to cryptographic primitives.",
+            "support": {
+                "chrome": {
+                    "version_added": "11"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": {
+                    "version_added": "26"
+                },
+                "firefox_android": {
+                    "version_added": "26"
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "14"
+                },
+                "safari": {
+                    "version_added": "6.1"
+                },
+                "safari_ios": {
+                    "version_added": "6.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Crypto"
+        }
+    ],
+    "dfn-Crypto": [
+        {
+            "slug": "API/Crypto/subtle",
+            "summary": "The Crypto.subtle read-only property returns a SubtleCrypto object allowing to perform cryptographical operations.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": [
+                    {
+                        "version_added": "10.1"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "7"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "10.1"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "7"
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "Crypto.subtle"
+        }
+    ],
+    "dfn-CryptoKey": [
+        {
+            "slug": "API/CryptoKey",
+            "summary": "The CryptoKey interface represents a cryptographic key derived from a specific key algorithm.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "34"
+                },
+                "firefox_android": {
+                    "version_added": "34"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "CryptoKey"
+        }
+    ],
+    "dfn-CryptoKey-algorithm": [
+        {
+            "slug": "API/CryptoKey/algorithm",
+            "summary": "The CryptoKey.algorithm read-only property is an opaque value containing all the information about the algorithm related to the key.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "34"
+                },
+                "firefox_android": {
+                    "version_added": "34"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "CryptoKey.algorithm"
+        }
+    ],
+    "dfn-CryptoKey-extractable": [
+        {
+            "slug": "API/CryptoKey/extractable",
+            "summary": "The CryptoKey.extractable read-only property that indicates if the raw material key can be extracted, for example for archiving it.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "34"
+                },
+                "firefox_android": {
+                    "version_added": "34"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "CryptoKey.extractable"
+        }
+    ],
+    "dfn-CryptoKey-type": [
+        {
+            "slug": "API/CryptoKey/type",
+            "summary": "The CryptoKey.type read-only property that indicates the type of the key: if it is the key for a symmetric algorithm (\"secret\") or for an asymmetric algorithm (\"public\" or \"private\", depending of its purpose).",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "34"
+                },
+                "firefox_android": {
+                    "version_added": "34"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "CryptoKey.type"
+        }
+    ],
+    "dfn-CryptoKey-usages": [
+        {
+            "slug": "API/CryptoKey/usages",
+            "summary": "The CryptoKey.usages read-only property is an array of enumerated that indicates the purposes of the key.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "34"
+                },
+                "firefox_android": {
+                    "version_added": "34"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "CryptoKey.usages"
+        }
+    ],
+    "dfn-GlobalCrypto": [
+        {
+            "slug": "API/Window/crypto",
+            "summary": "The Window.crypto read-only property returns the Crypto object associated to the global object. This object allows web pages access to certain cryptographic related services.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": {
+                    "version_added": "34"
+                },
+                "firefox_android": {
+                    "version_added": "34"
+                },
+                "ie": {
+                    "prefix": "ms",
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "6.1"
+                },
+                "safari_ios": {
+                    "version_added": "6.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "Window.crypto"
+        }
+    ],
+    "dfn-SubtleCrypto-method-deriveKey": [
+        {
+            "slug": "API/SubtleCrypto/deriveKey",
+            "summary": "The SubtleCrypto.deriveKey() method can be used to derive a secret key from a master key.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "notes": [
+                        "Not supported: ECDH.",
+                        "Not supported: HKDF, PBKDF2."
+                    ],
+                    "partial_implementation": true,
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "SubtleCrypto.deriveKey()"
+        }
+    ],
+    "dfn-SubtleCrypto-method-digest": [
+        {
+            "slug": "API/SubtleCrypto/digest",
+            "summary": "The SubtleCrypto.digest() method generates a digest of the given data.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "notes": [
+                        "Not supported: SHA-1."
+                    ],
+                    "partial_implementation": true,
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "notes": "Returns <code>CryptoOperation</code> instead of <code>Promise</code>",
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "SubtleCrypto.digest()"
+        }
+    ],
+    "dfn-SubtleCrypto-method-exportKey": [
+        {
+            "slug": "API/SubtleCrypto/exportKey",
+            "summary": "The SubtleCrypto.exportKey() method returns a Promise of the key encrypted in the requested format. If the key is not extractable, that is if CryptoKey.extractable returns false, the promise fails with an InvalidAccessError exception; it the format is unknown, the promise fails with a NotSupported exception.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "notes": [
+                        "Not supported: RSA-PSS, ECDSA, ECDH.",
+                        "Not supported: AES-CTR."
+                    ],
+                    "partial_implementation": true,
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "notes": "Returns <code>KeyOperation</code> instead of <code>Promise</code>",
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "SubtleCrypto.exportKey()"
+        }
+    ],
+    "dfn-SubtleCrypto-method-generateKey": [
+        {
+            "slug": "API/SubtleCrypto/generateKey",
+            "summary": "Use the SubtleCrypto.generateKey() method to generate a new key (for symmetric algorithms) or key pair (for public-key algorithms).",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "notes": [
+                        "Not supported: RSA-PSS, ECDSA, ECDH.",
+                        "Not supported: AES-CTR."
+                    ],
+                    "partial_implementation": true,
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "notes": "Returns <code>KeyOperation</code> instead of <code>Promise</code>",
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "SubtleCrypto.generateKey()"
+        }
+    ],
+    "dfn-SubtleCrypto-method-importKey": [
+        {
+            "slug": "API/SubtleCrypto/importKey",
+            "summary": "The SubtleCrypto.importKey() method imports a key: that is, it takes as input a key in an external, portable format and gives you a CryptoKey object that you can use in the Web Crypto API.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "notes": [
+                        "Not supported: RSA-PSS, ECDSA, ECDH.",
+                        "Not supported: AES-CTR, HKDF, PBKDF2."
+                    ],
+                    "partial_implementation": true,
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "notes": "Returns <code>KeyOperation</code> instead of <code>Promise</code>",
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "SubtleCrypto.importKey()"
+        }
+    ],
+    "dfn-SubtleCrypto-method-sign": [
+        {
+            "slug": "API/SubtleCrypto/sign",
+            "summary": "The SubtleCrypto.sign() method generates a digital signature.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "notes": [
+                        "Not supported: RSA-PSS, ECDSA."
+                    ],
+                    "partial_implementation": true,
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "notes": "Returns <code>CryptoOperation</code> instead of <code>Promise</code>",
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "SubtleCrypto.sign()"
+        }
+    ],
+    "dfn-SubtleCrypto-method-unwrapKey": [
+        {
+            "slug": "API/SubtleCrypto/unwrapKey",
+            "summary": "The SubtleCrypto.unwrapKey() method returns a Promise of a CryptoKey corresponding to the wrapped key given in parameter.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "notes": [
+                        "Not supported: AES-CTR."
+                    ],
+                    "partial_implementation": true,
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "notes": "Returns <code>KeyOperation</code> instead of <code>Promise</code>",
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                }
+            },
+            "title": "SubtleCrypto.unwrapKey()"
+        }
+    ],
+    "dfn-SubtleCrypto-method-verify": [
+        {
+            "slug": "API/SubtleCrypto/verify",
+            "summary": "The SubtleCrypto.verify() method verifies a digital signature.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "notes": [
+                        "Not supported: RSA-PSS, ECDSA."
+                    ],
+                    "partial_implementation": true,
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "notes": "Returns <code>CryptoOperation</code> instead of <code>Promise</code>",
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "SubtleCrypto.verify()"
+        }
+    ],
+    "dfn-SubtleCrypto-method-wrapKey": [
+        {
+            "slug": "API/SubtleCrypto/wrapKey",
+            "summary": "The SubtleCrypto.wrapKey() method returns a Promise of a wrapped symmetric key, so the key is protected when in storage or transmission in untrusted environments. The wrapped buffer returned is in the format given in parameters, and contains the key wrapped by the given wrapping key with the given algorithm.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "notes": [
+                        "Not supported: AES-CTR."
+                    ],
+                    "partial_implementation": true,
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "notes": "Returns <code>KeyOperation</code> instead of <code>Promise</code>",
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "SubtleCrypto.wrapKey()"
+        }
+    ],
+    "subtlecrypto-interface": [
+        {
+            "slug": "API/SubtleCrypto",
+            "summary": "The SubtleCrypto interface represents a set of cryptographic primitives. It is available via the Crypto.subtle properties available in a window context (via Window.crypto).",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "partial_implementation": true,
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "34"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.webcrypto.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "32",
+                        "version_removed": "34"
+                    }
+                ],
+                "ie": {
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": [
+                    {
+                        "version_added": "10.1"
+                    },
+                    {
+                        "prefix": "WebKit",
+                        "version_added": "7"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "10.1"
+                    },
+                    {
+                        "prefix": "WebKit",
+                        "version_added": "7"
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "SubtleCrypto"
+        }
+    ]
+}

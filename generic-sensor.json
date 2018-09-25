@@ -1,0 +1,578 @@
+{
+    "dom-sensor-activated": [
+        {
+            "slug": "API/Sensor/activated",
+            "summary": "The activated read-only property of the Sensor interface returns a Boolean indicating whether the sensor is active. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Sensor.activated"
+        }
+    ],
+    "dom-sensor-hasreading": [
+        {
+            "slug": "API/Sensor/hasReading",
+            "summary": "The hasReading read-only property of the Sensor interface returns a Boolean indicating whether the sensor has a reading. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Sensor.hasReading"
+        }
+    ],
+    "dom-sensor-onactivate": [
+        {
+            "slug": "API/Sensor/onactivate",
+            "summary": "The onactivate EventHandler is called when one of the Sensor interface's child interfaces becomes active.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Sensor.onactivate"
+        }
+    ],
+    "dom-sensor-onerror": [
+        {
+            "slug": "API/Sensor/onerror",
+            "summary": "The onerror EventHandler is called when an error occurs on one of the child interfaces of the Sensor interface.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Sensor.onerror"
+        }
+    ],
+    "dom-sensor-onreading": [
+        {
+            "slug": "API/Sensor/onreading",
+            "summary": "The onreading EventHandler is called when a reading is taken on one of the child interfaces of the Sensor interface.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Sensor.onreading"
+        }
+    ],
+    "dom-sensor-start": [
+        {
+            "slug": "API/Sensor/start",
+            "summary": "The start method activates one of the sensors based on Sensor. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Sensor.start()"
+        }
+    ],
+    "dom-sensor-stop": [
+        {
+            "slug": "API/Sensor/stop",
+            "summary": "The stop method of the Sensor interface deactivates the current sensor. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Sensor.stop()"
+        }
+    ],
+    "dom-sensor-timestamp": [
+        {
+            "slug": "API/Sensor/timestamp",
+            "summary": "The timestamp read-only property of the Sensor interface returns the time stamp of the latest sensor reading. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Sensor.timestamp"
+        }
+    ],
+    "dom-sensorerrorevent-sensorerrorevent": [
+        {
+            "slug": "API/SensorErrorEvent/SensorErrorEvent",
+            "summary": "The SensorErrorEvent constructor creates a new SensorErrorEvent object which provides information about errors thrown by any of the interfaces based on Sensor.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "SensorErrorEvent.SensorErrorEvent()"
+        }
+    ],
+    "sensor-error-event-error": [
+        {
+            "slug": "API/SensorErrorEvent/error",
+            "summary": "The error read-only property of the SensorErrorEvent interface returns the DOMException object passed in the event's contructor. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "SensorErrorEvent.error"
+        }
+    ],
+    "the-sensor-error-event-interface": [
+        {
+            "slug": "API/SensorErrorEvent",
+            "summary": "The SensorErrorEvent interface of the Sensor APIs provides information about errors thrown by a Sensor or related interface. ",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "SensorErrorEvent"
+        }
+    ],
+    "the-sensor-interface": [
+        {
+            "slug": "API/Sensor",
+            "summary": "The Sensor interface of the the Sensor APIs is the base class for all the other sensor interfaces. This interface cannot be used directly. Instead it provides properties, event handlers, and methods accessed by interfaces that inherit from it.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "Sensor"
+        }
+    ]
+}

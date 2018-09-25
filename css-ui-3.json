@@ -1,0 +1,944 @@
+{
+    "box-sizing": [
+        {
+            "slug": "CSS/box-sizing",
+            "summary": "The box-sizing CSS property defines how the user agent should calculate the total width and height of an element.",
+            "support": {
+                "chrome": [
+                    {
+                        "notes": "<code>box-sizing</code> is not respected when the height is calculated from <a href='https://developer.mozilla.org/docs/Web/API/Window/getComputedStyle'><code>window.getComputedStyle()</code></a>.",
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "1"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "notes": "Before Firefox 23, <code>box-sizing</code> is not respected when the height is calculated from <a href='https://developer.mozilla.org/docs/Web/API/Window/getComputedStyle'><code>window.getComputedStyle()</code></a>.",
+                        "prefix": "-moz-",
+                        "version_added": "1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "notes": "Before Firefox 23, <code>box-sizing</code> is not respected when the height is calculated from <a href='https://developer.mozilla.org/docs/Web/API/Window/getComputedStyle'><code>window.getComputedStyle()</code></a>.",
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": {
+                    "notes": "<code>box-sizing</code> is not respected when the height is calculated from <a href='https://developer.mozilla.org/docs/Web/API/Window/getComputedStyle'><code>window.getComputedStyle()</code></a>.",
+                    "version_added": "8"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": [
+                    {
+                        "version_added": "5.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3",
+                        "version_removed": true
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "notes": "<code>box-sizing</code> is not respected when the height is calculated from <a href='https://developer.mozilla.org/docs/Web/API/Window/getComputedStyle'><code>window.getComputedStyle()</code></a>.",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "2"
+                    }
+                ]
+            },
+            "title": "box-sizing"
+        }
+    ],
+    "cursor": [
+        {
+            "slug": "CSS/cursor",
+            "summary": "The cursor CSS property sets mouse cursor to display when the mouse pointer is over an element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "notes": "In Internet Explorer 11, when <code>cursor</code> is applied to an element and this element is underneath an open <a href='https://developer.mozilla.org/docs/Web/HTML/Element/select'><code>&lt;select&gt;</code></a> menu and the user hovers over a <a href='https://developer.mozilla.org/docs/Web/HTML/Element/select'><code>&lt;select&gt;</code></a> menu item that's on top of said element, the cursor for said element will be displayed rather than the <a href='https://developer.mozilla.org/docs/Web/HTML/Element/select'><code>&lt;select&gt;</code></a>'s normal cursor. See <a href='https://developer.microsoft.com/microsoft-edge/platform/issues/817822/'>bug 817822</a>.",
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1.2"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "cursor"
+        }
+    ],
+    "indeterminate": [
+        {
+            "slug": "CSS/:indeterminate",
+            "summary": "The :indeterminate CSS pseudo-class represents any form element whose state is indeterminate.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": ":indeterminate"
+        }
+    ],
+    "outline": [
+        {
+            "slug": "CSS/outline",
+            "summary": "The outline CSS property is a shorthand to set various outline properties in a single declaration: outline-style, outline-width, and outline-color.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Firefox includes absolutely positioned elements inside the outline (see <a href='https://bugzil.la/687311'>bug 687311</a>).",
+                        "version_added": "1.5"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "1",
+                        "version_removed": "3.6"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "8"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": "7"
+                },
+                "safari": {
+                    "version_added": "1.2"
+                },
+                "safari_ios": {
+                    "version_added": "3.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "outline"
+        }
+    ],
+    "outline-color": [
+        {
+            "slug": "CSS/outline-color",
+            "summary": "The outline-color CSS property sets the color of an element's outline.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "1.5"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "1",
+                        "version_removed": "3.6"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "8"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1.2"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "outline-color"
+        }
+    ],
+    "outline-offset": [
+        {
+            "slug": "CSS/outline-offset",
+            "summary": "The outline-offset CSS property sets the amount of space between an outline and the edge or border of an element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "1.5"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "9.5"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1.2"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "outline-offset"
+        }
+    ],
+    "outline-style": [
+        {
+            "slug": "CSS/outline-style",
+            "summary": "The outline-style CSS property sets the style of an element's outline. An outline is a line that is drawn around an element, outside the border.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "1.5"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "1",
+                        "version_removed": "3.6"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "46"
+                },
+                "ie": {
+                    "version_added": "8"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "1.2"
+                },
+                "safari_ios": {
+                    "version_added": "3.2"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "2"
+                }
+            },
+            "title": "outline-style"
+        }
+    ],
+    "outline-width": [
+        {
+            "slug": "CSS/outline-width",
+            "summary": "The outline-width CSS property sets the thickness of an element's outline. An outline is a line that is drawn around an element, outside the border.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "1.5"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "1",
+                        "version_removed": "3.6"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "8"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1.2"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "outline-width"
+        }
+    ],
+    "propdef-caret-color": [
+        {
+            "slug": "CSS/caret-color",
+            "summary": "The caret-color CSS property sets the color of the insertion caret, the visible marker where the next character typed will be inserted.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": {
+                    "version_added": "53"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "caret-color"
+        }
+    ],
+    "pseudo-checked": [
+        {
+            "slug": "CSS/:checked",
+            "summary": "The :checked CSS pseudo-class selector represents any radio (input type=\"radio\"), checkbox (input type=\"checkbox\"), or option (option in a select) element that is checked or toggled to an on state.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "9"
+                },
+                "opera_android": {
+                    "version_added": "9.5"
+                },
+                "safari": {
+                    "version_added": "3.1"
+                },
+                "safari_ios": {
+                    "version_added": "3.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "2"
+                }
+            },
+            "title": ":checked"
+        }
+    ],
+    "pseudo-classes": [
+        {
+            "slug": "CSS/:disabled",
+            "summary": "The :disabled CSS pseudo-class represents any disabled element. An element is disabled if it can't be activated (selected, clicked on, typed into, etc.) or accept focus. The element also has an enabled state, in which it can be activated or accept focus.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "notes": "Internet Explorer does not recognize <code>:disabled</code> on the <a href='https://developer.mozilla.org/docs/Web/HTML/Element/fieldset'><code>&lt;fieldset&gt;</code></a> element.",
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "9"
+                },
+                "opera_android": {
+                    "version_added": "9.5"
+                },
+                "safari": {
+                    "version_added": "3.1"
+                },
+                "safari_ios": {
+                    "version_added": "3.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "2"
+                }
+            },
+            "title": ":disabled"
+        },
+        {
+            "slug": "CSS/:enabled",
+            "summary": "The :enabled CSS pseudo-class represents any enabled element. An element is enabled if it can be activated (selected, clicked on, typed into, etc.) or accept focus. The element also has a disabled state, in which it can't be activated or accept focus.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "9"
+                },
+                "opera_android": {
+                    "version_added": "9.5"
+                },
+                "safari": {
+                    "version_added": "3.1"
+                },
+                "safari_ios": {
+                    "version_added": "3.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "2"
+                }
+            },
+            "title": ":enabled"
+        }
+    ],
+    "pseudo-default": [
+        {
+            "slug": "CSS/:default",
+            "summary": "The :default CSS pseudo-class represents any form element that is the default among a group of related elements.",
+            "support": {
+                "chrome": {
+                    "version_added": "10"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "10"
+                },
+                "opera_android": {
+                    "version_added": "10"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": "5"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": ":default"
+        }
+    ],
+    "pseudo-required-value": [
+        {
+            "slug": "CSS/:optional",
+            "summary": "The :optional CSS pseudo-class represents any input, select, or textarea element that does not have the required attribute set on it.",
+            "support": {
+                "chrome": {
+                    "version_added": "10"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "10"
+                },
+                "opera_android": {
+                    "version_added": "10"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": "5"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": ":optional"
+        },
+        {
+            "slug": "CSS/:required",
+            "summary": "The :required CSS pseudo-class represents any input, select, or textarea element that has the required attribute set on it.",
+            "support": {
+                "chrome": {
+                    "version_added": "10"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "10"
+                },
+                "opera_android": {
+                    "version_added": "10"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": "5"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": ":required"
+        }
+    ],
+    "resize": [
+        {
+            "slug": "CSS/resize",
+            "summary": "The resize CSS property sets whether an element is resizable, and if so, in which directions.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4",
+                        "version_removed": true
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "resize"
+        }
+    ],
+    "text-overflow": [
+        {
+            "slug": "CSS/text-overflow",
+            "summary": "The text-overflow CSS property sets how hidden overflow content is signaled to users. It can be clipped, display an ellipsis ('\u2026'), or display a custom string.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Until Firefox 10, handling of <code>text-overflow</code> on blocks with inline overflow on both horizontal sides was incorrect. Before Firefox 10, if only one value was specified (such as <code>text-overflow: ellipsis;</code>), text was ellipsed on both sides of the block, instead of only the end edge based on the block's text direction.",
+                    "version_added": "7"
+                },
+                "firefox_android": {
+                    "notes": "Until Firefox 10, handling of <code>text-overflow</code> on blocks with inline overflow on both horizontal sides was incorrect. Before Firefox 10, if only one value was specified (such as <code>text-overflow: ellipsis;</code>), text was ellipsed on both sides of the block, instead of only the end edge based on the block's text direction.",
+                    "version_added": "7"
+                },
+                "ie": [
+                    {
+                        "version_added": "6"
+                    },
+                    {
+                        "prefix": "-ms-",
+                        "version_added": "8"
+                    }
+                ],
+                "opera": [
+                    {
+                        "version_added": "11"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "9"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1.3"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "text-overflow"
+        }
+    ]
+}

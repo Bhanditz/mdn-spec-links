@@ -1,0 +1,5658 @@
+{
+    "3.2": [
+        {
+            "slug": "API/WebGLQuery",
+            "summary": "The WebGLQuery interface is part of the WebGL 2 API and provides ways to asynchronously query for information. By default, occlusion queries and primitive queries are available.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGLQuery"
+        }
+    ],
+    "3.3": [
+        {
+            "slug": "API/WebGLSampler",
+            "summary": "The WebGLSampler interface is part of the WebGL 2 API and stores sampling parameters for WebGLTexture access inside of a shader.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGLSampler"
+        }
+    ],
+    "3.4": [
+        {
+            "slug": "API/WebGLSync",
+            "summary": "The WebGLSync interface is part of the WebGL 2 API and is used to synchronize activities between the GPU and the application.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGLSync"
+        }
+    ],
+    "3.5": [
+        {
+            "slug": "API/WebGLTransformFeedback",
+            "summary": "The WebGLTransformFeedback interface is part of the WebGL 2 API and enables transform feedback, which is the process of capturing primitives generated by vertex processing. It allows to preserve the post-transform rendering state of an object and resubmit this data multiple times.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGLTransformFeedback"
+        }
+    ],
+    "3.6": [
+        {
+            "slug": "API/WebGLVertexArrayObject",
+            "summary": "The WebGLVertexArrayObject interface is part of the WebGL 2 API, represents vertex array objects (VAOs) pointing to vertex array data, and provides names for different sets of vertex data.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGLVertexArrayObject"
+        },
+        {
+            "slug": "API/WebGLVertexArrayObjectOES",
+            "summary": "The WebGLVertexArrayObject interface is part of the WebGL 2 API, represents vertex array objects (VAOs) pointing to vertex array data, and provides names for different sets of vertex data.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "WebGLVertexArrayObjectOES"
+        }
+    ],
+    "3.7": [
+        {
+            "slug": "API/WebGL2RenderingContext",
+            "summary": "The WebGL2RenderingContext interface provides the OpenGL ES 3.0 rendering context for the drawing surface of an HTML canvas element.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext"
+        }
+    ],
+    "3.7.1": [
+        {
+            "slug": "API/WebGLRenderingContext/bindBuffer",
+            "summary": "The WebGLRenderingContext.bindBuffer() method of the WebGL API binds a given WebGLBuffer to a target.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.bindBuffer()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/bindFramebuffer",
+            "summary": "The WebGLRenderingContext.bindFramebuffer() method of the WebGL API binds a given WebGLFramebuffer to a target.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.bindFramebuffer()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/bindTexture",
+            "summary": "The WebGLRenderingContext.bindTexture() method of the WebGL API binds a given WebGLTexture to a target (binding point).",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.bindTexture()"
+        }
+    ],
+    "3.7.11": [
+        {
+            "slug": "API/WebGL2RenderingContext/clearBuffer",
+            "summary": "The WebGL2RenderingContext.clearBuffer[fiuv]() methods of the WebGL 2 API clear buffers from the currently bound framebuffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.clearBuffer[fiuv]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/clearBuffer",
+            "summary": "The WebGL2RenderingContext.clearBuffer[fiuv]() methods of the WebGL 2 API clear buffers from the currently bound framebuffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.clearBuffer[fiuv]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/clearBuffer",
+            "summary": "The WebGL2RenderingContext.clearBuffer[fiuv]() methods of the WebGL 2 API clear buffers from the currently bound framebuffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.clearBuffer[fiuv]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/clearBuffer",
+            "summary": "The WebGL2RenderingContext.clearBuffer[fiuv]() methods of the WebGL 2 API clear buffers from the currently bound framebuffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.clearBuffer[fiuv]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/drawBuffers",
+            "summary": "The WebGL2RenderingContext.drawBuffers() method of the WebGL 2 API defines draw buffers to which fragment colors are written into. The draw buffer settings are part of the state of the currently bound framebuffer or the drawingbuffer if no framebuffer is bound.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.drawBuffers()"
+        }
+    ],
+    "3.7.12": [
+        {
+            "slug": "API/WebGL2RenderingContext/beginQuery",
+            "summary": "The WebGL2RenderingContext.beginQuery() method of the WebGL 2 API starts an asynchronous query. The target parameter indicates which kind of query to begin.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.beginQuery()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/createQuery",
+            "summary": "The WebGL2RenderingContext.createQuery() method of the WebGL 2 API creates and initializes WebGLQuery objects, which provide ways to asynchronously query for information.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.createQuery()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/deleteQuery",
+            "summary": "The WebGL2RenderingContext.deleteQuery() method of the WebGL 2 API deletes a given WebGLQuery object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.deleteQuery()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/endQuery",
+            "summary": "The WebGL2RenderingContext.endQuery() method of the WebGL 2 API marks the end of a given query target.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.endQuery()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/getQuery",
+            "summary": "The WebGL2RenderingContext.getQuery() method of the WebGL 2 API returns the currently active WebGLQuery for the target, or null.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getQuery()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/getQueryParameter",
+            "summary": "The WebGL2RenderingContext.getQueryParameter() method of the WebGL 2 API returns parameter information of a WebGLQuery object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getQueryParameter()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/isQuery",
+            "summary": "The WebGL2RenderingContext.isQuery() method of the WebGL 2 API returns true if the passed object is a valid WebGLQuery object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.isQuery()"
+        }
+    ],
+    "3.7.13": [
+        {
+            "slug": "API/WebGL2RenderingContext/bindSampler",
+            "summary": "The WebGL2RenderingContext.bindSampler() method of the WebGL 2 API binds a passed WebGLSampler object to the texture unit at the passed index.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.bindSampler()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/createSampler",
+            "summary": "The WebGL2RenderingContext.createSampler() method of the WebGL 2 API creates and initializes WebGLSampler objects.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.createSampler()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/deleteSampler",
+            "summary": "The WebGL2RenderingContext.deleteSampler() method of the WebGL 2 API deletes a given WebGLSampler object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.deleteSampler()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/deleteSync",
+            "summary": "The WebGL2RenderingContext.deleteSync() method of the WebGL 2 API deletes a given WebGLSync object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.deleteSync()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/getSamplerParameter",
+            "summary": "The WebGL2RenderingContext.getSamplerParameter() method of the WebGL 2 API returns parameter information of a WebGLSampler object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getSamplerParameter()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/isSampler",
+            "summary": "The WebGL2RenderingContext.isSampler() method of the WebGL 2 API returns true if the passed object is a valid WebGLSampler object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.isSampler()"
+        }
+    ],
+    "3.7.14": [
+        {
+            "slug": "API/WebGL2RenderingContext/clientWaitSync",
+            "summary": "The WebGL2RenderingContext.clientWaitSync() method of the WebGL 2 API blocks and waits for a WebGLSync object to become signaled or a given timeout to be passed.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.clientWaitSync()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/fenceSync",
+            "summary": "The WebGL2RenderingContext.fenceSync() method of the WebGL 2 API creates a new WebGLSync object and inserts it into the GL command stream.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.fenceSync()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/getSyncParameter",
+            "summary": "The WebGL2RenderingContext.getSyncParameter() method of the WebGL 2 API returns parameter information of a WebGLSync object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getSyncParameter()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/isSync",
+            "summary": "The WebGL2RenderingContext.isSync() method of the WebGL 2 API returns true if the passed object is a valid WebGLSync object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.isSync()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/waitSync",
+            "summary": "The WebGL2RenderingContext.waitSync() method of the WebGL 2 API returns immediately, but waits on the GL server until the given WebGLSync object is signaled.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.waitSync()"
+        }
+    ],
+    "3.7.15": [
+        {
+            "slug": "API/WebGL2RenderingContext/beginTransformFeedback",
+            "summary": "The WebGL2RenderingContext.beginTransformFeedback() method of the WebGL 2 API starts a transform feedback operation.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.beginTransformFeedback()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/bindTransformFeedback",
+            "summary": "The WebGL2RenderingContext.bindTransformFeedback() method of the WebGL 2 API binds a passed WebGLTransformFeedback object to the current GL state.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.bindTransformFeedback()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/createTransformFeedback",
+            "summary": "The WebGL2RenderingContext.createTransformFeedback() method of the WebGL 2 API creates and initializes WebGLTransformFeedback objects.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.createTransformFeedback()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/deleteTransformFeedback",
+            "summary": "The WebGL2RenderingContext.deleteTransformFeedback() method of the WebGL 2 API deletes a given WebGLTransformFeedback object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.deleteTransformFeedback()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/endTransformFeedback",
+            "summary": "The WebGL2RenderingContext.endTransformFeedback() method of the WebGL 2 API ends a transform feedback operation.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.endTransformFeedback()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/getTransformFeedbackVarying",
+            "summary": "The WebGL2RenderingContext.getTransformFeedbackVarying() method of the WebGL 2 API returns information about varying variables from WebGLTransformFeedback buffers.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getTransformFeedbackVarying()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/isTransformFeedback",
+            "summary": "The WebGL2RenderingContext.isTransformFeedback() method of the WebGL 2 API returns true if the passed object is a valid WebGLTransformFeedback object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.isTransformFeedback()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/pauseTransformFeedback",
+            "summary": "The WebGL2RenderingContext.pauseTransformFeedback() method of the WebGL 2 API pauses a transform feedback operation.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.pauseTransformFeedback()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/resumeTransformFeedback",
+            "summary": "The WebGL2RenderingContext.resumeTransformFeedback() method of the WebGL 2 API resumes a transform feedback operation.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.resumeTransformFeedback()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/transformFeedbackVaryings",
+            "summary": "The WebGL2RenderingContext.transformFeedbackVaryings() method of the WebGL 2 API specifies values to record in WebGLTransformFeedback buffers.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.transformFeedbackVaryings()"
+        }
+    ],
+    "3.7.16": [
+        {
+            "slug": "API/WebGL2RenderingContext/bindBufferBase",
+            "summary": "The WebGL2RenderingContext.bindBufferBase() method of the WebGL 2 API binds a given WebGLBuffer to a given binding point (target) at a given index.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.bindBufferBase()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/bindBufferRange",
+            "summary": "The WebGL2RenderingContext.bindBufferRange() method of the WebGL 2 API binds a range of a given WebGLBuffer to a given binding point (target) at a given index.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.bindBufferRange()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/getActiveUniformBlockName",
+            "summary": "The WebGL2RenderingContext.getActiveUniformBlockName() method of the WebGL 2 API retrieves the name of the active uniform block at a given index within a WebGLProgram.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getActiveUniformBlockName()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/getActiveUniformBlockParameter",
+            "summary": "The WebGL2RenderingContext.getActiveUniformBlockParameter() method of the WebGL 2 API retrieves information about an active uniform block within a WebGLProgram.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getActiveUniformBlockParameter()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/getActiveUniforms",
+            "summary": "The WebGL2RenderingContext.getActiveUniforms() method of the WebGL 2 API retrieves information about active uniforms within a WebGLProgram.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getActiveUniforms()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/getUniformBlockIndex",
+            "summary": "The WebGL2RenderingContext.getUniformBlockIndex() method of the WebGL 2 API retrieves the index of a uniform block within a WebGLProgram.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getUniformBlockIndex()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/getUniformIndices",
+            "summary": "The WebGL2RenderingContext.getUniformIndices() method of the WebGL 2 API retrieves the indices of a number of uniforms within a WebGLProgram.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getUniformIndices()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniformBlockBinding",
+            "summary": "The WebGL2RenderingContext.uniformBlockBinding() method of the WebGL 2 API assigns binding points for active uniform blocks.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniformBlockBinding()"
+        }
+    ],
+    "3.7.17": [
+        {
+            "slug": "API/WebGL2RenderingContext/bindVertexArray",
+            "summary": "The WebGL2RenderingContext.bindVertexArray() method of the WebGL 2 API binds a passed WebGLVertexArrayObject object to the buffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.bindVertexArray()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/createVertexArray",
+            "summary": "The WebGL2RenderingContext.createVertexArray() method of the WebGL 2 API creates and initializes a WebGLVertexArrayObject object that represents a vertex array object (VAO) pointing to vertex array data and which provides names for different sets of vertex data.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.createVertexArray()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/deleteVertexArray",
+            "summary": "The WebGL2RenderingContext.deleteVertexArray() method of the WebGL 2 API deletes a given WebGLVertexArrayObject object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.deleteVertexArray()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/isVertexArray",
+            "summary": "The WebGL2RenderingContext.isVertexArray() method of the WebGL API returns true if the passed object is a valid WebGLVertexArrayObject object.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.isVertexArray()"
+        }
+    ],
+    "3.7.2": [
+        {
+            "slug": "API/WebGL2RenderingContext/getIndexedParameter",
+            "summary": "The WebGL2RenderingContext.getIndexedParameter() method of the WebGL 2 API returns indexed information about a given target.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getIndexedParameter()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/getParameter",
+            "summary": "The WebGLRenderingContext.getParameter() method of the WebGL API returns a value for the passed parameter name.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.getParameter()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/isEnabled",
+            "summary": "The WebGLRenderingContext.isEnabled() method of the WebGL API tests whether a specific WebGL capability is enabled or not for this context.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.isEnabled()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/pixelStorei",
+            "summary": "The WebGLRenderingContext.pixelStorei() method of the WebGL API specifies the pixel storage modes.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.pixelStorei()"
+        }
+    ],
+    "3.7.3": [
+        {
+            "slug": "API/WebGL2RenderingContext/copyBufferSubData",
+            "summary": "The WebGL2RenderingContext.copyBufferSubData() method of the WebGL 2 API copies part of the data of a buffer to another buffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.copyBufferSubData()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/getBufferSubData",
+            "summary": "The WebGL2RenderingContext.getBufferSubData() method of the WebGL 2 API reads data from a buffer binding point and writes them to an ArrayBuffer or SharedArrayBuffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getBufferSubData()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/getBufferParameter",
+            "summary": "The WebGLRenderingContext.getBufferParameter() method of the WebGL API returns information about the buffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.getBufferParameter()"
+        }
+    ],
+    "3.7.4": [
+        {
+            "slug": "API/WebGL2RenderingContext/blitFramebuffer",
+            "summary": "The WebGL2RenderingContext.blitFramebuffer() method of the WebGL 2 API transfers a block of pixels from the read framebuffer to the draw framebuffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.blitFramebuffer()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/framebufferTextureLayer",
+            "summary": "The WebGL2RenderingContext.framebufferTextureLayer() method of the WebGL 2 API attaches a single layer of a texture to a framebuffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.framebufferTextureLayer()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/invalidateFramebuffer",
+            "summary": "The WebGL2RenderingContext.invalidateFramebuffer() method of the WebGL 2 API invalidates the contents of attachments in a framebuffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.invalidateFramebuffer()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/invalidateSubFramebuffer",
+            "summary": "The WebGL2RenderingContext.invalidateSubFramebuffer() method of the WebGL 2 API invalidates portions of the contents of attachments in a framebuffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.invalidateSubFramebuffer()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/readBuffer",
+            "summary": "The WebGL2RenderingContext.readBuffer() method of the WebGL 2 API selects a color buffer as the source for pixels for subsequent calls to copyTexImage2D, copyTexSubImage2D, copyTexSubImage3D or readPixels.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.readBuffer()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/checkFramebufferStatus",
+            "summary": "The WebGLRenderingContext.checkFramebufferStatus() method of the WebGL API returns the completeness status of the WebGLFramebuffer object.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.checkFramebufferStatus()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/getFramebufferAttachmentParameter",
+            "summary": "The WebGLRenderingContext.getFramebufferAttachmentParameter() method of the WebGL API returns information about a framebuffer's attachment.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.getFramebufferAttachmentParameter()"
+        }
+    ],
+    "3.7.5": [
+        {
+            "slug": "API/WebGL2RenderingContext/getInternalformatParameter",
+            "summary": "The WebGL2RenderingContext.getInternalformatParameter() method of the WebGL 2 API returns information about implementation-dependent support for internal formats.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getInternalformatParameter()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/renderbufferStorageMultisample",
+            "summary": "The WebGL2RenderingContext.renderbufferStorageMultisample() method of the WebGL 2 API returns creates and initializes a renderbuffer object's data store and allows specifying a number of samples to be used.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.renderbufferStorageMultisample()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/getRenderbufferParameter",
+            "summary": "The WebGLRenderingContext.getRenderbufferParameter() method of the WebGL API returns information about the renderbuffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.getRenderbufferParameter()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/renderbufferStorage",
+            "summary": "The WebGLRenderingContext.renderbufferStorage() method of the WebGL API creates and initializes a renderbuffer object's data store.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.renderbufferStorage()"
+        }
+    ],
+    "3.7.6": [
+        {
+            "slug": "API/WebGL2RenderingContext/compressedTexSubImage3D",
+            "summary": "The WebGL2RenderingContext.compressedTexSubImage3D() method of the WebGL API specifies a three-dimensional sub-rectangle for a texture image in a compressed format.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.compressedTexSubImage3D()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/copyTexSubImage3D",
+            "summary": "The WebGL2RenderingContext.copyTexSubImage3D() method of the WebGL API copies pixels from the current WebGLFramebuffer into an existing 3D texture sub-image.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.copyTexSubImage3D()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/texImage3D",
+            "summary": "The WebGLRenderingContext.texImage3D() method of the WebGL API specifies a three-dimensional texture image.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.texImage3D()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/texStorage2D",
+            "summary": "The WebGL2RenderingContext.texStorage2D() method of the WebGL API specifies all levels of two-dimensional texture storage.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.texStorage2D()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/texStorage3D",
+            "summary": "The WebGL2RenderingContext.texStorage3D() method of the WebGL API specifies all levels of a three-dimensional texture or two-dimensional array texture.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.texStorage3D()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/texSubImage3D",
+            "summary": "The WebGL2RenderingContext.texSubImage3D() method of the WebGL API specifies a sub-rectangle of the current texture.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.texSubImage3D()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/getTexParameter",
+            "summary": "The WebGLRenderingContext.getTexParameter() method of the WebGL API returns information about the given texture.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.getTexParameter()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/texImage2D",
+            "summary": "The WebGLRenderingContext.texImage2D() method of the WebGL API specifies a two-dimensional texture image.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.texImage2D()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/texParameter",
+            "summary": "The WebGLRenderingContext.texParameter[fi]() methods of the WebGL API set texture parameters.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.texParameter[fi]()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/texParameter",
+            "summary": "The WebGLRenderingContext.texParameter[fi]() methods of the WebGL API set texture parameters.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.texParameter[fi]()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/texSubImage2D",
+            "summary": "The WebGLRenderingContext.texSubImage2D() method of the WebGL API specifies a sub-rectangle of the current texture.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.texSubImage2D()"
+        }
+    ],
+    "3.7.7": [
+        {
+            "slug": "API/WebGL2RenderingContext/getFragDataLocation",
+            "summary": "The WebGL2RenderingContext.getFragDataLocation() method of the WebGL 2 API returns the binding of color numbers to user-defined varying out variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.getFragDataLocation()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/getProgramParameter",
+            "summary": "The WebGLRenderingContext.getProgramParameter() method of the WebGL API returns information about the given program.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.getProgramParameter()"
+        }
+    ],
+    "3.7.8": [
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniform",
+            "summary": "The WebGL2RenderingContext.uniform[1234][uif][v]() methods of the WebGL API specify values of uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniform[1234][uif][v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniformMatrix",
+            "summary": "The WebGL2RenderingContext.uniformMatrix[234]x[234]fv() methods of the WebGL 2 API specify matrix values for uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniformMatrix[234]x[234]fv()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniformMatrix",
+            "summary": "The WebGL2RenderingContext.uniformMatrix[234]x[234]fv() methods of the WebGL 2 API specify matrix values for uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniformMatrix[234]x[234]fv()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniformMatrix",
+            "summary": "The WebGL2RenderingContext.uniformMatrix[234]x[234]fv() methods of the WebGL 2 API specify matrix values for uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniformMatrix[234]x[234]fv()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniformMatrix",
+            "summary": "The WebGL2RenderingContext.uniformMatrix[234]x[234]fv() methods of the WebGL 2 API specify matrix values for uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniformMatrix[234]x[234]fv()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniformMatrix",
+            "summary": "The WebGL2RenderingContext.uniformMatrix[234]x[234]fv() methods of the WebGL 2 API specify matrix values for uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniformMatrix[234]x[234]fv()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniformMatrix",
+            "summary": "The WebGL2RenderingContext.uniformMatrix[234]x[234]fv() methods of the WebGL 2 API specify matrix values for uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniformMatrix[234]x[234]fv()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniformMatrix",
+            "summary": "The WebGL2RenderingContext.uniformMatrix[234]x[234]fv() methods of the WebGL 2 API specify matrix values for uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniformMatrix[234]x[234]fv()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniformMatrix",
+            "summary": "The WebGL2RenderingContext.uniformMatrix[234]x[234]fv() methods of the WebGL 2 API specify matrix values for uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniformMatrix[234]x[234]fv()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/uniformMatrix",
+            "summary": "The WebGL2RenderingContext.uniformMatrix[234]x[234]fv() methods of the WebGL 2 API specify matrix values for uniform variables.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.uniformMatrix[234]x[234]fv()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/vertexAttribI",
+            "summary": "The WebGL2RenderingContext.vertexAttribI4[u]i[v]() methods of the WebGL 2 API specify integer values for generic vertex attributes.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.vertexAttribI4[u]i[v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/vertexAttribI",
+            "summary": "The WebGL2RenderingContext.vertexAttribI4[u]i[v]() methods of the WebGL 2 API specify integer values for generic vertex attributes.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.vertexAttribI4[u]i[v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/vertexAttribI",
+            "summary": "The WebGL2RenderingContext.vertexAttribI4[u]i[v]() methods of the WebGL 2 API specify integer values for generic vertex attributes.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.vertexAttribI4[u]i[v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/vertexAttribI",
+            "summary": "The WebGL2RenderingContext.vertexAttribI4[u]i[v]() methods of the WebGL 2 API specify integer values for generic vertex attributes.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.vertexAttribI4[u]i[v]()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/vertexAttribIPointer",
+            "summary": "The WebGL2RenderingContext.vertexAttribIPointer() method of the WebGL 2 API specifies integer data formats and locations of vertex attributes in a vertex attributes array.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.vertexAttribIPointer()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/getUniform",
+            "summary": "The WebGLRenderingContext.getUniform() method of the WebGL API returns the value of a uniform variable at a given location.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.getUniform()"
+        },
+        {
+            "slug": "API/WebGLRenderingContext/getVertexAttrib",
+            "summary": "The WebGLRenderingContext.getVertexAttrib() method of the WebGL API returns information about a vertex attribute at a given position.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": "12"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "8.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "WebGLRenderingContext.getVertexAttrib()"
+        }
+    ],
+    "3.7.9": [
+        {
+            "slug": "API/WebGL2RenderingContext/drawArraysInstanced",
+            "summary": "The WebGL2RenderingContext.drawArraysInstanced() method of the WebGL 2 API renders primitives from array data like the gl.drawArrays() method. In addition, it can execute multiple instances of the range of elements.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.drawArraysInstanced()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/drawElementsInstanced",
+            "summary": "The WebGL2RenderingContext.drawElementsInstanced() method of the WebGL 2 API renders primitives from array data like the gl.drawElements() method. In addition, it can execute multiple instances of a set of elements.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.drawElementsInstanced()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/drawRangeElements",
+            "summary": "The WebGL2RenderingContext.drawRangeElements() method of the WebGL API renders primitives from array data in a given range.",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.drawRangeElements()"
+        },
+        {
+            "slug": "API/WebGL2RenderingContext/vertexAttribDivisor",
+            "summary": "The WebGL2RenderingContext.vertexAttribDivisor() method of the WebGL 2 API modifies the rate at which generic vertex attributes advance when rendering multiple instances of primitives with gl.drawArraysInstanced() and gl.drawElementsInstanced().",
+            "support": {
+                "chrome": {
+                    "version_added": "56"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "43"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "WebGL2RenderingContext.vertexAttribDivisor()"
+        }
+    ]
+}

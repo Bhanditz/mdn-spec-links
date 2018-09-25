@@ -1,0 +1,563 @@
+{
+    "FontFace-interface": [
+        {
+            "slug": "API/FontFace",
+            "summary": "The FontFace interface represents a single usable font face. It allows control of the source of the font face, being a URL to an external resource, or a buffer; it also allows control of when the font face is loaded and its current status.",
+            "support": {
+                "chrome": {
+                    "version_added": "35"
+                },
+                "chrome_android": {
+                    "version_added": "35"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "22"
+                },
+                "opera_android": {
+                    "version_added": "22"
+                },
+                "safari": {
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "version_added": "10"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "FontFace"
+        }
+    ],
+    "FontFaceSet-interface": [
+        {
+            "slug": "API/Document/fonts",
+            "summary": "The fonts property of the Document interface returns the FontFaceSet interface of the document.FontFaceSet interfaceFontFace",
+            "support": {
+                "chrome": {
+                    "version_added": "60"
+                },
+                "chrome_android": {
+                    "version_added": "60"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.font-loading-api.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "35",
+                        "version_removed": "41"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "47"
+                },
+                "opera_android": {
+                    "version_added": "47"
+                },
+                "safari": {
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "version_added": "10.2"
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "60"
+                }
+            },
+            "title": "fonts"
+        },
+        {
+            "slug": "API/FontFaceSet",
+            "summary": "The FontFaceSet interface of the CSS Font Loading API manages the loading of font-faces and querying of their download status.",
+            "support": {
+                "chrome": {
+                    "version_added": "35"
+                },
+                "chrome_android": {
+                    "version_added": "35"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "version_added": "10"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "FontFaceSet"
+        }
+    ],
+    "dom-fontface-family": [
+        {
+            "slug": "API/FontFace/display",
+            "summary": "The display property of the FontFace interface determines how a font face is displayed based on whether and when it is downloaded and ready to use. This property is equivalent to the CSS font-display descriptor.",
+            "support": {
+                "chrome": {
+                    "version_added": "60"
+                },
+                "chrome_android": {
+                    "version_added": "60"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "47"
+                },
+                "opera_android": {
+                    "version_added": "47"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "60"
+                }
+            },
+            "title": "FontFace.display"
+        },
+        {
+            "slug": "API/FontFace/family",
+            "summary": "The FontFace.family property allows the author to get or set the font family of a FontFace object. This is equivalent to the font-family descriptor of @font-face.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "family"
+        }
+    ],
+    "dom-fontfaceset-ready": [
+        {
+            "slug": "API/FontFaceSet/ready",
+            "summary": "The ready readonly property of the FontFaceSet interface returns a Promise that resolves to the given FontFaceSet.",
+            "support": {
+                "chrome": {
+                    "version_added": "35"
+                },
+                "chrome_android": {
+                    "version_added": "35"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "35"
+                },
+                "opera_android": {
+                    "version_added": "35"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "FontFaceSet.ready"
+        }
+    ],
+    "dom-fontfacesetloadevent-fontfaces": [
+        {
+            "slug": "API/FontFaceSetLoadEvent/fontfaces",
+            "summary": "The fontfaces read-only property of the FontFaceLoadEventInit interface returns an array of FontFace instances, each of which represents a single usable font.",
+            "support": {
+                "chrome": {
+                    "version_added": "35"
+                },
+                "chrome_android": {
+                    "version_added": "35"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "22"
+                },
+                "opera_android": {
+                    "version_added": "22"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "FontFaceSetLoadEvent.fontfaces"
+        }
+    ],
+    "dom-fontfacesetloadevent-fontfacesetloadevent": [
+        {
+            "slug": "API/FontFaceSetLoadEvent",
+            "summary": "The FontFaceSetLoadEvent interface of the the Css Font Loading API is fired whenever a FontFaceSet loads.",
+            "support": {
+                "chrome": {
+                    "version_added": "35"
+                },
+                "chrome_android": {
+                    "version_added": "35"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "22"
+                },
+                "opera_android": {
+                    "version_added": "22"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "FontFaceSetLoadEvent"
+        }
+    ],
+    "font-face-constructor": [
+        {
+            "slug": "API/FontFace/FontFace",
+            "summary": "The FontFace() constructor creates a new FontFace object.",
+            "support": {
+                "chrome": {
+                    "version_added": "35"
+                },
+                "chrome_android": {
+                    "version_added": "35"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "22"
+                },
+                "opera_android": {
+                    "version_added": "22"
+                },
+                "safari": {
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "version_added": "10"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "FontFace"
+        }
+    ],
+    "font-face-set-check": [
+        {
+            "slug": "API/FontFaceSet/check",
+            "summary": "A Boolean that is true if the font list is available",
+            "support": {
+                "chrome": {
+                    "version_added": "35"
+                },
+                "chrome_android": {
+                    "version_added": "35"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "FontFaceSet.check()"
+        }
+    ],
+    "font-face-set-load": [
+        {
+            "slug": "API/FontFaceSet/load",
+            "summary": "A Promise of an Array of FontFace loaded. The promise is fulfilled when all the fonts are loaded; it is rejected if one of the fonts failed to load.",
+            "support": {
+                "chrome": {
+                    "version_added": "35"
+                },
+                "chrome_android": {
+                    "version_added": "35"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "35"
+                },
+                "opera_android": {
+                    "version_added": "35"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "FontFaceSet.load()"
+        }
+    ],
+    "fontfacesetloadevent": [
+        {
+            "slug": "API/FontFaceSetLoadEvent/FontFaceSetLoadEvent",
+            "summary": "The FontFaceSetLoadEvent constructor creates a new FontFaceLoadEvent object which is fired whenever a FontFaceSet loads.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "FontFaceSetLoadEvent.FontFaceSetLoadEvent()"
+        }
+    ]
+}

@@ -1,0 +1,4853 @@
+{
+    "dom-mediadeviceinfo-deviceid": [
+        {
+            "slug": "API/MediaDeviceInfo/deviceId",
+            "summary": "The deviceId readonly property of the MediaDeviceInfo interface returns a DOMString that is an identifier for the represented device and is persisted across sessions.",
+            "support": {
+                "chrome": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                },
+                "chrome_android": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": [
+                        "This interface is available in Opera through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill."
+                    ],
+                    "version_added": null
+                },
+                "opera_android": {
+                    "notes": [
+                        "This interface is available in Opera through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill."
+                    ],
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                }
+            },
+            "title": "MediaDeviceInfo.deviceId"
+        }
+    ],
+    "dom-mediadeviceinfo-groupid": [
+        {
+            "slug": "API/MediaDeviceInfo/groupId",
+            "summary": "The groupId readonly property of the MediaDeviceInfo interface returns a DOMString that is a group identifier.",
+            "support": {
+                "chrome": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                },
+                "chrome_android": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": [
+                        "This interface is available in Opera through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill."
+                    ],
+                    "version_added": null
+                },
+                "opera_android": {
+                    "notes": [
+                        "This interface is available in Opera through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill."
+                    ],
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                }
+            },
+            "title": "MediaDeviceInfo.groupId"
+        }
+    ],
+    "dom-mediadeviceinfo-kind": [
+        {
+            "slug": "API/MediaDeviceInfo/kind",
+            "summary": "The kind readonly property of the MediaDeviceInfo interface returns an enumerated value, that is either \"videoinput\", \"audioinput\" or \"audiooutput\".",
+            "support": {
+                "chrome": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                },
+                "chrome_android": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": [
+                        "This interface is available in Opera through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill."
+                    ],
+                    "version_added": null
+                },
+                "opera_android": {
+                    "notes": [
+                        "This interface is available in Opera through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill."
+                    ],
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                }
+            },
+            "title": "MediaDeviceInfo.kind"
+        }
+    ],
+    "dom-mediadeviceinfo-label": [
+        {
+            "slug": "API/MediaDeviceInfo/label",
+            "summary": "The label readonlyinline property of the MediaDeviceInfo interface returns a DOMString, that is a label describing this device (for example \"External USB Webcam\").",
+            "support": {
+                "chrome": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                },
+                "chrome_android": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": [
+                        "This interface is available in Opera through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill."
+                    ],
+                    "version_added": null
+                },
+                "opera_android": {
+                    "notes": [
+                        "This interface is available in Opera through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill."
+                    ],
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                }
+            },
+            "title": "MediaDeviceInfo.label"
+        }
+    ],
+    "dom-mediadevices-enumeratedevices": [
+        {
+            "slug": "API/MediaDevices/enumerateDevices",
+            "summary": "The MediaDevices method enumerateDevices() requests a list of the available media input and output devices, such as microphones, cameras, headsets, and so forth.",
+            "support": {
+                "chrome": {
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "47"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Prior to Firefox 63, <code>enumerateDevices()</code> only returned input devices. Starting with Firefox 63, output devices are also included.",
+                        "version_added": "63"
+                    },
+                    {
+                        "version_added": "39"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "34"
+                },
+                "opera_android": {
+                    "version_added": "34"
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "47"
+                }
+            },
+            "title": "MediaDevices.enumerateDevices()"
+        }
+    ],
+    "dom-mediadevices-getusermedia": [
+        {
+            "slug": "API/MediaDevices/getUserMedia",
+            "summary": "The MediaDevices getUserMedia() method prompts the user for permission to use a media input which produces a MediaStream with tracks containing the requested types of media.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Experimental Web Platform features",
+                                "type": "preference",
+                                "value_to_set": "Enabled"
+                            }
+                        ],
+                        "notes": [
+                            "Older versions of Chrome implement <code>navigator.webkitGetUserMedia</code>, a prefixed form of the legacy <a href='https://developer.mozilla.org/docs/Web/API/Navigator/getUserMedia'><code>navigator.getUserMedia</code></a> API."
+                        ],
+                        "version_added": "47",
+                        "version_removed": "52"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Experimental Web Platform features",
+                                "type": "preference",
+                                "value_to_set": "Enabled"
+                            }
+                        ],
+                        "notes": [
+                            "Older versions of Chrome implement <code>navigator.webkitGetUserMedia</code>, a prefixed form of the legacy <a href='https://developer.mozilla.org/docs/Web/API/Navigator/getUserMedia'><code>navigator.getUserMedia</code></a> API."
+                        ],
+                        "version_added": "47",
+                        "version_removed": "52"
+                    }
+                ],
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "Older versions of Firefox implement <code>navigator.mozGetUserMedia</code>, a prefixed form of the legacy <a href='https://developer.mozilla.org/docs/Web/API/Navigator/getUserMedia'><code>navigator.getUserMedia</code></a> API.",
+                        "Before Firefox 55, <code>getUserMedia()</code> incorrectly returns <code>NotSupportedError</code> when the list of constraints specified is empty, or has all constraints set to <code>false</code>. Starting in Firefox 55, this situation now correctly calls the failure handler with a <code>TypeError</code>."
+                    ],
+                    "version_added": "36"
+                },
+                "firefox_android": {
+                    "notes": [
+                        "Older versions of Firefox implement <code>navigator.mozGetUserMedia</code>, a prefixed form of the legacy <a href='https://developer.mozilla.org/docs/Web/API/Navigator/getUserMedia'><code>navigator.getUserMedia</code></a> API."
+                    ],
+                    "version_added": "36"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "40"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Experimental Web Platform features",
+                                "type": "preference",
+                                "value_to_set": "Enabled"
+                            }
+                        ],
+                        "notes": [
+                            "Older versions of Opera implement <code>navigator.webkitGetUserMedia</code>, a prefixed form of the legacy <a href='https://developer.mozilla.org/docs/Web/API/Navigator/getUserMedia'><code>navigator.getUserMedia</code></a> API."
+                        ],
+                        "version_added": "34",
+                        "version_removed": "40"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "40"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Experimental Web Platform features",
+                                "type": "preference",
+                                "value_to_set": "Enabled"
+                            }
+                        ],
+                        "notes": [
+                            "Older versions of Opera implement <code>navigator.webkitGetUserMedia</code>, a prefixed form of the legacy <a href='https://developer.mozilla.org/docs/Web/API/Navigator/getUserMedia'><code>navigator.getUserMedia</code></a> API."
+                        ],
+                        "version_added": "34",
+                        "version_removed": "40"
+                    }
+                ],
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "53"
+                }
+            },
+            "title": "MediaDevices.getUserMedia()"
+        }
+    ],
+    "dom-mediadevices-ondevicechange": [
+        {
+            "slug": "API/MediaDevices/ondevicechange",
+            "summary": "The MediaDevices.ondevicechange property is an EventHandler which specifies a function to be called when the devicechange event occurs on a MediaDevices instance. This happens whenever the set of media devices available to the user agent and, by extension, to the web site or app has changed. You can at any time use enumerateDevices() to get the updated list of available devices.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "media.ondevicechange.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": [
+                            "<code>MediaDevices.ondevicechange</code> is supported only on macOS."
+                        ],
+                        "version_added": "51",
+                        "version_removed": "52"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "34"
+                },
+                "opera_android": {
+                    "version_added": "34"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "MediaDevices.ondevicechange"
+        }
+    ],
+    "dom-mediastream": [
+        {
+            "slug": "API/MediaStream",
+            "summary": "The MediaStream interface represents a stream of media content. A stream consists of several tracks such as video or audio tracks. Each track is specified as an instance of MediaStreamTrack.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "15"
+                },
+                "firefox_android": {
+                    "version_added": "15"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStream"
+        }
+    ],
+    "dom-mediastream-getaudiotracks": [
+        {
+            "slug": "API/MediaStream/getAudioTracks",
+            "summary": "The getAudioTracks() method of the MediaStream interface returns a sequence that represents all the MediaStreamTrack objects in this stream's track set where MediaStreamTrack.kind is audio.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Prior to Firefox 64, this method returned an array of <code>AudioStreamTrack</code> objects. However, <code>MediaStreamTrack</code> has now subsumed that interface's functionality.",
+                    "version_added": "22"
+                },
+                "firefox_android": {
+                    "notes": "Prior to Firefox 64, this method returned an array of <code>AudioStreamTrack</code> objects. However, <code>MediaStreamTrack</code> has now subsumed that interface's functionality.",
+                    "version_added": "22"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStream.getAudioTracks()"
+        }
+    ],
+    "dom-mediastream-gettracks": [
+        {
+            "slug": "API/MediaStream/getTracks",
+            "summary": "The getTracks() method of the MediaStream interface returns a sequence that represents all the MediaStreamTrack objects in this stream's track set, regardless of MediaStreamTrack.kind.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStream.getTracks()"
+        }
+    ],
+    "dom-mediastream-getvideotracks": [
+        {
+            "slug": "API/MediaStream/getVideoTracks",
+            "summary": "The getVideoTracks() method of the MediaStream interface returns a sequence of MediaStreamTrack objects representing the video tracks in this stream.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Prior to Firefox 64, this method returned an array of <code>VideoStreamTrack</code> objects. However, <code>MediaStreamTrack</code> has now subsumed that interface's functionality.",
+                    "version_added": "22"
+                },
+                "firefox_android": {
+                    "notes": "Prior to Firefox 64, this method returned an array of <code>VideoStreamTrack</code> objects. However, <code>MediaStreamTrack</code> has now subsumed that interface's functionality.",
+                    "version_added": "22"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStream.getVideoTracks()"
+        }
+    ],
+    "dom-mediastreamtrack-clone": [
+        {
+            "slug": "API/MediaStreamTrack/clone",
+            "summary": "The clone() method of the MediaStreamTrack interface creates a duplicate of the MediaStreamTrack. This new MediaStreamTrack object is identical except for its unique id.",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "MediaStreamTrack.clone()"
+        }
+    ],
+    "dom-mediastreamtrack-enabled": [
+        {
+            "slug": "API/MediaStreamTrack/enabled",
+            "summary": "The enabled property on the MediaStreamTrack interface is a Boolean value which is true if the track is allowed to render the source stream or false if it is not. This can be used to intentionally mute a track.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "24"
+                },
+                "firefox_android": {
+                    "version_added": "24"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamTrack.enabled"
+        }
+    ],
+    "dom-mediastreamtrack-getcapabilities": [
+        {
+            "slug": "API/MediaStreamTrack/getCapabilities",
+            "summary": "The getCapabilities() method of the MediaStreamTrack interface returns a MediaTrackCapabilities object which specifies the values or range of values which each constrianable property, based upon the platform and user agent.",
+            "support": {
+                "chrome": {
+                    "version_added": "66"
+                },
+                "chrome_android": {
+                    "version_added": "66"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "53"
+                },
+                "opera_android": {
+                    "version_added": "53"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "66"
+                }
+            },
+            "title": "MediaStreamTrack.getCapabilities()"
+        }
+    ],
+    "dom-mediastreamtrack-getconstraints": [
+        {
+            "slug": "API/MediaStreamTrack/getConstraints",
+            "summary": "The getConstraints() method of the MediaStreamTrack interface returns a MediaTrackConstraints object containing the set of constraints most recently established for the track using a prior call to applyConstraints(). These constraints indicate values and ranges of values that the Web site or application has specified are required or acceptable for the included constrainable properties.",
+            "support": {
+                "chrome": {
+                    "version_added": "53"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "53"
+                }
+            },
+            "title": "MediaStreamTrack.getConstraints()"
+        }
+    ],
+    "dom-mediastreamtrack-getsettings": [
+        {
+            "slug": "API/MediaStreamTrack/getSettings",
+            "summary": "The getSettings() method of the MediaStreamTrack interface returns a MediaTrackSettings object containing the current values of each of the constrainable properties for the current MediaStreamTrack.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "MediaStreamTrack.getSettings()"
+        }
+    ],
+    "dom-mediastreamtrack-muted": [
+        {
+            "slug": "API/MediaStreamTrack/muted",
+            "summary": "The muted read-only property of the MediaStreamTrack interface returns a Boolean value indicating whether or not the track is currently unable to provide media output.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "59"
+                },
+                "firefox_android": {
+                    "version_added": "59"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamTrack.muted"
+        }
+    ],
+    "dom-mediatrackconstraints": [
+        {
+            "slug": "API/MediaStreamTrack/applyConstraints",
+            "summary": "The applyConstraints() method of the MediaStreamTrack interface applies a set of constraints to the track; these constraints let the Web site or app establish ideal values and acceptable ranges of values for the constrainable properties of the track, such as frame rate, dimensions, echo cancelation, and so forth.",
+            "support": {
+                "chrome": {
+                    "version_added": "63"
+                },
+                "chrome_android": {
+                    "version_added": "63"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "46"
+                },
+                "opera_android": {
+                    "version_added": "46"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "63"
+                }
+            },
+            "title": "MediaStreamTrack.applyConstraints()"
+        },
+        {
+            "slug": "API/MediaTrackConstraints",
+            "summary": "The MediaTrackConstraints dictionary is used to describe a set of capabilities and the value or values each can take on. A constraints dictionary is passed into applyConstraints() to allow a script to establish a set of exact (required) values or ranges and/or preferred values or ranges of values for the track, and the most recently-requested set of custom constraints can be retrieved by calling getConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": "59"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "46"
+                },
+                "opera_android": {
+                    "version_added": "46"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "59"
+                }
+            },
+            "title": "MediaTrackConstraints"
+        }
+    ],
+    "event-mediastream-addtrack": [
+        {
+            "slug": "API/MediaStream/onaddtrack",
+            "summary": "The MediaStream.onaddtrack property is an EventHandler which specifies a function to be called when the addtrack event occurs on a MediaStream instance. This happens when a new track of any kind is added to the media stream.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStream.onaddtrack"
+        }
+    ],
+    "htmlmediaelement-extensions": [
+        {
+            "slug": "API/HTMLMediaElement",
+            "summary": "The HTMLMediaElement interface adds to HTMLElement the properties and methods needed to support basic media-related capabilities that are common to audio and video.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLMediaElement"
+        }
+    ],
+    "idl-def-ConstrainBoolean": [
+        {
+            "slug": "API/ConstrainBoolean",
+            "summary": "The ConstrainBoolean dictionary is used to specify a constraint for a property whose value is a Boolean value. You can specify an exact value which must be matched, an ideal value that should be matched if at all possible, and a fallback value to attempt to match once all more specific constraints have been applied.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "ConstrainBoolean"
+        }
+    ],
+    "idl-def-ConstrainDOMString": [
+        {
+            "slug": "API/ConstrainDOMString",
+            "summary": "The ConstrainDOMString dictionary is used to specify a constraint for a property whose value is a string. It allows you to specify one or more exact string values from which one must be the parameter's value, or a set of ideal values which should be used if possible. You can also specify a single string (or an array of strings) which the user agent will do its best to match once all more stringent constraints have been applied.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "ConstrainDOMString"
+        }
+    ],
+    "idl-def-ConstrainDouble": [
+        {
+            "slug": "API/ConstrainDouble",
+            "summary": "The ConstrainDouble type is used to specify a constraint for a property whose value is a double-precision floating-point number. It extends the DoubleRange dictionary (which provides the ability to specify a permitted range of property values) to also support an exact value and/or an ideal value the property should take on. Additionally, you can specify the property's value as a simple floating-point value, in which case the user agent does its best to match the value once all other more stringent constraints are met.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "ConstrainDouble"
+        }
+    ],
+    "idl-def-ConstrainLong": [
+        {
+            "slug": "API/ConstrainLong",
+            "summary": "The ConstrainLong type is used to specify a constraint for a property whose value is an integral number. It extends the LongRange dictionary (which provides the ability to specify a permitted range of property values) to also support an exact value and/or an ideal value the property should take on. In addition, you can specify the value as a simple long integer value, in which case the user agent does its best to match the value once all other more stringent constraints are met.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "ConstrainLong"
+        }
+    ],
+    "idl-def-DoubleRange": [
+        {
+            "slug": "API/DoubleRange",
+            "summary": "The DoubleRange dictionary is used to define a range of permitted double-precision floating-point values for a property, with either or both a maximum and minimum value specified. The ConstrainDouble dictionary is based on this, augmenting it to support exact and ideal values as well.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "DoubleRange"
+        }
+    ],
+    "idl-def-LongRange": [
+        {
+            "slug": "API/LongRange",
+            "summary": "The LongRange dictionary is used to define a range of permitted integer values for a property, with either or both a maximum and minimum value specified. The ConstrainLongRange dictionary is based on this, augmenting it to support exact and ideal values as well.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "LongRange"
+        }
+    ],
+    "idl-def-MediaDeviceInfo": [
+        {
+            "slug": "API/MediaDeviceInfo",
+            "summary": "The MediaDevicesInfo interface contains information that describes a single media input or output device.",
+            "support": {
+                "chrome": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                },
+                "chrome_android": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": [
+                        "This interface is available in Opera through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill."
+                    ],
+                    "version_added": null
+                },
+                "opera_android": {
+                    "notes": [
+                        "This interface is available in Opera through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill."
+                    ],
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "notes": [
+                        "For earlier versions, this interface is available through the <a href='https://github.com/webrtc/adapter'>adapter.js</a> polyfill"
+                    ],
+                    "version_added": "55"
+                }
+            },
+            "title": "MediaDeviceInfo"
+        }
+    ],
+    "idl-def-MediaStreamTrackEvent": [
+        {
+            "slug": "API/MediaStreamTrackEvent",
+            "summary": "The MediaStreamTrackEvent interface represents events which indicate that a MediaStream has had tracks added to or removed from the stream through calls to Media Stream API methods. These events are sent to the stream when these changes occur.",
+            "support": {
+                "chrome": {
+                    "version_added": "55"
+                },
+                "chrome_android": {
+                    "version_added": "55"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "42"
+                },
+                "opera_android": {
+                    "version_added": "42"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "55"
+                }
+            },
+            "title": "MediaStreamTrackEvent"
+        }
+    ],
+    "mediadevices": [
+        {
+            "slug": "API/MediaDevices",
+            "summary": "The MediaDevices interface provides access to connected media input devices like cameras and microphones, as well as screen sharing. In essence, it lets you obtain access to any hardware source of media data.",
+            "support": {
+                "chrome": {
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "47"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "36"
+                },
+                "firefox_android": {
+                    "version_added": "36"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "30"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "47"
+                }
+            },
+            "title": "MediaDevices"
+        }
+    ],
+    "mediastream": [
+        {
+            "slug": "API/MediaStream/MediaStream",
+            "summary": "The MediaStream() constructor returns a newly-created MediaStream, either empty or containing tracks, provided as an argument.MediaStreamMediaStreamTracks",
+            "support": {
+                "chrome": {
+                    "version_added": "55"
+                },
+                "chrome_android": {
+                    "version_added": "55"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "42"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "55"
+                }
+            },
+            "title": "MediaStream()"
+        }
+    ],
+    "mediastreamtrack": [
+        {
+            "slug": "API/MediaStreamTrack",
+            "summary": "The MediaStreamTrack interface represents a single media track within a stream; typically, these are audio or video tracks, but other track types may exist as well.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "22"
+                },
+                "firefox_android": {
+                    "version_added": "22"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamTrack"
+        }
+    ],
+    "widl-MediaDevices-getSupportedConstraints-MediaTrackSupportedConstraints": [
+        {
+            "slug": "API/MediaDevices/getSupportedConstraints",
+            "summary": "The getSupportedConstraints() method of the MediaDevices interface returns an object based on the MediaTrackSupportedConstraints dictionary, whose member fields each specify one of the constrainable properties the user agent understands.",
+            "support": {
+                "chrome": {
+                    "version_added": "53"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "40"
+                },
+                "opera_android": {
+                    "version_added": "40"
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "53"
+                }
+            },
+            "title": "MediaDevices.getSupportedConstraints()"
+        }
+    ],
+    "widl-MediaStream-active": [
+        {
+            "slug": "API/MediaStream/active",
+            "summary": "The active read-only property of the MediaStream interface returns a Boolean value which is true if the stream is currently active; otherwise, it returns false. A stream is considered active if at least one of its MediaStreamTracks is not in the MediaStreamTrack.ended state. Once every track has ended, the stream's active property becomes false.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "active"
+        }
+    ],
+    "widl-MediaStream-addTrack-void-MediaStreamTrack-track": [
+        {
+            "slug": "API/MediaStream/addTrack",
+            "summary": "The MediaStream.addTrack() method adds a new track to the stream. The track is specified as a parameter of type MediaStreamTrack.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "44"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStream.addTrack()"
+        }
+    ],
+    "widl-MediaStream-clone-MediaStream": [
+        {
+            "slug": "API/MediaStream/clone",
+            "summary": "The clone() method of the MediaStream interface creates a duplicate of the MediaStream. This new MediaStream object has a new unique id and contains clones of every MediaStreamTrack contained by the MediaStream on which clone() was called.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStream.clone()"
+        }
+    ],
+    "widl-MediaStream-getTrackById-MediaStreamTrack-DOMString-trackId": [
+        {
+            "slug": "API/MediaStream/getTrackById",
+            "summary": "The MediaStream.getTrackById() method returns a MediaStreamTrack object representing the track with the specified ID string. If there is no track with the specified ID, this method returns null.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "49"
+                },
+                "firefox_android": {
+                    "version_added": "49"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStream.getTrackById()"
+        }
+    ],
+    "widl-MediaStream-id": [
+        {
+            "slug": "API/MediaStream/id",
+            "summary": "The MediaStream.id() read-only property is a DOMString containing 36 characters denoting a unique identifier (GUID) for the object.",
+            "support": {
+                "chrome": {
+                    "version_added": true,
+                    "version_removed": "54"
+                },
+                "chrome_android": {
+                    "version_added": true,
+                    "version_removed": "54"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "41"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true,
+                    "version_removed": "39"
+                },
+                "opera_android": {
+                    "version_added": true,
+                    "version_removed": "39"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true,
+                    "version_removed": "54"
+                }
+            },
+            "title": "MediaStream.id"
+        }
+    ],
+    "widl-MediaStream-onremovetrack": [
+        {
+            "slug": "API/MediaStream/onremovetrack",
+            "summary": "The MediaStream.onremovetrack property is an EventHandler which specifies a function to be called when the removetrack event occurs on a MediaStream instance. This happens when a track of any kind is removed from the media stream.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStream.onremovetrack"
+        }
+    ],
+    "widl-MediaStreamConstraints-audio": [
+        {
+            "slug": "API/MediaStreamConstraints/audio",
+            "summary": "The MediaStreamConstraints dictionary's audio property is used to indicate what kind of audio track, if any, should be included in the MediaStream returned by a call to getUserMedia().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "38"
+                },
+                "firefox_android": {
+                    "version_added": "38"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamConstraints.audio"
+        }
+    ],
+    "widl-MediaStreamConstraints-video": [
+        {
+            "slug": "API/MediaStreamConstraints/video",
+            "summary": "The MediaStreamConstraints dictionary's video property is used to indicate what kind of video track, if any, should be included in the MediaStream returned by a call to getUserMedia().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "38"
+                },
+                "firefox_android": {
+                    "version_added": "38"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamConstraints.video"
+        }
+    ],
+    "widl-MediaStreamTrack-id": [
+        {
+            "slug": "API/MediaStreamTrack/id",
+            "summary": "The read-only property MediaStreamTrack.id returns a DOMString containing a unique identifier (GUID) for the track; it is generated by the browser.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamTrack.id"
+        }
+    ],
+    "widl-MediaStreamTrack-kind": [
+        {
+            "slug": "API/MediaStreamTrack/kind",
+            "summary": "The read-only property MediaStreamTrack.kind returns a DOMString set to \"audio\" if the track is an audio track and to \"video\", if it is a video track. It doesn't change if the track is deassociated from its source.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamTrack.kind"
+        }
+    ],
+    "widl-MediaStreamTrack-label": [
+        {
+            "slug": "API/MediaStreamTrack/label",
+            "summary": "The read-only property MediaStreamTrack.label returns a DOMString containing a user agent-assigned label that identifies the track source, as in \"internal microphone\". The string may be left empty and is empty as long as no source has been connected. When the track is deassociated from its source, the label is not changed.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamTrack.label"
+        }
+    ],
+    "widl-MediaStreamTrack-onended": [
+        {
+            "slug": "API/MediaStreamTrack/onended",
+            "summary": "The MediaStreamTrack.onended event handler is used to specify a function which serves as an EventHandler to be called when the ended event occurs on the track. This event occurs when the track will no longer provide data to the stream for any reason, including the end of the media input being reached, the user revoking needed permissions, the source device being removed, or the remote peer ending a connection.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamTrack.onended"
+        }
+    ],
+    "widl-MediaStreamTrack-onmute": [
+        {
+            "slug": "API/MediaStreamTrack/onmute",
+            "summary": "MediaStreamTrack's onmute event handler is called when the mute event is received.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "59"
+                },
+                "firefox_android": {
+                    "version_added": "59"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamTrack.onmute"
+        }
+    ],
+    "widl-MediaStreamTrack-onoverconstrained": [
+        {
+            "slug": "API/MediaStreamTrack/onoverconstrained",
+            "summary": "The MediaStreamTrack.onoverconstrained event handler is a property called when the overconstrained event is received. Such an event is sent when the track is again able to send data.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamTrack.onoverconstrained"
+        }
+    ],
+    "widl-MediaStreamTrack-onunmute": [
+        {
+            "slug": "API/MediaStreamTrack/onunmute",
+            "summary": "MediaStreamTrack's onunmute event handler is called when the unmute event is received. Such an event is sent when the track is again able to send data.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "59"
+                },
+                "firefox_android": {
+                    "version_added": "59"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamTrack.onunmute"
+        }
+    ],
+    "widl-MediaStreamTrack-readystate": [
+        {
+            "slug": "API/MediaStreamTrack/readyState",
+            "summary": "The read-only property MediaStreamTrack.readyState returns an enumerated value giving the status of the track.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaStreamTrack.readyState"
+        }
+    ],
+    "widl-MediaStreamTrack-stop": [
+        {
+            "slug": "API/MediaStreamTrack/stop",
+            "summary": "In short, the MediaStreamTrack method stop() method stops the track.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "34"
+                },
+                "firefox_android": {
+                    "version_added": "34"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "45"
+                },
+                "opera_android": {
+                    "version_added": "45"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "MediaStreamTrack.stop()"
+        }
+    ],
+    "widl-MediaTrackConstraints-aspectRatio": [
+        {
+            "slug": "API/MediaTrackConstraints/aspectRatio",
+            "summary": "The MediaTrackConstraints dictionary's aspectRatio property is a ConstrainDouble describing the requested or mandatory constraints placed upon the value of the aspectRatio constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": "29"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackConstraints.aspectRatio"
+        }
+    ],
+    "widl-MediaTrackConstraints-autoGainControl": [
+        {
+            "slug": "API/MediaTrackConstraints/autoGainControl",
+            "summary": "The MediaTrackConstraints dictionary's autoGainControl property is a ConstrainBoolean describing the requested or mandatory constraints placed upon the value of the autoGainControl constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "46"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "46"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.autoGainControl"
+        }
+    ],
+    "widl-MediaTrackConstraints-channelCount": [
+        {
+            "slug": "API/MediaTrackConstraints/channelCount",
+            "summary": "The MediaTrackConstraints dictionary's channelCount property is a ConstrainLong describing the requested or mandatory constraints placed upon the value of the channelCount constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.channelCount"
+        }
+    ],
+    "widl-MediaTrackConstraints-deviceId": [
+        {
+            "slug": "API/MediaTrackConstraints/deviceId",
+            "summary": "The MediaTrackConstraints dictionary's deviceId property is a ConstrainDOMString describing the requested or mandatory constraints placed upon the value of the deviceId constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.deviceId"
+        }
+    ],
+    "widl-MediaTrackConstraints-echoCancellation": [
+        {
+            "slug": "API/MediaTrackConstraints/echoCancellation",
+            "summary": "The MediaTrackConstraints dictionary's echoCancellation property is a ConstrainBoolean describing the requested or mandatory constraints placed upon the value of the echoCancellation constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.echoCancellation"
+        }
+    ],
+    "widl-MediaTrackConstraints-facingMode": [
+        {
+            "slug": "API/MediaTrackConstraints/facingMode",
+            "summary": "The MediaTrackConstraints dictionary's facingMode property is a ConstrainDOMString describing the requested or mandatory constraints placed upon the value of the facingMode constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.facingMode"
+        }
+    ],
+    "widl-MediaTrackConstraints-frameRate": [
+        {
+            "slug": "API/MediaTrackConstraints/frameRate",
+            "summary": "The MediaTrackConstraints dictionary's frameRate property is a ConstrainDouble describing the requested or mandatory constraints placed upon the value of the frameRate constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.frameRate"
+        }
+    ],
+    "widl-MediaTrackConstraints-groupId": [
+        {
+            "slug": "API/MediaTrackConstraints/groupId",
+            "summary": "The MediaTrackConstraints dictionary's groupId property is a ConstrainDOMString describing the requested or mandatory constraints placed upon the value of the groupId constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.groupId"
+        }
+    ],
+    "widl-MediaTrackConstraints-height": [
+        {
+            "slug": "API/MediaTrackConstraints/height",
+            "summary": "The MediaTrackConstraints dictionary's height property is a ConstrainLong describing the requested or mandatory constraints placed upon the value of the height constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.height"
+        }
+    ],
+    "widl-MediaTrackConstraints-latency": [
+        {
+            "slug": "API/MediaTrackConstraints/latency",
+            "summary": "The MediaTrackConstraints dictionary's latency property is a ConstrainDouble describing the requested or mandatory constraints placed upon the value of the latency constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.latency"
+        }
+    ],
+    "widl-MediaTrackConstraints-noiseSuppression": [
+        {
+            "slug": "API/MediaTrackConstraints/noiseSuppression",
+            "summary": "The MediaTrackConstraints dictionary's noiseSuppression property is a ConstrainBoolean describing the requested or mandatory constraints placed upon the value of the noiseSuppression constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "46"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "46"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.noiseSuppression"
+        }
+    ],
+    "widl-MediaTrackConstraints-sampleRate": [
+        {
+            "slug": "API/MediaTrackConstraints/sampleRate",
+            "summary": "The MediaTrackConstraints dictionary's sampleRate property is a ConstrainLong describing the requested or mandatory constraints placed upon the value of the sampleRate constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.sampleRate"
+        }
+    ],
+    "widl-MediaTrackConstraints-sampleSize": [
+        {
+            "slug": "API/MediaTrackConstraints/sampleSize",
+            "summary": "The MediaTrackConstraints dictionary's sampleSize property is a ConstrainLong describing the requested or mandatory constraints placed upon the value of the sampleSize constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.sampleSize"
+        }
+    ],
+    "widl-MediaTrackConstraints-volume": [
+        {
+            "slug": "API/MediaTrackConstraints/volume",
+            "summary": "The MediaTrackConstraints dictionary's volume property is a ConstrainDouble describing the requested or mandatory constraints placed upon the value of the volume constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackControls.volume"
+        }
+    ],
+    "widl-MediaTrackConstraints-width": [
+        {
+            "slug": "API/MediaTrackConstraints/width",
+            "summary": "The MediaTrackConstraints dictionary's width property is a ConstrainLong describing the requested or mandatory constraints placed upon the value of the width constrainable property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaTrackConstraints.width"
+        }
+    ],
+    "widl-MediaTrackSettings-aspectRatio": [
+        {
+            "slug": "API/MediaTrackSettings/aspectRatio",
+            "summary": "The MediaTrackSettings dictionary's aspectRatio property is a double-precision floating-point number indicating the aspect ratio of the MediaStreamTrack as currently configured. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.aspectRatio property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.aspectRatio"
+        }
+    ],
+    "widl-MediaTrackSettings-autoGainControl": [
+        {
+            "slug": "API/MediaTrackSettings/autoGainControl",
+            "summary": "The MediaTrackSettings dictionary's autoGainControl property is a Boolean value whose value indicates whether or not automatic gain control (AGC) is enabled on an audio track. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.autoGainControl property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "50",
+                        "version_removed": "55"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "50",
+                        "version_removed": "55"
+                    }
+                ],
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.autoGainControl"
+        }
+    ],
+    "widl-MediaTrackSettings-channelCount": [
+        {
+            "slug": "API/MediaTrackSettings/channelCount",
+            "summary": "The MediaTrackSettings dictionary's channelCount property is an integer indicating how many audio channel the MediaStreamTrack is currently configured to have. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.channelCount property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.channelCount"
+        }
+    ],
+    "widl-MediaTrackSettings-deviceId": [
+        {
+            "slug": "API/MediaTrackSettings/deviceId",
+            "summary": "The MediaTrackSettings dictionary's deviceId property is a DOMString which uniquely identifies the source for the corresponding MediaStreamTrack for the origin corresponding to the browsing session. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.deviceId property you provided when calling either getUserMedia().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "36"
+                },
+                "firefox_android": {
+                    "version_added": "36"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.deviceId"
+        }
+    ],
+    "widl-MediaTrackSettings-echoCancellation": [
+        {
+            "slug": "API/MediaTrackSettings/echoCancellation",
+            "summary": "The MediaTrackSettings dictionary's echoCancellation property is a Boolean value whose value indicates whether or not echo cancellation is enabled on an audio track. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.echoCancellation property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.echoCancellation"
+        }
+    ],
+    "widl-MediaTrackSettings-facingMode": [
+        {
+            "slug": "API/MediaTrackSettings/facingMode",
+            "summary": "The MediaTrackSettings dictionary's facingMode property is a DOMString indicating the direction in which the camera producing the video track represented by the MediaStreamTrack is currently facing. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.facingMode property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "36"
+                },
+                "firefox_android": {
+                    "version_added": "36"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.facingMode"
+        }
+    ],
+    "widl-MediaTrackSettings-frameRate": [
+        {
+            "slug": "API/MediaTrackSettings/frameRate",
+            "summary": "The MediaTrackSettings dictionary's frameRate property is a double-precision floating-point number indicating the frame rate, in frames per second, of the MediaStreamTrack as currently configured. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.frameRate property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "36"
+                },
+                "firefox_android": {
+                    "version_added": "36"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.frameRate"
+        }
+    ],
+    "widl-MediaTrackSettings-groupId": [
+        {
+            "slug": "API/MediaTrackSettings/groupId",
+            "summary": "The MediaTrackSettings dictionary's groupId property is a browsing-session unique DOMString which identifies the group of devices which includes the source for the MediaStreamTrack. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.groupId property you provided when calling either getUserMedia().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.groupId"
+        }
+    ],
+    "widl-MediaTrackSettings-height": [
+        {
+            "slug": "API/MediaTrackSettings/height",
+            "summary": "The MediaTrackSettings dictionary's height property is an integer indicating the number of pixels tall MediaStreamTrack is currently configured to be. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.height property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "36"
+                },
+                "firefox_android": {
+                    "version_added": "36"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.height"
+        }
+    ],
+    "widl-MediaTrackSettings-latency": [
+        {
+            "slug": "API/MediaTrackSettings/latency",
+            "summary": "The MediaTrackSettings dictionary's latency property is a double-precision floating-point number indicating the estimated latency (specified in seconds) of the MediaStreamTrack as currently configured. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.latency property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.latency"
+        }
+    ],
+    "widl-MediaTrackSettings-noiseSuppression": [
+        {
+            "slug": "API/MediaTrackSettings/noiseSuppression",
+            "summary": "The MediaTrackSettings dictionary's noiseSuppression property is a Boolean value whose value indicates whether or not noise suppression technology is enabled on an audio track. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.noiseSuppression property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "50",
+                        "version_removed": "55"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "50",
+                        "version_removed": "55"
+                    }
+                ],
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.noiseSuppression"
+        }
+    ],
+    "widl-MediaTrackSettings-sampleRate": [
+        {
+            "slug": "API/MediaTrackSettings/sampleRate",
+            "summary": "The MediaTrackSettings dictionary's sampleRate property is an integer indicating how many audio samples per second the MediaStreamTrack is currently configured for. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.sampleRate property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.sampleRate"
+        }
+    ],
+    "widl-MediaTrackSettings-sampleSize": [
+        {
+            "slug": "API/MediaTrackSettings/sampleSize",
+            "summary": "The MediaTrackSettings dictionary's sampleSize property is an integer indicating the linear sample size (in bits per sample) the MediaStreamTrack is currently configured for. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.sampleSize property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.sampleSize"
+        }
+    ],
+    "widl-MediaTrackSettings-volume": [
+        {
+            "slug": "API/MediaTrackSettings/volume",
+            "summary": "The MediaTrackSettings dictionary's volume property is a double-precision floating-point number indicating the volume of the MediaStreamTrack as currently configured, as a value from 0.0 (silence) to 1.0 (maximum supported volume for the device). This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.volume property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.volume"
+        }
+    ],
+    "widl-MediaTrackSettings-width": [
+        {
+            "slug": "API/MediaTrackSettings/width",
+            "summary": "The MediaTrackSettings dictionary's width property is an integer indicating the number of pixels wide MediaStreamTrack is currently configured to be. This lets you determine what value was selected to comply with your specified constraints for this property's value as described in the MediaTrackConstraints.width property you provided when calling either getUserMedia() or MediaStreamTrack.applyConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "36"
+                },
+                "firefox_android": {
+                    "version_added": "36"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSettings.width"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-aspectRatio": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/aspectRatio",
+            "summary": "The MediaTrackSupportedConstraints dictionary's aspectRatio property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the aspectRatio constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.aspectRatio"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-autoGainControl": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/autoGainControl",
+            "summary": "The MediaTrackSupportedConstraints dictionary's autoGainControl property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the autoGainControl constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": true,
+                        "version_removed": "55"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": true,
+                        "version_removed": "55"
+                    }
+                ],
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.autoGainControl"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-channelCount": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/channelCount",
+            "summary": "The MediaTrackSupportedConstraints dictionary's channelCount property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the channelCount constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "56"
+                },
+                "firefox_android": {
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.channelCount"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-deviceId": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/deviceId",
+            "summary": "The MediaTrackSupportedConstraints dictionary's deviceId property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the deviceId constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "42"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.deviceId"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-echoCancellation": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/echoCancellation",
+            "summary": "The MediaTrackSupportedConstraints dictionary's echoCancellation property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the echoCancellation constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "46"
+                },
+                "firefox_android": {
+                    "version_added": "46"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.echoCancellation"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-facingMode": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/facingMode",
+            "summary": "The MediaTrackSupportedConstraints dictionary's facingMode property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the facingMode constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "42"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.facingMode"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-frameRate": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/frameRate",
+            "summary": "The MediaTrackSupportedConstraints dictionary's frameRate property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the frameRate constraint.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "42"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.frameRate"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-groupId": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/groupId",
+            "summary": "The MediaTrackSupportedConstraints dictionary's groupId property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the groupId constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.groupId"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-height": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/height",
+            "summary": "The MediaTrackSupportedConstraints dictionary's height property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the height constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "42"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.height"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-latency": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/latency",
+            "summary": "The MediaTrackSupportedConstraints dictionary's latency property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the latency constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.latency"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-noiseSuppression": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/noiseSuppression",
+            "summary": "The MediaTrackSupportedConstraints dictionary's noiseSuppression property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the noiseSuppression constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": true,
+                        "version_removed": "55"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "55"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": true,
+                        "version_removed": "55"
+                    }
+                ],
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.noiseSuppression"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-sampleRate": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/sampleRate",
+            "summary": "The MediaTrackSupportedConstraints dictionary's sampleRate property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the sampleRate constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.sampleRate"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-sampleSize": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/sampleSize",
+            "summary": "The MediaTrackSupportedConstraints dictionary's sampleSize property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the sampleSize constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.sampleSize"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-volume": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/volume",
+            "summary": "The MediaTrackSupportedConstraints dictionary's volume property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the volume constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.volume"
+        }
+    ],
+    "widl-MediaTrackSupportedConstraints-width": [
+        {
+            "slug": "API/MediaTrackSupportedConstraints/width",
+            "summary": "The MediaTrackSupportedConstraints dictionary's width property is a read-only Boolean value which is present (and set to true) in the object returned by MediaDevices.getSupportedConstraints() if and only if the user agent supports the width constraint. If the constraint isn't supported, it's not included in the list, so this value will never be false.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "42"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaTrackSupportedConstraints.width"
+        }
+    ],
+    "widl-NavigatorUserMedia-mediaDevices": [
+        {
+            "slug": "API/Navigator/mediaDevices",
+            "summary": "The Navigator.mediaDevices read-only property returns a MediaDevices object, which provides access to connected media input devices like cameras and microphones, as well as screen sharing.",
+            "support": {
+                "chrome": {
+                    "version_added": "51"
+                },
+                "chrome_android": {
+                    "version_added": "51"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "36"
+                },
+                "firefox_android": {
+                    "version_added": "36"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "51"
+                }
+            },
+            "title": "Navigator.mediaDevices"
+        }
+    ],
+    "widl-ctor-MediaStreamTrackEvent--DOMString-type-MediaStreamTrackEventInit-eventInitDict": [
+        {
+            "slug": "API/MediaStreamTrackEvent/MediaStreamTrackEvent",
+            "summary": "The MediaStreamTrackEvent() constructor returns a newly created MediaStreamTrackEvent object, which represents an event announcing that a MediaStreamTrack has been added to or removed from a MediaStream.",
+            "support": {
+                "chrome": {
+                    "version_added": "55"
+                },
+                "chrome_android": {
+                    "version_added": "55"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "42"
+                },
+                "opera_android": {
+                    "version_added": "42"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "55"
+                }
+            },
+            "title": "MediaStreamTrackEvent()"
+        }
+    ]
+}

@@ -1,0 +1,796 @@
+{
+    "individual-transforms": [
+        {
+            "slug": "CSS/rotate",
+            "summary": "The rotate CSS property allows you to specify rotation transforms individually and independantly of the transform property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the transform value.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "layout.css.individual-transform.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "layout.css.individual-transform.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "rotate"
+        },
+        {
+            "slug": "CSS/scale",
+            "summary": "The scale CSS property allows you to specify scale transforms individually and independantly of the transform property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the transform value.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "layout.css.individual-transform.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "layout.css.individual-transform.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "scale"
+        },
+        {
+            "slug": "CSS/translate",
+            "summary": "The translate CSS property allows you to specify translation transforms individually and independantly of the transform property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the transform value.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "layout.css.individual-transform.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "layout.css.individual-transform.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "60"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "translate"
+        }
+    ],
+    "perspective-origin-property": [
+        {
+            "slug": "CSS/perspective-origin",
+            "summary": "The perspective-origin CSS property determines the position at which the viewer is looking. It is used as the vanishing point by the perspective property.",
+            "support": {
+                "chrome": {
+                    "prefix": "-webkit-",
+                    "version_added": "12"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "45"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "45"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "prefix": "-webkit-",
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "3"
+                }
+            },
+            "title": "perspective-origin"
+        }
+    ],
+    "propdef-backface-visibility": [
+        {
+            "slug": "CSS/backface-visibility",
+            "summary": "The backface-visibility CSS property sets whether the back face of an element is visible when turned towards the user.",
+            "support": {
+                "chrome": {
+                    "prefix": "-webkit-",
+                    "version_added": "12"
+                },
+                "chrome_android": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "45"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "prefix": "-webkit-",
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "3"
+                }
+            },
+            "title": "backface-visibility"
+        }
+    ],
+    "propdef-perspective": [
+        {
+            "slug": "CSS/perspective",
+            "summary": "The perspective CSS property determines the distance between the z=0 plane and the user in order to give a 3D-positioned element some perspective.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "45"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "45"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "45"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "prefix": "-webkit-",
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "3"
+                }
+            },
+            "title": "perspective"
+        }
+    ],
+    "svg-transform": [
+        {
+            "slug": "SVG/Attribute/transform",
+            "summary": "The transform attribute defines a list of transform definitions that are applied to an element and the element's children.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "transform"
+        }
+    ],
+    "transform-functions": [
+        {
+            "slug": "CSS/transform",
+            "summary": "The transform CSS property lets you rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "36"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "edge": {
+                    "prefix": "-webkit-",
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": [
+                    {
+                        "notes": "Internet Explorer does not support the global values <code>initial</code> and <code>unset</code>.",
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "11"
+                    },
+                    {
+                        "notes": "Internet Explorer 5.5 or later supports a proprietary <a href='https://msdn.microsoft.com/en-us/library/ms533014(VS.85,loband).aspx'>Matrix Filter</a> which can be used to achieve a similar effect.",
+                        "prefix": "-ms-",
+                        "version_added": "9"
+                    }
+                ],
+                "opera": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "10.5",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "11.5"
+                },
+                "safari": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3.1"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3.2"
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "notes": "Android 2.3 has a bug where input forms will \"jump\" when typing, if any container element has a <code>-webkit-transform</code>.",
+                    "prefix": "-webkit-",
+                    "version_added": "2"
+                }
+            },
+            "title": "transform"
+        }
+    ],
+    "transform-style-property": [
+        {
+            "slug": "CSS/transform-style",
+            "summary": "The transform-style CSS property sets whether children of an element are positioned in the 3D space or are flattened in the plane of the element.",
+            "support": {
+                "chrome": {
+                    "prefix": "-webkit-",
+                    "version_added": "12"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "prefix": "-webkit-",
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "3"
+                }
+            },
+            "title": "transform-style"
+        }
+    ]
+}

@@ -1,0 +1,925 @@
+{
+    "dictdef-filesystemflags": [
+        {
+            "slug": "API/FileSystemFlags",
+            "summary": "The FileSystemFlags dictionary defines a set of values which are used when specifying option flags when calling certain methods in the File and Directory Entries API. Methods which accept an options parameter of this type may specify zero or more of these flags as fields in an object, like this:",
+            "support": {
+                "chrome": {
+                    "prefix": "webkit",
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "prefix": "webkit",
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemFlags"
+        }
+    ],
+    "dom-datatransferitem-webkitgetasentry": [
+        {
+            "slug": "API/DataTransferItem",
+            "summary": "The DataTransferItem object represents one drag data item. During a drag operation, each drag event has a dataTransfer property which contains a list of drag data items. Each item in the list is a DataTransferItem object.",
+            "support": {
+                "chrome": {
+                    "version_added": "4"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "12"
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "DataTransferItem"
+        },
+        {
+            "slug": "API/DataTransferItem/webkitGetAsEntry",
+            "summary": "If the item described by the DataTransferItem is a file, webkitGetAsEntry() returns a FileSystemFileEntry or FileSystemDirectoryEntry representing it. If the item isn't a file, null is returned.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "DataTransferItem.webkitGetAsEntry()"
+        }
+    ],
+    "dom-entry-copyTo": [
+        {
+            "slug": "API/FileSystemEntry/copyTo",
+            "summary": "The FileSystemEntry interface's method copyTo() copies the file specified by the entry to a new location on the file system.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemEntry.copyTo()"
+        }
+    ],
+    "dom-entry-filesystem": [
+        {
+            "slug": "API/FileSystemEntry/filesystem",
+            "summary": "The read-only filesystem property of the FileSystemEntry interface contains a FileSystem object that represents the file system on which the entry resides.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemEntry.filesystem"
+        }
+    ],
+    "dom-entry-fullpath": [
+        {
+            "slug": "API/FileSystemEntry/fullPath",
+            "summary": "The read-only fullPath property of the FileSystemEntry interface returns a USVString specifying the full, absolute path from the file system's root to the file represented by the entry.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemEntry.fullPath"
+        }
+    ],
+    "dom-entry-getMetadata": [
+        {
+            "slug": "API/FileSystemEntry/getMetadata",
+            "summary": "The FileSystemEntry interface's method getMetadata() obtains a Metadata object with information about the file system entry, such as its modification date and time and its size.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemEntry.getMetadata()"
+        }
+    ],
+    "dom-entry-getparent": [
+        {
+            "slug": "API/FileSystemEntry/getParent",
+            "summary": "The FileSystemEntry interface's method getParent() obtains a FileSystemDirectoryEntry.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemEntry.getParent()"
+        }
+    ],
+    "dom-entry-isdirectory": [
+        {
+            "slug": "API/FileSystemEntry/isDirectory",
+            "summary": "The read-only isDirectory property of the FileSystemEntry interface is true if the entry represents a directory (meaning it's a FileSystemDirectoryEntry) and false if it's not.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemEntry.isDirectory"
+        }
+    ],
+    "dom-entry-isfile": [
+        {
+            "slug": "API/FileSystemEntry/isFile",
+            "summary": "The read-only isFile property of the FileSystemEntry interface is true if the entry represents a file (meaning it's a FileSystemFileEntry) and false if it's not.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemEntry.isFile"
+        }
+    ],
+    "dom-entry-moveTo": [
+        {
+            "slug": "API/FileSystemEntry/moveTo",
+            "summary": "The FileSystemEntry interface's method moveTo() moves the file specified by the entry to a new location on the file system, or renames the file if the destination directory is the same as the source.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemEntry.moveTo()"
+        }
+    ],
+    "dom-entry-name": [
+        {
+            "slug": "API/FileSystemEntry/name",
+            "summary": "The read-only name property of the FileSystemEntry interface returns a USVString specifying the entry's name; this is the entry within its parent directory (the last component of the path as indicated by the fullPath property).",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemEntry.name"
+        }
+    ],
+    "dom-entry-remove": [
+        {
+            "slug": "API/FileSystemEntry/remove",
+            "summary": "The FileSystemEntry interface's method remove() deletes the file or directory from the file system. Directories must be empty before they can be removed.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemEntry.remove()"
+        }
+    ],
+    "dom-entry-tourl": [
+        {
+            "slug": "API/FileSystemEntry/toURL",
+            "summary": "The FileSystemEntry interface's method toURL() creates and returns a string containing a URL which can be used to identify the file system entry. This is done by exposing a new URL scheme\u2014filesystem:\u2014that can be used as the value of src and href attributes.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemEntry.toURL()"
+        }
+    ],
+    "dom-file-webkitrelativepath": [
+        {
+            "slug": "API/File/webkitRelativePath",
+            "summary": "The File.webkitRelativePath is a read-only property that contains a USVString which specifies the file's path relative to the directory selected by the user in an input element with its webkitdirectory attribute set.",
+            "support": {
+                "chrome": {
+                    "prefix": "webkit",
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "prefix": "webkit",
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "49"
+                },
+                "firefox_android": {
+                    "version_added": "49"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "File.webkitRelativePath"
+        }
+    ],
+    "dom-fileentry-file": [
+        {
+            "slug": "API/FileSystemFileEntry/file",
+            "summary": "The FileSystemFileEntry interface's method file() returns a File object which can be used to read data from the file represented by the directory entry.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemFileEntry.file()"
+        }
+    ],
+    "dom-filesystemflags-create": [
+        {
+            "slug": "API/FileSystemFlags/create",
+            "summary": "The create property on the FileSystemFlags dictionary is used to indicate whether or not the file should be created if it's missing. FileSystemFlags is only used when calling FileSystemDirectoryEntry.getFile() or FileSystemDirectoryEntry.getDirectory().",
+            "support": {
+                "chrome": {
+                    "prefix": "webkit",
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "For security reasons, Firefox does not support creating files. This option has no effect.",
+                    "partial_implementation": true,
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "notes": "For security reasons, Firefox does not support creating files. This option has no effect.",
+                    "partial_implementation": true,
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "prefix": "webkit",
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemFlags.create"
+        }
+    ],
+    "dom-filesystemflags-exclusive": [
+        {
+            "slug": "API/FileSystemFlags/exclusive",
+            "summary": "The exclusive property on the FileSystemFlags dictionary is used in tandem with the create property to determine whether or not it's acceptable to require that the file not already exist when the reference to it is created by calling FileSystemDirectoryEntry.getFile() or FileSystemDirectoryEntry.getDirectory().",
+            "support": {
+                "chrome": {
+                    "prefix": "webkit",
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "For security reasons, Firefox does not support creating files. This option has no effect.",
+                    "partial_implementation": true,
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "notes": "For security reasons, Firefox does not support creating files. This option has no effect.",
+                    "partial_implementation": true,
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "prefix": "webkit",
+                    "version_added": true
+                }
+            },
+            "title": "FileSystemFlags.exclusive"
+        }
+    ],
+    "dom-metadata-modificationtime": [
+        {
+            "slug": "API/Metadata/modificationTime",
+            "summary": "The read-only modificationTime property of the Metadata interface is a Date object which specifies the date and time the file system entry (or the data referenced by the entry) was last modified.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Metadata.modificationTime"
+        }
+    ],
+    "dom-metadata-size": [
+        {
+            "slug": "API/Metadata/size",
+            "summary": "The read-only size property of the Metadata interface specifies the size, in bytes, of the referenced file or other file system object on disk.",
+            "support": {
+                "chrome": {
+                    "version_added": "13"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Metadata.size"
+        }
+    ]
+}

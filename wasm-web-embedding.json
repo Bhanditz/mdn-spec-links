@@ -1,0 +1,104 @@
+{
+    "Web.md#webassemblycompilestreaming": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/compileStreaming",
+            "summary": "The WebAssembly.compileStreaming() function compiles a WebAssembly.Module directly from a streamed underlying source.  This function is useful if it is necessary to a compile a module before it can be instantiated (otherwise, the WebAssembly.instantiateStreaming() function should be used).",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "58"
+                },
+                "firefox_android": {
+                    "version_added": "58"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "47"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "WebAssembly.compileStreaming()"
+        }
+    ],
+    "Web.md#webassemblyinstantiatestreaming": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/instantiateStreaming",
+            "summary": "The WebAssembly.instantiateStreaming() function compiles and instantiates a WebAssembly module directly from a streamed underlying source. This is the most efficient, optimized way to load wasm code.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "58"
+                },
+                "firefox_android": {
+                    "version_added": "58"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "47"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "WebAssembly.instantiateStreaming()"
+        }
+    ]
+}

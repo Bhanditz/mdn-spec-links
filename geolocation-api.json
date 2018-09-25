@@ -1,0 +1,1104 @@
+{
+    "accuracy": [
+        {
+            "slug": "API/Coordinates/accuracy",
+            "summary": "The Coordinates.accuracy read-only property is a strictly positive double representing the accuracy, with a 95% confidence level, of the Coordinates.latitude and Coordinates.longitude properties expressed in meters.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": "10.6"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Coordinates.accuracy"
+        }
+    ],
+    "altitude": [
+        {
+            "slug": "API/Coordinates/altitude",
+            "summary": "The Coordinates.altitude read-only property is a double representing the altitude of the position in meters, relative to sea level. This value is null if the implementation cannot provide this data.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": "10.6"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Coordinates.altitude"
+        }
+    ],
+    "altitudeaccuracy": [
+        {
+            "slug": "API/Coordinates/altitudeAccuracy",
+            "summary": "The Coordinates.altitudeAccuracy read-only property is a strictly positive double representing the accuracy, with a 95% confidence level, of the altitude expressed in meters. This value is null if the implementation doesn't support measuring altitude.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": "10.6"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Coordinates.altitudeAccuracy"
+        }
+    ],
+    "code": [
+        {
+            "slug": "API/PositionError/code",
+            "summary": "The PositionError.code read-only property is an unsigned short representing the error code. The following values are possible:",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "16"
+                },
+                "opera_android": {
+                    "version_added": "16"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "PositionError.code"
+        }
+    ],
+    "coordinates": [
+        {
+            "slug": "API/Coordinates",
+            "summary": "The Coordinates interface represents the position and altitude of the device on Earth, as well as the accuracy with which these properties are calculated.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": "10.6"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Coordinates"
+        }
+    ],
+    "coords": [
+        {
+            "slug": "API/Position/coords",
+            "summary": "The Position.coords read-only property, a Coordinates object, represents a geographic attitude: it contains the location, that is longitude and latitude on the Earth, the altitude, and the speed of the object concerned, regrouped inside the returned value. It also contains accuracy information about these values.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "16"
+                },
+                "opera_android": {
+                    "version_added": "16"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Position.coords"
+        }
+    ],
+    "enablehighaccuracy": [
+        {
+            "slug": "API/PositionOptions/enableHighAccuracy",
+            "summary": "The PositionOptions.enableHighAccuracy property is a Boolean that indicates the application would like to receive the best possible results. If true and if the device is able to provide a more accurate position, it will do so. Note that this can result in slower response times or increased power consumption (with a GPS chip on a mobile device for example). On the other hand, if false (the default value), the device can take the liberty to save resources by responding more quickly and/or using less power.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "PositionOptions.enableHighAccuracy"
+        }
+    ],
+    "heading": [
+        {
+            "slug": "API/Coordinates/heading",
+            "summary": "The Coordinates.heading read-only property is a double representing the direction in which the device is traveling. This value, specified in degrees, indicates how far off from heading due north the device is. Zero degrees represents true true north, and the direction is determined clockwise (which means that east is 90 degrees and west is 270 degrees). If Coordinates.speed is 0, heading is NaN. If the device is not able to provide heading information, this value is null.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": "10.6"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Coordinates.heading"
+        }
+    ],
+    "lat": [
+        {
+            "slug": "API/Coordinates/latitude",
+            "summary": "The Coordinates.latitude read-only property is a double representing the latitude of the position in decimal degrees.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": "10.6"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Coordinates.latitude"
+        }
+    ],
+    "lon": [
+        {
+            "slug": "API/Coordinates/longitude",
+            "summary": "The Coordinates interface's read-only longitude property is a double-precision floating point value which represents the longitude of a geographical position, specified in decimal degrees. Together with a DOMTimeStamp indicating a time of measurement, the Coordinates object is part of the Position interface which is the object type returned by Geolocation API functions that obtain and return a geographical position.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": "10.6"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Coordinates.longitude"
+        }
+    ],
+    "maximumage": [
+        {
+            "slug": "API/PositionOptions/maximumAge",
+            "summary": "The PositionOptions.maximumAge property is a positive long value indicating the maximum age in milliseconds of a possible cached position that is acceptable to return. If set to 0, it means that the device cannot use a cached position and must attempt to retrieve the real current position. If set to Infinity the device must return a cached position regardless of its age.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "PositionOptions.maximumAge"
+        }
+    ],
+    "message": [
+        {
+            "slug": "API/PositionError/message",
+            "summary": "The PositionError.message read-only property returns a human-readable DOMString describing the details of the error.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "16"
+                },
+                "opera_android": {
+                    "version_added": "16"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "PositionError.message"
+        }
+    ],
+    "navi-geo": [
+        {
+            "slug": "API/Navigator/geolocation",
+            "summary": "The Navigator.geolocation read-only property returns a Geolocation object that gives Web content access to the location of the device. This allows a Web site or app to offer customized results based on the user's location.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": "10.6"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Navigator.geolocation"
+        },
+        {
+            "slug": "API/NavigatorGeolocation",
+            "summary": "NavigatorGeolocation contains a creation method allowing objects implementing it to obtain a Geolocation instance.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": "10"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "NavigatorGeolocation"
+        }
+    ],
+    "position": [
+        {
+            "slug": "API/Position",
+            "summary": "The Position interface represents the position of the concerned device at a given time. The position, represented by a Coordinates object, comprehends the 2D position of the device, on a spheroid representing the Earth, but also its altitude and its speed.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "16"
+                },
+                "opera_android": {
+                    "version_added": "16"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Position"
+        }
+    ],
+    "position_error_interface": [
+        {
+            "slug": "API/PositionError",
+            "summary": "The PositionError interface represents the reason of an error occurring when using the geolocating device.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "16"
+                },
+                "opera_android": {
+                    "version_added": "16"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "PositionError"
+        }
+    ],
+    "positionoptions": [
+        {
+            "slug": "API/PositionOptions",
+            "summary": "The PositionOptions interface describes an object containing option properties to pass as a parameter of Geolocation.getCurrentPosition() and Geolocation.watchPosition().",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": "5"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "PositionOptions"
+        }
+    ],
+    "speed": [
+        {
+            "slug": "API/Coordinates/speed",
+            "summary": "The Coordinates.speed read-only property is a double representing the velocity of the device in meters per second. This value is null if the implementation is not able to measure it.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": "10.6"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Coordinates.speed"
+        }
+    ],
+    "timeout": [
+        {
+            "slug": "API/PositionOptions/timeout",
+            "summary": "The PositionOptions.timeout property is a positive long value representing the maximum length of time (in milliseconds) the device is allowed to take in order to return a position. The default value is Infinity, meaning that getCurrentPosition() won't return until the position is available.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "PositionOptions.timeout"
+        }
+    ],
+    "timestamp": [
+        {
+            "slug": "API/Position/timestamp",
+            "summary": "The Position.timestamp read-only property, a DOMTimeStamp object, represents the date and the time of the creation of the Position object it belongs to. The precision is to the millisecond.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "16"
+                },
+                "opera_android": {
+                    "version_added": "16"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Position.timestamp"
+        }
+    ],
+    "watch-position": [
+        {
+            "slug": "API/Geolocation/watchPosition",
+            "summary": "The Geolocation method watchPosition() method is used to register a handler function that will be called automatically each time the position of the device changes. You can also, optionally, specify an error handling callback function.",
+            "support": {
+                "chrome": {
+                    "version_added": "5"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "version_added": "10.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Geolocation.watchPosition()"
+        }
+    ]
+}

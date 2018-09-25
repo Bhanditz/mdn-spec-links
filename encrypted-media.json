@@ -1,0 +1,1520 @@
+{
+    "dictionary-mediakeysystemconfiguration-members": [
+        {
+            "slug": "API/MediaKeySystemConfiguration",
+            "summary": "The MediaKeySystemConfiguration interface Encrypted Media Extensions API provides configuration information about the media key system.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "MediaKeySystemConfiguration"
+        }
+    ],
+    "dom-htmlmediaelement-setmediakeys": [
+        {
+            "slug": "API/HTMLMediaElement/setMediaKeys",
+            "summary": "The setMediaKeys() property of the HTMLMediaElement interface returns a Promise that resolves to the passed MediaKeys, which are those used to decrypt media during playback.",
+            "support": {},
+            "title": "HTMLMediaElement.setMediaKeys()"
+        }
+    ],
+    "dom-mediakeysession-closed": [
+        {
+            "slug": "API/MediaKeySession/closed",
+            "summary": "The MediaKeySession.closed read-only property returns a Promise signaling when a MediaKeySession closes. This promise can only be fulfilled and is never rejected. Closing a session means that licenses and keys associated with it are no longer valid for decrypting media data.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "MediaKeySession.closed"
+        }
+    ],
+    "dom-mediakeystatusmap-size": [
+        {
+            "slug": "API/MediaKeyStatusMap/size",
+            "summary": "The size read-only property of the MediaKeyStatusMap interface returns the number of key/value paIrs in the status map.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "MediaKeyStatusMap.size"
+        }
+    ],
+    "dom-sourcekeysystem": [
+        {
+            "slug": "API/HTMLSourceElement",
+            "summary": "The HTMLSourceElement interface provides special properties (beyond the regular HTMLElement object interface it also has available to it by inheritance) for manipulating source elements.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLSourceElement"
+        }
+    ],
+    "introduction": [
+        {
+            "slug": "API/HTMLMediaElement",
+            "summary": "The HTMLMediaElement interface adds to HTMLElement the properties and methods needed to support basic media-related capabilities that are common to audio and video.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLMediaElement"
+        }
+    ],
+    "mediakeymessageevent": [
+        {
+            "slug": "API/MediaKeyMessageEvent",
+            "summary": "The MediaKeyMessageEvent interface of the EncryptedMediaExtensions API contains the content and related data when the content decryption module generates a message for the session.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "MediaKeyMessageEvent"
+        }
+    ],
+    "mediakeys-interface": [
+        {
+            "slug": "API/MediaKeys",
+            "summary": "The MediaKeys interface of EncryptedMediaExtensions API the represents a set of keys that an associated HTMLMediaElement can use for decryption of media data during playback.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "MediaKeys"
+        }
+    ],
+    "mediakeysession-interface": [
+        {
+            "slug": "API/MediaKeySession",
+            "summary": "The MediaKeySession interface of the EncryptedMediaExtensions API represents a context for message exchange with a content decryption module (CDM).",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "MediaKeySession"
+        }
+    ],
+    "mediakeystatusmap-interface": [
+        {
+            "slug": "API/MediaKeyStatusMap",
+            "summary": "The MediaKeyStatusMap interface of the EncryptedMediaExtensions API is a read-only map of media key statuses by key IDs.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "MediaKeyStatusMap"
+        }
+    ],
+    "mediakeysystemaccess-interface": [
+        {
+            "slug": "API/MediaKeySystemAccess",
+            "summary": "The MediaKeySystemAccess interface of the EncryptedMediaExtensions API provides access to a Key System for decryption and/or a content protection provider. You can request an instance of this object using the Navigator.requestMediaKeySystemAccess method.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "MediaKeySystemAccess"
+        }
+    ],
+    "navigator-extension-requestmediakeysystemaccess": [
+        {
+            "slug": "API/Navigator/requestMediaKeySystemAccess",
+            "summary": "The Navigator.requestMediaKeySystemAccess() method returns a Promise which delivers a MediaKeySystemAccess object that can be used to access a particular media key system, which can in turn be used to create keys for decrypting a media stream. This method is part of the Encrypted Media Extensions API, which brings support for encrypted media and DRM-protected video to the web.",
+            "support": {
+                "chrome": {
+                    "notes": [
+                        "The spec requires that the passed <code>supportedConfigurations</code> option contain at least one of <code>audioCapabilities</code> or <code>videoCapabilities</code>, and that said parameters include a codec string.",
+                        "The function does not exist in insecure contexts. This was not enforced until Chrome 58."
+                    ],
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "notes": [
+                        "The spec requires that the passed <code>supportedConfigurations</code> option contain at least one of <code>audioCapabilities</code> or <code>videoCapabilities</code>, and that said parameters include a codec string.",
+                        "The function does not exist in insecure contexts. This was not enforced until Chrome 58."
+                    ],
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "Starting in Firefox 55, if neither <code>audioCapabilities</code> nor <code>videoCapabilities</code> is specified in <code>supportedConfigurations</code>, a warning is output to the web console.",
+                        "In addition, starting in Firefox 55,  if in <code>supportedConfigurations</code>, either <code>audioCapabilities</code>'s or <code>videoCapabilities</code>'s <code>contentType</code> value doesn't specify a </code>\"codecs\"</code> substring to define allowed codecs within the media wrapper, a warning is output to the web console. See note below table for example and correction.",
+                        "In the future, if neither <code>audioCapabilities</code> nor <code>videoCapabilities</code> is specified in the <code>supportedConfigurations</code>, a <code>NotSupported</code> exception will be thrown."
+                    ],
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "notes": [
+                        "Starting in Firefox 55, if neither <code>audioCapabilities</code> nor <code>videoCapabilities</code> is specified in <code>supportedConfigurations</code>, a warning is output to the web console.",
+                        "In addition, starting in Firefox 55,  if in <code>supportedConfigurations</code>, either <code>audioCapabilities</code>'s or <code>videoCapabilities</code>'s <code>contentType</code> value doesn't specify a </code>\"codecs\"</code> substring to define allowed codecs within the media wrapper, a warning is output to the web console. See note below table for example and correction.",
+                        "In the future, if neither <code>audioCapabilities</code> nor <code>videoCapabilities</code> is specified in the <code>supportedConfigurations</code>, a <code>NotSupported</code> exception will be thrown."
+                    ],
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "notes": [
+                        "The spec requires that the passed <code>supportedConfigurations</code> option contain at least one of <code>audioCapabilities</code> or <code>videoCapabilities</code>, and that said parameters include a codec string.",
+                        "The function does not exist in insecure contexts. This was not enforced until Opera 45."
+                    ],
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "notes": [
+                        "The spec requires that the passed <code>supportedConfigurations</code> option contain at least one of <code>audioCapabilities</code> or <code>videoCapabilities</code>, and that said parameters include a codec string.",
+                        "The function does not exist in insecure contexts. This was not enforced until Opera 45."
+                    ],
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "notes": [
+                        "The spec requires that the passed <code>supportedConfigurations</code> option contain at least one of <code>audioCapabilities</code> or <code>videoCapabilities</code>, and that said parameters include a codec string.",
+                        "The function does not exist in insecure contexts. This was not enforced until version 58."
+                    ],
+                    "version_added": "43"
+                }
+            },
+            "title": "Navigator.requestMediaKeySystemAccess()"
+        }
+    ],
+    "widl-MediaKeyMessageEvent-message": [
+        {
+            "slug": "API/MediaKeyMessageEvent/message",
+            "summary": "The MediaKeyMessageEvent.message read-only property returns an ArrayBuffer with a message from the content decryption module. Messages vary by key system.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "message"
+        }
+    ],
+    "widl-MediaKeyMessageEvent-messageType": [
+        {
+            "slug": "API/MediaKeyMessageEvent/messageType",
+            "summary": "The MediaKeyMessageEvent.messageType read-only property indicates the type of message. It may be one of license-request, license-renewal, license-release, or individualization-request.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "MediaKeyMessageEvent.messageType"
+        }
+    ],
+    "widl-MediaKeySession-close-Promise-void": [
+        {
+            "slug": "API/MediaKeySession/close",
+            "summary": "The MediaKeySession.close() method notifies that the current media session is no longer needed, and that the content decryption module should release any resources associated with this object and close it. Then, it returns a Promise.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "close()"
+        }
+    ],
+    "widl-MediaKeySession-expiration": [
+        {
+            "slug": "API/MediaKeySession/expiration",
+            "summary": "The MediaKeySession.expiration read-only property returns the time after which the keys in the current session can no longer be used to decrypt media data, or NaN if no such time exists. This value is determined by the CDM and measured in milliseconds since January 1, 1970, UTC. This value may change during a session lifetime, such as when an action triggers the start of a window.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "expiration"
+        }
+    ],
+    "widl-MediaKeySession-generateRequest-Promise-void--DOMString-initDataType-BufferSource-initData": [
+        {
+            "slug": "API/MediaKeySession/generateRequest",
+            "summary": "The MediaKeySession.generateRequest() method returns a Promise after generating a media request based on initialization data.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "generateRequest()"
+        }
+    ],
+    "widl-MediaKeySession-keyStatuses": [
+        {
+            "slug": "API/MediaKeySession/keyStatuses",
+            "summary": "The MediaKeySession.keyStatuses read-only property returns a reference to a read-only MediaKeyStatusMap of the current session's keys and their statuses.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "keyStatuses"
+        }
+    ],
+    "widl-MediaKeySession-load-Promise-boolean--DOMString-sessionId": [
+        {
+            "slug": "API/MediaKeySession/load",
+            "summary": "The MediaKeySession.load() method returns a Promise that resolves to a boolean value after loading data for a specified session object.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "load()"
+        }
+    ],
+    "widl-MediaKeySession-sessionId": [
+        {
+            "slug": "API/MediaKeySession/sessionId",
+            "summary": "The MediaKeySession.sessionId read-only property contains a unique string generated by the CDM for the current media object and its associated keys or licenses.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "sessionId"
+        },
+        {
+            "slug": "API/MediaKeySession/remove",
+            "summary": "The MediaKeySession.remove() method returns a Promise after removing any session data associated with the current object.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "remove()"
+        }
+    ],
+    "widl-MediaKeySession-update-Promise-void--BufferSource-response": [
+        {
+            "slug": "API/MediaKeySession/update",
+            "summary": "The MediaKeySession.update() method loads messages and licenses to the CDM, and then returns a Promise .",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "update()"
+        }
+    ],
+    "widl-MediaKeySystemAccess-createMediaKeys-Promise-MediaKeys": [
+        {
+            "slug": "API/MediaKeySystemAccess/createMediaKeys",
+            "summary": "The MediaKeySystemAccess.createMediaKeys() method returns a Promise that resolves to a new MediaKeys object.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "createMediaKeys()"
+        }
+    ],
+    "widl-MediaKeySystemAccess-getConfiguration-MediaKeySystemConfiguration": [
+        {
+            "slug": "API/MediaKeySystemAccess/getConfiguration",
+            "summary": "The MediaKeySystemAccess.getConfiguration() method returns a MediaKeySystemConfiguration object with the supported combination of configuration options.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "getConfiguration()"
+        }
+    ],
+    "widl-MediaKeySystemAccess-keySystem": [
+        {
+            "slug": "API/MediaKeySystemAccess/keySystem",
+            "summary": "The MediaKeySystemAccess.keySystem read-only property returns a DOMString identifying the key system being used.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "keySystem"
+        }
+    ],
+    "widl-MediaKeySystemConfiguration-audioCapabilities": [
+        {
+            "slug": "API/MediaKeySystemConfiguration/audioCapabilities",
+            "summary": "The MediaKeySystemConfiguration.audioCapabilities read-only property returns an array of supported audio type and capability pairs.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "audioCapabilities"
+        }
+    ],
+    "widl-MediaKeySystemConfiguration-distinctiveIdentifier": [
+        {
+            "slug": "API/MediaKeySystemConfiguration/distinctiveIdentifier",
+            "summary": "The MediaKeySystemConfiguration.distinctiveIdentifier read-only property indicates whether a persistent distinctive identifier is required.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "distinctiveIdentifier"
+        }
+    ],
+    "widl-MediaKeySystemConfiguration-initDataTypes": [
+        {
+            "slug": "API/MediaKeySystemConfiguration/initDataTypes",
+            "summary": "The MediaKeySystemConfiguration.initDataTypes read-only property returns a list of supported initialization data type names. An initialization data type is a string indicating the format of the initialization data.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "initDataTypes"
+        }
+    ],
+    "widl-MediaKeySystemConfiguration-persistentState": [
+        {
+            "slug": "API/MediaKeySystemConfiguration/persistentState",
+            "summary": "The MediaKeySystemConfiguration.persistentState read-only property indicates whether the ability to persist state is required.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "persistentState"
+        }
+    ],
+    "widl-MediaKeySystemConfiguration-videoCapabilities": [
+        {
+            "slug": "API/MediaKeySystemConfiguration/videoCapabilities",
+            "summary": "The MediaKeySystemConfiguration.videoCapabilities read-only property returns an array of supported video type and capability pairs.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "videoCapabilities"
+        }
+    ],
+    "widl-MediaKeys-createSession-MediaKeySession-MediaKeySessionType-sessionType": [
+        {
+            "slug": "API/MediaKeys/createSession",
+            "summary": "The MediaKeys.createSession() method returns a new MediaKeySession object, which represents a context for message exchange with a content decryption module (CDM).",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "createSession()"
+        }
+    ],
+    "widl-MediaKeys-setServerCertificate-Promise-void--BufferSource-serverCertificate": [
+        {
+            "slug": "API/MediaKeys/setServerCertificate",
+            "summary": "The MediaKeys.setServerCertificate() method a Promise to a server certificate to be used to encrypt messages to the license server.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "13"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                }
+            },
+            "title": "setServerCertificate()"
+        }
+    ]
+}

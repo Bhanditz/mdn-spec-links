@@ -1,0 +1,413 @@
+{
+    "gradients": [
+        {
+            "slug": "CSS/gradient",
+            "summary": "The gradient CSS data type is a special type of image that consists of a progressive transition between two or more colors.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "62"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.shape-outside.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "61",
+                        "version_removed": "62"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "62"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.shape-outside.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "61",
+                        "version_removed": "62"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "<gradient>"
+        }
+    ],
+    "the-image-orientation": [
+        {
+            "slug": "CSS/image-orientation",
+            "summary": "The image-orientation CSS property specifies a layout-independent correction to the orientation of an image.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "26"
+                },
+                "firefox_android": {
+                    "version_added": "26"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "image-orientation"
+        }
+    ],
+    "the-image-rendering": [
+        {
+            "slug": "CSS/image-rendering",
+            "summary": "The image-rendering CSS property sets an image scaling algorithm. The property applies to an element itself, to any images set in its other properties, and to its descendants.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "41"
+                }
+            },
+            "title": "image-rendering"
+        }
+    ],
+    "the-object-fit": [
+        {
+            "slug": "CSS/object-fit",
+            "summary": "The object-fit CSS property sets how the content of a replaced element, such as an img or video, should be resized to fit its container.",
+            "support": {
+                "chrome": {
+                    "version_added": "31"
+                },
+                "chrome_android": {
+                    "version_added": "31"
+                },
+                "edge": {
+                    "notes": "Edge supports <code>object-fit</code> on <code>img</code> elements only. <a href='https://developer.microsoft.com/microsoft-edge/platform/issues/13603873/#comment-0'>See Edge issue 13603873 for details</a>.",
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "36"
+                },
+                "firefox_android": {
+                    "version_added": "36"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "19"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "11.6"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "24"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "11.5"
+                    }
+                ],
+                "safari": {
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "version_added": "10"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "object-fit"
+        }
+    ],
+    "the-object-position": [
+        {
+            "slug": "CSS/object-position",
+            "summary": "The object-position CSS property specifies the alignment of the selected replaced element's contents within the element's box.",
+            "support": {
+                "chrome": {
+                    "version_added": "31"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "36"
+                },
+                "firefox_android": {
+                    "version_added": "36"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "19"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "11.6"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "24"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "11.5"
+                    }
+                ],
+                "safari": {
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "version_added": "10"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "4.4.3"
+                }
+            },
+            "title": "object-position"
+        }
+    ],
+    "typedef-image": [
+        {
+            "slug": "CSS/image",
+            "summary": "The image CSS data type represents a two-dimensional image. There are two kinds of images: plain images, referenced with a url, and dynamically-generated images, generated with gradient or element(). Images can be used with numerous CSS properties, such as background-image, border-image, content, cursor, and list-style-image.",
+            "support": {
+                "chrome": {
+                    "version_added": "37"
+                },
+                "chrome_android": {
+                    "version_added": "37"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "62"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.shape-outside.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "61",
+                        "version_removed": "62"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "62"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.shape-outside.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "61",
+                        "version_removed": "62"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "<image>"
+        },
+        {
+            "slug": "CSS/image",
+            "summary": "The image CSS data type represents a two-dimensional image. There are two kinds of images: plain images, referenced with a url, and dynamically-generated images, generated with gradient or element(). Images can be used with numerous CSS properties, such as background-image, border-image, content, cursor, and list-style-image.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "<image>"
+        }
+    ]
+}

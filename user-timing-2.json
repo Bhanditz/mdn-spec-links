@@ -1,0 +1,321 @@
+{
+    "dom-performance-clearmarks": [
+        {
+            "slug": "API/Performance/clearMarks",
+            "summary": "The clearMarks() method removes the named mark from the browser's performance entry buffer. If the method is called with no arguments, all performance entries with an entry type of \"mark\" will be removed from the performance entry buffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "46"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "33"
+                },
+                "opera_android": {
+                    "version_added": "33"
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "webview_android": {
+                    "version_added": "46"
+                }
+            },
+            "title": "Performance.clearMarks()"
+        }
+    ],
+    "dom-performance-clearmeasures": [
+        {
+            "slug": "API/Performance/clearMeasures",
+            "summary": "The clearMeasures() method removes the named measure from the browser's performance entry buffer. If the method is called with no arguments, all performance entries with an entry type of \"measure\" will be removed from the performance entry buffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "46"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "33"
+                },
+                "opera_android": {
+                    "version_added": "33"
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "webview_android": {
+                    "version_added": "46"
+                }
+            },
+            "title": "Performance.clearMeasures()"
+        }
+    ],
+    "dom-performance-mark": [
+        {
+            "slug": "API/Performance/mark",
+            "summary": "The mark() method creates a timestamp in the browser's performance entry buffer with the given name. The application defined timestamp can be retrieved by one of the Performance interface's getEntries*() methods (getEntries(), getEntriesByName() or getEntriesByType()).",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "46"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "33"
+                },
+                "opera_android": {
+                    "version_added": "33"
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "webview_android": {
+                    "version_added": "46"
+                }
+            },
+            "title": "Performance.mark()"
+        }
+    ],
+    "dom-performance-measure": [
+        {
+            "slug": "API/Performance/measure",
+            "summary": "The measure() method creates a named timestamp in the browser's performance entry buffer between two specified marks (known as the start mark and end mark, respectively). The named timestamp is referred to as a measure.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "46"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "33"
+                },
+                "opera_android": {
+                    "version_added": "33"
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "webview_android": {
+                    "version_added": "46"
+                }
+            },
+            "title": "Performance.measure()"
+        },
+        {
+            "slug": "API/PerformanceMeasure",
+            "summary": "PerformanceMeasure is an abstract interface for PerformanceEntry objects with an entryType of \"measure\". Entries of this type are created by calling performance.measure() to add a named DOMHighResTimeStamp (the measure) between two marks to the browser's performance timeline.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "33"
+                },
+                "opera_android": {
+                    "version_added": "33"
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "PerformanceMeasure"
+        }
+    ],
+    "extensions-performance-interface": [
+        {
+            "slug": "API/Performance",
+            "summary": "The Performance interface provides access to performance-related information for the current page. It's part of the High Resolution Time API, but is enhanced by the Performance Timeline API, the Navigation Timing API, the User Timing API, and the Resource Timing API.",
+            "support": {
+                "chrome": {
+                    "version_added": "6"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "7"
+                },
+                "firefox_android": {
+                    "version_added": "7"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": "9"
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Performance"
+        }
+    ],
+    "performancemark": [
+        {
+            "slug": "API/PerformanceMark",
+            "summary": "PerformanceMark is an abstract interface for PerformanceEntry objects with an entryType of \"mark\". Entries of this type are created by calling performance.mark() to add a named DOMHighResTimeStamp (the mark) to the browser's performance timeline.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "41"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "33"
+                },
+                "opera_android": {
+                    "version_added": "33"
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "PerformanceMark"
+        }
+    ]
+}

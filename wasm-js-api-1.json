@@ -1,0 +1,698 @@
+{
+    "constructor-properties-of-the-webassembly-object": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/CompileError",
+            "summary": "The WebAssembly.CompileError() constructor creates a new WebAssembly CompileError object, which indicates an error during WebAssembly decoding or validation.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Experimental JavaScript Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "8.0.0"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "WebAssembly.CompileError()"
+        },
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/LinkError",
+            "summary": "The WebAssembly.LinkError() constructor creates a new WebAssembly LinkError object, which indicates an error during module instantiation (besides traps from the start function).",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Experimental JavaScript Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "8.0.0"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "WebAssembly.LinkError()"
+        },
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/RuntimeError",
+            "summary": "The WebAssembly.RuntimeError() constructor creates a new WebAssembly RuntimeError object \u2014 the type that is thrown whenever WebAssembly specifies a trap.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Experimental JavaScript Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "8.0.0"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "WebAssembly.RuntimeError()"
+        }
+    ],
+    "globals": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/Global",
+            "summary": "A WebAssembly.Global object represents a global variable instance, accessible from both JavaScript and importable/exportable across one or more WebAssembly.Module instances. This allows dynamic linking of multiple modules.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "62"
+                },
+                "firefox_android": {
+                    "version_added": "62"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "WebAssembly.Global"
+        }
+    ],
+    "the-webassembly-object": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly",
+            "summary": "The WebAssembly JavaScript object acts as the namespace for all WebAssembly-related functionality.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Experimental JavaScript Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "8.0.0"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "WebAssembly"
+        }
+    ],
+    "webassemblycompile": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/compile",
+            "summary": "The WebAssembly.compile() function compiles a WebAssembly.Module from WebAssembly binary code.  This function is useful if it is necessary to a compile a module before it can be instantiated (otherwise, the WebAssembly.instantiate() function should be used).",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Experimental JavaScript Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "8.0.0"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "WebAssembly.compile()"
+        }
+    ],
+    "webassemblyinstance-objects": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/Instance",
+            "summary": "A WebAssembly.Instance object is a stateful, executable instance of a WebAssembly.Module.  Instance objects contain all the Exported WebAssembly functions that allow calling into WebAssembly code from JavaScript.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Experimental JavaScript Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "8.0.0"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "WebAssembly.Instance"
+        }
+    ],
+    "webassemblyinstantiate": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/instantiate",
+            "summary": "The WebAssembly.instantiate() function allows you to compile and instantiate WebAssembly code.  This function has two overloads:",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Experimental JavaScript Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "8.0.0"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "WebAssembly.instantiate()"
+        }
+    ],
+    "webassemblymemory-objects": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/Memory",
+            "summary": "The WebAssembly.Memory() constructor creates a new Memory object which is a resizable ArrayBuffer that holds the raw bytes of memory accessed by a WebAssembly Instance.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Experimental JavaScript Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "8.0.0"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "WebAssembly.Memory()"
+        }
+    ],
+    "webassemblymodule-objects": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/Module",
+            "summary": "All Module instances inherit from the Module() constructor's prototype object \u2014 this can be modified to affect all Module instances.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Experimental JavaScript Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "8.0.0"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "WebAssembly.Module"
+        }
+    ],
+    "webassemblytable-objects": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/Table",
+            "summary": "The WebAssembly.Table() constructor creates a new Table object of the given size and element type.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Experimental JavaScript Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "8.0.0"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "WebAssembly.Table()"
+        }
+    ],
+    "webassemblyvalidate": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/WebAssembly/validate",
+            "summary": "The WebAssembly.validate() function validates a given typed array of WebAssembly binary code, returning whether the bytes form a valid wasm module (true) or not (false).",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Experimental JavaScript Features",
+                            "type": "preference"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "notes": "Disabled in the Firefox 52 Extended Support Release (ESR).",
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "8.0.0"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "WebAssembly.validate()"
+        }
+    ]
+}

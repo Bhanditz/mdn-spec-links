@@ -1,0 +1,1347 @@
+{
+    "MediaRecorder.html#errorevent-section": [
+        {
+            "slug": "API/MediaRecorderErrorEvent",
+            "summary": "The MediaRecorderErrorEvent interface represents errors returned by the MediaStream Recording API. It is an Event object that encapsulates a reference to a DOMException describing the error that occurred.",
+            "support": {
+                "chrome": {
+                    "notes": "Uses a generic event with an <code>error</code> property.",
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "notes": "Uses a generic event with an <code>error</code> property.",
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": "57"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": "Uses a generic event with an <code>error</code> property.",
+                    "version_added": false
+                },
+                "opera_android": {
+                    "notes": "Uses a generic event with an <code>error</code> property.",
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "MediaRecorderErrorEvent"
+        }
+    ],
+    "MediaRecorderAPI": [
+        {
+            "slug": "API/MediaRecorder",
+            "summary": "The MediaRecorder interface of the MediaStream Recording API provides functionality to easily record media. It is created using the MediaRecorder() constructor.",
+            "support": {
+                "chrome": {
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "47"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Prior to Firefox 58, using <code>MediaStream.addTrack()</code> on a stream obtained using <code>getUserMedia()</code>, then attempting to record the resulting stream would result in only recording the original stream without the added tracks (severe bug).",
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "notes": "Prior to Firefox 58, using <code>MediaStream.addTrack()</code> on a stream obtained using <code>getUserMedia()</code>, then attempting to record the resulting stream would result in only recording the original stream without the added tracks (severe bug).",
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "47"
+                }
+            },
+            "title": "MediaRecorder"
+        }
+    ],
+    "blob-event": [
+        {
+            "slug": "API/BlobEvent",
+            "summary": "The BlobEvent interface represents events associated with a Blob. These blobs are typically, but not necessarily,  associated with media content.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "22"
+                },
+                "firefox_android": {
+                    "version_added": "22"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "BlobEvent"
+        }
+    ],
+    "dom-blobevent-blobevent": [
+        {
+            "slug": "API/BlobEvent/BlobEvent",
+            "summary": "The BlobEvent() constructor returns a newly created BlobEvent object with an associated Blob.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "22"
+                },
+                "firefox_android": {
+                    "version_added": "22"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "BlobEvent.BlobEvent()"
+        }
+    ],
+    "dom-blobevent-timecode": [
+        {
+            "slug": "API/BlobEvent/timecode",
+            "summary": "The timecode readonlyinline property of the BlobEvent interface a DOMHighResTimeStamp indicating the difference between the timestamp of the first chunk in data, and the timestamp of the first chunk in the first BlobEvent produced by this recorder.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "BlobEvent.timecode"
+        }
+    ],
+    "dom-mediarecorder-audiobitspersecond": [
+        {
+            "slug": "API/MediaRecorder/audioBitsPerSecond",
+            "summary": "The audioBitsPerSecond read-only property of the MediaRecorder interface returns the audio encoding bit rate in use.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.audioBitsPerSecond"
+        }
+    ],
+    "dom-mediarecorder-ignoremutedmedia": [
+        {
+            "slug": "API/MediaRecorder/ignoreMutedMedia",
+            "summary": "The ignoreMutedMedia property of the MediaRecorder interface indicates whether the MediaRecorder instance will record input, when the input MediaStreamTrack is muted.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.ignoreMutedMedia"
+        }
+    ],
+    "dom-mediarecorder-istypesupported": [
+        {
+            "slug": "API/MediaRecorder/isTypeSupported",
+            "summary": "The MediaRecorder.isTypeSupported() method returns a Boolean which is true if the MIME type specified is one the user agent can record.",
+            "support": {
+                "chrome": {
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "47"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "47"
+                }
+            },
+            "title": "MediaRecorder.isTypeSupported"
+        }
+    ],
+    "dom-mediarecorder-videobitspersecond": [
+        {
+            "slug": "API/MediaRecorder/videoBitsPerSecond",
+            "summary": "The videoBitsPerSecond read-only property of the MediaRecorder interface returns the video encoding bit rate in use.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.videoBitsPerSecond"
+        }
+    ],
+    "dom-mediarecordererrorevent-mediarecordererrorevent": [
+        {
+            "slug": "API/MediaRecorderErrorEvent/MediaRecorderErrorEvent",
+            "summary": "The MediaRecorderErrorEvent() constructor creates a new MediaRecorderErrorEvent object that represents an error that occurred during the recording of media by the MediaStream Recording API.",
+            "support": {
+                "chrome": {
+                    "notes": "Uses a generic event with an <code>error</code> property.",
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "notes": "Uses a generic event with an <code>error</code> property.",
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": "57"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": "Uses a generic event with an <code>error</code> property.",
+                    "version_added": false
+                },
+                "opera_android": {
+                    "notes": "Uses a generic event with an <code>error</code> property.",
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "MediaRecorderErrorEvent()"
+        }
+    ],
+    "errorevent-section": [
+        {
+            "slug": "API/MediaRecorderErrorEvent/error",
+            "summary": "The read-only error property in the MediaRecordingErrorEvent interface is a DOMException object providing details about the exception that was thrown by a MediaRecorder instance.",
+            "support": {
+                "chrome": {
+                    "notes": "Uses a generic event with an <code>error</code> property.",
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "notes": "Uses a generic event with an <code>error</code> property.",
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": "57"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": "Uses a generic event with an <code>error</code> property.",
+                    "version_added": false
+                },
+                "opera_android": {
+                    "notes": "Uses a generic event with an <code>error</code> property.",
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "MediaRecorderErrorEvent.error"
+        }
+    ],
+    "widl-BlobEvent-data": [
+        {
+            "slug": "API/BlobEvent/data",
+            "summary": "The BlobEvent.data read-only property represents a Blob associated with the event.",
+            "support": {
+                "chrome": {
+                    "version_added": "49"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "22"
+                },
+                "firefox_android": {
+                    "version_added": "22"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "BlobEvent.data"
+        }
+    ],
+    "widl-MediaRecorder-mimeType": [
+        {
+            "slug": "API/MediaRecorder/mimeType",
+            "summary": "The MediaRecorder.mimeType read-only property returns the MIME type that is being used as the recording container when it was created. This is the file format of the file that would result from writing all of the recorded data to disk. Keep in mind, of course, that the file format and the codecs associated with the individual tracks are different things entirely; writing tracks that work just fine in a WebM video into an MP4 wrapper may not result in a file that plays everywhere you want  it to.",
+            "support": {
+                "chrome": {
+                    "notes": "Prior to Chrome 49, only video is supported, not audio.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.mimeType"
+        }
+    ],
+    "widl-MediaRecorder-ondataavailable": [
+        {
+            "slug": "API/MediaRecorder/ondataavailable",
+            "summary": "The MediaRecorder.ondataavailable event handler (part of the MediaStream Recording API) handles the dataavailable event, letting you run code in response to Blob data being made available for use.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Experimental Web Platform features",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "notes": "Full support since Chrome 49.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.ondataavailable"
+        }
+    ],
+    "widl-MediaRecorder-onerror": [
+        {
+            "slug": "API/MediaRecorder/onerror",
+            "summary": "The MediaRecorder interface's onerror event handler is called by the MediaStream Recording API when an error occurs. You can provide an event handler to deal with errors that occur while creating or using a media recorder",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Experimental Web Platform features",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "notes": "Full support since Chrome 49.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.onerror"
+        }
+    ],
+    "widl-MediaRecorder-onpause": [
+        {
+            "slug": "API/MediaRecorder/onpause",
+            "summary": "The MediaRecorder.onpause event handler (part of the MediaRecorder API) handles the pause event, allowing you to run code in response to the media recording being paused.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Experimental Web Platform features",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "notes": "Full support since Chrome 49.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.onpause"
+        }
+    ],
+    "widl-MediaRecorder-onresume": [
+        {
+            "slug": "API/MediaRecorder/onresume",
+            "summary": "The MediaRecorder.onresume event handler (part of the MediaRecorder API) handles the resume event, allowing you to run code in response to the media recording being resumed after pausing.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Experimental Web Platform features",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "notes": "Full support since Chrome 49.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.onresume"
+        }
+    ],
+    "widl-MediaRecorder-onstart": [
+        {
+            "slug": "API/MediaRecorder/onstart",
+            "summary": "The MediaRecorder.onstartevent handler (part of the MediaRecorder API) handles the start event, allowing you to run code in response to media recording being started by a MediaRecorder.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Experimental Web Platform features",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "notes": "Full support since Chrome 49.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.onstart"
+        }
+    ],
+    "widl-MediaRecorder-onstop": [
+        {
+            "slug": "API/MediaRecorder/onstop",
+            "summary": "The MediaRecorder.onstop event handler (part of the MediaRecorder API) handles the stop event, allowing you to run code in response to media recording via a MediaRecorder being stopped.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Experimental Web Platform features",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "notes": "Full support since Chrome 49.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.onstop"
+        }
+    ],
+    "widl-MediaRecorder-pause-void": [
+        {
+            "slug": "API/MediaRecorder/pause",
+            "summary": "The Media.pause() method (part of the MediaRecorder API) is used to pause recording of media streams.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Experimental Web Platform features",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "notes": "Full support since Chrome 49.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.pause()"
+        }
+    ],
+    "widl-MediaRecorder-requestData-void": [
+        {
+            "slug": "API/MediaRecorder/requestData",
+            "summary": "The MediaRecorder.requestData() method (part of the MediaRecorder API) is used to raise a dataavailable event containing a Blob object of the captured media as it was when the method was called.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Experimental Web Platform features",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "notes": "Full support since Chrome 49.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.requestData()"
+        }
+    ],
+    "widl-MediaRecorder-resume-void": [
+        {
+            "slug": "API/MediaRecorder/resume",
+            "summary": "The MediaRecorder.resume() method (part of the MediaRecorder API) is used to resume media recording when it has been previously paused.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Experimental Web Platform features",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "notes": "Full support since Chrome 49.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.resume()"
+        }
+    ],
+    "widl-MediaRecorder-start-void-long-timeslice": [
+        {
+            "slug": "API/MediaRecorder/start",
+            "summary": "The MediaRecorder method start(), which is part of the MediaStream Recording API, begins recording media into one or more Blob objects.",
+            "support": {
+                "chrome": {
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "47"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "47"
+                }
+            },
+            "title": "MediaRecorder.start()"
+        }
+    ],
+    "widl-MediaRecorder-state": [
+        {
+            "slug": "API/MediaRecorder/state",
+            "summary": "The MediaRecorder.state read-only property returns the current state of the current MediaRecorder object.",
+            "support": {
+                "chrome": {
+                    "notes": "Prior to Chrome 49, only video is supported, not audio.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.state"
+        }
+    ],
+    "widl-MediaRecorder-stop-void": [
+        {
+            "slug": "API/MediaRecorder/stop",
+            "summary": "The MediaRecorder.stop() method (part of the MediaRecorder API) is used to stop media capture.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Experimental Web Platform features",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "notes": "Full support since Chrome 49.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.stop()"
+        }
+    ],
+    "widl-MediaRecorder-stream": [
+        {
+            "slug": "API/MediaRecorder/stream",
+            "summary": "The MediaRecorder.stream read-only property returns the stream that was passed into the MediaRecorder() constructor when the MediaRecorder was created.",
+            "support": {
+                "chrome": {
+                    "notes": "Prior to Chrome 49, only video is supported, not audio.",
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "49"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "25"
+                },
+                "firefox_android": {
+                    "version_added": "25"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "49"
+                }
+            },
+            "title": "MediaRecorder.stream"
+        }
+    ]
+}

@@ -1,0 +1,2011 @@
+{
+    "column-row-gap": [
+        {
+            "slug": "CSS/column-gap",
+            "summary": "The column-gap CSS property sets the size of the gap (gutter) between an element's columns.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "qq_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "uc_android": {
+                    "version_added": null
+                },
+                "uc_chinese_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "column-gap (grid-column-gap)"
+        },
+        {
+            "slug": "CSS/column-gap",
+            "summary": "The column-gap CSS property sets the size of the gap (gutter) between an element's columns.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "57"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "flags": [
+                            {
+                                "name": "Enable experimental Web Platform features",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "29"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "57"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "flags": [
+                            {
+                                "name": "Enable experimental Web Platform features",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "29"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "61"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "52"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "flags": [
+                            {
+                                "name": "layout.css.grid.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "61"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "52"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "flags": [
+                            {
+                                "name": "layout.css.grid.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "53"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "44"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "flags": [
+                            {
+                                "name": "Enable experimental Web Platform features",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "28"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "53"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "44"
+                    }
+                ],
+                "qq_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "alternative_name": "grid-gap",
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "alternative_name": "grid-gap",
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "alternative_name": "grid-gap",
+                    "version_added": "6.0"
+                },
+                "uc_android": {
+                    "version_added": null
+                },
+                "uc_chinese_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "57"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "flags": [
+                            {
+                                "name": "Enable experimental Web Platform features",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "4.4"
+                    }
+                ]
+            },
+            "title": "column-gap (grid-column-gap)"
+        },
+        {
+            "slug": "CSS/column-gap",
+            "summary": "The column-gap CSS property sets the size of the gap (gutter) between an element's columns.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "50"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "50"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Before Firefox 3, the default value for the <code>normal</code> keyword was <code>0</code> and not <code>1em</code>.",
+                        "prefix": "-moz-",
+                        "version_added": "1.5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "37"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "37"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "version_removed": "14"
+                    }
+                ],
+                "qq_android": {
+                    "version_added": null
+                },
+                "safari": [
+                    {
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": "5.0"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "uc_android": {
+                    "version_added": null
+                },
+                "uc_chinese_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "50"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "column-gap (grid-column-gap)"
+        }
+    ],
+    "place-items-property": [
+        {
+            "slug": "CSS/place-items",
+            "summary": "The CSS place-items shorthand property sets the align-items and justify-items properties, respectively. If the second value is not set, the first value is also used for it.",
+            "support": {
+                "chrome": {
+                    "version_added": "59"
+                },
+                "chrome_android": {
+                    "version_added": "59"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "59"
+                }
+            },
+            "title": "place-items"
+        },
+        {
+            "slug": "CSS/place-items",
+            "summary": "The CSS place-items shorthand property sets the align-items and justify-items properties, respectively. If the second value is not set, the first value is also used for it.",
+            "support": {
+                "chrome": {
+                    "version_added": "59"
+                },
+                "chrome_android": {
+                    "version_added": "59"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "59"
+                }
+            },
+            "title": "place-items"
+        }
+    ],
+    "place-self-property": [
+        {
+            "slug": "CSS/place-self",
+            "summary": "The place-self CSS property is a shorthand property sets both the align-self and justify-self properties. The first value is the align-self property value, the second the justify-self one. If the second value is not present, the first value is also used for it.",
+            "support": {
+                "chrome": {
+                    "version_added": "59"
+                },
+                "chrome_android": {
+                    "version_added": "59"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "59"
+                }
+            },
+            "title": "place-self"
+        },
+        {
+            "slug": "CSS/place-self",
+            "summary": "The place-self CSS property is a shorthand property sets both the align-self and justify-self properties. The first value is the align-self property value, the second the justify-self one. If the second value is not present, the first value is also used for it.",
+            "support": {
+                "chrome": {
+                    "version_added": "59"
+                },
+                "chrome_android": {
+                    "version_added": "59"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "59"
+                }
+            },
+            "title": "place-self"
+        }
+    ],
+    "propdef-align-content": [
+        {
+            "slug": "CSS/align-content",
+            "summary": "The CSS align-content property sets how the browser distributes space between and around content items along the cross-axis of a flexbox container, and the main-axis of a grid container.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "28"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "28"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": "12.1"
+                },
+                "safari": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "6.1"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "9.2"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "7.1"
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "align-content"
+        },
+        {
+            "slug": "CSS/align-content",
+            "summary": "The CSS align-content property sets how the browser distributes space between and around content items along the cross-axis of a flexbox container, and the main-axis of a grid container.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.2"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "align-content"
+        }
+    ],
+    "propdef-align-items": [
+        {
+            "slug": "CSS/align-items",
+            "summary": "The CSS align-items property sets the align-self value on all direct children as a group. The align-self property sets the alignment of an item within its containing block. In Flexbox it controls the alignment of items on the Cross Axis, in Grid Layout it controls the alignment of items on the Block Axis within their grid area.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Multi-line flexbox has been supported since Firefox 28.",
+                        "version_added": "20"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": true
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "notes": "Multi-line flexbox has been supported since Firefox 28.",
+                        "version_added": "20"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": true
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    }
+                ],
+                "ie": {
+                    "notes": "In Internet Explorer 10 and 11, if column flex items have <code>align-items: center;</code> set on them and their content is too large, then they will overflow the bounds of their container. See <a href='https://github.com/philipwalton/flexbugs#2-column-flex-items-set-to-align-itemscenter-overflow-their-container'>Flexbug #2</a>.",
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": "12.1"
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "align-items"
+        },
+        {
+            "slug": "CSS/align-items",
+            "summary": "The CSS align-items property sets the align-self value on all direct children as a group. The align-self property sets the alignment of an item within its containing block. In Flexbox it controls the alignment of items on the Cross Axis, in Grid Layout it controls the alignment of items on the Block Axis within their grid area.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": "52"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.2"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "align-items"
+        }
+    ],
+    "propdef-align-self": [
+        {
+            "slug": "CSS/align-self",
+            "summary": "The align-self CSS property aligns flex items of the current flex line overriding the align-items value. If any of the item's cross-axis margin is set to auto, then align-self is ignored. In Grid layout align-self aligns the item inside the grid area.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "36"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "36"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Before Firefox 27, only single-line flexbox is supported.",
+                        "version_added": "20"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": "20"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "37"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "align-self"
+        },
+        {
+            "slug": "CSS/align-self",
+            "summary": "The align-self CSS property aligns flex items of the current flex line overriding the align-items value. If any of the item's cross-axis margin is set to auto, then align-self is ignored. In Grid layout align-self aligns the item inside the grid area.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": "52"
+                },
+                "ie": {
+                    "notes": "IE10 and 11 have the property -ms-grid-column-align which acts in a similar way to align-self.",
+                    "partial_implementation": true,
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.2"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "align-self"
+        }
+    ],
+    "propdef-gap": [
+        {
+            "slug": "CSS/gap",
+            "summary": "The gap CSS property sets the gaps (gutters) between rows and columns. It is a shorthand for row-gap and column-gap.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "qq_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "uc_android": {
+                    "version_added": null
+                },
+                "uc_chinese_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "gap (grid-gap)"
+        },
+        {
+            "slug": "CSS/gap",
+            "summary": "The gap CSS property sets the gaps (gutters) between rows and columns. It is a shorthand for row-gap and column-gap.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "57"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "flags": [
+                            {
+                                "name": "Enable experimental Web Platform features",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "29"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "57"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "flags": [
+                            {
+                                "name": "Enable experimental Web Platform features",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "29"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "61"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "52"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "flags": [
+                            {
+                                "name": "layout.css.grid.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "61"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "52"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "flags": [
+                            {
+                                "name": "layout.css.grid.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "53"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "44"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "flags": [
+                            {
+                                "name": "Enable experimental Web Platform features",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "28"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "53"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "44"
+                    }
+                ],
+                "qq_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "alternative_name": "grid-gap",
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "alternative_name": "grid-gap",
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "alternative_name": "grid-gap",
+                    "version_added": "6.0"
+                },
+                "uc_android": {
+                    "version_added": null
+                },
+                "uc_chinese_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "grid-gap",
+                        "version_added": "57"
+                    }
+                ]
+            },
+            "title": "gap (grid-gap)"
+        },
+        {
+            "slug": "CSS/gap",
+            "summary": "The gap CSS property sets the gaps (gutters) between rows and columns. It is a shorthand for row-gap and column-gap.",
+            "support": {
+                "chrome": {
+                    "version_added": "66"
+                },
+                "chrome_android": {
+                    "version_added": "66"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "61"
+                },
+                "firefox_android": {
+                    "version_added": "61"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "53"
+                },
+                "opera_android": {
+                    "version_added": "53"
+                },
+                "qq_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "uc_android": {
+                    "version_added": null
+                },
+                "uc_chinese_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "66"
+                }
+            },
+            "title": "gap (grid-gap)"
+        }
+    ],
+    "propdef-justify-content": [
+        {
+            "slug": "CSS/justify-content",
+            "summary": "The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Before Firefox 27, Firefox supported only single-line flexbox.",
+                        "version_added": "20"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": "12.1"
+                },
+                "safari": {
+                    "version_added": "9"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "justify-content"
+        },
+        {
+            "slug": "CSS/justify-content",
+            "summary": "The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.2"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "justify-content"
+        }
+    ],
+    "propdef-justify-items": [
+        {
+            "slug": "CSS/justify-items",
+            "summary": "The CSS justify-items property defines the default justify-self for all items of the box, giving them all a default way of justifying each box along the appropriate axis.",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "20"
+                },
+                "firefox_android": {
+                    "version_added": "20"
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": "12.1"
+                },
+                "safari": {
+                    "version_added": "9"
+                },
+                "safari_ios": {
+                    "version_added": "9.2"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "52"
+                }
+            },
+            "title": "justify-items"
+        },
+        {
+            "slug": "CSS/justify-items",
+            "summary": "The CSS justify-items property defines the default justify-self for all items of the box, giving them all a default way of justifying each box along the appropriate axis.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": "16"
+                },
+                "firefox": {
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "justify-items"
+        }
+    ],
+    "propdef-justify-self": [
+        {
+            "slug": "CSS/justify-self",
+            "summary": "The CSS justify-self property set the way a box is justified inside its alignment container along the appropriate axis.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": "16"
+                },
+                "firefox": {
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "justify-self"
+        },
+        {
+            "slug": "CSS/justify-self",
+            "summary": "The CSS justify-self property set the way a box is justified inside its alignment container along the appropriate axis.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": "16"
+                },
+                "firefox": {
+                    "version_added": "45"
+                },
+                "firefox_android": {
+                    "version_added": "45"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "justify-self"
+        }
+    ],
+    "propdef-place-content": [
+        {
+            "slug": "CSS/place-content",
+            "summary": "The place-content CSS property is a shorthand for align-content and justify-content. It can be used in any layout method which utilizes both us these alignment values.",
+            "support": {
+                "chrome": {
+                    "version_added": "59"
+                },
+                "chrome_android": {
+                    "version_added": "59"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "59"
+                }
+            },
+            "title": "place-content"
+        },
+        {
+            "slug": "CSS/place-content",
+            "summary": "The place-content CSS property is a shorthand for align-content and justify-content. It can be used in any layout method which utilizes both us these alignment values.",
+            "support": {
+                "chrome": {
+                    "version_added": "59"
+                },
+                "chrome_android": {
+                    "version_added": "59"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": {
+                    "version_added": "53"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "59"
+                }
+            },
+            "title": "place-content"
+        }
+    ],
+    "propdef-row-gap": [
+        {
+            "slug": "CSS/row-gap",
+            "summary": "The row-gap CSS property sets the size of the gap (gutter) between an element's grid rows.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "qq_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "uc_android": {
+                    "version_added": null
+                },
+                "uc_chinese_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "row-gap (grid-row-gap)"
+        },
+        {
+            "slug": "CSS/row-gap",
+            "summary": "The row-gap CSS property sets the size of the gap (gutter) between an element's grid rows.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "grid-row-gap",
+                        "version_added": "57"
+                    },
+                    {
+                        "alternative_name": "grid-row-gap",
+                        "flags": [
+                            {
+                                "name": "Enable experimental Web Platform features",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "29"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "grid-row-gap",
+                        "version_added": "57"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "Enable experimental Web Platform features",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "29"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "alternative_name": "grid-row-gap",
+                        "version_added": "16"
+                    }
+                ],
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "61"
+                    },
+                    {
+                        "alternative_name": "grid-row-gap",
+                        "version_added": "52"
+                    },
+                    {
+                        "alternative_name": "grid-row-gap",
+                        "flags": [
+                            {
+                                "name": "layout.css.grid.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "61"
+                    },
+                    {
+                        "alternative_name": "grid-row-gap",
+                        "version_added": "52"
+                    },
+                    {
+                        "alternative_name": "grid-row-gap",
+                        "flags": [
+                            {
+                                "name": "layout.css.grid.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "53"
+                    },
+                    {
+                        "alternative_name": "grid-row-gap",
+                        "version_added": "44"
+                    },
+                    {
+                        "alternative_name": "grid-row-gap",
+                        "flags": [
+                            {
+                                "name": "Enable experimental Web Platform features",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "28"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "53"
+                    },
+                    {
+                        "alternative_name": "grid-row-gap",
+                        "version_added": "44"
+                    }
+                ],
+                "qq_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "alternative_name": "grid-row-gap",
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "alternative_name": "grid-row-gap",
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "alternative_name": "grid-row-gap",
+                    "version_added": "6.0"
+                },
+                "uc_android": {
+                    "version_added": null
+                },
+                "uc_chinese_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "grid-row-gap",
+                        "version_added": "57"
+                    }
+                ]
+            },
+            "title": "row-gap (grid-row-gap)"
+        }
+    ]
+}

@@ -1,0 +1,530 @@
+{
+    "element-interface": [
+        {
+            "slug": "API/Element/requestPointerLock",
+            "summary": "The Element.requestPointerLock() method lets you asynchronously ask for the pointer to be locked on the given element.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "50"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": true
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "Element.requestPointerLock()"
+        }
+    ],
+    "extensions-to-the-document-interface": [
+        {
+            "slug": "API/Document",
+            "summary": "The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Document"
+        },
+        {
+            "slug": "API/GlobalEventHandlers",
+            "summary": "The GlobalEventHandlers mixin describes the event handlers common to several interfaces like HTMLElement, Document, or Window.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "GlobalEventHandlers"
+        }
+    ],
+    "extensions-to-the-documentorshadowroot-mixin": [
+        {
+            "slug": "API/DocumentOrShadowRoot/pointerLockElement",
+            "summary": "The pointerLockElement property provides the element set as the target for mouse events while the pointer is locked. It is null if lock is pending, pointer is unlocked, or the target is in another document.",
+            "support": {
+                "chrome": {
+                    "version_added": "53"
+                },
+                "chrome_android": {
+                    "version_added": "53"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": "40"
+                },
+                "opera_android": {
+                    "version_added": "40"
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "53"
+                }
+            },
+            "title": "DocumentOrShadowRoot.pointerLockElement"
+        }
+    ],
+    "extensions-to-the-mouseevent-interface": [
+        {
+            "slug": "API/MouseEvent",
+            "summary": "The MouseEvent interface represents events that occur due to the user interacting with a pointing device (such as a mouse). Common events using this interface include click, dblclick, mouseup, mousedown.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MouseEvent"
+        }
+    ],
+    "index.html#element-interface": [
+        {
+            "slug": "API/Element",
+            "summary": "Element is the most general base class from which all objects in a Document inherit. It only has methods and properties common to all kinds of elements. More specific classes inherit from Element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element"
+        }
+    ],
+    "l#extensions-to-the-document-interface": [
+        {
+            "slug": "API/Document/exitPointerLock",
+            "summary": "The exitPointerLock() method asynchronously releases a pointer lock previously requested through Element.requestPointerLock.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "50"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": true
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "50"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": true
+                    }
+                ],
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "Document.exitPointerLock()"
+        }
+    ],
+    "widl-MouseEvent-movementX": [
+        {
+            "slug": "API/MouseEvent/movementX",
+            "summary": "The MouseEvent.movementX read-only property provides the shift in the X coordinate of the mouse pointer between that event and the previous mousemove event. In other words, the value of that property is computed that way : currentEvent.movementX = currentEvent.screenX - previousEvent.screenX.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "37"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "22",
+                        "version_removed": "37"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "37"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true,
+                        "version_removed": "37"
+                    }
+                ],
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "1",
+                        "version_removed": "41"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "4",
+                        "version_removed": "41"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "MouseEvent.movementX"
+        }
+    ],
+    "widl-MouseEvent-movementY": [
+        {
+            "slug": "API/MouseEvent/movementY",
+            "summary": "The MouseEvent.movementY read-only property provides the shift in the Y coordinate of the mouse pointer between that event and the previous mousemove event. In other words, the value of that property is computed that way : currentEvent.movementY = currentEvent.screenY - previousEvent.screenY.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "37"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "22",
+                        "version_removed": "37"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "37"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true,
+                        "version_removed": "37"
+                    }
+                ],
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "1",
+                        "version_removed": "41"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "prefix": "moz",
+                        "version_added": "4",
+                        "version_removed": "41"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "MouseEvent.movementY"
+        }
+    ]
+}

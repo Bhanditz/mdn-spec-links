@@ -1,0 +1,716 @@
+{
+    "collator-objects": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/Collator",
+            "summary": "The Intl.Collator object is a constructor for collators, objects that enable language sensitive string comparison.",
+            "support": {
+                "chrome": {
+                    "version_added": "24"
+                },
+                "chrome_android": {
+                    "version_added": "26"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "29"
+                },
+                "firefox_android": {
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "version_added": "10"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Intl.Collator"
+        }
+    ],
+    "datetimeformat-objects": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/DateTimeFormat",
+            "summary": "The Intl.DateTimeFormat object is a constructor for objects that enable language-sensitive date and time formatting.",
+            "support": {
+                "chrome": {
+                    "version_added": "24"
+                },
+                "chrome_android": {
+                    "version_added": "26"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "29"
+                },
+                "firefox_android": {
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "version_added": "10"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Intl.DateTimeFormat"
+        }
+    ],
+    "intl-object": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/Intl",
+            "summary": "The Intl object is the namespace for the ECMAScript Internationalization API, which provides language sensitive string comparison, number formatting, and date and time formatting. The constructors for Collator, NumberFormat, and DateTimeFormat objects are properties of the Intl object. This page documents these properties as well as functionality common to the internationalization constructors and other language sensitive functions.",
+            "support": {
+                "chrome": {
+                    "version_added": "24"
+                },
+                "chrome_android": {
+                    "version_added": "26"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "29"
+                },
+                "firefox_android": {
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "version_added": "10"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Intl"
+        }
+    ],
+    "numberformat-objects": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/NumberFormat",
+            "summary": "The Intl.NumberFormat object is a constructor for objects that enable language sensitive number formatting.",
+            "support": {
+                "chrome": {
+                    "version_added": "24"
+                },
+                "chrome_android": {
+                    "version_added": "26"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "29"
+                },
+                "firefox_android": {
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "37"
+                },
+                "safari": {
+                    "version_added": "10"
+                },
+                "safari_ios": {
+                    "version_added": "10"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4"
+                }
+            },
+            "title": "Intl.NumberFormat"
+        }
+    ],
+    "pluralrules-objects": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/PluralRules",
+            "summary": "The Intl.PluralRules object is a constructor for objects that enable plural sensitive formatting and plural language rules.",
+            "support": {
+                "chrome": {
+                    "version_added": "63"
+                },
+                "chrome_android": {
+                    "version_added": "63"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "58"
+                },
+                "firefox_android": {
+                    "version_added": "58"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "50"
+                },
+                "opera_android": {
+                    "version_added": "50"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "63"
+                }
+            },
+            "title": "Intl.PluralRules"
+        }
+    ],
+    "sec-Date.prototype.toLocaleDateString": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/Date/toLocaleDateString",
+            "summary": "The toLocaleDateString() method returns a string with a language sensitive representation of the date portion of this date. The new locales and options arguments let applications specify the language whose formatting conventions should be used and allow to customize the behavior of the function. In older implementations, which ignore the locales and options arguments, the locale used and the form of the string returned are entirely implementation dependent.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Date.prototype.toLocaleDateString()"
+        }
+    ],
+    "sec-Date.prototype.toLocaleString": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/Date/toLocaleString",
+            "summary": "The toLocaleString() method returns a string with a language sensitive representation of this date. The new locales and options arguments let applications specify the language whose formatting conventions should be used and customize the behavior of the function. In older implementations, which ignore the locales and options arguments, the locale used and the form of the string returned are entirely implementation dependent.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Date.prototype.toLocaleString()"
+        }
+    ],
+    "sec-Date.prototype.toLocaleTimeString": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/Date/toLocaleTimeString",
+            "summary": "The toLocaleTimeString() method returns a string with a language sensitive representation of the time portion of this date. The new locales and options arguments let applications specify the language whose formatting conventions should be used and customize the behavior of the function. In older implementations, which ignore the locales and options arguments, the locale used and the form of the string returned are entirely implementation dependent.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "nodejs": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Date.prototype.toLocaleTimeString()"
+        }
+    ],
+    "sec-Number.prototype.toLocaleString": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/Number/toLocaleString",
+            "summary": "The toLocaleString() method returns a string with a language-sensitive representation of this number.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "nodejs": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Number.prototype.toLocaleString()"
+        }
+    ],
+    "sec-String.prototype.localeCompare": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/String/localeCompare",
+            "summary": "The localeCompare() method returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "nodejs": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "String.prototype.localeCompare()"
+        }
+    ],
+    "sec-intl.getcanonicallocales": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/Intl/getCanonicalLocales",
+            "summary": "The Intl.getCanonicalLocales() method returns an array containing the canonical locale names. Duplicates will be omitted and elements will be validated as structurally valid language tags.",
+            "support": {
+                "chrome": {
+                    "version_added": "54"
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Intl.getCanonicalLocales()"
+        }
+    ],
+    "sup-array.prototype.tolocalestring": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/Array/toLocaleString",
+            "summary": "The toLocaleString() method returns a string representing the elements of the array. The elements are converted to Strings using their toLocaleString methods and these Strings are separated by a locale-specific String (such as a comma \u201c,\u201d).",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "nodejs": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Array.prototype.toLocaleString()"
+        }
+    ],
+    "sup-string.prototype.tolocalelowercase": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/String/toLocaleLowerCase",
+            "summary": "The toLocaleLowerCase() method returns the calling string value converted to lower case, according to any locale-specific case mappings.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "nodejs": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "String.prototype.toLocaleLowerCase()"
+        }
+    ],
+    "sup-string.prototype.tolocaleuppercase": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/String/toLocaleUpperCase",
+            "summary": "The toLocaleUpperCase() method returns the calling string value converted to upper case, according to any locale-specific case mappings.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "nodejs": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "String.prototype.toLocaleUpperCase()"
+        }
+    ]
+}

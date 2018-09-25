@@ -1,0 +1,191 @@
+{
+    "dom-performance-now": [
+        {
+            "slug": "API/Performance/now",
+            "summary": "The performance.now() method returns a DOMHighResTimeStamp, measured in milliseconds.",
+            "support": {
+                "chrome": {
+                    "version_added": "24"
+                },
+                "chrome_android": {
+                    "version_added": "25"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "In Firefox 57.0.4 the accuracy was reduced to 20 microseconds.",
+                        "In Firefox 59 the accuracy was reduced to 2 milliseconds."
+                    ],
+                    "version_added": "15"
+                },
+                "firefox_android": {
+                    "notes": [
+                        "In Firefox 57.0.4 the accuracy was reduced to 20 microseconds.",
+                        "In Firefox 59 the accuracy was reduced to 2 milliseconds."
+                    ],
+                    "version_added": "15"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": "9"
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "performance.now()"
+        }
+    ],
+    "sec-DOMHighResTimeStamp": [
+        {
+            "slug": "API/DOMHighResTimeStamp",
+            "summary": "The DOMHighResTimeStamp type is a double and is used to store a time value. The value could be a discrete point in time or the difference in time between two discrete points in time.",
+            "support": {
+                "chrome": {
+                    "version_added": "6"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "7"
+                },
+                "firefox_android": {
+                    "version_added": "15"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": "9"
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "DOMHighResTimeStamp"
+        }
+    ],
+    "the-performance-interface": [
+        {
+            "slug": "API/Performance",
+            "summary": "The Performance interface provides access to performance-related information for the current page. It's part of the High Resolution Time API, but is enhanced by the Performance Timeline API, the Navigation Timing API, the User Timing API, and the Resource Timing API.",
+            "support": {
+                "chrome": {
+                    "version_added": "6"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "7"
+                },
+                "firefox_android": {
+                    "version_added": "7"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": "9"
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Performance"
+        },
+        {
+            "slug": "API/Window/performance",
+            "summary": "The Window interface's performance property returns a Performance object, which can be used to gather performance information about the current document. It serves as the point of exposure for the Performance Timeline API, the High Resolution Time API, the Navigation Timing API, the User Timing API, and the Resource Timing API.",
+            "support": {
+                "chrome": {
+                    "version_added": "6"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "7"
+                },
+                "firefox_android": {
+                    "version_added": "7"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": "9"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.performance"
+        }
+    ]
+}

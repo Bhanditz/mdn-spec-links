@@ -1,0 +1,1186 @@
+{
+    "dom-globaleventhandlers-onselectionchange": [
+        {
+            "slug": "API/GlobalEventHandlers/onselectionchange",
+            "summary": "The onselectionchange property of the GlobalEventHandlers mixin is an EventHandler that processes selectionchange events.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.select_events.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "43"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.select_events.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "43"
+                    }
+                ],
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1.3"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "GlobalEventHandlers.onselectionchange"
+        }
+    ],
+    "dom-globaleventhandlers-onselectstart": [
+        {
+            "slug": "API/GlobalEventHandlers/onselectstart",
+            "summary": "The onselectstart property of the GlobalEventHandlers mixin is an EventHandler that processes selectstart events.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.select_events.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "43"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.select_events.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "43"
+                    }
+                ],
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1.3"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "GlobalEventHandlers.onselectstart"
+        }
+    ],
+    "dom-selection-setbaseandextent": [
+        {
+            "slug": "API/Selection/setBaseAndExtent",
+            "summary": "The setBaseAndExtent() method of the Selection interface sets the selection to be a range including all or parts of two specified DOM nodes, and any content located between them.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": {
+                    "version_added": "53"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.setBaseAndExtent()"
+        }
+    ],
+    "dom-selection-type": [
+        {
+            "slug": "API/Selection/type",
+            "summary": "The type read-only property of the Selection interface returns a DOMString describing the type of the current selection.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": "57"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.type"
+        }
+    ],
+    "extensions-to-document-interface": [
+        {
+            "slug": "API/Document",
+            "summary": "The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Document"
+        }
+    ],
+    "extensions-to-window-interface": [
+        {
+            "slug": "API/Window/getSelection",
+            "summary": "The Window.getSelection() method returns a Selection object representing the range of text selected by the user or the current position of the caret.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "notes": "No support for selection events.",
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": "37"
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "notes": "No support for selection start.",
+                    "version_added": "5.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Window.getSelection()"
+        }
+    ],
+    "selection-interface": [
+        {
+            "slug": "API/Selection",
+            "summary": "A Selection object represents the range of text selected by the user or the current position of the caret. To obtain a Selection object for examination or modification, call Window.getSelection().",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "The <a href='https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselectionchange'><code>GlobalEventHandlers.onselectionchange</code></a> and <a href='https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselectstart'><code>GlobalEventHandlers.onselectstart</code></a> event handlers are supported as of Firefox 52.",
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "notes": "The <a href='https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselectionchange'><code>GlobalEventHandlers.onselectionchange</code></a> and <a href='https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselectstart'><code>GlobalEventHandlers.onselectstart</code></a> event handlers are supported as of Firefox 52.",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection"
+        }
+    ],
+    "widl-Selection-addRange-void-Range-range": [
+        {
+            "slug": "API/Selection/addRange",
+            "summary": "The Selection.addRange() method adds a Range to a Selection.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.addRange()"
+        }
+    ],
+    "widl-Selection-anchorNode": [
+        {
+            "slug": "API/Selection/anchorNode",
+            "summary": "The Selection.anchorNode read-only property returns the Node in which the selection begins.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.anchorNode"
+        }
+    ],
+    "widl-Selection-anchorOffset": [
+        {
+            "slug": "API/Selection/anchorOffset",
+            "summary": "The Selection.anchorOffset read-only property returns the number of characters that the selection's anchor is offset within the Selection.anchorNode.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.anchorOffset"
+        }
+    ],
+    "widl-Selection-collapse-void-Node-node-unsigned-long-offset": [
+        {
+            "slug": "API/Selection/collapse",
+            "summary": "The Selection.collapse() method collapses the current selection to a single point. The document is not modified. If the content is focused and editable, the caret will blink there.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.collapse()"
+        },
+        {
+            "slug": "API/Selection/collapse",
+            "summary": "The Selection.collapse() method collapses the current selection to a single point. The document is not modified. If the content is focused and editable, the caret will blink there.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.collapse()"
+        }
+    ],
+    "widl-Selection-collapseToEnd-void": [
+        {
+            "slug": "API/Selection/collapseToEnd",
+            "summary": "The Selection.collapseToEnd() method collapses the selection to the end of the last range in the selection.  If the content of the selection is focused and editable, the caret will blink there.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.collapseToEnd()"
+        }
+    ],
+    "widl-Selection-collapseToStart-void": [
+        {
+            "slug": "API/Selection/collapseToStart",
+            "summary": "The Selection.collapseToStart() method collapses the selection to the start of the first range in the selection.  If the content of the selection is focused and editable, the caret will blink there.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.collapseToStart()"
+        }
+    ],
+    "widl-Selection-containsNode-boolean-Node-node-boolean-allowPartialContainment": [
+        {
+            "slug": "API/Selection/containsNode",
+            "summary": "The Selection.containsNode() method indicates if the node is part of the selection.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Before Firefox 35, the method didn't throw if <code>node</code> was <code>null</code>.",
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "notes": "Before Firefox 35, the method didn't throw if <code>node</code> was <code>null</code>.",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.containsNode()"
+        }
+    ],
+    "widl-Selection-deleteFromDocument-void": [
+        {
+            "slug": "API/Selection/deleteFromDocument",
+            "summary": "The deleteFromDocument() method of the Selection interface deletes the selected text from the document's DOM.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.deleteFromDocument()"
+        }
+    ],
+    "widl-Selection-extend-void-Node-node-unsigned-long-offset": [
+        {
+            "slug": "API/Selection/extend",
+            "summary": "The Selection.extend() method moves the focus of the selection to a specified point. The anchor of the selection does not move. The selection will be from the anchor to the new focus, regardless of direction.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Selection.extend()"
+        }
+    ],
+    "widl-Selection-focusNode": [
+        {
+            "slug": "API/Selection/focusNode",
+            "summary": "Selection.focusNode read-only property returns the Node, in which selection ends.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3.6"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.focusNode"
+        }
+    ],
+    "widl-Selection-focusOffset": [
+        {
+            "slug": "API/Selection/focusOffset",
+            "summary": "The Selection.focusOffset read-only property returns the number of characters that the selection's focus is offset within the Selection.focusNode.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.focusOffset"
+        }
+    ],
+    "widl-Selection-isCollapsed": [
+        {
+            "slug": "API/Selection/isCollapsed",
+            "summary": "The Selection.isCollapsed read-only property returns a Boolean which indicates whether or not there is currently any text selected. No text is selected when the selection's start and end points are at the same position in the content.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.isCollapsed"
+        }
+    ],
+    "widl-Selection-rangeCount": [
+        {
+            "slug": "API/Selection/rangeCount",
+            "summary": "The Selection.rangeCount read-only property returns the number of ranges in the selection.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.rangeCount"
+        }
+    ],
+    "widl-Selection-removeAllRanges-void": [
+        {
+            "slug": "API/Selection/removeAllRanges",
+            "summary": "The Selection.removeAllRanges() method removes all ranges from the selection, leaving the anchorNode and focusNode properties equal to null and leaving nothing selected.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.removeAllRanges()"
+        },
+        {
+            "slug": "API/Selection/removeAllRanges",
+            "summary": "The Selection.removeAllRanges() method removes all ranges from the selection, leaving the anchorNode and focusNode properties equal to null and leaving nothing selected.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.removeAllRanges()"
+        }
+    ],
+    "widl-Selection-removeRange-void-Range-range": [
+        {
+            "slug": "API/Selection/removeRange",
+            "summary": "The Selection.removeRange() method removes a range from a selection.",
+            "support": {
+                "chrome": {
+                    "version_added": "58"
+                },
+                "chrome_android": {
+                    "version_added": "58"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "45"
+                },
+                "opera_android": {
+                    "version_added": "45"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "58"
+                }
+            },
+            "title": "Selection.removeRange()"
+        }
+    ],
+    "widl-Selection-selectAllChildren-void-Node-node": [
+        {
+            "slug": "API/Selection/selectAllChildren",
+            "summary": "The Selection.selectAllChildren() method adds all the children of the specified node to the selection. Previous selection is lost.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Selection.selectAllChildren()"
+        }
+    ]
+}

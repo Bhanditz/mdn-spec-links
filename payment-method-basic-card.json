@@ -1,0 +1,622 @@
+{
+    "basiccardrequest-dictionary": [
+        {
+            "slug": "API/BasicCardRequest",
+            "summary": "The BasicCardRequest dictionary is a JavaScript object-structure that can be used in the Payment Request API. The properties of BasicCardRequest are defined in the Basic Card Payment spec).",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "BasicCardRequest"
+        }
+    ],
+    "basiccardresponse-dictionary": [
+        {
+            "slug": "API/BasicCardResponse",
+            "summary": "The BasicCardResponse dictionary (related to the Payment Request API, although defined in the Basic Card Payment spec) defines an object structure for payment response details such as the number/expiry date of the card used to make the payment, and the billing address.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "BasicCardResponse"
+        }
+    ],
+    "dom-basiccardrequest-supportednetworks": [
+        {
+            "slug": "API/BasicCardRequest/supportedNetworks",
+            "summary": "The supportedNetworks property of the BasicCardRequest dictionary contains an array of DOMStrings representing the card networks that the retailer supports (e.g. amex, mastercard).",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "BasicCardRequest.supportedNetworks"
+        }
+    ],
+    "dom-basiccardrequest-supportedtypes": [
+        {
+            "slug": "API/BasicCardRequest/supportedTypes",
+            "summary": "The obsolete supportedTypes property of the BasicCardRequest dictionary can optionally be provided to specify an array of DOMStrings representing the card types that the retailer supports (e.g. credit, debit, prepaid).",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "BasicCardRequest.supportedTypes"
+        }
+    ],
+    "dom-basiccardresponse-billingaddress": [
+        {
+            "slug": "API/BasicCardResponse/billingAddress",
+            "summary": "The billingAddress property of the BasicCardResponse dictionary contains the billing address of the card used to make the payment.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "BasicCardResponse.billingAddress"
+        }
+    ],
+    "dom-basiccardresponse-cardholdername": [
+        {
+            "slug": "API/BasicCardResponse/cardholderName",
+            "summary": "The cardNumber property of the BasicCardResponse dictionary contains the cardholder name of the card used to make the payment.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "BasicCardResponse.cardholderName"
+        }
+    ],
+    "dom-basiccardresponse-cardnumber": [
+        {
+            "slug": "API/BasicCardResponse/cardNumber",
+            "summary": "The cardNumber property of the BasicCardResponse dictionary contains the number of the card used to make the payment.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "BasicCardResponse.cardNumber"
+        }
+    ],
+    "dom-basiccardresponse-cardsecuritycode": [
+        {
+            "slug": "API/BasicCardResponse/cardSecurityCode",
+            "summary": "The cardSecurityCode property of the BasicCardResponse dictionary contains the security code of the card used to make the payment.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "BasicCardResponse.cardSecurityCode"
+        }
+    ],
+    "dom-basiccardresponse-expirymonth": [
+        {
+            "slug": "API/BasicCardResponse/expiryMonth",
+            "summary": "The expiryMonth property of the BasicCardResponse dictionary contains the expiry month of the card used to make the payment.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "BasicCardResponse.expiryMonth"
+        }
+    ],
+    "dom-basiccardresponse-expiryyear": [
+        {
+            "slug": "API/BasicCardResponse/expiryYear",
+            "summary": "The expiryYear property of the BasicCardResponse dictionary contains the expiry year of the card used to make the payment.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.payments.request.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "BasicCardResponse.expiryYear"
+        }
+    ]
+}

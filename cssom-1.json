@@ -1,0 +1,1276 @@
+{
+    "css-rules": [
+        {
+            "slug": "API/CSSRule",
+            "summary": "The CSSRule interface represents a single CSS rule. There are several types of rules, listed in the Type constants section below.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSRule"
+        }
+    ],
+    "cssstylesheet": [
+        {
+            "slug": "API/CSSStyleSheet",
+            "summary": "The CSSStyleSheet interface represents a single CSS style sheet. It inherits properties and methods from its parent, StyleSheet.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleSheet"
+        }
+    ],
+    "dom-cssnamespacerule-namespaceuri": [
+        {
+            "slug": "API/CSSNamespaceRule/namespaceURI",
+            "summary": "The CSSNamespaceRule.namespaceURI read-only property returns a DOMString containing the text of the URI of the given namespace.",
+            "support": {
+                "chrome": {
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "47"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "59"
+                },
+                "firefox_android": {
+                    "version_added": "59"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "47"
+                }
+            },
+            "title": "CSSNamespaceRule.namespaceURI"
+        },
+        {
+            "slug": "API/CSSNamespaceRule/prefix",
+            "summary": "The CSSNamespaceRule.prefix read-only property returns a DOMString with the name of the prefix associated to this namespace. If there is no such prefix, returns  null.",
+            "support": {
+                "chrome": {
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "47"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "59"
+                },
+                "firefox_android": {
+                    "version_added": "59"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "47"
+                }
+            },
+            "title": "CSSNamespaceRule.prefix"
+        }
+    ],
+    "dom-cssstyledeclaration-getpropertypriority": [
+        {
+            "slug": "API/CSSStyleDeclaration/getPropertyPriority",
+            "summary": "The CSSStyleDeclaration.getPropertyPriority() method interface returns a DOMString that provides all explicitly set priorities on the CSS property.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleDeclaration.getPropertyPriority()"
+        }
+    ],
+    "dom-cssstyledeclaration-getpropertyvalue": [
+        {
+            "slug": "API/CSSStyleDeclaration/getPropertyValue",
+            "summary": "The CSSStyleDeclaration.getPropertyValue() method interface returns a DOMString containing the value of a specified CSS property.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleDeclaration.getPropertyValue()"
+        }
+    ],
+    "dom-cssstyledeclaration-item": [
+        {
+            "slug": "API/CSSStyleDeclaration/item",
+            "summary": "The CSSStyleDeclaration.item() method interface returns a CSS property name from a CSSStyleDeclaration by index",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleDeclaration.item()"
+        }
+    ],
+    "dom-cssstyledeclaration-length": [
+        {
+            "slug": "API/CSSStyleDeclaration/length",
+            "summary": "The read-only property returns an integer that represents the number of style declarations in this CSS declaration block.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleDeclaration.length"
+        }
+    ],
+    "dom-cssstyledeclaration-parentrule": [
+        {
+            "slug": "API/CSSStyleDeclaration/parentRule",
+            "summary": "The CSSStyleDeclaration.parentRule read-only property returns a CSSRule that is the parent of this style block",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleDeclaration.parentRule"
+        }
+    ],
+    "dom-cssstyledeclaration-removeproperty": [
+        {
+            "slug": "API/CSSStyleDeclaration/removeProperty",
+            "summary": "The CSSStyleDeclaration.removeProperty() method interface removes a property from a CSS style declaration object.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleDeclaration.removeProperty()"
+        }
+    ],
+    "dom-cssstyledeclaration-setproperty": [
+        {
+            "slug": "API/CSSStyleDeclaration/setProperty",
+            "summary": "The CSSStyleDeclaration.setProperty() method interface sets a new value for a property on a CSS style declaration object.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleDeclaration.setProperty()"
+        }
+    ],
+    "dom-cssstylerule-selectortext": [
+        {
+            "slug": "API/CSSStyleRule/selectorText",
+            "summary": "The CSSRule.selectorText property gets the textual representation of the selector for the rule set. This is readonly in some browsers; to set stylesheet rules dynamically cross-browser, see Using dynamic styling information.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "61"
+                    },
+                    {
+                        "notes": "Read-only; setting of this property not supported.",
+                        "version_added": true,
+                        "version_removed": "61"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "61"
+                    },
+                    {
+                        "notes": "Read-only; setting of this property not supported.",
+                        "version_added": true,
+                        "version_removed": "61"
+                    }
+                ],
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleRule.selectorText"
+        }
+    ],
+    "dom-cssstylesheet-deleterule": [
+        {
+            "slug": "API/CSSStyleSheet/deleteRule",
+            "summary": "The CSSStyleSheet.deleteRule() method removes a style rule from the current style sheet object.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleSheet.deleteRule()"
+        }
+    ],
+    "dom-cssstylesheet-insertrule": [
+        {
+            "slug": "API/CSSStyleSheet/insertRule",
+            "summary": "The CSSStyleSheet.insertRule() method inserts a new CSS rule into the current style sheet, with some restrictions.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleSheet.insertRule()"
+        }
+    ],
+    "dom-stylesheet-disabled": [
+        {
+            "slug": "API/StyleSheet/disabled",
+            "summary": "The disabled property of the StyleSheet interface determines whether the style sheet is prevented from applying to the document.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "StyleSheet.disabled"
+        }
+    ],
+    "dom-window-getcomputedstyle": [
+        {
+            "slug": "API/Window/getComputedStyle",
+            "summary": "The Window.getComputedStyle() method returns an object containing the values of all CSS properties of an element, after applying active stylesheets and resolving any basic computation those values may contain.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Before version 62 this function returned <code>null</code> when called on a Window with no presentation (e.g. an iframe with <code>display: none;</code> set). Since 62 it returns a <code>CSSStyleDeclaration</code> object with <code>length</code> 0, containing empty strings (<a href='https://bugzil.la/1467722'>bug 1467722</a>; also see <a href='https://bugzil.la/1471231'>bug 1471231</a> for further work).",
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "notes": "Before version 62 this function returned <code>null</code> when called on a Window with no presentation (e.g. an iframe with <code>display: none;</code> set). Since 62 it returns a <code>CSSStyleDeclaration</code> object with <code>length</code> 0, containing empty strings (<a href='https://bugzil.la/1467722'>bug 1467722</a>; also see <a href='https://bugzil.la/1471231'>bug 1471231</a> for further work).",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.getComputedStyle()"
+        }
+    ],
+    "extensions-to-the-document-interface": [
+        {
+            "slug": "API/Document",
+            "summary": "The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Document"
+        }
+    ],
+    "stylesheet": [
+        {
+            "slug": "API/StyleSheet",
+            "summary": "An object implementing the StyleSheet interface represents a single style sheet. CSS style sheets will further implement the more specialized CSSStyleSheet interface.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "StyleSheet"
+        }
+    ],
+    "the-css.escape%28%29-method": [
+        {
+            "slug": "API/CSS",
+            "summary": "The CSS interface holds useful CSS-related methods. No object with this interface are implemented: it contains only static methods and therefore is a utilitarian interface.",
+            "support": {
+                "chrome": {
+                    "version_added": "28"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "22"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.supports-rule.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "20"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "22"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.supports-rule.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "20"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": "12.1"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "66"
+                }
+            },
+            "title": "CSS"
+        }
+    ],
+    "the-css.escape()-method": [
+        {
+            "slug": "API/CSS/escape",
+            "summary": "The CSS.escape() static method returns a DOMString containing the escaped string passed as parameter, mostly for use as part of a CSS selector.",
+            "support": {
+                "chrome": {
+                    "version_added": "46"
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "31"
+                },
+                "firefox_android": {
+                    "version_added": "31"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "CSS.escape()"
+        }
+    ],
+    "the-cssmediarule-interface": [
+        {
+            "slug": "API/CSSMediaRule",
+            "summary": "The CSSMediaRule is an interface representing a single CSS @media rule. It implements the CSSConditionRule interface, and therefore the CSSGroupingRule and the CSSRule interface with a type value of 4 (CSSRule.MEDIA_RULE).",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Before Firefox 20, <code>conditionText</code> could not be set.",
+                    "version_added": "17"
+                },
+                "firefox_android": {
+                    "notes": "Before Firefox 20, <code>conditionText</code> could not be set.",
+                    "version_added": "17"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "CSSMediaRule"
+        }
+    ],
+    "the-cssnamespacerule-interface": [
+        {
+            "slug": "API/CSSNamespaceRule",
+            "summary": "The CSSNamespaceRule interface describes an object representing a single CSS @namespace at-rule. It implements the CSSRule interface, with a type value of 10 (CSSRule.NAMESPACE_RULE).",
+            "support": {
+                "chrome": {
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "47"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "59"
+                },
+                "firefox_android": {
+                    "version_added": "59"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "36"
+                },
+                "opera_android": {
+                    "version_added": "36"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "47"
+                }
+            },
+            "title": "CSSNamespaceRule"
+        }
+    ],
+    "the-csspagerule-interface": [
+        {
+            "slug": "API/CSSPageRule",
+            "summary": "CSSPageRule is an interface representing a single CSS @page rule. It implements the CSSRule interface with a type value of 6 (CSSRule.PAGE_RULE).",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "19"
+                },
+                "firefox_android": {
+                    "version_added": "19"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "CSSPageRule"
+        }
+    ],
+    "the-cssstyledeclaration-interface": [
+        {
+            "slug": "API/CSSStyleDeclaration",
+            "summary": "The CSSStyleDeclaration interface represents an object that is a CSS declaration block, and exposes style information and various style-related methods and properties.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleDeclaration"
+        }
+    ],
+    "the-cssstylerule-interface": [
+        {
+            "slug": "API/CSSStyleRule",
+            "summary": "CSSStyleRule represents a single CSS style rule. It implements the CSSRule interface with a type value of 1 (CSSRule.STYLE_RULE).",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "CSSStyleRule"
+        }
+    ],
+    "the-linkstyle-interface": [
+        {
+            "slug": "API/LinkStyle",
+            "summary": "The LinkStyle interface provides access to the associated CSS style sheet of a node.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "LinkStyle"
+        }
+    ],
+    "the-stylesheetlist-interface": [
+        {
+            "slug": "API/StyleSheetList",
+            "summary": "The StyleSheetList interface represents a list of StyleSheet.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "31"
+                },
+                "firefox_android": {
+                    "version_added": "31"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "StyleSheetList"
+        }
+    ]
+}

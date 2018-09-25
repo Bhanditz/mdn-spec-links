@@ -1,0 +1,45 @@
+{
+    "performancereframetiming": [
+        {
+            "slug": "API/PerformanceFrameTiming",
+            "summary": "PerformanceFrameTiming is an abstract interface that provides frame timing data about the browser's event loop.",
+            "support": {
+                "chrome": {
+                    "notes": "See <a href='https://code.google.com/p/chromium/issues/detail?id=120796'>Chrome bug 120796</a>",
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "notes": "See <a href='https://code.google.com/p/chromium/issues/detail?id=120796'>Chrome bug 120796</a>",
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "See <a href='https://bugzil.la/1158032'>bug 1158032</a>",
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "notes": "See <a href='https://code.google.com/p/chromium/issues/detail?id=120796'>Chrome bug 120796</a>",
+                    "version_added": false
+                }
+            },
+            "title": "PerformanceFrameTiming"
+        }
+    ]
+}

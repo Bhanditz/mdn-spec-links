@@ -1,0 +1,4573 @@
+{
+    "caret-position": [
+        {
+            "slug": "API/CaretPosition",
+            "summary": "The CaretPosition interface represents the caret position, an indicator for the text insertion point. You can get a CaretPosition using the document.caretPositionFromPoint method.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "20"
+                },
+                "firefox_android": {
+                    "version_added": "20"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "CaretPosition"
+        }
+    ],
+    "dictdef-scrolloptions": [
+        {
+            "slug": "API/ScrollToOptions/behavior",
+            "summary": "An enum, the value of which can be one of the following:",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "ScrollToOptions.behavior"
+        }
+    ],
+    "dictdef-scrolltooptions": [
+        {
+            "slug": "API/ScrollToOptions",
+            "summary": "The ScrollToOptions dictionary of the CSSOM View spec contains properties specifying where an element should be scrolled to, and whether the scrolling should be smooth.",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "ScrollToOptions"
+        }
+    ],
+    "dom-document-caretpositionfrompoint": [
+        {
+            "slug": "API/DocumentOrShadowRoot/caretPositionFromPoint",
+            "summary": "The caretPositionFromPoint() property of the DocumentOrShadowRoot interface returns a CaretPosition object, containing the DOM node, along with the caret and caret's character offset within that node.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "DocumentOrShadowRoot.caretPositionFromPoint()"
+        }
+    ],
+    "dom-document-elementsfrompoint": [
+        {
+            "slug": "API/DocumentOrShadowRoot/elementsFromPoint",
+            "summary": "The elementsFromPoint() property of the DocumentOrShadowRoot interface returns an array of all elements at the specified coordinates (relative to the viewport).",
+            "support": {
+                "chrome": {
+                    "version_added": "53"
+                },
+                "chrome_android": {
+                    "version_added": "53"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": "40"
+                },
+                "opera_android": {
+                    "version_added": "40"
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "53"
+                }
+            },
+            "title": "DocumentOrShadowRoot.elementsFromPoint()"
+        }
+    ],
+    "dom-document-scrollingelement": [
+        {
+            "slug": "API/Document/scrollingElement",
+            "summary": "The scrollingElement read-only property of the Document interface returns a reference to the Element that scrolls the document. In standards mode, this is the root element of the document, document.documentElement.",
+            "support": {
+                "chrome": {
+                    "version_added": "44"
+                },
+                "chrome_android": {
+                    "version_added": "44"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.document.scrollingElement.enabled",
+                                "type": "preference"
+                            }
+                        ],
+                        "version_added": "47",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "31"
+                },
+                "opera_android": {
+                    "version_added": "31"
+                },
+                "safari": {
+                    "version_added": "9"
+                },
+                "safari_ios": {
+                    "version_added": "9"
+                },
+                "webview_android": {
+                    "version_added": "44"
+                }
+            },
+            "title": "Document.scrollingElement"
+        }
+    ],
+    "dom-element-clientheight": [
+        {
+            "slug": "API/Element/clientHeight",
+            "summary": "The Element.clientHeight read-only property is zero for elements with no CSS or inline layout boxes; otherwise, it's the inner height of an element in pixels. It includes padding but excludes borders, margins, and horizontal scrollbars (if present).",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element.clientHeight"
+        }
+    ],
+    "dom-element-clientleft": [
+        {
+            "slug": "API/Element/clientLeft",
+            "summary": "The width of the left border of an element in pixels. It includes the width of the vertical scrollbar if the text direction of the element is right\u2013to\u2013left and if there is an overflow causing a left vertical scrollbar to be rendered. clientLeft does not include the left margin or the left padding. clientLeft is read-only.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element.clientLeft"
+        }
+    ],
+    "dom-element-clienttop": [
+        {
+            "slug": "API/Element/clientTop",
+            "summary": "The width of the top border of an element in pixels. It is a read-only, integer property of element.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element.clientTop"
+        }
+    ],
+    "dom-element-clientwidth": [
+        {
+            "slug": "API/Element/clientWidth",
+            "summary": "The Element.clientWidth property is zero for elements with no CSS or inline layout boxes; otherwise it's the inner width of an element in pixels. It includes padding but excludes borders, margins, and vertical scrollbars (if present).",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element.clientWidth"
+        }
+    ],
+    "dom-element-getboundingclientrect": [
+        {
+            "slug": "API/Element/getBoundingClientRect",
+            "summary": "The Element.getBoundingClientRect() method returns the size of an element and its position relative to the viewport.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "3"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "4"
+                },
+                "safari_ios": {
+                    "notes": "Safari for iOS will modify the effective viewport based on the user zoom. This results in incorrect values whenever the user has zoomed.",
+                    "version_added": "4"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element.getBoundingClientRect()"
+        }
+    ],
+    "dom-element-getclientrects": [
+        {
+            "slug": "API/Element/getClientRects",
+            "summary": "The Element.getClientRects() method returns a collection of DOMRect objects that indicate the bounding rectangles for each CSS border box in a client.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element.getClientRects()"
+        }
+    ],
+    "dom-element-scroll-options-options": [
+        {
+            "slug": "API/Element/scroll",
+            "summary": "The scroll() method of the Element interface scrolls the element to a particular set of coordinates inside a given element.",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "Element.scroll()"
+        }
+    ],
+    "dom-element-scrollby-options-options": [
+        {
+            "slug": "API/Element/scrollBy",
+            "summary": "The scrollBy() method of the Element interface scrolls an element by the given amount.",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "Element.scrollBy()"
+        }
+    ],
+    "dom-element-scrollheight": [
+        {
+            "slug": "API/Element/scrollHeight",
+            "summary": "The Element.scrollHeight read-only property is a measurement of the height of an element's content, including content not visible on the screen due to overflow.",
+            "support": {
+                "chrome": {
+                    "version_added": "4"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "21"
+                    },
+                    {
+                        "notes": "In Firefox versions prior to 21, when an element's content does not generate a vertical scrollbar, then its <code>scrollHeight</code> property is equal to its <code>clientHeight</code> property. This can mean either the content is too short to require a scrollbar or that the element has a CSS style <code>overflow</code> value of <code>visible</code> (non-scrollable).",
+                        "partial_implementation": true,
+                        "version_added": "3",
+                        "version_removed": "21"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "8"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "4"
+                },
+                "safari_ios": {
+                    "version_added": "4"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element.scrollHeight"
+        }
+    ],
+    "dom-element-scrollintoview": [
+        {
+            "slug": "API/Element/scrollIntoView",
+            "summary": "The element may not be scrolled completely to the top or bottom depending on the layout of other elements.",
+            "support": {
+                "chrome": {
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "notes": "No support for <code>smooth</code> behavior.",
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "notes": "No support for <code>smooth</code> behavior or <code>center</code> options.",
+                    "version_added": "8"
+                },
+                "opera": {
+                    "version_added": "38"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "notes": "No support for <code>smooth</code> behavior or <code>center</code> options.",
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "notes": "No support for <code>smooth</code> behavior or <code>center</code> options.",
+                    "version_added": "5"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element.scrollIntoView()"
+        }
+    ],
+    "dom-element-scrollleft": [
+        {
+            "slug": "API/Element/scrollLeft",
+            "summary": "The Element.scrollLeft property gets or sets the number of pixels that an element's content is scrolled to the left.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element.scrollLeft"
+        }
+    ],
+    "dom-element-scrollto-options-options": [
+        {
+            "slug": "API/Element/scrollTo",
+            "summary": "The scrollTo() method of the Element interface scrolls to a particular set of coordinates inside a given element.",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "Element.scrollTo()"
+        }
+    ],
+    "dom-element-scrolltop": [
+        {
+            "slug": "API/Element/scrollTop",
+            "summary": "The Element.scrollTop property gets or sets the number of pixels that an element's content is scrolled vertically. ",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element.scrollTop"
+        }
+    ],
+    "dom-element-scrollwidth": [
+        {
+            "slug": "API/Element/scrollWidth",
+            "summary": "The Element.scrollWidth read-only property is a measurement of the width of an element's content, including content not visible on the screen due to overflow.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element.scrollWidth"
+        }
+    ],
+    "dom-htmlelement-offsetHeight": [
+        {
+            "slug": "API/HTMLElement/offsetHeight",
+            "summary": "The HTMLElement.offsetHeight read-only property returns the height of an element, including vertical padding and borders, as an integer.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLElement.offsetHeight"
+        }
+    ],
+    "dom-htmlelement-offsetleft": [
+        {
+            "slug": "API/HTMLElement/offsetLeft",
+            "summary": "The HTMLElement.offsetLeft read-only property returns the number of pixels that the upper left corner of the current element is offset to the left within the HTMLElement.offsetParent node.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLElement.offsetLeft"
+        }
+    ],
+    "dom-htmlelement-offsetparent": [
+        {
+            "slug": "API/HTMLElement/offsetParent",
+            "summary": "The HTMLElement.offsetParent read-only property returns a reference to the object which is the closest (nearest in the containment hierarchy) positioned containing element. If the element is non-positioned, the nearest td, th, table or the body is returned.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLElement.offsetParent"
+        }
+    ],
+    "dom-htmlelement-offsetwidth": [
+        {
+            "slug": "API/HTMLElement/offsetWidth",
+            "summary": "The HTMLElement.offsetWidth read-only property returns the layout width of an element as an integer.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLElement.offsetWidth"
+        },
+        {
+            "slug": "API/HTMLElement/offsetWidth",
+            "summary": "The HTMLElement.offsetWidth read-only property returns the layout width of an element as an integer.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLElement.offsetWidth"
+        }
+    ],
+    "dom-mediaquerylist-addlistener": [
+        {
+            "slug": "API/MediaQueryList/addListener",
+            "summary": "The addListener() method of the MediaQueryList interface adds a listener to the MediaQueryListener that will run a custom callback function in response to the media query status changing.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "6"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaQueryList.addListener()"
+        }
+    ],
+    "dom-mediaquerylist-matches": [
+        {
+            "slug": "API/MediaQueryList/matches",
+            "summary": "The matches read-only property of the MediaQueryList interface is a Boolean that returns true if the document currently matches the media query list, or false if not.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "6"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaQueryList.matches"
+        }
+    ],
+    "dom-mediaquerylist-media": [
+        {
+            "slug": "API/MediaQueryList/media",
+            "summary": "The media read-only property of the MediaQueryList interface is a DOMString representing a serialized media query.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "6"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaQueryList.media"
+        }
+    ],
+    "dom-mediaquerylist-onchange": [
+        {
+            "slug": "API/MediaQueryList/onchange",
+            "summary": "The onchange property of the MediaQueryList interface is an event handler property representing a function that is invoked when the change event fires, i.e when the status of media query support changes. The event object is a MediaQueryListEvent instance, which is recognised as a MediaListQuery instance in older browsers, for backwards compatibility purposes.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "MediaQueryList.onchange"
+        }
+    ],
+    "dom-mediaquerylist-removelistener": [
+        {
+            "slug": "API/MediaQueryList/removeListener",
+            "summary": "The removeListener() method of the MediaQueryList interface removes a listener from the MediaQueryListener.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "6"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaQueryList.removeListener()"
+        }
+    ],
+    "dom-mediaquerylistevent-matches": [
+        {
+            "slug": "API/MediaQueryListEvent/matches",
+            "summary": "The matches read-only property of the MediaQueryListEvent interface is a Boolean that returns true if the document currently matches the media query list, or false if not.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "MediaQueryListEvent.matches"
+        }
+    ],
+    "dom-mediaquerylistevent-media": [
+        {
+            "slug": "API/MediaQueryListEvent/media",
+            "summary": "The media read-only property of the MediaQueryListEvent interface is a DOMString representing a serialized media query.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "MediaQueryListEvent.media"
+        }
+    ],
+    "dom-mediaquerylistevent-mediaquerylistevent": [
+        {
+            "slug": "API/MediaQueryListEvent/MediaQueryListEvent",
+            "summary": "The MediaQueryListEvent constructor creates a new MediaQueryListEvent instance.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "MediaQueryListEvent.MediaQueryListEvent()"
+        }
+    ],
+    "dom-mouseevent-clientx": [
+        {
+            "slug": "API/MouseEvent/clientX",
+            "summary": "The clientX read-only property of the MouseEvent interface provides the horizontal coordinate within the application's client area at which the event occurred (as opposed to the coordinate within the page).",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MouseEvent.clientX"
+        }
+    ],
+    "dom-mouseevent-clienty": [
+        {
+            "slug": "API/MouseEvent/clientY",
+            "summary": "The clientY read-only property of the MouseEvent interface provides the vertical coordinate within the application's client area at which the event occurred (as opposed to the coordinate within the page).",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MouseEvent.clientY"
+        }
+    ],
+    "dom-mouseevent-offsetx": [
+        {
+            "slug": "API/MouseEvent/offsetX",
+            "summary": "The offsetX read-only property of the MouseEvent interface provides the offset in the X coordinate of the mouse pointer between that event and the padding edge of the target node.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "43"
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MouseEvent.offsetX"
+        }
+    ],
+    "dom-mouseevent-offsety": [
+        {
+            "slug": "API/MouseEvent/offsetY",
+            "summary": "The offsetY read-only property of the MouseEvent interface provides the offset in the Y coordinate of the mouse pointer between that event and the padding edge of the target node.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "43"
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MouseEvent.offsetY"
+        }
+    ],
+    "dom-mouseevent-pagex": [
+        {
+            "slug": "API/MouseEvent/pageX",
+            "summary": "The pageX read-only property of the MouseEvent interface returns the X (horizontal) coordinate (in pixels) at which the mouse was clicked, relative to the left edge of the entire document.",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "MouseEvent.pageX"
+        }
+    ],
+    "dom-mouseevent-pagey": [
+        {
+            "slug": "API/MouseEvent/pageY",
+            "summary": "The pageY read-only property of the MouseEvent interface returns the Y (vertical) coordinate in pixels of the event relative to the whole document. This property takes into account any vertical scrolling of the page. Originally, this property was defined as a long integer. The CSSOM View Module redefined it as a double float. See the Browser compatibility section for details.",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "MouseEvent.pageY"
+        }
+    ],
+    "dom-mouseevent-screenx": [
+        {
+            "slug": "API/MouseEvent/screenX",
+            "summary": "The screenX read-only property of the MouseEvent interface provides the horizontal coordinate (offset) of the mouse pointer in global (screen) coordinates.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MouseEvent.screenX"
+        }
+    ],
+    "dom-mouseevent-screeny": [
+        {
+            "slug": "API/MouseEvent/screenY",
+            "summary": "The screenY read-only property of the MouseEvent interface provides the vertical coordinate (offset) of the mouse pointer in global (screen) coordinates.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MouseEvent.screenY"
+        }
+    ],
+    "dom-mouseevent-x": [
+        {
+            "slug": "API/MouseEvent/x",
+            "summary": "The MouseEvent.x property is an alias for the MouseEvent.clientX property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": {
+                    "version_added": "53"
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MouseEvent.x"
+        }
+    ],
+    "dom-mouseevent-y": [
+        {
+            "slug": "API/MouseEvent/y",
+            "summary": "The MouseEvent.y property is an alias for the MouseEvent.clientY property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": {
+                    "version_added": "53"
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MouseEvent.y"
+        }
+    ],
+    "dom-range-getboundingclientrect": [
+        {
+            "slug": "API/Range/getBoundingClientRect",
+            "summary": "The Range.getBoundingClientRect() method returns a DOMRect object that bounds the contents of the range; this a rectangle enclosing the union of the bounding rectangles for all the elements in the range.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Range.getBoundingClientRect()"
+        }
+    ],
+    "dom-range-getclientrects": [
+        {
+            "slug": "API/Range/getClientRects",
+            "summary": "The Range.getClientRects() method returns a list of DOMRect objects representing the area of the screen occupied by the range. This is created by aggregating the results of calls to Element.getClientRects() for all the elements in the range.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Range.getClientRects()"
+        }
+    ],
+    "dom-screen-availheight": [
+        {
+            "slug": "API/Screen/availHeight",
+            "summary": "The read-only Screen interface's availHeight property returns the height, in CSS pixels, of the space available for Web content on the screen. Since Screen is exposed on the Window interface's window.screen property, you access availHeight using window.screen.availHeight.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "notes": "Always reflects the main screen.",
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Screen.availHeight"
+        }
+    ],
+    "dom-screen-availwidth": [
+        {
+            "slug": "API/Screen/availWidth",
+            "summary": "The Screen.availWidth property returns the amount of horizontal space (in pixels) available to the window.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "notes": "Always reflects the main screen.",
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Screen.availWidth"
+        }
+    ],
+    "dom-screen-colordepth": [
+        {
+            "slug": "API/Screen/colorDepth",
+            "summary": "The Screen.colorDepth read-only property returns the color depth of the screen. Per the CSSOM, some implementations return 24 for compatibility reasons. See the browser compatibility section for those that don't.",
+            "support": {
+                "chrome": {
+                    "notes": "Starting with version 59 this property is no longer required to always return 24.",
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "notes": "Starting with version 59 this property is no longer required to always return 24.",
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "notes": "Starting with version 59 this property is no longer required to always return 24.",
+                    "version_added": true
+                }
+            },
+            "title": "Screen.colorDepth"
+        }
+    ],
+    "dom-screen-height": [
+        {
+            "slug": "API/Screen/height",
+            "summary": "The Screen.height read-only property returns the height of the screen in pixels.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Screen.height"
+        }
+    ],
+    "dom-screen-pixeldepth": [
+        {
+            "slug": "API/Screen/pixelDepth",
+            "summary": "Returns the bit depth of the screen. Per the CSSOM, some implementations return 24 for compatibility reasons. See the browser compatibility section for those that don't.",
+            "support": {
+                "chrome": {
+                    "notes": "Starting with version 59 this property is no longer required to always return 24.",
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "notes": "Starting with version 59 this property is no longer required to always return 24.",
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "notes": "Starting with version 59 this property is no longer required to always return 24.",
+                    "version_added": true
+                }
+            },
+            "title": "Screen.pixelDepth"
+        }
+    ],
+    "dom-screen-width": [
+        {
+            "slug": "API/Screen/width",
+            "summary": "Returns the width of the screen.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Screen.width"
+        }
+    ],
+    "dom-scrolltooptions-left": [
+        {
+            "slug": "API/ScrollToOptions/left",
+            "summary": "A double.",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "ScrollToOptions.left"
+        }
+    ],
+    "dom-scrolltooptions-top": [
+        {
+            "slug": "API/ScrollToOptions/top",
+            "summary": "A double.",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "32"
+                },
+                "opera_android": {
+                    "version_added": "32"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "ScrollToOptions.top"
+        }
+    ],
+    "dom-window-devicepixelratio": [
+        {
+            "slug": "API/Window/devicePixelRatio",
+            "summary": "The Window property devicePixelRatio returns the ratio of the resolution in physical pixels to the resolution in CSS pixels for the current display device.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "49"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "41"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "9.1"
+                },
+                "safari_ios": {
+                    "version_added": "9.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.devicePixelRatio"
+        }
+    ],
+    "dom-window-innerheight": [
+        {
+            "slug": "API/Window/innerHeight",
+            "summary": "Height (in pixels) of the browser window viewport including, if rendered, the horizontal scrollbar.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "1"
+                    },
+                    {
+                        "notes": "This property was buggy and could give a wrong value before page load in certain circumstances, see <a href='https://bugzil.la/641188'>bug 641188</a>.",
+                        "version_added": "4",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "notes": "This property was buggy and could give a wrong value before page load in certain circumstances, see <a href='https://bugzil.la/641188'>bug 641188</a>.",
+                        "version_added": "4",
+                        "version_removed": "24"
+                    }
+                ],
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "9"
+                },
+                "opera_android": {
+                    "version_added": "9"
+                },
+                "safari": {
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "version_added": "3"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.innerHeight"
+        }
+    ],
+    "dom-window-innerwidth": [
+        {
+            "slug": "API/Window/innerWidth",
+            "summary": "Width (in pixels) of the browser window viewport including, if rendered, the vertical scrollbar.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "1"
+                    },
+                    {
+                        "notes": "This property was buggy and could give a wrong value before page load in certain circumstances, see <a href='https://bugzil.la/641188'>bug 641188</a>.",
+                        "version_added": "4",
+                        "version_removed": "24"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "notes": "This property was buggy and could give a wrong value before page load in certain circumstances, see <a href='https://bugzil.la/641188'>bug 641188</a>.",
+                        "version_added": "4",
+                        "version_removed": "24"
+                    }
+                ],
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "9"
+                },
+                "opera_android": {
+                    "version_added": "9"
+                },
+                "safari": {
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "version_added": "3"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.innerWidth"
+        }
+    ],
+    "dom-window-matchmedia": [
+        {
+            "slug": "API/Window/matchMedia",
+            "summary": "The Window.matchMedia() method returns a new MediaQueryList object representing the parsed results of the specified media query string.",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "6"
+                },
+                "firefox_android": {
+                    "version_added": "6"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": "12.1"
+                },
+                "safari": {
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": "5"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Window.matchMedia()"
+        }
+    ],
+    "dom-window-moveby": [
+        {
+            "slug": "API/Window/moveBy",
+            "summary": "The moveBy() method of the Window interface moves the current window by a specified amount.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.moveBy()"
+        }
+    ],
+    "dom-window-moveto": [
+        {
+            "slug": "API/Window/moveTo",
+            "summary": "The moveTo() method of the Window interface moves the current window to the specified coordinates.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.moveTo()"
+        }
+    ],
+    "dom-window-outerheight": [
+        {
+            "slug": "API/Window/outerHeight",
+            "summary": "Window.outerHeight gets the height in pixels of the whole browser window. It represents the height of the whole browser window including sidebar (if expanded), window chrome and window resizing borders/handles.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "9"
+                },
+                "opera_android": {
+                    "version_added": "9"
+                },
+                "safari": {
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "version_added": "3"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.outerHeight"
+        }
+    ],
+    "dom-window-outerwidth": [
+        {
+            "slug": "API/Window/outerWidth",
+            "summary": "Window.outerWidth gets the width of the outside of the browser window. It represents the width of the whole browser window including sidebar (if expanded), window chrome and window resizing borders/handles.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "9"
+                },
+                "opera_android": {
+                    "version_added": "9"
+                },
+                "safari": {
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "version_added": "3"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.outerWidth"
+        }
+    ],
+    "dom-window-pagexoffset": [
+        {
+            "slug": "API/Window/pageXOffset",
+            "summary": "This is an alias for scrollX.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Window.pageXOffset"
+        }
+    ],
+    "dom-window-pageyoffset": [
+        {
+            "slug": "API/Window/pageYOffset",
+            "summary": "The read-only Window property pageYOffset is an alias for scrollY; as such, it returns the number of pixels the document is currently scrolled along the vertical axis (that is, up or down) with a value of 0.0, indicating that the top edge of the Document is currently aligned with the top edge of the window's content area.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Window.pageYOffset"
+        }
+    ],
+    "dom-window-resizeby": [
+        {
+            "slug": "API/Window/resizeBy",
+            "summary": "The Window.resizeBy() method resizes the current window by a specified amount.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Since Firefox 7, it's no longer possible for a web site to change the default size of a window in a browser if the window wasn\u2019t created by <code>window.open</code> or contains more than one tab. <a href='https://bugzil.la/565541#c24'>See here</a> for more details.",
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.resizeBy()"
+        }
+    ],
+    "dom-window-resizeto": [
+        {
+            "slug": "API/Window/resizeTo",
+            "summary": "The Window.resizeTo() method dynamically resizes the window.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Since Firefox 7, it's no longer possible for a web site to change the default size of a window in a browser if the window wasn\u2019t created by <code>window.open</code> or contains more than one tab. <a href='https://bugzil.la/565541#c24'>See here</a> for more details.",
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.resizeTo()"
+        }
+    ],
+    "dom-window-screen": [
+        {
+            "slug": "API/Window/screen",
+            "summary": "Returns a reference to the screen object associated with the window. The screen object, implementing the Screen interface, is a special object for inspecting properties of the screen on which the current window is being rendered.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.screen"
+        }
+    ],
+    "dom-window-screenx": [
+        {
+            "slug": "API/Window/screenLeft",
+            "summary": "The Window.screenLeft read-only property returns the horizontal distance, in CSS pixels, from the left border of the user's browser viewport to the left side of the screen.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "64"
+                },
+                "firefox_android": {
+                    "version_added": "64"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.screenLeft"
+        },
+        {
+            "slug": "API/Window/screenX",
+            "summary": "The Window.screenX read-only property returns the horizontal distance, in CSS pixels, of the left border of the user's browser viewport to the left side of the screen.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Before Firefox 28, Gecko was using device pixels instead of CSS pixels; in other words, it was assuming a value of <code>screenPixelsPerCSSPixel</code> of 1 for any device.",
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "notes": "Before Firefox 28, Gecko was using device pixels instead of CSS pixels; in other words, it was assuming a value of <code>screenPixelsPerCSSPixel</code> of 1 for any device.",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.screenX"
+        }
+    ],
+    "dom-window-screeny": [
+        {
+            "slug": "API/Window/screenTop",
+            "summary": "The Window.screenTop read-only property returns the vertical distance, in CSS pixels, from the top border of the user's browser viewport to the top side of the screen.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "64"
+                },
+                "firefox_android": {
+                    "version_added": "64"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.screenTop"
+        },
+        {
+            "slug": "API/Window/screenY",
+            "summary": "The Window.screenY read-only property returns the vertical distance, in CSS pixels, of the top border of the user's browser viewport to the top edge of the screen.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Before Firefox 28, Gecko was using device pixels instead of CSS pixels; in other words, it was assuming a value of <code>screenPixelsPerCSSPixel</code> of 1 for any device.",
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "notes": "Before Firefox 28, Gecko was using device pixels instead of CSS pixels; in other words, it was assuming a value of <code>screenPixelsPerCSSPixel</code> of 1 for any device.",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.screenY"
+        }
+    ],
+    "dom-window-scroll": [
+        {
+            "slug": "API/Window/scroll",
+            "summary": "The Window.scroll() method scrolls the window to a particular place in the document.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.scroll()"
+        },
+        {
+            "slug": "API/Window/scrollTo",
+            "summary": "Window.scrollTo() scrolls to a particular set of coordinates in the document.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.scrollTo()"
+        }
+    ],
+    "dom-window-scrollby": [
+        {
+            "slug": "API/Window/scrollBy",
+            "summary": "The Window.scrollBy() method scrolls the document in the window by the given amount.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "notes": "Only <code>scrollBy(x-coord, y-coord)</code> is supported.",
+                    "partial_implementation": true,
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "notes": "Only <code>scrollBy(x-coord, y-coord)</code> is supported.",
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.scrollBy()"
+        }
+    ],
+    "dom-window-scrollx": [
+        {
+            "slug": "API/Window/scrollX",
+            "summary": "The read-only scrollX property of the Window interface returns the number of pixels that the document is currently scrolled horizontally. This value is subpixel precise in modern browsers, meaning that it isn't necessarily a whole number. You can get the number of pixels the document is scrolled vertically from the scrollY property.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": true
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": true
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": true
+                    }
+                ],
+                "ie": [
+                    {
+                        "version_added": false
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": "9"
+                    }
+                ],
+                "opera": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": true
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": null
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": null
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": true
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": null
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": null
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": null
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": null
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageXOffset",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "Window.scrollX"
+        }
+    ],
+    "dom-window-scrolly": [
+        {
+            "slug": "API/Window/scrollY",
+            "summary": "The read-only scrollY property of the Window interface returns the number of pixels that the document is currently scrolled vertically. This value is subpixel precise in modern browsers, meaning that it isn't necessarily a whole number. You can get the number of pixels the document is scrolled horizontally from the scrollX property.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": true
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": true
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": true
+                    }
+                ],
+                "ie": [
+                    {
+                        "version_added": false
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": "9"
+                    }
+                ],
+                "opera": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": true
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": null
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": null
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": true
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": null
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": null
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": null
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": "pageYOffset",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "Window.scrollY"
+        }
+    ],
+    "excensions-to-the-htmlimageelement-interface": [
+        {
+            "slug": "API/HTMLImageElement",
+            "summary": "The HTMLImageElement interface provides special properties and methods for manipulating img elements.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLImageElement"
+        }
+    ],
+    "extensions-to-the-document-interface": [
+        {
+            "slug": "API/Document",
+            "summary": "The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Document"
+        }
+    ],
+    "extensions-to-the-element-interface": [
+        {
+            "slug": "API/Element",
+            "summary": "Element is the most general base class from which all objects in a Document inherit. It only has methods and properties common to all kinds of elements. More specific classes inherit from Element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element"
+        }
+    ],
+    "extensions-to-the-htmlelement-interface": [
+        {
+            "slug": "API/HTMLElement",
+            "summary": "The HTMLElement interface represents any HTML element. Some elements directly implement this interface, while others implement it via an interface that inherits it.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "HTMLElement"
+        }
+    ],
+    "extensions-to-the-mouseevent-interface": [
+        {
+            "slug": "API/MouseEvent",
+            "summary": "The MouseEvent interface represents events that occur due to the user interacting with a pointing device (such as a mouse). Common events using this interface include click, dblclick, mouseup, mousedown.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MouseEvent"
+        },
+        {
+            "slug": "API/MouseEvent",
+            "summary": "The MouseEvent interface represents events that occur due to the user interacting with a pointing device (such as a mouse). Common events using this interface include click, dblclick, mouseup, mousedown.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MouseEvent"
+        },
+        {
+            "slug": "API/MouseEvent/MouseEvent",
+            "summary": "The MouseEvent() constructor creates a new MouseEvent.",
+            "support": {
+                "chrome": {
+                    "version_added": "47"
+                },
+                "chrome_android": {
+                    "version_added": "47"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "11"
+                },
+                "firefox_android": {
+                    "version_added": "14"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "47"
+                }
+            },
+            "title": "MouseEvent()"
+        },
+        {
+            "slug": "API/PointerEvent/pointerType",
+            "summary": "The pointerType read-only property of the PointerEvent interface indicates the device type (mouse, pen, or touch) that caused a given pointer event.",
+            "support": {
+                "chrome": {
+                    "version_added": "55"
+                },
+                "chrome_android": {
+                    "version_added": "55"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "version_added": "59"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.w3c_pointer_events.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "41"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": false
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.w3c_pointer_events.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "41"
+                    }
+                ],
+                "ie": [
+                    {
+                        "version_added": "11"
+                    },
+                    {
+                        "notes": "Returns an integer enumeration instead of a string.",
+                        "partial_implementation": true,
+                        "version_added": "10"
+                    }
+                ],
+                "opera": {
+                    "version_added": "42"
+                },
+                "opera_android": {
+                    "version_added": "42"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "55"
+                }
+            },
+            "title": "PointerEvent.pointerType"
+        }
+    ],
+    "extensions-to-the-range-interface": [
+        {
+            "slug": "API/Range",
+            "summary": "The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Starting with Firefox 13, the <code>Range</code> object throws a <code>DOMException</code> as defined in DOM 4, instead of a <code>RangeException</code> defined in prior specifications.",
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "notes": "Starting with Firefox 13, the <code>Range</code> object throws a <code>DOMException</code> as defined in DOM 4, instead of a <code>RangeException</code> defined in prior specifications.",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "9"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Range"
+        }
+    ],
+    "mediaquerylistevent": [
+        {
+            "slug": "API/MediaQueryListEvent",
+            "summary": "The MediaQueryListEvent object stores information on the changes that have happened to a MediaQueryList object \u2014 instances are available as the event object on a function referenced by a MediaQueryList.onchange property or MediaQueryList.addEvent() call.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "MediaQueryListEvent"
+        }
+    ],
+    "propdef-scroll-behavior": [
+        {
+            "slug": "CSS/scroll-behavior",
+            "summary": "The scroll-behavior CSS property sets the behavior for a scrolling box when scrolling is triggered by the navigation or CSSOM scrolling APIs.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "Enable experimental web platform features",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "36"
+                },
+                "firefox_android": {
+                    "version_added": "36"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "flags": [
+                        {
+                            "name": "Smooth Scrolling",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "scroll-behavior"
+        }
+    ],
+    "the-features-argument-to-the-open()-method": [
+        {
+            "slug": "API/Window/open",
+            "summary": "The Window interface's open() method loads the specified resource into the browsing context (window, iframe or tab) with the specified name. If the name doesn't exist, then a new window is opened and the specified resource is loaded into its browsing context.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Window.open()"
+        }
+    ],
+    "the-geometryutils-interface": [
+        {
+            "slug": "API/GeometryUtils",
+            "summary": "The GeometryUtils interface provides different utility function to retrieve geometry information about DOM nodes.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "partial_implementation": true,
+                    "version_added": "31"
+                },
+                "firefox_android": {
+                    "partial_implementation": true,
+                    "version_added": "31"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "GeometryUtils"
+        }
+    ],
+    "the-mediaquerylist-interface": [
+        {
+            "slug": "API/MediaQueryList",
+            "summary": "A MediaQueryList object stores information on a media query applied to a document, and handles sending notifications to listeners when the media query state change (i.e. when the media query test starts or stops evaluating to true).",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "6"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "5"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "MediaQueryList"
+        },
+        {
+            "slug": "API/MediaQueryListListener",
+            "summary": "A MediaQueryList object maintains a list of media queries on a document, and handles sending notifications to listeners when the media queries on the document change.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "6"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "MediaQueryListListener"
+        }
+    ],
+    "the-screen-interface": [
+        {
+            "slug": "API/Screen",
+            "summary": "The Screen interface represents a screen, usually the one on which the current window is being rendered, and is obtained using window.screen.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Screen"
+        }
+    ]
+}

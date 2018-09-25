@@ -1,0 +1,902 @@
+{
+    "text-decoration-color-property": [
+        {
+            "slug": "CSS/text-decoration-color",
+            "summary": "The text-decoration-color CSS property sets the color of decorations added to text by text-decoration-line.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "36"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "6",
+                        "version_removed": "39"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "36"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "6",
+                        "version_removed": "39"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": "8"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "text-decoration-color"
+        }
+    ],
+    "text-decoration-line": [
+        {
+            "slug": "CSS/text-decoration-line",
+            "summary": "The text-decoration-line CSS property sets the kind of decoration that is used on text in an element, such as an underline or overline.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "36"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "6",
+                        "version_removed": "39"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "36"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "6",
+                        "version_removed": "39"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": "8"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "text-decoration-line"
+        }
+    ],
+    "text-decoration-property": [
+        {
+            "slug": "CSS/text-decoration",
+            "summary": "The text-decoration CSS property sets the appearance of decorative lines on text. It is a shorthand for text-decoration-line, text-decoration-color, and text-decoration-style.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "text-decoration"
+        }
+    ],
+    "text-decoration-style": [
+        {
+            "slug": "CSS/text-decoration-style",
+            "summary": "The text-decoration-style CSS property sets the style of the lines specified by text-decoration-line. The style applies to all lines that are set with text-decoration-line.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "36"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "6",
+                        "version_removed": "39"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "36"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "6",
+                        "version_removed": "39"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "text-decoration-style"
+        }
+    ],
+    "text-emphasis-color-property": [
+        {
+            "slug": "CSS/text-emphasis-color",
+            "summary": "The text-emphasis-color CSS property sets the color of emphasis marks. This value can also be set using the text-emphasis shorthand.",
+            "support": {
+                "chrome": {
+                    "prefix": "-webkit-",
+                    "version_added": "25"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "46"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.text-emphasis.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "45",
+                        "version_removed": "49"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "46"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.text-emphasis.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "45",
+                        "version_removed": "49"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "prefix": "-webkit-",
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "33"
+                },
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "6.1"
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": "7.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "4.4"
+                }
+            },
+            "title": "text-emphasis-color"
+        }
+    ],
+    "text-emphasis-position-property": [
+        {
+            "slug": "CSS/text-emphasis-position",
+            "summary": "The text-emphasis-position CSS property sets where emphasis marks are drawn. Like ruby text, if there isn't enough room for emphasis marks, the line height is increased.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "46"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.text-emphasis.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "45",
+                        "version_removed": "49"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "46"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.text-emphasis.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "45",
+                        "version_removed": "49"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "33"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "6.1"
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "4.4"
+                    }
+                ]
+            },
+            "title": "text-emphasis-position"
+        }
+    ],
+    "text-emphasis-property": [
+        {
+            "slug": "CSS/text-emphasis",
+            "summary": "The text-emphasis CSS property applies emphasis marks to text (except spaces and control characters). It is a shorthand for text-emphasis-style and text-emphasis-color.",
+            "support": {
+                "chrome": {
+                    "prefix": "-webkit-",
+                    "version_added": "25"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "46"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.text-emphasis.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "45",
+                        "version_removed": "49"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "46"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.text-emphasis.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "45",
+                        "version_removed": "49"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "prefix": "-webkit-",
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "33"
+                },
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "6.1"
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": "7.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "4.4"
+                }
+            },
+            "title": "text-emphasis"
+        }
+    ],
+    "text-emphasis-style-property": [
+        {
+            "slug": "CSS/text-emphasis-style",
+            "summary": "The text-emphasis-style CSS property sets the appearance of emphasis marks. It can also be set, and reset, using the text-emphasis shorthand.",
+            "support": {
+                "chrome": {
+                    "prefix": "-webkit-",
+                    "version_added": "25"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "46"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.text-emphasis.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "45",
+                        "version_removed": "49"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "46"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.text-emphasis.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "45",
+                        "version_removed": "49"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "prefix": "-webkit-",
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "33"
+                },
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "6.1"
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": "7.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "4.4"
+                }
+            },
+            "title": "text-emphasis-style"
+        }
+    ],
+    "text-shadow": [
+        {
+            "slug": "CSS/text-shadow",
+            "summary": "The text-shadow CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and any of its decorations.",
+            "support": {
+                "chrome": {
+                    "version_added": "2"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "Firefox versions before 57 have a bug whereby <a href='https://developer.mozilla.org/docs/Web/CSS/transition'><code>transition</code></a>s will not work when transitioning from a <code>text-shadow</code> with a color specified to a <code>text-shadow</code> without a color specified (<a href='https://bugzil.la/726550'>bug 726550</a>).",
+                        "From Firefox 4, the blur radius is capped at 300 for performance reasons.",
+                        "Firefox theoretically supports infinite text-shadows (don't try it).",
+                        "If the <code>&lt;color&gt;</code> value is unspecified, then Firefox uses the value of the element's <a href='https://developer.mozilla.org/docs/Web/CSS/color'><code>color</code></a> property."
+                    ],
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "notes": [
+                        "Opera supports a maximum of 6-9 text-shadows for performance reasons. The blur radius is limited to 100px.",
+                        "Opera 9.5 to 10.1 adheres to the old, reverse painting order (in CSS2, the first specified shadow is on the bottom)."
+                    ],
+                    "version_added": "9.5"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "notes": [
+                        "In Safari, any shadows that do not explicitly specify a color are transparent.",
+                        "Safari 1.1 to 3.2 only supports one text-shadow (displays the first shadow of a comma-separated list and ignores the rest). Safari 4.0 (WebKit 528) and later support multiple text-shadows."
+                    ],
+                    "version_added": "1.1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "text-shadow"
+        },
+        {
+            "slug": "CSS/::first-letter",
+            "summary": "The ::first-letter CSS pseudo-element applies styles to the first letter of the first line of a block-level element, but only when not preceded by other content (such as images or inline tables).",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "1"
+                    },
+                    {
+                        "alternative_name": ":first-letter",
+                        "version_added": "1"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":first-letter",
+                        "version_added": true
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":first-letter",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "1"
+                    },
+                    {
+                        "alternative_name": ":first-letter",
+                        "version_added": "1"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "alternative_name": ":first-letter",
+                        "version_added": "4"
+                    }
+                ],
+                "ie": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "alternative_name": ":first-letter",
+                        "version_added": "5.5"
+                    }
+                ],
+                "opera": [
+                    {
+                        "version_added": "7"
+                    },
+                    {
+                        "alternative_name": ":first-letter",
+                        "version_added": "3.5"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": [
+                    {
+                        "version_added": "1"
+                    },
+                    {
+                        "alternative_name": ":first-letter",
+                        "version_added": "1"
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "::first-letter (:first-letter)"
+        },
+        {
+            "slug": "CSS/::first-line",
+            "summary": "The ::first-line CSS pseudo-element applies styles to the first line of a block-level element.",
+            "support": {
+                "chrome": [
+                    {
+                        "notes": "Before Chrome 62, the <a href='https://developer.mozilla.org/docs/Web/CSS/text-transform'><code>text-transform</code></a> property does not work on <code>::first-line</code> pseudo-elements. See <a href='https://crbug.com/129669'>Chromium bug 129669</a>.",
+                        "version_added": "1"
+                    },
+                    {
+                        "alternative_name": ":first-line",
+                        "notes": "Before Chrome 62, the <a href='https://developer.mozilla.org/docs/Web/CSS/text-transform'><code>text-transform</code></a> property does not work on <code>::first-line</code> pseudo-elements. See <a href='https://crbug.com/129669'>Chromium bug 129669</a>.",
+                        "version_added": "1"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":first-line",
+                        "version_added": true
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":first-line",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "1"
+                    },
+                    {
+                        "alternative_name": ":first-line",
+                        "version_added": "1"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "alternative_name": ":first-line",
+                        "version_added": "4"
+                    }
+                ],
+                "ie": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "alternative_name": ":first-line",
+                        "version_added": "5.5"
+                    }
+                ],
+                "opera": [
+                    {
+                        "notes": "From Opera 15 to Opera 49 (exclusive), the <a href='https://developer.mozilla.org/docs/Web/CSS/text-transform'><code>text-transform</code></a> property does not work on <code>::first-line</code> or <code>:first-line</code> pseudo-elements. See <a href='https://crbug.com/129669'>Chromium bug 129669</a>.",
+                        "version_added": "7"
+                    },
+                    {
+                        "alternative_name": ":first-line",
+                        "notes": "From Opera 15 to Opera 49 (exclusive), the <a href='https://developer.mozilla.org/docs/Web/CSS/text-transform'><code>text-transform</code></a> property does not work on <code>::first-line</code> or <code>:first-line</code> pseudo-elements. See <a href='https://crbug.com/129669'>Chromium bug 129669</a>.",
+                        "version_added": "3.5"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": [
+                    {
+                        "notes": "The <a href='https://developer.mozilla.org/docs/Web/CSS/text-transform'><code>text-transform</code></a> property does not work for <code>::first-line</code> or <code>:first-line</code> pseudo-elements. See <a href='https://bugs.webkit.org/show_bug.cgi?id=3409'>WebKit bug 3409</a>.",
+                        "version_added": "1"
+                    },
+                    {
+                        "alternative_name": ":first-line",
+                        "notes": "The <a href='https://developer.mozilla.org/docs/Web/CSS/text-transform'><code>text-transform</code></a> property does not work for <code>::first-line</code> or <code>:first-line</code> pseudo-elements. See <a href='https://bugs.webkit.org/show_bug.cgi?id=3409'>WebKit bug 3409</a>.",
+                        "version_added": "1"
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "::first-line (:first-line)"
+        }
+    ],
+    "text-underline-position-property": [
+        {
+            "slug": "CSS/text-underline-position",
+            "summary": "The text-underline-position CSS property specifies the position of the underline which is set using the text-decoration property's underline value.",
+            "support": {
+                "chrome": {
+                    "version_added": "33"
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "text-underline-position"
+        }
+    ]
+}

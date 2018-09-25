@@ -1,0 +1,106 @@
+{
+    "attr-img-crossorigin": [
+        {
+            "slug": "HTML/CORS_settings_attributes",
+            "support": "html.elements.img.crossorigin"
+        }
+    ],
+    "broadcasting-to-other-browsing-contexts": [
+        {
+            "slug": "API/Broadcast_Channel_API",
+            "support": "api.BroadcastChannel"
+        }
+    ],
+    "canvasimagesource": [
+        {
+            "slug": "API/CanvasImageSource"
+        }
+    ],
+    "channel-messaging": [
+        {
+            "slug": "API/Channel_Messaging_API",
+            "support": "api.MessageChannel"
+        },
+        {
+            "slug": "API/Channel_Messaging_API/Using_channel_messaging",
+            "support": "api.MessageChannel"
+        }
+    ],
+    "cors-settings-attributes": [
+        {
+            "slug": "HTML/CORS_settings_attributes",
+            "support": "html.elements.img.crossorigin"
+        }
+    ],
+    "dom-textarea/input-select": [
+        {
+            "slug": "API/HTMLInputElement/select"
+        }
+    ],
+    "event-handler-attributes": [
+        {
+            "slug": "Guide/Events/Event_handlers"
+        }
+    ],
+    "fakepath-srsly": [
+        {
+            "slug": "HTML/Element/input"
+        }
+    ],
+    "global-attributes": [
+        {
+            "slug": "HTML/Global_attributes"
+        }
+    ],
+    "linkTypes": [
+        {
+            "slug": "HTML/Link_types"
+        }
+    ],
+    "pseudo-classes": [
+        {
+            "slug": "CSS/Pseudo-classes"
+        }
+    ],
+    "renderingcontext": [
+        {
+            "slug": "API/RenderingContext"
+        }
+    ],
+    "server-sent-events": [
+        {
+            "slug": "API/Server-sent_events",
+            "support": "api.EventSource"
+        }
+    ],
+    "texttrackcue": [
+        {
+            "slug": "API/TextTrackCue"
+        }
+    ],
+    "the-input-element": [
+        {
+            "slug": "HTML/Element/input"
+        }
+    ],
+    "webstorage": [
+        {
+            "slug": "API/Web_Storage_API",
+            "support": "api.Storage"
+        },
+        {
+            "slug": "API/Web_Storage_API/Using_the_Web_Storage_API",
+            "support": "api.Storage"
+        }
+    ],
+    "workers": [
+        {
+            "slug": "API/Web_Workers_API",
+            "support": "api.Worker"
+        },
+        {
+            "slug": "API/Web_Workers_API/Using_web_workers",
+            "support": "api.Worker"
+        }
+    ]
+}

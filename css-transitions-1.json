@@ -1,0 +1,3034 @@
+{
+    "Events-TransitionEvent": [
+        {
+            "slug": "API/TransitionEvent",
+            "summary": "The TransitionEvent interface represents events providing information related to transitions.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TransitionEvent"
+        }
+    ],
+    "Events-TransitionEvent-elapsedTime": [
+        {
+            "slug": "API/TransitionEvent/elapsedTime",
+            "summary": "The TransitionEvent.elapsedTime read-only property is a float giving the amount of time the animation has been running, in seconds, when this event fired. This value is not affected by the transition-delay property.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TransitionEvent.elapsedTime"
+        }
+    ],
+    "Events-TransitionEvent-propertyName": [
+        {
+            "slug": "API/TransitionEvent/animationName",
+            "summary": "The TransitionEvent.transitionName read-only property is a DOMString containing the name of the CSS property associated with the transition.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TransitionEvent.animationName"
+        }
+    ],
+    "Events-TransitionEvent-pseudoElement": [
+        {
+            "slug": "API/TransitionEvent/pseudoElement",
+            "summary": "The TransitionEvent.pseudoElement read-only property is a DOMString, starting with '::', containing the name of the pseudo-element the animation runs on. If the transition doesn't run on a pseudo-element but on the element, an empty string: ''.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "23"
+                },
+                "firefox_android": {
+                    "version_added": "23"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TransitionEvent.pseudoElement"
+        }
+    ],
+    "animatable-css": [
+        {
+            "slug": "CSS/bottom",
+            "summary": "The bottom CSS property participates in specifying the vertical position of a positioned element. It has no effect on non-positioned elements.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "notes": "In Internet Explorer versions before 7, when both <code>top</code> and <code>bottom</code> are specified, the element position is overconstrained and the <code>top</code> property has precedence; the computed value of <code>bottom</code> is set to <code>-top</code>, while its specified value is ignored.",
+                    "version_added": "5"
+                },
+                "opera": {
+                    "version_added": "6"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "bottom"
+        },
+        {
+            "slug": "CSS/color",
+            "summary": "The color CSS property sets the foreground color value of an element's text and text decorations, and sets the currentcolor value.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "color"
+        },
+        {
+            "slug": "CSS/font-size",
+            "summary": "The font-size CSS property sets the size of the font.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "5.5"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "font-size"
+        },
+        {
+            "slug": "CSS/font-weight",
+            "summary": "The font-weight CSS property specifies the weight (or boldness) of the font. The font weights available to you will depend on the font-family you are using. Some fonts are only available in normal and bold.",
+            "support": {
+                "chrome": {
+                    "version_added": "2"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1.3"
+                },
+                "safari_ios": {
+                    "version_added": "3.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "font-weight"
+        },
+        {
+            "slug": "CSS/height",
+            "summary": "The height CSS property specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": "1"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "height"
+        },
+        {
+            "slug": "CSS/left",
+            "summary": "The left CSS property participates in specifying the horizontal position of a positioned element. It has no effect on non-positioned elements.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "5.5"
+                },
+                "opera": {
+                    "version_added": "5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "left"
+        },
+        {
+            "slug": "CSS/letter-spacing",
+            "summary": "The letter-spacing CSS property sets the spacing behavior between text characters.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "letter-spacing"
+        },
+        {
+            "slug": "CSS/line-height",
+            "summary": "The line-height CSS property sets the amount of space used for lines, such as in text. On block-level elements, it specifies the minimum height of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "line-height"
+        },
+        {
+            "slug": "CSS/margin-bottom",
+            "summary": "The margin-bottom CSS property sets the margin area on the bottom of an element. A positive value places it farther from its neighbors, while a negative value places it closer.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "margin-bottom"
+        },
+        {
+            "slug": "CSS/margin-left",
+            "summary": "The margin-left CSS property sets the margin area on the left side of an element. A positive value places it farther from its neighbors, while a negative value places it closer.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "margin-left"
+        },
+        {
+            "slug": "CSS/margin-right",
+            "summary": "The margin-right CSS property sets the margin area on the right side of an element. A positive value places it farther from its neighbors, while a negative value places it closer.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "margin-right"
+        },
+        {
+            "slug": "CSS/margin-top",
+            "summary": "The margin-top CSS property sets the margin area on the top of an element. A positive value places it farther from its neighbors, while a negative value places it closer.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "margin-top"
+        },
+        {
+            "slug": "CSS/margin",
+            "summary": "The margin CSS property sets the margin area on all four sides of an element. It is a shorthand for margin-top, margin-right, margin-bottom, and margin-left.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "margin"
+        },
+        {
+            "slug": "CSS/max-height",
+            "summary": "The max-height CSS property sets the maximum height of an element. It prevents the used value of the height property from becoming larger than the value specified for max-height.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "CSS 2.1 leaves the behavior of <code>max-height</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Firefox supports applying <code>max-height</code> to <code>table</code> elements.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "7"
+                },
+                "opera": {
+                    "notes": "CSS 2.1 leaves the behavior of <code>max-height</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Opera supports applying <code>max-height</code> to <code>table</code> elements.",
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "max-height"
+        },
+        {
+            "slug": "CSS/max-width",
+            "summary": "The max-width CSS property sets the maximum width of an element. It prevents the used value of the width property from becoming larger than the value specified by max-width.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "CSS 2.1 leaves the behavior of <code>max-width</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Firefox supports applying <code>max-width</code> to <code>table</code> elements.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "7"
+                },
+                "opera": {
+                    "notes": "CSS 2.1 leaves the behavior of <code>max-width</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Opera supports applying <code>max-width</code> to <code>table</code> elements.",
+                    "version_added": "4"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "2"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "max-width"
+        },
+        {
+            "slug": "CSS/min-height",
+            "summary": "The min-height CSS property sets the minimum height of an element. It prevents the used value of the height property from becoming smaller than the value specified for min-height.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "CSS 2.1 leaves the behavior of <code>min-height</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Firefox supports applying <code>min-height</code> to <code>table</code> elements.",
+                    "version_added": "3"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "notes": "In Internet Explorer 10 and 11, a <code>min-height</code> declaration on a column-direction flex container doesn't apply to the container's flex items. See <a href='https://github.com/philipwalton/flexbugs#3-min-height-on-a-column-flex-container-wont-apply-to-its-flex-items'>Flexbug #3</a> for more info.",
+                    "version_added": "7"
+                },
+                "opera": {
+                    "notes": "CSS 2.1 leaves the behavior of <code>min-height</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Opera supports applying <code>min-height</code> to <code>table</code> elements.",
+                    "version_added": "4"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "9"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "min-height"
+        },
+        {
+            "slug": "CSS/min-width",
+            "summary": "The min-width CSS property sets the minimum width of an element. It prevents the used value of the width property from becoming smaller than the value specified for min-width.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "CSS 2.1 leaves the behavior of <code>min-width</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Firefox supports applying <code>min-width</code> to <code>table</code> elements.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "7"
+                },
+                "opera": {
+                    "notes": "CSS 2.1 leaves the behavior of <code>min-width</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Opera supports applying <code>min-width</code> to <code>table</code> elements.",
+                    "version_added": "4"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "2"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "min-width"
+        },
+        {
+            "slug": "CSS/opacity",
+            "summary": "The opacity CSS property sets the transparency of an element or the degree to which content behind an element is visible.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "1"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "1",
+                        "version_removed": "3.5"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "9"
+                },
+                "opera_android": {
+                    "version_added": "9"
+                },
+                "safari": {
+                    "version_added": "1.2"
+                },
+                "safari_ios": {
+                    "version_added": "3.2"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "opacity"
+        },
+        {
+            "slug": "CSS/outline-color",
+            "summary": "The outline-color CSS property sets the color of an element's outline.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "1.5"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "1",
+                        "version_removed": "3.6"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "8"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1.2"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "outline-color"
+        },
+        {
+            "slug": "CSS/outline-offset",
+            "summary": "The outline-offset CSS property sets the amount of space between an outline and the edge or border of an element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "1.5"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "9.5"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1.2"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "outline-offset"
+        },
+        {
+            "slug": "CSS/outline-width",
+            "summary": "The outline-width CSS property sets the thickness of an element's outline. An outline is a line that is drawn around an element, outside the border.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "1.5"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "1",
+                        "version_removed": "3.6"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "8"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1.2"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "outline-width"
+        },
+        {
+            "slug": "CSS/padding-bottom",
+            "summary": "The padding-bottom CSS property sets the height of the padding area on the bottom of an element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "padding-bottom"
+        },
+        {
+            "slug": "CSS/padding-left",
+            "summary": "The padding-left CSS property sets the width of the padding area on the left side of an element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "padding-left"
+        },
+        {
+            "slug": "CSS/padding-right",
+            "summary": "The padding-right CSS property sets the width of the padding area on the right side of an element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "padding-right"
+        },
+        {
+            "slug": "CSS/padding-top",
+            "summary": "The padding-top padding area on the top of an element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "padding-top"
+        },
+        {
+            "slug": "CSS/padding",
+            "summary": "The padding CSS property sets the padding area on all four sides of an element. It is a shorthand for padding-top, padding-right, padding-bottom, and padding-left.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "padding"
+        },
+        {
+            "slug": "CSS/right",
+            "summary": "The right CSS property participates in specifying the horizontal position of a positioned element. It has no effect on non-positioned elements.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "5.5"
+                },
+                "opera": {
+                    "version_added": "5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "right"
+        },
+        {
+            "slug": "CSS/text-indent",
+            "summary": "The text-indent CSS property sets the length of empty space (indentation) that is put before lines of text in a block.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "text-indent"
+        },
+        {
+            "slug": "CSS/text-shadow",
+            "summary": "The text-shadow CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and any of its decorations.",
+            "support": {
+                "chrome": {
+                    "version_added": "2"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "Firefox versions before 57 have a bug whereby <a href='https://developer.mozilla.org/docs/Web/CSS/transition'><code>transition</code></a>s will not work when transitioning from a <code>text-shadow</code> with a color specified to a <code>text-shadow</code> without a color specified (<a href='https://bugzil.la/726550'>bug 726550</a>).",
+                        "From Firefox 4, the blur radius is capped at 300 for performance reasons.",
+                        "Firefox theoretically supports infinite text-shadows (don't try it).",
+                        "If the <code>&lt;color&gt;</code> value is unspecified, then Firefox uses the value of the element's <a href='https://developer.mozilla.org/docs/Web/CSS/color'><code>color</code></a> property."
+                    ],
+                    "version_added": "3.5"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "notes": [
+                        "Opera supports a maximum of 6-9 text-shadows for performance reasons. The blur radius is limited to 100px.",
+                        "Opera 9.5 to 10.1 adheres to the old, reverse painting order (in CSS2, the first specified shadow is on the bottom)."
+                    ],
+                    "version_added": "9.5"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "notes": [
+                        "In Safari, any shadows that do not explicitly specify a color are transparent.",
+                        "Safari 1.1 to 3.2 only supports one text-shadow (displays the first shadow of a comma-separated list and ignores the rest). Safari 4.0 (WebKit 528) and later support multiple text-shadows."
+                    ],
+                    "version_added": "1.1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "text-shadow"
+        },
+        {
+            "slug": "CSS/top",
+            "summary": "The top CSS property participates in specifying the vertical position of a positioned element. It has no effect on non-positioned elements.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "notes": "In Internet Explorer versions before 7, when both <code>top</code> and <code>bottom</code> are specified, the element position is overconstrained and the <code>top</code> property has precedence; the computed value of <code>bottom</code> is set to <code>-top</code>, while its specified value is ignored.",
+                    "version_added": "5"
+                },
+                "opera": {
+                    "version_added": "6"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "top"
+        },
+        {
+            "slug": "CSS/vertical-align",
+            "summary": "The vertical-align CSS property  sets vertical alignment of an inline or table-cell box.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "4"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "vertical-align"
+        },
+        {
+            "slug": "CSS/visibility",
+            "summary": "The visibility CSS property shows or hides an element without changing the layout of a document. The property can also hide rows or columns in a table.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "notes": [
+                        "Internet Explorer doesn't support <code>visibility: initial</code>.",
+                        "Up to Internet Explorer 7, descendants of <code>hidden</code> elements will still be invisible even if they have <code>visibility</code> set to <code>visible</code>."
+                    ],
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "4"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "visibility"
+        },
+        {
+            "slug": "CSS/width",
+            "summary": "The width CSS property sets an element's width. By default it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "width"
+        },
+        {
+            "slug": "CSS/word-spacing",
+            "summary": "The word-spacing CSS property sets the length of space between words and between tags.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": "6"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "word-spacing"
+        },
+        {
+            "slug": "CSS/z-index",
+            "summary": "The z-index CSS property sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "4"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "z-index"
+        }
+    ],
+    "animatable-properties": [
+        {
+            "slug": "CSS/::after",
+            "summary": "In CSS, ::after creates a pseudo-element that is the last child of the selected element. It is often used to add cosmetic content to an element with the content property.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":after",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":after",
+                        "version_added": true
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":after",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": [
+                            "Before Firefox 57, Firefox had a bug where <code>::after</code> pseudo-elements were still generated, even if the <a href='https://developer.mozilla.org/docs/Web/CSS/content'><code>content</code></a> property value were set to <code>normal</code> or <code>none</code>.",
+                            "Before Firefox 3.5, only the CSS level 2 behavior of <code>:after</code> was supported, which disallowed <a href='https://developer.mozilla.org/docs/Web/CSS/position'><code>position</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/float'><code>float</code></a>, <code>list-style-*</code> and some <code>display</code> properties."
+                        ],
+                        "version_added": "1.5"
+                    },
+                    {
+                        "alternative_name": ":after",
+                        "version_added": "1"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "alternative_name": ":after",
+                        "version_added": "8"
+                    }
+                ],
+                "opera": [
+                    {
+                        "version_added": "7"
+                    },
+                    {
+                        "alternative_name": ":after",
+                        "version_added": "4"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "alternative_name": ":after",
+                        "version_added": "4"
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":after",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "::after (:after)"
+        },
+        {
+            "slug": "CSS/::before",
+            "summary": "In CSS, ::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":before",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":before",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":before",
+                        "version_added": true
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":before",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": [
+                            "Before Firefox 57, Firefox had a bug where <code>::before</code> pseudo-elements were still generated, even if the <a href='https://developer.mozilla.org/docs/Web/CSS/content'><code>content</code></a> property value were set to <code>normal</code> or <code>none</code>.",
+                            "Before Firefox 3.5, only the CSS level 2 behavior of <code>:before</code> was supported, which disallowed <a href='https://developer.mozilla.org/docs/Web/CSS/position'><code>position</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/float'><code>float</code></a>, <code>list-style-*</code> and some <code>display</code> properties."
+                        ],
+                        "version_added": "1.5"
+                    },
+                    {
+                        "alternative_name": ":before",
+                        "version_added": "1"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":before",
+                        "version_added": true
+                    }
+                ],
+                "ie": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "alternative_name": ":before",
+                        "version_added": "8"
+                    }
+                ],
+                "opera": [
+                    {
+                        "version_added": "7"
+                    },
+                    {
+                        "alternative_name": ":before",
+                        "version_added": "4"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "alternative_name": ":before",
+                        "version_added": "4"
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": "5.1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "alternative_name": ":before",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "::before (:before)"
+        }
+    ],
+    "dom-transitionevent-transitionevent": [
+        {
+            "slug": "API/TransitionEvent/TransitionEvent",
+            "summary": "The TransitionEvent() constructor returns a newly created TransitionEvent, representing an event in relation with an transition.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "23"
+                },
+                "firefox_android": {
+                    "version_added": "23"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "TransitionEvent()"
+        }
+    ],
+    "ontransitioncancel": [
+        {
+            "slug": "API/GlobalEventHandlers/ontransitioncancel",
+            "summary": "The ontransitioncancel property of the GlobalEventHandlers mixin is an EventHandler that processes transitioncancel events.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": {
+                    "version_added": "53"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "GlobalEventHandlers.ontransitioncancel"
+        }
+    ],
+    "ontransitionend": [
+        {
+            "slug": "API/GlobalEventHandlers/ontransitionend",
+            "summary": "The ontransitionend property of the GlobalEventHandlers mixin is an EventHandler that processes transitionend events.",
+            "support": {
+                "chrome": {
+                    "alternative_name": "onwebkittransitionend",
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "alternative_name": "onwebkittransitionend",
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "alternative_name": "onwebkittransitionend",
+                    "version_added": true
+                }
+            },
+            "title": "GlobalEventHandlers.ontransitionend"
+        }
+    ],
+    "transition-delay-property": [
+        {
+            "slug": "CSS/transition-delay",
+            "summary": "The transition-delay CSS property specifies the duration to wait before starting a property's transition effect when its value changes.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "26"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "1"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "26"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "11.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "10",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3.2"
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "2"
+                    }
+                ]
+            },
+            "title": "transition-delay"
+        }
+    ],
+    "transition-duration": [
+        {
+            "slug": "CSS/transition-duration",
+            "summary": "The transition-duration CSS property sets the length of time a transition animation should take to complete. By default, the value is 0s, meaning that no animation will occur.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "26"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "1"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "26"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "10",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "10",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3.2"
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "2"
+                    }
+                ]
+            },
+            "title": "transition-duration"
+        }
+    ],
+    "transition-property-property": [
+        {
+            "slug": "CSS/transition-property",
+            "summary": "The transition-property CSS property sets the CSS properties to which a transition effect should be applied.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "26"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "26"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "11.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "transition-property"
+        }
+    ],
+    "transition-shorthand-property": [
+        {
+            "slug": "CSS/transition",
+            "summary": "The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "26"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "1"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "26"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": [
+                            "Before Firefox 57, transitions do not work when transitioning from a <a href='https://developer.mozilla.org/docs/Web/CSS/text-shadow'><code>text-shadow</code></a> with a color specified to a <code>text-shadow</code> without a color specified (see <A href='https://bugzil.la/726550'>bug 726550</a>).",
+                            "Before Firefox 57, cancelling a filling animation (for example, with <code>animation-fill-mode: forwards</code> set) can trigger a transition set on the same element, although only once (see <a href='https://bugzil.la/1192592'>bug 1192592</a> and <a href='https://bug1192592.bmoattachments.org/attachment.cgi?id=8843824'>these test cases</a> for more information).",
+                            "Before Firefox 57, the <a href='https://developer.mozilla.org/docs/Web/CSS/background-position'><code>background-position</code></a> property can't be transitioned between two values containing different numbers of <a href='https://developer.mozilla.org/docs/Web/CSS/position_value' t><code>&lt;position&gt;</code></a> values, for example <code>background-position: 10px 10px;</code> and <code>background-position: 20px 20px, 30px 30px;</code> (see <a href='https://bugzil.la/1390446'>bug 1390446</a>)."
+                        ],
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "notes": [
+                            "Before Firefox 57, transitions do not work when transitioning from a <a href='https://developer.mozilla.org/docs/Web/CSS/text-shadow'><code>text-shadow</code></a> with a color specified to a <code>text-shadow</code> without a color specified (see <A href='https://bugzil.la/726550'>bug 726550</a>).",
+                            "Before Firefox 57, cancelling a filling animation (for example, with <code>animation-fill-mode: forwards</code> set) can trigger a transition set on the same element, although only once (see <a href='https://bugzil.la/1192592'>bug 1192592</a> and <a href='https://bug1192592.bmoattachments.org/attachment.cgi?id=8843824'>these test cases</a> for more information).",
+                            "Before Firefox 57, the <a href='https://developer.mozilla.org/docs/Web/CSS/background-position'><code>background-position</code></a> property can't be transitioned between two values containing different numbers of <a href='https://developer.mozilla.org/docs/Web/CSS/position_value' t><code>&lt;position&gt;</code></a> values, for example <code>background-position: 10px 10px;</code> and <code>background-position: 20px 20px, 30px 30px;</code> (see <a href='https://bugzil.la/1390446'>bug 1390446</a>)."
+                        ],
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "10.1",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "10.1",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": "6.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3.2"
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "2"
+                    }
+                ]
+            },
+            "title": "transition"
+        }
+    ],
+    "transition-timing-function": [
+        {
+            "slug": "CSS/single-transition-timing-function",
+            "summary": "The single-transition-timing-function CSS data type denotes a mathematical function that describes how fast one-dimensional values change during animations. This lets you vary the animation's speed over the course of its duration.",
+            "support": {
+                "chrome": {
+                    "version_added": "4"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "4"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "10.5"
+                },
+                "opera_android": {
+                    "version_added": "10"
+                },
+                "safari": {
+                    "version_added": "3.1"
+                },
+                "safari_ios": {
+                    "version_added": "2"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "4"
+                }
+            },
+            "title": "<single-transition-timing-function>"
+        }
+    ],
+    "transition-timing-function-property": [
+        {
+            "slug": "CSS/transition-timing-function",
+            "summary": "The transition-timing-function CSS property sets how intermediate values are calculated for CSS properties being affected by a transition effect.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "26"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "26"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "11.6",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "samsunginternet_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "transition-timing-function"
+        }
+    ]
+}

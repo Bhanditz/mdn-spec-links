@@ -1,0 +1,52 @@
+{
+    "propdef-overscroll-behavior": [
+        {
+            "slug": "CSS/overscroll-behavior",
+            "summary": "The overscroll-behavior CSS property sets what a browser does when reaching the boundary of a scrolling area. It's a shorthand for overscroll-behavior-x and overscroll-behavior-y.",
+            "support": {
+                "chrome": {
+                    "version_added": "63"
+                },
+                "chrome_android": {
+                    "version_added": "63"
+                },
+                "edge": {
+                    "notes": "Currently the <code>none</code> value incorrectly behaves as <code>contain</code> (allowing for the elastic bounce effect).",
+                    "partial_implementation": true,
+                    "version_added": "18"
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "59"
+                },
+                "firefox_android": {
+                    "version_added": "59"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "50"
+                },
+                "opera_android": {
+                    "version_added": "50"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "63"
+                }
+            },
+            "title": "overscroll-behavior"
+        }
+    ]
+}

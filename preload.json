@@ -1,0 +1,47 @@
+{
+    "as-attribute": [
+        {
+            "slug": "API/HTMLLinkElement/as",
+            "summary": "The as property of the HTMLLinkElement interface returns a DOMString representing the type of content being loaded by the HTML link, one of \"script\", \"style\", \"image\", \"video\", \"audio\", \"track\", \"font\", \"fetch\".",
+            "support": {
+                "chrome": {
+                    "version_added": "50"
+                },
+                "chrome_android": {
+                    "version_added": "50"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "edge_mobile": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": "56"
+                },
+                "firefox_android": {
+                    "version_added": "56"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": "37"
+                },
+                "opera_android": {
+                    "version_added": "37"
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "50"
+                }
+            },
+            "title": "HTMLLinkElement.as"
+        }
+    ]
+}

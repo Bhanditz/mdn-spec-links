@@ -1,0 +1,162 @@
+{
+    "stringprototypetrimstart--stringprototypetrimend": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/String/trimEnd",
+            "summary": "The trimEnd() method removes whitespace from the end of a string. trimRight() is an alias of this method.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "trimRight",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "trimRight",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "61"
+                    },
+                    {
+                        "alternative_name": "trimRight",
+                        "version_added": "3.5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "61"
+                    },
+                    {
+                        "alternative_name": "trimRight",
+                        "version_added": "4"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "10.0.0"
+                },
+                "opera": {
+                    "version_added": "53"
+                },
+                "opera_android": {
+                    "version_added": "53"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "trimRight",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "String.prototype.trimEnd()"
+        },
+        {
+            "slug": "JavaScript/Reference/Global_Objects/String/trimStart",
+            "summary": "The trimStart() method removes whitespace from the beginning of a string. trimLeft() is an alias of this method.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "trimLeft",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "trimLeft",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "61"
+                    },
+                    {
+                        "alternative_name": "trimLeft",
+                        "version_added": "3.5"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "61"
+                    },
+                    {
+                        "alternative_name": "trimLeft",
+                        "version_added": "4"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": "10.0.0"
+                },
+                "opera": {
+                    "version_added": "53"
+                },
+                "opera_android": {
+                    "version_added": "53"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "66"
+                    },
+                    {
+                        "alternative_name": "trimLeft",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "String.prototype.trimStart()"
+        }
+    ]
+}

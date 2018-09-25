@@ -1,0 +1,112 @@
+{
+    "text-decoration-skip-ink-property": [
+        {
+            "slug": "CSS/text-decoration-skip-ink",
+            "summary": "The text-decoration-skip-ink CSS property specifies how overlines and underlines are drawn when they pass over glyph ascenders and descenders.",
+            "support": {
+                "chrome": {
+                    "version_added": "64"
+                },
+                "chrome_android": {
+                    "version_added": "64"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "50"
+                },
+                "opera_android": {
+                    "version_added": "50"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "64"
+                }
+            },
+            "title": "text-decoration-skip-ink"
+        }
+    ],
+    "text-decoration-skip-property": [
+        {
+            "slug": "CSS/text-decoration-skip",
+            "summary": "The text-decoration-skip CSS property sets what parts of an element\u2019s content any text decoration affecting the element must skip over.",
+            "support": {
+                "chrome": {
+                    "notes": "Only supports the deprecated <code>ink</code> value.",
+                    "version_added": "57",
+                    "version_removed": "64"
+                },
+                "chrome_android": {
+                    "notes": "Only supports the deprecated <code>ink</code> value.",
+                    "version_added": "57",
+                    "version_removed": "64"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": "Only supports the deprecated <code>ink</code> value.",
+                    "version_added": "44",
+                    "version_removed": "50"
+                },
+                "opera_android": {
+                    "notes": "Only supports the deprecated <code>ink</code> value.",
+                    "version_added": "44",
+                    "version_removed": "50"
+                },
+                "safari": {
+                    "notes": "Only supports the <code>none</code> and <code>skip</code> values; all other values behave like those two values.",
+                    "prefix": "-webkit-",
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "notes": "Only supports the <code>none</code> and <code>skip</code> values; all other values behave like those two values.",
+                    "prefix": "-webkit-",
+                    "version_added": "8"
+                },
+                "samsunginternet_android": {
+                    "version_added": "7.0"
+                },
+                "webview_android": {
+                    "notes": "Only supports the deprecated <code>ink</code> value.",
+                    "version_added": "57",
+                    "version_removed": "64"
+                }
+            },
+            "title": "text-decoration-skip"
+        }
+    ]
+}

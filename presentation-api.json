@@ -1,0 +1,860 @@
+{
+    "constructing-a-presentationrequest": [
+        {
+            "slug": "API/PresentationRequest/PresentationRequest",
+            "summary": "The PresentationRequest constructor creates a new PresentationRequest object which creates a new PresentationRequest.",
+            "support": {
+                "chrome": {
+                    "version_added": "48"
+                },
+                "chrome_android": {
+                    "version_added": "48"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.controller.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.controller.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "35"
+                },
+                "opera_android": {
+                    "version_added": "35"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PresentationRequest.PresentationRequest()"
+        }
+    ],
+    "dom-presentation-receiver": [
+        {
+            "slug": "API/Presentation/receiver",
+            "summary": "The read-only Presentation attribute receiver, which is only available in browser contexts which are receiving a presentation, returns the PresentationReceiver object which can be used to access and communicate with the browser context which controls the presentation. This property is always null when accessed from outside a browser context which is receiving a presentation.",
+            "support": {
+                "chrome": {
+                    "version_added": "48"
+                },
+                "chrome_android": {
+                    "version_added": "48"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.receiver.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.receiver.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Presentation.receiver"
+        }
+    ],
+    "dom-presentationconnection-send": [
+        {
+            "slug": "API/PresentationConnection/send",
+            "summary": "The send() method of the PresentationConnection interface tells a controlling browsing context to send binary or text data to a presenting browsing context.",
+            "support": {
+                "chrome": {
+                    "version_added": "48"
+                },
+                "chrome_android": {
+                    "version_added": "48"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PresentationConnection.send()"
+        }
+    ],
+    "dom-presentationconnection-url": [
+        {
+            "slug": "API/PresentationConnection/url",
+            "summary": "The url readonly property of the PresentationConnection interface returns the URL used to create or reconnect to the presentation.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PresentationConnection.url"
+        }
+    ],
+    "dom-presentationrequest-start": [
+        {
+            "slug": "API/PresentationRequest/start",
+            "summary": "The start() property of the PresentationRequest interface returns a Promise that resolves with a PresentationConnection after the user agent prompts the user to select a display and grant permission to use that display.",
+            "support": {
+                "chrome": {
+                    "version_added": "48"
+                },
+                "chrome_android": {
+                    "version_added": "48"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.controller.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.controller.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "35"
+                },
+                "opera_android": {
+                    "version_added": "35"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PresentationRequest.start()"
+        }
+    ],
+    "interface-presentation": [
+        {
+            "slug": "API/Presentation",
+            "summary": "The Presentation can be defined as two possible user agents in the context: Controlling user agent and Receiving user agent.",
+            "support": {
+                "chrome": {
+                    "version_added": "48"
+                },
+                "chrome_android": {
+                    "version_added": "48"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Presentation"
+        }
+    ],
+    "interface-presentationavailability": [
+        {
+            "slug": "API/PresentationAvailability",
+            "summary": "A PresentationAvailability object is associated with available presentation displays and represents the presentation display availability for a presentation request. If the controlling user agent can monitor the list of available presentation displays in the background (without a pending request to start()), the PresentationAvailability object MUST be implemented in a controlling browsing context.",
+            "support": {
+                "chrome": {
+                    "version_added": "48"
+                },
+                "chrome_android": {
+                    "version_added": "48"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.controller.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.controller.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PresentationAvailability"
+        }
+    ],
+    "interface-presentationconnection": [
+        {
+            "slug": "API/PresentationConnection",
+            "summary": "The PresentationConnection interface of the Presentation API provides methods and properties for managing a single presentation. Each presentation connection is represented by a PresentationConnection object. Both the controlling user agent and receiving user agent MUST implement PresentationConnection.",
+            "support": {
+                "chrome": {
+                    "version_added": "48"
+                },
+                "chrome_android": {
+                    "version_added": "48"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PresentationConnection"
+        }
+    ],
+    "interface-presentationconnectionavailableevent": [
+        {
+            "slug": "API/PresentationConnectionAvailableEvent",
+            "summary": "The PresentationConnectionAvailableEvent interface of the Presentation API is fired on a PresentationRequest when a connection associated with the object is created.",
+            "support": {
+                "chrome": {
+                    "version_added": "48"
+                },
+                "chrome_android": {
+                    "version_added": "48"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PresentationConnectionAvailableEvent"
+        }
+    ],
+    "interface-presentationconnectionclosedevent": [
+        {
+            "slug": "API/PresentationConnectionCloseEvent",
+            "summary": "The PresentationConnectionCloseEvent interface of the Presentation API is fired on a PresentationConnection when it is closed.",
+            "support": {
+                "chrome": {
+                    "version_added": "50"
+                },
+                "chrome_android": {
+                    "version_added": "50"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PresentationConnectionCloseEvent"
+        }
+    ],
+    "interface-presentationconnectionlist": [
+        {
+            "slug": "API/PresentationConnectionList",
+            "summary": "PresentationConnectionList is the collection of incoming presentation connections.",
+            "support": {
+                "chrome": {
+                    "version_added": "51"
+                },
+                "chrome_android": {
+                    "version_added": "51"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.receiver.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.receiver.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PresentationConnectionList"
+        }
+    ],
+    "interface-presentationreceiver": [
+        {
+            "slug": "API/PresentationReceiver",
+            "summary": "The PresentationReceiver interface of the the Presentation API provides a means for a receiving browsing context to access controlling browsing contexts and communicate with them.",
+            "support": {
+                "chrome": {
+                    "version_added": "55"
+                },
+                "chrome_android": {
+                    "version_added": "55"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.receiver.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.receiver.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PresentationReceiver"
+        }
+    ],
+    "interface-presentationrequest": [
+        {
+            "slug": "API/PresentationRequest",
+            "summary": "A PresentationRequest object is used to initiate or reconnect to a presentation made by a controlling browsing context. The PresentationRequest object MUST be implemented in a controlling browsing context provided by a controlling user agent.",
+            "support": {
+                "chrome": {
+                    "version_added": "48"
+                },
+                "chrome_android": {
+                    "version_added": "48"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.controller.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.presentation.controller.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "51"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "35"
+                },
+                "opera_android": {
+                    "version_added": "35"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "PresentationRequest"
+        }
+    ],
+    "sandboxing-and-the-allow-presentation-keyword": [
+        {
+            "slug": "HTML/Element/iframe",
+            "summary": "The HTML Inline Frame element (iframe) represents a nested browsing context, embedding another HTML page into the current one.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "The <code>resize</code> CSS property doesn't have any effect on this element due to <a href='https://bugzil.la/680823'>bug 680823</a>.",
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "notes": "The <code>resize</code> CSS property doesn't have any effect on this element due to <a href='https://bugzil.la/680823'>bug 680823</a>.",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "notes": "Safari has a <a href='https://www.quirksmode.org/bugreports/archives/2005/02/hidden_iframes.html'>bug</a> that prevents iframes from loading if the <code>iframe</code> element was hidden when added to the page. <code>iframeElement.src = iframeElement.src</code> should cause it to load the iframe.",
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "notes": "Safari has a <a href='https://www.quirksmode.org/bugreports/archives/2005/02/hidden_iframes.html'>bug</a> that prevents iframes from loading if the <code>iframe</code> element was hidden when added to the page. <code>iframeElement.src = iframeElement.src</code> should cause it to load the iframe.",
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "<iframe>: The Inline Frame element"
+        }
+    ]
+}

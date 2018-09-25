@@ -1,0 +1,285 @@
+{
+    "appearance-switching": [
+        {
+            "slug": "CSS/appearance",
+            "summary": "The -moz-appearance CSS property is used in Gecko (Firefox) to display an element using platform-native styling based on the operating system's theme.",
+            "support": {
+                "chrome": {
+                    "partial_implementation": true,
+                    "prefix": "-webkit-",
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "partial_implementation": true,
+                    "prefix": "-webkit-",
+                    "version_added": "18"
+                },
+                "edge": {
+                    "partial_implementation": true,
+                    "prefix": "-webkit-",
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "partial_implementation": true,
+                    "prefix": "-webkit-",
+                    "version_added": "12"
+                },
+                "firefox": [
+                    {
+                        "partial_implementation": true,
+                        "prefix": "-moz-",
+                        "version_added": "1"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.webkit-appearance.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "partial_implementation": true,
+                        "prefix": "-webkit-",
+                        "version_added": "62"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "partial_implementation": true,
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.webkit-appearance.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "partial_implementation": true,
+                        "prefix": "-webkit-",
+                        "version_added": "62"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "partial_implementation": true,
+                    "prefix": "-webkit-",
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "partial_implementation": true,
+                    "prefix": "-webkit-",
+                    "version_added": "14"
+                },
+                "safari": {
+                    "partial_implementation": true,
+                    "prefix": "-webkit-",
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "partial_implementation": true,
+                    "prefix": "-webkit-",
+                    "version_added": "3"
+                },
+                "samsunginternet_android": {
+                    "partial_implementation": true,
+                    "prefix": "-webkit-",
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "partial_implementation": true,
+                    "prefix": "-webkit-",
+                    "version_added": "1"
+                }
+            },
+            "title": "appearance (-moz-appearance, -webkit-appearance)"
+        }
+    ],
+    "propdef-user-select": [
+        {
+            "slug": "CSS/user-select",
+            "summary": "The user-select CSS property controls whether the user can select text. This doesn't have any effect on content loaded as chrome, except in textboxes.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "6"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "18"
+                    }
+                ],
+                "edge": [
+                    {
+                        "prefix": "-ms-",
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "prefix": "-ms-",
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "firefox": [
+                    {
+                        "prefix": "-moz-",
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "prefix": "-moz-",
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": {
+                    "version_added": "10"
+                },
+                "opera": {
+                    "prefix": "-webkit-",
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "14"
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": "3.1"
+                },
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": "3.2"
+                },
+                "samsunginternet_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "6.0"
+                },
+                "webview_android": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "user-select"
+        }
+    ],
+    "text-overflow": [
+        {
+            "slug": "CSS/text-overflow",
+            "summary": "The text-overflow CSS property sets how hidden overflow content is signaled to users. It can be clipped, display an ellipsis ('\u2026'), or display a custom string.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Until Firefox 10, handling of <code>text-overflow</code> on blocks with inline overflow on both horizontal sides was incorrect. Before Firefox 10, if only one value was specified (such as <code>text-overflow: ellipsis;</code>), text was ellipsed on both sides of the block, instead of only the end edge based on the block's text direction.",
+                    "version_added": "7"
+                },
+                "firefox_android": {
+                    "notes": "Until Firefox 10, handling of <code>text-overflow</code> on blocks with inline overflow on both horizontal sides was incorrect. Before Firefox 10, if only one value was specified (such as <code>text-overflow: ellipsis;</code>), text was ellipsed on both sides of the block, instead of only the end edge based on the block's text direction.",
+                    "version_added": "7"
+                },
+                "ie": [
+                    {
+                        "version_added": "6"
+                    },
+                    {
+                        "prefix": "-ms-",
+                        "version_added": "8"
+                    }
+                ],
+                "opera": [
+                    {
+                        "version_added": "11"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "9"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1.3"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "text-overflow"
+        }
+    ]
+}

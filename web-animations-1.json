@@ -1,0 +1,3057 @@
+{
+    "dom-animation-animation": [
+        {
+            "slug": "API/Animation/Animation",
+            "summary": "The Animation() constructor of the Web Animations API returns a new Animation object instance.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "46",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "46",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "Animation()"
+        }
+    ],
+    "dom-animation-cancel": [
+        {
+            "slug": "API/Animation/cancel",
+            "summary": "The Web Animations API's cancel() method of the Animation interface clears all KeyframeEffects caused by this animation and aborts its playback.",
+            "support": {
+                "chrome": {
+                    "version_added": "39"
+                },
+                "chrome_android": {
+                    "version_added": "39"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "26"
+                },
+                "opera_android": {
+                    "version_added": "26"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "39"
+                }
+            },
+            "title": "Animation.cancel()"
+        }
+    ],
+    "dom-animation-currenttime": [
+        {
+            "slug": "API/Animation/currentTime",
+            "summary": "The Animation.currentTime property of the Web Animations API returns and sets the current time value of the animation in milliseconds, whether running or paused.",
+            "support": {
+                "chrome": {
+                    "version_added": "39"
+                },
+                "chrome_android": {
+                    "version_added": "39"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "26"
+                },
+                "opera_android": {
+                    "version_added": "26"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "39"
+                }
+            },
+            "title": "Animation.currentTime"
+        },
+        {
+            "slug": "API/Animation/pending",
+            "summary": "The read-only Animation.pending property of the Web Animations API indicates whether the animation is currently waiting for an asynchronous operation such as initiating playback or pausing a running animation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "notes": "Prior to version 59, the pending status was reported by a <code><strong>\"pending\"</strong></code> value returned from <a href='/docs/Web/API/Animation/playState'><code>Animation.playState</code></a>.",
+                    "version_added": "59"
+                },
+                "firefox_android": {
+                    "notes": "Prior to version 59, the pending status was reported by a <code><strong>\"pending\"</strong></code> value returned from <a href='/docs/Web/API/Animation/playState'><code>Animation.playState</code></a>.",
+                    "version_added": "59"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Animation.pending"
+        }
+    ],
+    "dom-animation-finish": [
+        {
+            "slug": "API/Animation/finish",
+            "summary": "The finish() method of the Web Animations API's Animation Interface sets the current playback time to the end of the animation corresponding to the current playback direction.",
+            "support": {
+                "chrome": {
+                    "version_added": "39"
+                },
+                "chrome_android": {
+                    "version_added": "39"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "26"
+                },
+                "opera_android": {
+                    "version_added": "26"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "39"
+                }
+            },
+            "title": "Animation.finish()"
+        }
+    ],
+    "dom-animation-finished": [
+        {
+            "slug": "API/Animation/finished",
+            "summary": "The Animation.finished read-only property of the Web Animations API returns a Promise which resolves once the animation has finished playing.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "40"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Animation.finished"
+        }
+    ],
+    "dom-animation-id": [
+        {
+            "slug": "API/Animation/id",
+            "summary": "The Animation.id property of the Web Animations API returns or sets a string used to identify the animation.",
+            "support": {
+                "chrome": {
+                    "version_added": "50"
+                },
+                "chrome_android": {
+                    "version_added": "50"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "46",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "46",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "37"
+                },
+                "opera_android": {
+                    "version_added": "37"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "50"
+                }
+            },
+            "title": "Animation.id"
+        }
+    ],
+    "dom-animation-oncancel": [
+        {
+            "slug": "API/Animation/oncancel",
+            "summary": "The oncancel property of the Web Animations API's Animation interface is the event handler for the cancel event.",
+            "support": {
+                "chrome": {
+                    "version_added": "50"
+                },
+                "chrome_android": {
+                    "version_added": "50"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "42",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "42",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "37"
+                },
+                "opera_android": {
+                    "version_added": "37"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "50"
+                }
+            },
+            "title": "Animation.oncancel"
+        }
+    ],
+    "dom-animation-onfinish": [
+        {
+            "slug": "API/Animation/onfinish",
+            "summary": "The Animation interface's onfinish property (from the Web Animations API) is the event handler for the finish event. This event is sent when the animation finishes playing.",
+            "support": {
+                "chrome": {
+                    "version_added": "39"
+                },
+                "chrome_android": {
+                    "version_added": "39"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "42",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "42",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "26"
+                },
+                "opera_android": {
+                    "version_added": "26"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "39"
+                }
+            },
+            "title": "Animation.onfinish"
+        }
+    ],
+    "dom-animation-pause": [
+        {
+            "slug": "API/Animation/pause",
+            "summary": "The pause() method of the Web Animations API's Animation interface suspends playback of the animation.",
+            "support": {
+                "chrome": {
+                    "version_added": "39"
+                },
+                "chrome_android": {
+                    "version_added": "39"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "36",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "36",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "26"
+                },
+                "opera_android": {
+                    "version_added": "26"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "39"
+                }
+            },
+            "title": "Animation.pause()"
+        }
+    ],
+    "dom-animation-play": [
+        {
+            "slug": "API/Animation/play",
+            "summary": "The play() method of the Web Animations API's Animation Interface starts or resumes playing of an animation. If the animation is finished, calling play() restarts the animation, playing it from the beginning.",
+            "support": {
+                "chrome": {
+                    "version_added": "39"
+                },
+                "chrome_android": {
+                    "version_added": "39"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "36",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "36",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "26"
+                },
+                "opera_android": {
+                    "version_added": "26"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "39"
+                }
+            },
+            "title": "Animation.play()"
+        }
+    ],
+    "dom-animation-playbackrate": [
+        {
+            "slug": "API/Animation/playbackRate",
+            "summary": "The Animation.playbackRate property of the Web Animations API returns or sets the playback rate of the animation.",
+            "support": {
+                "chrome": {
+                    "version_added": "39"
+                },
+                "chrome_android": {
+                    "version_added": "39"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "42",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "42",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "26"
+                },
+                "opera_android": {
+                    "version_added": "26"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "39"
+                }
+            },
+            "title": "Animation.playbackRate"
+        }
+    ],
+    "dom-animation-ready": [
+        {
+            "slug": "API/Animation/ready",
+            "summary": "The read-only Animation.ready property of the Web Animations API returns a Promise which resolves when the animation is ready to play. A new promise is created every time the animation enters the \"pending\" play state as well as when the animation is canceled, since in both of those scenarios, the animation is ready to be started again.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "37"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "37"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Animation.ready"
+        }
+    ],
+    "dom-animation-reverse": [
+        {
+            "slug": "API/Animation/reverse",
+            "summary": "The Animation.reverse() method of the Animation Interface reverses the playback direction, meaning the animation ends at its beginning. If called on an unplayed animation, the whole animation is played backwards. If called on a paused animation, the animation will continue in reverse.",
+            "support": {
+                "chrome": {
+                    "version_added": "39"
+                },
+                "chrome_android": {
+                    "version_added": "39"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "42",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "42",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "26"
+                },
+                "opera_android": {
+                    "version_added": "26"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "39"
+                }
+            },
+            "title": "Animation.reverse()"
+        }
+    ],
+    "dom-animation-starttime": [
+        {
+            "slug": "API/Animation/startTime",
+            "summary": "The Animation.startTime property of the Animation interface is a double-precision floating-point value which indicates the scheduled time when an animation's playback should begin.",
+            "support": {
+                "chrome": {
+                    "version_added": "39"
+                },
+                "chrome_android": {
+                    "version_added": "39"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "39",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "39",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "26"
+                },
+                "opera_android": {
+                    "version_added": "26"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "39"
+                }
+            },
+            "title": "Animation.startTime"
+        }
+    ],
+    "dom-animation-timeline": [
+        {
+            "slug": "API/Animation/timeline",
+            "summary": "The Animation.timeline property of the Animation interface returns or sets the timeline associated with this animation. A timeline is a source of time values for synchronization purposes, and is an AnimationTimeline-based object. By default, the animation's timeline and the Document's timeline are the same.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.timelines.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "This property is supported in Firefox 48 but is read-only. It became writable in Firefox 49.",
+                        "version_added": "48",
+                        "version_removed": "63"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.timelines.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "This property is supported in Firefox 48 but is read-only. It became writable in Firefox 49.",
+                        "version_added": "48",
+                        "version_removed": "63"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Animation.timeline"
+        }
+    ],
+    "dom-animation-updatePlaybackRate": [
+        {
+            "slug": "API/Animation/updatePlaybackRate",
+            "summary": "The updatePlaybackRate() method of the Web Animations API's Animation Interface sets the speed of an animation after first synchronizing its playback position.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "60"
+                },
+                "firefox_android": {
+                    "version_added": "60"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Animation.updatePlaybackRate()"
+        }
+    ],
+    "dom-animationeffect-getcomputedtiming": [
+        {
+            "slug": "API/AnimationEffect/getComputedTiming",
+            "summary": "The getComputedTiming() method of the AnimationEffect interface returns the calculated timing properties for this animation effect.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "AnimationEffect.getComputedTiming()"
+        }
+    ],
+    "dom-animationeffect-gettiming": [
+        {
+            "slug": "API/AnimationEffect/getTiming",
+            "summary": "The AnimationEffect.getTiming() method of the AnimationEffect interface returns an EffectTiming object containing the timing properties for the Animation Effect.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "AnimationEffect.getTiming()"
+        }
+    ],
+    "dom-animationeffect-updatetiming": [
+        {
+            "slug": "API/AnimationEffect/updateTiming",
+            "summary": "The updateTiming() method of the AnimationEffect interface updates the specified timing properties for an animation effect.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "AnimationEffect.updateTiming()"
+        }
+    ],
+    "dom-animationplaybackevent-animationplaybackevent": [
+        {
+            "slug": "API/AnimationPlaybackEvent/AnimationPlaybackEvent",
+            "summary": "The AnimationPlaybackEvent() constructor of the Web Animations API returns a new AnimationPlaybackEvent object instance.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "AnimationPlaybackEvent.AnimationPlaybackEvent()"
+        }
+    ],
+    "dom-animationplaybackevent-currenttime": [
+        {
+            "slug": "API/AnimationPlaybackEvent/currentTime",
+            "summary": "The currentTime read-only property of the AnimationPlaybackEvent interface represents the current time of the animation that generated the event at the moment the event is queued. This will be unresolved if the animation was idle at the time the event was generated.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "AnimationPlaybackEvent.currentTime"
+        }
+    ],
+    "dom-animationplaybackevent-timelinetime": [
+        {
+            "slug": "API/AnimationPlaybackEvent/timelineTime",
+            "summary": "The timelineTime read-only property of the AnimationPlaybackEvent interface represents the time value of the animation's timeline at the moment the event is queued. This will be unresolved if the animation was not associated with a timeline at the time the event was generated or if the associated timeline was inactive.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "AnimationPlaybackEvent.timelineTime"
+        }
+    ],
+    "dom-animationtimeline-currenttime": [
+        {
+            "slug": "API/AnimationTimeline/currentTime",
+            "summary": "The currentTime read-only property of the Web Animations API's AnimationTimeline interface returns the timeline's current time in milliseconds, or null if the timeline is inactive.",
+            "support": {
+                "chrome": {
+                    "version_added": "39"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.timelines.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "48",
+                        "version_removed": "63"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.timelines.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "48",
+                        "version_removed": "63"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "26"
+                },
+                "opera_android": {
+                    "version_added": "26"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "AnimationTimeline.currentTime"
+        }
+    ],
+    "dom-document-getanimations": [
+        {
+            "slug": "API/Document/getAnimations",
+            "summary": "The getAnimations() method of the Document interface returns an array of all Animation objects currently in effect whose target elements are descendants of the document. This array includes CSS Animations, CSS Transitions, and Web Animations.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Currently available only in Firefox Nightly and Firefox Developer Edition.",
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Document.getAnimations()"
+        }
+    ],
+    "dom-document-timeline": [
+        {
+            "slug": "API/Document/timeline",
+            "summary": "The timeline readonly property of the Document interface represents the default timeline of the current document. This timeline is a special instance of DocumentTimeline that is automatically created on page load.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Currently only supported in Firefox Nightly (version 48).",
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "notes": "Currently only supported in Firefox Nightly (version 48).",
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Document.timeline"
+        }
+    ],
+    "dom-documenttimeline-documenttimeline": [
+        {
+            "slug": "API/DocumentTimeline/DocumentTimeline",
+            "summary": "The DocumentTimeline() constructor of the Web Animations API creates a new instance of the DocumentTimeline object associated with the active document of the current browsing context.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.timelines.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "50",
+                        "version_removed": "63"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.timelines.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "50",
+                        "version_removed": "63"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "DocumentTimeline.DocumentTimeline()"
+        }
+    ],
+    "dom-keyframeeffect-composite": [
+        {
+            "slug": "API/KeyframeEffect/composite",
+            "summary": "The composite property of a KeyframeEffect resolves how an element's animation impacts its underlying property values.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.animations-api.compositing.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.animations-api.compositing.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "KeyframeEffect.composite"
+        }
+    ],
+    "dom-keyframeeffect-getkeyframes": [
+        {
+            "slug": "API/KeyframeEffect/getKeyframes",
+            "summary": "The getKeyframes() method of a KeyframeEffect returns an Array of the computed keyframes that make up this animation along with their computed offsets.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "KeyframeEffect.getKeyframes()"
+        }
+    ],
+    "dom-keyframeeffect-iterationcomposite": [
+        {
+            "slug": "API/KeyframeEffect/iterationComposite",
+            "summary": "The iterationComposite property of a KeyframeEffect resolves how the the animation's property value changes accumulate or override each other upon each of the animation's iterations.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.animations-api.compositing.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.animations-api.compositing.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "KeyframeEffect.iterationComposite"
+        }
+    ],
+    "dom-keyframeeffect-keyframeeffect": [
+        {
+            "slug": "API/KeyframeEffect/KeyframeEffect",
+            "summary": "The KeyframeEffect() constructor of the Web Animations API returns a new KeyframeEffect object instance, and also allows you to clone an existing keyframe effect object instance.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "KeyframeEffect.KeyframeEffect()"
+        }
+    ],
+    "dom-keyframeeffect-setkeyframes": [
+        {
+            "slug": "API/KeyframeEffect/setKeyframes",
+            "summary": "The setKeyframes() method of the KeyframeEffect interface replaces the keyframes that make up the affected KeyframeEffect with a new set of keyframes.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "KeyframeEffect.setKeyframes()"
+        }
+    ],
+    "dom-keyframeeffect-target": [
+        {
+            "slug": "API/KeyframeEffect/target",
+            "summary": "The target property of a KeyframeEffect interface represents the element or pseudo-element being animated. It may be null for animations that do not target a specific element. It performs as both a getter and a setter, except with animations and transitions generated by CSS.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "KeyframeEffect.target"
+        }
+    ],
+    "end-delay": [
+        {
+            "slug": "API/EffectTiming/endDelay",
+            "summary": "The endDelay property of the EffectTiming dictionary (part of the Web Animations API) indicates the number of milliseconds to delay after the active period of an animation sequence. The animation's end time\u2014the time at which an iteration is considered to have finished\u2014is the time at which the animation finishes an iteration (its initial delay, AnimationEffectTimingReadOnly.delay, plus its duration,duration, plus its end delay.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "EffectTiming.endDelay"
+        }
+    ],
+    "enumdef-fillmode": [
+        {
+            "slug": "API/EffectTiming/fill",
+            "summary": "The Web Animations API's EffectTiming dictionary's fill property specifies a fill mode, which defines how the element to which the animation is applied should look when the animation sequence is not actively running, such as before the time specified by iterationStart or after animation's end time.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "EffectTiming.fill"
+        }
+    ],
+    "enumdef-playbackdirection": [
+        {
+            "slug": "API/EffectTiming/direction",
+            "summary": "The direction property of the Web Animations API dictionary EffectTiming indicates an animation's playback direction along its timeline, as well as its behavior when it reaches the end of an interation",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "EffectTiming.direction"
+        }
+    ],
+    "iteration-count": [
+        {
+            "slug": "API/EffectTiming/iterations",
+            "summary": "The Web Animations API dictionary EffectTiming's iterations property specifies the number of times the animation should repeat. The default value is 1, indicating that it should only play once, but you can set it to any floating-point value (including positive Infinity defaults to 1, and can also take a value of Infinity to make it loop infinitely.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "EffectTiming.iterations"
+        }
+    ],
+    "iteration-duration": [
+        {
+            "slug": "API/EffectTiming/duration",
+            "summary": "The duration property of the dictionary EffectTiming in the Web Animations API specifies the duration in milliseconds that a single iteration (from beginning to end) the animation should take to complete.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "EffectTiming.duration"
+        }
+    ],
+    "iteration-start": [
+        {
+            "slug": "API/EffectTiming/iterationStart",
+            "summary": "Web Animations API's EffectTiming dictionary's  iterationStart property specifies the repetition number which repetition the animation begins at and its progress through it.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "EffectTiming.iterationStart"
+        }
+    ],
+    "play-state": [
+        {
+            "slug": "API/Animation/playState",
+            "summary": "The Animation.playState property of the Web Animations API returns and sets an enumerated value describing the playback state of an animation.",
+            "support": {
+                "chrome": {
+                    "notes": "Before Chrome 50/Opera 37, this property returned <code>idle</code> for an animation that had not yet started. Starting with Chrome 50/Opera 37, it shows <code>paused</code>.",
+                    "version_added": "39"
+                },
+                "chrome_android": {
+                    "notes": "Before Chrome 50/Opera 37, this property returned <code>idle</code> for an animation that had not yet started. Starting with Chrome 50/Opera 37, it shows <code>paused</code>.",
+                    "version_added": "39"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Prior to Firefox 59, this property returned <code>pending</code> for Animations with incomplete asynchronous operations but as of Firefox 59 this is indicated by the separate <a href='/docs/Web/API/Animation/pending'><code>Animation.pending</code></a> property. This reflects recent changes to the specification.",
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "36",
+                        "version_removed": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "notes": "Prior to Firefox 59, this property returned <code>pending</code> for Animations with incomplete asynchronous operations but as of Firefox 59 this is indicated by the separate <a href='/docs/Web/API/Animation/pending'><code>Animation.pending</code></a> property. This reflects recent changes to the specification.",
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "36",
+                        "version_removed": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "notes": "Before Chrome 50/Opera 37, this property returned <code>idle</code> for an animation that had not yet started. Starting with Chrome 50/Opera 37, it shows <code>paused</code>.",
+                    "version_added": "26"
+                },
+                "opera_android": {
+                    "notes": "Before Chrome 50/Opera 37, this property returned <code>idle</code> for an animation that had not yet started. Starting with Chrome 50/Opera 37, it shows <code>paused</code>.",
+                    "version_added": "26"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "notes": "Before Chrome 50/Opera 37, this property returned <code>idle</code> for an animation that had not yet started. Starting with Chrome 50/Opera 37, it shows <code>paused</code>.",
+                    "version_added": "39"
+                }
+            },
+            "title": "Animation.playState"
+        }
+    ],
+    "start-delay": [
+        {
+            "slug": "API/EffectTiming/delay",
+            "summary": "The EffectTiming dictionary's delay property in the Web Animations API represents the number of milliseconds to delay the start of the animation.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "EffectTiming.delay"
+        }
+    ],
+    "the-animatable-interface": [
+        {
+            "slug": "API/Element/animate",
+            "summary": "The Element interface's animate() method is a shortcut method which creates a new Animation, applies it to the element, then plays the animation. It returns the created Animation object instance.",
+            "support": {
+                "chrome": {
+                    "version_added": "36"
+                },
+                "chrome_android": {
+                    "version_added": "36"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "23"
+                },
+                "opera_android": {
+                    "version_added": "23"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "37"
+                }
+            },
+            "title": "Element.animate()"
+        }
+    ],
+    "the-animation-interface": [
+        {
+            "slug": "API/Animation",
+            "summary": "The Animation interface of the Web Animations API represents a single animation player and provides playback controls and a timeline for an animation node or source.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "44"
+                    },
+                    {
+                        "alternative_name": "AnimationPlayer",
+                        "version_added": "39",
+                        "version_removed": "44"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "44"
+                    },
+                    {
+                        "alternative_name": "AnimationPlayer",
+                        "version_added": "39",
+                        "version_removed": "44"
+                    }
+                ],
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "26"
+                },
+                "opera_android": {
+                    "version_added": "26"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": [
+                    {
+                        "version_added": "44"
+                    },
+                    {
+                        "alternative_name": "AnimationPlayer",
+                        "version_added": "39",
+                        "version_removed": "44"
+                    }
+                ]
+            },
+            "title": "Animation"
+        }
+    ],
+    "the-animationeffect-interface": [
+        {
+            "slug": "API/AnimationEffect",
+            "summary": "The AnimationEffect interface of the Web Animations API defines current and future animation effects like KeyframeEffect, which can be passed to Animation objects for playing, and KeyframeEffectReadOnly (which is used by CSS Animations and Transitions).",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "alternative_name": "AnimationEffectReadOnly",
+                        "version_added": "48",
+                        "version_removed": "63"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "alternative_name": "AnimationEffectReadOnly",
+                        "version_added": "48",
+                        "version_removed": "63"
+                    }
+                ],
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "AnimationEffect"
+        }
+    ],
+    "the-animationplaybackevent-interface": [
+        {
+            "slug": "API/AnimationPlaybackEvent",
+            "summary": "The AnimationPlaybackEvent interface of the Web Animations API represents animation events.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "AnimationPlaybackEvent"
+        }
+    ],
+    "the-animationtimeline-interface": [
+        {
+            "slug": "API/AnimationTimeline",
+            "summary": "The AnimationTimeline interface of the Web Animations API represents the timeline of an animation. This interface exists to define timeline features (inherited by DocumentTimeline and future timeline types) and is not itself directly used by developers. Anywhere you see AnimationTimeline, you should use DocumentTimeline or any other timeline type instead.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.timelines.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "48",
+                        "version_removed": "63"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.timelines.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "48",
+                        "version_removed": "63"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "AnimationTimeline"
+        }
+    ],
+    "the-documenttimeline-interface": [
+        {
+            "slug": "API/DocumentTimeline",
+            "summary": "The DocumentTimeline interface of the the Web Animations API represents animation timelines, including the default document timeline (accessed via Document.timeline).",
+            "support": {
+                "chrome": {
+                    "version_added": "54"
+                },
+                "chrome_android": {
+                    "version_added": "54"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.timelines.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "50",
+                        "version_removed": "63"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.timelines.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.animations-api.core.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "50",
+                        "version_removed": "63"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "54"
+                }
+            },
+            "title": "DocumentTimeline"
+        }
+    ],
+    "the-effecttiming-dictionary": [
+        {
+            "slug": "API/EffectTiming",
+            "summary": "The EffectTiming dictionary, part of the Web Animations API, is used by Element.animate(), KeyframeEffectReadOnly(), and KeyframeEffect() to describe timing properties for animation effects. These properties are all optional, although without setting a duration the animation will not play.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "EffectTiming"
+        }
+    ],
+    "the-keyframeeffect-interfaces": [
+        {
+            "slug": "API/KeyframeEffect",
+            "summary": "The KeyframeEffect interface of the Web Animations API lets us create sets of animatable properties and values, called keyframes. These can then be played using the Animation() constructor.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "KeyframeEffect"
+        }
+    ],
+    "time-transformations": [
+        {
+            "slug": "API/EffectTiming/easing",
+            "summary": "The EffectTiming dictionary's easing property in the Web Animations API specifies the timing function used to scale the time to produce easing effects, where easing is the rate of the animation's change over time.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "EffectTiming.easing"
+        }
+    ]
+}

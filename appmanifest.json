@@ -1,0 +1,210 @@
+{
+    "beforeinstallpromptevent-interface": [
+        {
+            "slug": "API/BeforeInstallPromptEvent",
+            "summary": "The BeforeInstallPromptEvent is fired at the Window.onbeforeinstallprompt handler before a user is prompted to \"install\" a web site to a home screen on mobile.",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "BeforeInstallPromptEvent"
+        }
+    ],
+    "onappinstalled-attribute": [
+        {
+            "slug": "API/Window/onappinstalled",
+            "summary": "The onappinstalled attribute of the Window object serves as an event handler for the appinstalled event, which is dispatched once the web application is successfully installed as a progressive web app. The event that is fired is a \"simple event\" that implements the Event interface.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.manifest.onappinstall",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "49"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.manifest.onappinstall",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "49"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Window.onappinstalled"
+        }
+    ],
+    "onbeforeinstallprompt-attribute": [
+        {
+            "slug": "API/Window/onbeforeinstallprompt",
+            "summary": "The Window.onbeforeinstallprompt property is an event handler for processing a beforeinstallprompt, which is dispatched on devices when a user is about to be prompted to \"install\" a web application. Its associated event may be saved for later and used to prompt the user at a more suitable time.",
+            "support": {
+                "chrome": {
+                    "version_added": null
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": null
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Window.onbeforeinstallprompt"
+        }
+    ],
+    "the-display-mode-media-feature": [
+        {
+            "slug": "CSS/@media/display-mode",
+            "summary": "The display-mode CSS media feature can be used to test the display mode of an application. You can use it to provide a consistent user experience between launching a site from a URL and launching it from a desktop icon.",
+            "support": {
+                "chrome": {
+                    "version_added": "46"
+                },
+                "chrome_android": {
+                    "version_added": "46"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "notes": "Firefox 47 and later support <code>display-mode</code> values <code>fullscreen</code> and <code>browser</code>. Firefox 57 added support for <code>minimal-ui</code> and <code>standalone</code> values.",
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "notes": "Firefox 47 and later support <code>display-mode</code> values <code>fullscreen</code> and <code>browser</code>. Firefox 57 added support for <code>minimal-ui</code> and <code>standalone</code> values.",
+                    "version_added": "47"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "display-mode"
+        }
+    ]
+}

@@ -1,0 +1,2302 @@
+{
+    "background-color": [
+        {
+            "slug": "CSS/background-color",
+            "summary": "The background-color CSS property sets the background color of an element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "notes": "In Internet Explorer 8 and 9, there is a bug where a computed <code>background-color</code> of <code>transparent</code> causes <code>click</code> events to not get fired on overlaid elements.",
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "background-color"
+        }
+    ],
+    "background-image": [
+        {
+            "slug": "CSS/background-image",
+            "summary": "The background-image CSS property sets one or more background images on an element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "If the <code>browser.display.use_document_colors</code> user preference in <code>about:config</code> is set to <code>false</code>, background images will not be displayed."
+                    ],
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "background-image"
+        }
+    ],
+    "background-position": [
+        {
+            "slug": "CSS/background-position",
+            "summary": "The background-position CSS property sets the initial position for each background image. The position is relative to the position layer set by background-origin.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "background-position"
+        }
+    ],
+    "border-bottom": [
+        {
+            "slug": "CSS/border-bottom",
+            "summary": "The border-bottom CSS property is a shorthand that sets the values of border-bottom-width, border-bottom-style and border-bottom-color.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "border-bottom"
+        }
+    ],
+    "border-bottom-color": [
+        {
+            "slug": "CSS/border-bottom-color",
+            "summary": "The border-bottom-color CSS property sets the color of an element's bottom border. It can also be set with the shorthand CSS properties border-color or border-bottom.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Firefox also supports the non-standard <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors'><code>-moz-border-bottom-colors</code></a> CSS property that sets the bottom border to multiple colors.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "notes": "Firefox also supports the non-standard <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors'><code>-moz-border-bottom-colors</code></a> CSS property that sets the bottom border to multiple colors.",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "border-bottom-color"
+        }
+    ],
+    "border-bottom-left-radius": [
+        {
+            "slug": "CSS/border-bottom-left-radius",
+            "summary": "The border-bottom-left-radius CSS property rounds the bottom-left corner of an element.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "1"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Prior to Firefox 50, border styles of rounded corners were always rendered as if <code>border-style</code> was solid. This has been fixed in Firefox 50.",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "alternative_name": "-moz-border-radius-bottomleft",
+                        "version_added": "1",
+                        "version_removed": "12"
+                    }
+                ],
+                "firefox_android": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners were always rendered as if <code>border-style</code> was solid. This has been fixed in Firefox 50.",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "10.5"
+                },
+                "safari": [
+                    {
+                        "version_added": "5"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ]
+            },
+            "title": "border-bottom-left-radius"
+        }
+    ],
+    "border-bottom-right-radius": [
+        {
+            "slug": "CSS/border-bottom-right-radius",
+            "summary": "The border-bottom-right-radius CSS property rounds the bottom-right corner of an element.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "1"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Prior to Firefox 50, border styles of rounded corners were always rendered as if <code>border-style</code> was solid. This has been fixed in Firefox 50.",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "alternative_name": "-moz-border-radius-bottomright",
+                        "version_added": "1",
+                        "version_removed": "12"
+                    }
+                ],
+                "firefox_android": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners were always rendered as if <code>border-style</code> was solid. This has been fixed in Firefox 50.",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "10.5"
+                },
+                "safari": [
+                    {
+                        "version_added": "5"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ]
+            },
+            "title": "border-bottom-right-radius"
+        }
+    ],
+    "border-bottom-style": [
+        {
+            "slug": "CSS/border-bottom-style",
+            "summary": "The border-bottom-style CSS property sets the line style of an element's bottom border.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners (with <a href='https://developer.mozilla.org/docs/Web/CSS/border-radius'><code>border-radius</code></a>) were always rendered as if <code>border-bottom-style</code> was <code>solid</code>. This has been fixed in Firefox 50.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners (with <a href='https://developer.mozilla.org/docs/Web/CSS/border-radius'><code>border-radius</code></a>) were always rendered as if <code>border-bottom-style</code> was <code>solid</code>. This has been fixed in Firefox 50.",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "5.5"
+                },
+                "opera": {
+                    "version_added": "9.2"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "border-bottom-style"
+        }
+    ],
+    "border-color": [
+        {
+            "slug": "CSS/border-color",
+            "summary": "The border-color shorthand CSS property sets the color of all sides of an element's border.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Firefox also supports the following non-standard CSS properties to set the border sides to multiple colors: <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors'><code>-moz-border-top-colors</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors'><code>-moz-border-right-colors</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors'><code>-moz-border-bottom-colors</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors'><code>-moz-border-left-colors</code></a>",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "notes": "Firefox also supports the following non-standard CSS properties to set the border sides to multiple colors: <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors'><code>-moz-border-top-colors</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors'><code>-moz-border-right-colors</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors'><code>-moz-border-bottom-colors</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors'><code>-moz-border-left-colors</code></a>",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "webview_android": {
+                    "version_added": "4"
+                }
+            },
+            "title": "border-color"
+        }
+    ],
+    "border-left": [
+        {
+            "slug": "CSS/border-left",
+            "summary": "The border-left CSS property is a shorthand that sets the values of border-left-width, border-left-style and border-left-color.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "border-left"
+        }
+    ],
+    "border-left-color": [
+        {
+            "slug": "CSS/border-left-color",
+            "summary": "The border-left-color CSS property sets the color of an element's left border. It can also be set with the shorthand CSS properties border-color or border-left.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Firefox also supports the non-standard <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors'><code>-moz-border-left-colors</code></a> CSS property that sets the bottom border to multiple colors.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "notes": "Firefox also supports the non-standard <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors'><code>-moz-border-left-colors</code></a> CSS property that sets the bottom border to multiple colors.",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "border-left-color"
+        }
+    ],
+    "border-radius": [
+        {
+            "slug": "CSS/border-radius",
+            "summary": "The border-radius CSS property rounds the corners of an element's outer border edge. You can set a single radius to make circular corners, or two radii to make elliptical corners.",
+            "support": {
+                "chrome": [
+                    {
+                        "notes": "Current Chrome and Safari versions ignore border-radius on <code>&lt;select&gt;</code> elements unless <code>-webkit-appearance</code> is overridden to an appropriate value.",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "1"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": [
+                            "Prior to Firefox 50, border styles of rounded corners (with <code>border-radius</code>) were always rendered as if <code>border-style</code> was <code>solid</code>. This has been fixed in Firefox 50.",
+                            "To conform to the CSS3 standard, Firefox 4 changes the handling of <a href='https://developer.mozilla.org/docs/Web/CSS/percentage'><code>&lt;percentage&gt;</code></a> values to match the specification. You can specify an ellipse as a border on an arbitrary sized element with <code>border-radius: 50%;</code>. Firefox 4 also makes rounded corners clip content and images if <a href='https://developer.mozilla.org/docs/Web/CSS/overflow'><code>overflow</code></a><code>: visible</code> is not set."
+                        ],
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "1",
+                        "version_removed": "12"
+                    }
+                ],
+                "firefox_android": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners (with <code>border-radius</code>) were always rendered as if <code>border-style</code> was <code>solid</code>. This has been fixed in Firefox 50.",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "notes": "In Opera prior to version 11.60, replaced elements with <code>border-radius</code> will not have rounded corners.",
+                    "version_added": "10.5"
+                },
+                "opera_android": {
+                    "version_added": ""
+                },
+                "safari": [
+                    {
+                        "notes": "Current Chrome and Safari versions ignore border-radius on <code>&lt;select&gt;</code> elements unless <code>-webkit-appearance</code> is overridden to an appropriate value.",
+                        "version_added": "5"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "2"
+                }
+            },
+            "title": "border-radius"
+        }
+    ],
+    "border-right": [
+        {
+            "slug": "CSS/border-right",
+            "summary": "The border-right CSS property is a shorthand that sets the values of border-right-width, border-right-style and border-right-color.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "14"
+                },
+                "ie": {
+                    "version_added": "5.5"
+                },
+                "opera": {
+                    "version_added": "9.2"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "border-right"
+        }
+    ],
+    "border-right-color": [
+        {
+            "slug": "CSS/border-right-color",
+            "summary": "The border-right-color CSS property sets the color of an element's right border. It can also be set with the shorthand CSS properties border-color or border-right.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Firefox also supports the non-standard <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors'><code>-moz-border-right-colors</code></a> CSS property that sets the right border to multiple colors.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "notes": "Firefox also supports the non-standard <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors'><code>-moz-border-right-colors</code></a> CSS property that sets the right border to multiple colors.",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "border-right-color"
+        }
+    ],
+    "border-top": [
+        {
+            "slug": "CSS/border-top",
+            "summary": "The border-top CSS property is a shorthand that sets the values of border-top-width, border-top-style and border-top-color.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "border-top"
+        }
+    ],
+    "border-top-color": [
+        {
+            "slug": "CSS/border-top-color",
+            "summary": "The border-top-color CSS property sets the color of an element's top border. It can also be set with the shorthand CSS properties border-color or border-top.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Firefox also supports the non-standard <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors'><code>-moz-border-top-colors</code></a> CSS property that sets the top border to multiple colors.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "notes": "Firefox also supports the non-standard <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors'><code>-moz-border-top-colors</code></a> CSS property that sets the top border to multiple colors.",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "border-top-color"
+        }
+    ],
+    "box-shadow": [
+        {
+            "slug": "CSS/box-shadow",
+            "summary": "The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas.",
+            "support": {
+                "chrome": [
+                    {
+                        "notes": "Shadows affect layout in this browser. For example, if you cast an outer shadow to a box with a <code>width</code> of <code>100%</code>, then you'll see a scrollbar.",
+                        "version_added": "10"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "1"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "notes": "Shadows affect layout in this browser. For example, if you cast an outer shadow to a box with a <code>width</code> of <code>100%</code>, then you'll see a scrollbar.",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "3.5",
+                        "version_removed": "13"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "notes": [
+                        "To use <code>box-shadow</code> in Internet Explorer 9 or later, you must set <a href='https://developer.mozilla.org/docs/Web/CSS/border-collapse'><code>border-collapse</code></a> to <code>separate</code>.",
+                        "Since version 5.5, Internet Explorer supports Microsoft's <a href='http://msdn.microsoft.com/en-us/library/ms532985%28VS.85,loband%29.aspx'>DropShadow</a> and <a href='http://msdn.microsoft.com/en-us/library/ms533086%28VS.85,loband%29.aspx'>Shadow Filter</a>. You can use this proprietary extension to cast a drop shadow (though the syntax and the effect are different from CSS3)"
+                    ],
+                    "version_added": "9"
+                },
+                "opera": {
+                    "notes": "Shadows affect layout in this browser. For example, if you cast an outer shadow to a box with a <code>width</code> of <code>100%</code>, then you'll see a scrollbar.",
+                    "version_added": "10.5"
+                },
+                "opera_android": {
+                    "notes": "Shadows affect layout in this browser. For example, if you cast an outer shadow to a box with a <code>width</code> of <code>100%</code>, then you'll see a scrollbar.",
+                    "version_added": true
+                },
+                "safari": [
+                    {
+                        "notes": "Shadows affect layout in this browser. For example, if you cast an outer shadow to a box with a <code>width</code> of <code>100%</code>, then you'll see a scrollbar.",
+                        "version_added": "5.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "notes": "Shadows affect layout in this browser. For example, if you cast an outer shadow to a box with a <code>width</code> of <code>100%</code>, then you'll see a scrollbar.",
+                        "version_added": "5"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "notes": "Shadows affect layout in this browser. For example, if you cast an outer shadow to a box with a <code>width</code> of <code>100%</code>, then you'll see a scrollbar.",
+                    "prefix": "-webkit-",
+                    "version_added": true
+                }
+            },
+            "title": "box-shadow"
+        }
+    ],
+    "position": [
+        {
+            "slug": "CSS/position_value",
+            "summary": "The position CSS data type denotes a two-dimensional coordinate used to set a location relative to an element box. It is used in the background-position property.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "<position>"
+        }
+    ],
+    "the-background": [
+        {
+            "slug": "CSS/background",
+            "summary": "The background shorthand CSS property sets all background style properties at once, such as color, image, origin and size, or repeat method.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "5"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "3.2"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "2"
+                }
+            },
+            "title": "background"
+        }
+    ],
+    "the-background-attachment": [
+        {
+            "slug": "CSS/background-attachment",
+            "summary": "The background-attachment CSS property sets whether a background image's position is fixed within the viewport, or scrolls with its containing block.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "10"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "3.2"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "background-attachment"
+        }
+    ],
+    "the-background-clip": [
+        {
+            "slug": "CSS/background-clip",
+            "summary": "The background-clip CSS property sets whether an element's background color or image extends underneath its border.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "1"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "notes": "Used the <code>-moz-background-clip: padding | border</code> syntax.",
+                        "partial_implementation": true,
+                        "prefix": "-moz-",
+                        "version_added": "1",
+                        "version_removed": "4"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "14"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    }
+                ],
+                "ie": {
+                    "notes": "In IE 7 and IE 8 of Internet Explorer, this property always behaved like <code>background-clip: padding</code> when <code>overflow</code> was <code>hidden</code>, <code>auto</code>, or <code>scroll</code>.",
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "10.5"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": "14"
+                    }
+                ],
+                "safari": {
+                    "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.1"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "background-clip"
+        }
+    ],
+    "the-background-origin": [
+        {
+            "slug": "CSS/background-origin",
+            "summary": "The background-origin CSS property sets the background positioning area. In other words, it sets the origin position of an image set with the background-image property.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "1"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "notes": "Used the <code>-moz-background-clip: padding | border</code> syntax.",
+                        "partial_implementation": true,
+                        "prefix": "-moz-",
+                        "version_added": "1",
+                        "version_removed": "4"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "14"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    }
+                ],
+                "ie": {
+                    "notes": "In IE 7 and before, Internet explorer was behaving as if <code>background-origin: border-box</code> was set. In Internet Explorer 8, as if <code>background-origin: padding-box</code>, the regular default value, was set.",
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "10.5"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": "14"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": "3"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.1"
+                    },
+                    {
+                        "notes": "Webkit also supports the prefixed version of this property, and in that case, in addition to the current keywords, the alternative synonyms are: <code>padding</code>, <code>border</code>, and <code>content</code>.",
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "background-origin"
+        }
+    ],
+    "the-background-repeat": [
+        {
+            "slug": "CSS/background-repeat",
+            "summary": "The background-repeat CSS property sets how background images are repeated. A background image can be repeated along the horizontal and vertical axes, or not repeated at all.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "background-repeat"
+        }
+    ],
+    "the-background-size": [
+        {
+            "slug": "CSS/background-size",
+            "summary": "The background-size CSS property sets the size of the element's background image. The image can be left to its natural size, stretched, or constrained to fit the available space.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "3"
+                    },
+                    {
+                        "notes": "WebKit-based browsers originally implemented an older draft of CSS3 <code>background-size</code> in which an omitted second value is treated as duplicating the first value; this draft does not include the <code>contain</code> or <code>cover</code> keywords.",
+                        "prefix": "-webkit-",
+                        "version_added": "1"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "notes": "WebKit-based browsers originally implemented an older draft of CSS3 <code>background-size</code> in which an omitted second value is treated as duplicating the first value; this draft does not include the <code>contain</code> or <code>cover</code> keywords.",
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "3.6",
+                        "version_removed": "4"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    }
+                ],
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": [
+                    {
+                        "version_added": "10"
+                    },
+                    {
+                        "notes": "WebKit-based browsers originally implemented an older draft of CSS3 <code>background-size</code> in which an omitted second value is treated as duplicating the first value; this draft does not include the <code>contain</code> or <code>cover</code> keywords.",
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    },
+                    {
+                        "notes": "Opera 9.5's computation of the background positioning area is incorrect for fixed backgrounds. Opera 9.5 also interprets the two-value form as a horizontal scaling factor and, from appearances, a vertical clipping dimension. This has been fixed in Opera 10.",
+                        "prefix": "-o-",
+                        "version_added": "9.5",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": [
+                    {
+                        "version_added": "4.1"
+                    },
+                    {
+                        "notes": "WebKit-based browsers originally implemented an older draft of CSS3 <code>background-size</code> in which an omitted second value is treated as duplicating the first value; this draft does not include the <code>contain</code> or <code>cover</code> keywords.",
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": "2.3"
+                    },
+                    {
+                        "notes": "WebKit-based browsers originally implemented an older draft of CSS3 <code>background-size</code> in which an omitted second value is treated as duplicating the first value; this draft does not include the <code>contain</code> or <code>cover</code> keywords.",
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "background-size"
+        }
+    ],
+    "the-border-image": [
+        {
+            "slug": "CSS/border-image",
+            "summary": "The border-image CSS property draws an image in place of an element's border-style.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "7"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": [
+                            "Small SVGs are incorrectly stretched, because percentages in <a href='https://developer.mozilla.org/docs/Web/CSS/border-image-slice'><code>border-image-slice</code></a> are computed to integers instead of floats (<a href='https://bugzil.la/1284797'>bug 1284797</a>).",
+                            "Until Firefox 47, SVGs without viewport were not sliced correctly (<a href='https://bugzil.la/619500'>bug 619500</a>).",
+                            "From Firefox 48 until Firefox 49, SVGs without viewport are displayed the same as SVGs with viewport, but if the slices are not exactly 50%, they are incorrectly stretched (<a href='https://bugzil.la/1264809' >bug 1264809</a>).",
+                            "Until Firefox 57, an issue persisted for SVGs without viewport when <a href='https://wiki.mozilla.org/Electrolysis'>e10s</a> was disabled (<a href='https://bugzil.la/1290782'>bug 1290782</a>)."
+                        ],
+                        "version_added": "15"
+                    },
+                    {
+                        "notes": "An earlier version of the specification was implemented, prefixed, in Firefox versions prior to 15.",
+                        "prefix": "-moz-",
+                        "version_added": "3.5"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "notes": [
+                            "Small SVGs are incorrectly stretched, because percentages in <a href='https://developer.mozilla.org/docs/Web/CSS/border-image-slice'><code>border-image-slice</code></a> are computed to integers instead of floats (<a href='https://bugzil.la/1284797'>bug 1284797</a>).",
+                            "Until Firefox 47, SVGs without viewport were not sliced correctly (<a href='https://bugzil.la/619500'>bug 619500</a>).",
+                            "From Firefox 48 until Firefox 49, SVGs without viewport are displayed the same as SVGs with viewport, but if the slices are not exactly 50%, they are incorrectly stretched (<a href='https://bugzil.la/1264809' >bug 1264809</a>).",
+                            "Until Firefox 57, an issue persisted for SVGs without viewport when <a href='https://wiki.mozilla.org/Electrolysis'>e10s</a> was disabled (<a href='https://bugzil.la/1290782'>bug 1290782</a>)."
+                        ],
+                        "version_added": "15"
+                    },
+                    {
+                        "notes": "An earlier version of the specification was implemented, prefixed, in Firefox versions prior to 15.",
+                        "prefix": "-moz-",
+                        "version_added": "4"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": [
+                    {
+                        "version_added": "10.5"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "11"
+                    }
+                ],
+                "opera_android": {
+                    "prefix": "-o-",
+                    "version_added": "11"
+                },
+                "safari": [
+                    {
+                        "version_added": "6"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "6"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3.2"
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "2"
+                }
+            },
+            "title": "border-image"
+        }
+    ],
+    "the-border-image-outset": [
+        {
+            "slug": "CSS/border-image-outset",
+            "summary": "The border-image-outset CSS property sets the distance by which an element's border image is set out from its border box.",
+            "support": {
+                "chrome": {
+                    "version_added": "15"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "15"
+                },
+                "firefox_android": {
+                    "version_added": "15"
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "6"
+                }
+            },
+            "title": "border-image-outset"
+        }
+    ],
+    "the-border-image-repeat": [
+        {
+            "slug": "CSS/border-image-repeat",
+            "summary": "The border-image-repeat CSS property defines how the edge regions of a source image are adjusted to fit the dimensions of an element's border image.",
+            "support": {
+                "chrome": {
+                    "version_added": "15"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "15"
+                },
+                "firefox_android": {
+                    "version_added": "15"
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": "9.3"
+                }
+            },
+            "title": "border-image-repeat"
+        }
+    ],
+    "the-border-image-slice": [
+        {
+            "slug": "CSS/border-image-slice",
+            "summary": "The border-image-slice CSS property divides the image specified by border-image-source into regions. These regions form the components of an element's border image.",
+            "support": {
+                "chrome": {
+                    "version_added": "15"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": [
+                        "Small SVGs are incorrectly stretched, because percentages in <a href='https://developer.mozilla.org/docs/Web/CSS/border-image-slice'><code>border-image-slice</code></a> are computed to integers instead of floats (<a href='https://bugzil.la/1284797'>bug 1284797</a>).",
+                        "Until Firefox 47, SVGs without viewport were not sliced correctly (<a href='https://bugzil.la/619500'>bug 619500</a>).",
+                        "From Firefox 48 until Firefox 49, SVGs without viewport are displayed the same as SVGs with viewport, but if the slices are not exactly 50%, they are incorrectly stretched (<a href='https://bugzil.la/1264809' >bug 1264809</a>).",
+                        "Until Firefox 57, an issue persisted for SVGs without viewport when <a href='https://wiki.mozilla.org/Electrolysis'>e10s</a> was disabled (<a href='https://bugzil.la/1290782'>bug 1290782</a>)."
+                    ],
+                    "version_added": "15"
+                },
+                "firefox_android": {
+                    "notes": [
+                        "Small SVGs are incorrectly stretched, because percentages in <a href='https://developer.mozilla.org/docs/Web/CSS/border-image-slice'><code>border-image-slice</code></a> are computed to integers instead of floats (<a href='https://bugzil.la/1284797'>bug 1284797</a>).",
+                        "Until Firefox 47, SVGs without viewport were not sliced correctly (<a href='https://bugzil.la/619500'>bug 619500</a>).",
+                        "From Firefox 48 until Firefox 49, SVGs without viewport are displayed the same as SVGs with viewport, but if the slices are not exactly 50%, they are incorrectly stretched (<a href='https://bugzil.la/1264809' >bug 1264809</a>).",
+                        "Until Firefox 57, an issue persisted for SVGs without viewport when <a href='https://wiki.mozilla.org/Electrolysis'>e10s</a> was disabled (<a href='https://bugzil.la/1290782'>bug 1290782</a>)."
+                    ],
+                    "version_added": "15"
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "6"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "prefix": "-webkit-",
+                    "version_added": "4.1"
+                }
+            },
+            "title": "border-image-slice"
+        }
+    ],
+    "the-border-image-source": [
+        {
+            "slug": "CSS/border-image-source",
+            "summary": "The border-image-source CSS property sets the source image used to create an element's border image.",
+            "support": {
+                "chrome": {
+                    "version_added": "15"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "15"
+                },
+                "firefox_android": {
+                    "version_added": "15"
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "6"
+                }
+            },
+            "title": "border-image-source"
+        }
+    ],
+    "the-border-image-width": [
+        {
+            "slug": "CSS/border-image-width",
+            "summary": "The border-image-width CSS property sets the width of an element's border image.",
+            "support": {
+                "chrome": {
+                    "version_added": "15"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "13"
+                },
+                "firefox_android": {
+                    "version_added": "14"
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": "6"
+                }
+            },
+            "title": "border-image-width"
+        }
+    ],
+    "the-border-radius": [
+        {
+            "slug": "CSS/border-top-left-radius",
+            "summary": "The border-top-left-radius CSS property rounds the top-left corner of an element.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "1"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Prior to Firefox 50, border styles of rounded corners were always rendered as if <code>border-style</code> was solid. This has been fixed in Firefox 50.",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "alternative_name": "-moz-border-radius-topleft",
+                        "version_added": "1",
+                        "version_removed": "12"
+                    }
+                ],
+                "firefox_android": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners were always rendered as if <code>border-style</code> was solid. This has been fixed in Firefox 50.",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "10.5"
+                },
+                "safari": [
+                    {
+                        "version_added": "5"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ]
+            },
+            "title": "border-top-left-radius"
+        },
+        {
+            "slug": "CSS/border-top-right-radius",
+            "summary": "The border-top-right-radius CSS property rounds the top-right corner of an element.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "1"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Prior to Firefox 50, border styles of rounded corners were always rendered as if <code>border-style</code> was solid. This has been fixed in Firefox 50.",
+                        "version_added": "4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "alternative_name": "-moz-border-radius-topright",
+                        "version_added": "1",
+                        "version_removed": "12"
+                    }
+                ],
+                "firefox_android": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners were always rendered as if <code>border-style</code> was solid. This has been fixed in Firefox 50.",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "9"
+                },
+                "opera": {
+                    "version_added": "10.5"
+                },
+                "safari": [
+                    {
+                        "version_added": "5"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "3"
+                    }
+                ]
+            },
+            "title": "border-top-right-radius"
+        }
+    ],
+    "the-border-shorthands": [
+        {
+            "slug": "CSS/border",
+            "summary": "The border CSS property sets an element's border. It's a shorthand for border-width, border-style, and border-color.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                }
+            },
+            "title": "border"
+        }
+    ],
+    "the-border-style": [
+        {
+            "slug": "CSS/border-left-style",
+            "summary": "The border-left-style CSS property sets the line style of an element's left border.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners (with <a href='https://developer.mozilla.org/docs/Web/CSS/border-radius'><code>border-radius</code></a>) were always rendered as if <code>border-bottom-style</code> was <code>solid</code>. This has been fixed in Firefox 50.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners (with <a href='https://developer.mozilla.org/docs/Web/CSS/border-radius'><code>border-radius</code></a>) were always rendered as if <code>border-bottom-style</code> was <code>solid</code>. This has been fixed in Firefox 50.",
+                    "version_added": "14"
+                },
+                "ie": {
+                    "version_added": "5.5"
+                },
+                "opera": {
+                    "version_added": "9.2"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "2.3"
+                }
+            },
+            "title": "border-left-style"
+        },
+        {
+            "slug": "CSS/border-right-style",
+            "summary": "The border-right-style CSS property sets the line style of an element's right border.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners (with <a href='https://developer.mozilla.org/docs/Web/CSS/border-radius'><code>border-radius</code></a>) were always rendered as if <code>border-bottom-style</code> was <code>solid</code>. This has been fixed in Firefox 50.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners (with <a href='https://developer.mozilla.org/docs/Web/CSS/border-radius'><code>border-radius</code></a>) were always rendered as if <code>border-bottom-style</code> was <code>solid</code>. This has been fixed in Firefox 50.",
+                    "version_added": "14"
+                },
+                "ie": {
+                    "version_added": "5.5"
+                },
+                "opera": {
+                    "version_added": "9.2"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "border-right-style"
+        },
+        {
+            "slug": "CSS/border-top-style",
+            "summary": "The border-top-style CSS property sets the line style of an element's top border.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners (with <a href='https://developer.mozilla.org/docs/Web/CSS/border-radius'><code>border-radius</code></a>) were always rendered as if <code>border-top-style</code> was <code>solid</code>. This has been fixed in Firefox 50.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "notes": "Prior to Firefox 50, border styles of rounded corners (with <a href='https://developer.mozilla.org/docs/Web/CSS/border-radius'><code>border-radius</code></a>) were always rendered as if <code>border-top-style</code> was <code>solid</code>. This has been fixed in Firefox 50.",
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "5.5"
+                },
+                "opera": {
+                    "version_added": "9.2"
+                },
+                "safari": {
+                    "version_added": "1"
+                }
+            },
+            "title": "border-top-style"
+        }
+    ],
+    "the-border-width": [
+        {
+            "slug": "CSS/border-bottom-width",
+            "summary": "The border-bottom-width CSS property sets the width of the bottom border of a box.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "webview_android": {
+                    "version_added": "2.3"
+                }
+            },
+            "title": "border-bottom-width"
+        },
+        {
+            "slug": "CSS/border-left-width",
+            "summary": "The border-left-width CSS property sets the width of the left border of an element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "webview_android": {
+                    "version_added": "2.3"
+                }
+            },
+            "title": "border-left-width"
+        },
+        {
+            "slug": "CSS/border-right-width",
+            "summary": "The border-right-width CSS property sets the width of the right border of an element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "webview_android": {
+                    "version_added": "2.3"
+                }
+            },
+            "title": "border-right-width"
+        },
+        {
+            "slug": "CSS/border-top-width",
+            "summary": "The border-top-width CSS property sets the width of the top border of an element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "webview_android": {
+                    "version_added": "2.3"
+                }
+            },
+            "title": "border-top-width"
+        },
+        {
+            "slug": "CSS/border-width",
+            "summary": "The border-width shorthand CSS property sets the widths of all four sides of an element's border.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "3"
+                },
+                "webview_android": {
+                    "version_added": "2"
+                }
+            },
+            "title": "border-width"
+        }
+    ]
+}

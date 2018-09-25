@@ -1,0 +1,540 @@
+{
+    "dom-rtcicecandidatestats": [
+        {
+            "slug": "API/RTCIceCandidateStats",
+            "summary": "The WebRTC API's RTCIceCandidateStats dictionary provides statistics related to an RTCIceCandidate.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "27"
+                },
+                "firefox_android": {
+                    "version_added": "27"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "RTCIceCandidateStats"
+        }
+    ],
+    "dom-rtcrtpstreamstats-fircount": [
+        {
+            "slug": "API/RTCRtpStreamStats/firCount",
+            "summary": "The firCount property of the RTCRtpStreamStats dictionary indicates the number of Full Intra Request (FIR) packets have been sent by the receiver to the sender.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "RTCRtpStatsReport.firCount"
+        }
+    ],
+    "dom-rtcrtpstreamstats-kind": [
+        {
+            "slug": "API/RTCRtpStreamStats/kind",
+            "summary": "The kind property of the RTCRtpStreamStats dictionary is a string indicating whether the described RTP stream contains audio or video media.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "27"
+                },
+                "firefox_android": {
+                    "version_added": "27"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "RTCRtpStreamStats.kind"
+        },
+        {
+            "slug": "API/RTCRtpStreamStats/kind",
+            "summary": "The kind property of the RTCRtpStreamStats dictionary is a string indicating whether the described RTP stream contains audio or video media.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "RTCRtpStreamStats.kind"
+        }
+    ],
+    "dom-rtcrtpstreamstats-nackcount": [
+        {
+            "slug": "API/RTCRtpStreamStats/nackCount",
+            "summary": "The nackCount property of the RTCRtpStreamStats dictionary is a numeric value indicating the number of times the receiver sent a NACK packet to the sender.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "RTCRtpStreamStats.nackCount"
+        }
+    ],
+    "dom-rtcrtpstreamstats-plicount": [
+        {
+            "slug": "API/RTCRtpStreamStats/pliCount",
+            "summary": "The pliCount property of the RTCRtpStreamStats dictionary states the number of times the stream's receiving end sent a Picture Loss Indication (PLI) packet to the sender.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "RTCRtpStreamStats.pliCount"
+        }
+    ],
+    "dom-rtcrtpstreamstats-qpsum": [
+        {
+            "slug": "API/RTCRtpStreamStats/qpSum",
+            "summary": "The qpSum property of the RTCRtpStreamStats dictionary is a value generated by adding the Quantization Parameter (QP) values for every frame sent or received to date on the video track corresponding to this RTCRtpStreamStats object.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "RTCRtpStreamStats.qpSum"
+        }
+    ],
+    "dom-rtcrtpstreamstats-slicount": [
+        {
+            "slug": "API/RTCRtpStreamStats/sliCount",
+            "summary": "The sliCount property of the RTCRtpStreamStats dictionary indicates how many Slice Loss Indication (SLI) packets were received by the sender.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "RTCRtpStreamStats.sliCount"
+        }
+    ],
+    "dom-rtcrtpstreamstats-ssrc": [
+        {
+            "slug": "API/RTCRtpStreamStats/ssrc",
+            "summary": "The RTCRtpStreamStats dictionary's ssrc property is an integer which uniquely identifies the source of the RTP packets whose statistics are covered by the RTCStatsReport that includes this RTCRtpStreamStats dictionary.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "27"
+                },
+                "firefox_android": {
+                    "version_added": "27"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "RTCRtpStreamStats.ssrc"
+        }
+    ],
+    "dom-rtcrtpstreamstats-transportid": [
+        {
+            "slug": "API/RTCRtpStreamStats/transportId",
+            "summary": "The RTCRtpStreamStats dictionary's transportId property is a string which uniquely identifies the object from which the statistics contained in the RTCTransportStats properties in the RTCStatsReport.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "27"
+                },
+                "firefox_android": {
+                    "version_added": "27"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "RTCRtpStreamStats.transportId"
+        }
+    ],
+    "streamstats-dict*": [
+        {
+            "slug": "API/RTCRtpStreamStats",
+            "summary": "The RTCRtpStreamStats dictionary is returned by the RTCPeerConnection.getStats(), RTCRtpSender.getStats(), and RTCRtpReceiver.getStats() methods to provide detailed statistics about WebRTC connectivity.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "alternative_name": "RTCRTPStreamStats",
+                        "version_added": "27"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "alternative_name": "RTCRTPStreamStats",
+                        "version_added": "27"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "RTCRtpStreamStats"
+        }
+    ]
+}

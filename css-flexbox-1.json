@@ -1,0 +1,2029 @@
+{
+    "align-content": [
+        {
+            "slug": "CSS/align-content",
+            "summary": "The CSS align-content property sets how the browser distributes space between and around content items along the cross-axis of a flexbox container, and the main-axis of a grid container.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "version_added": "28"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "28"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    }
+                ],
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": "12.1"
+                },
+                "safari": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "6.1"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "9.2"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "7.1"
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "align-content"
+        },
+        {
+            "slug": "CSS/align-content",
+            "summary": "The CSS align-content property sets how the browser distributes space between and around content items along the cross-axis of a flexbox container, and the main-axis of a grid container.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.2"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "align-content"
+        }
+    ],
+    "flex-containers": [
+        {
+            "slug": "CSS/display",
+            "summary": "The display CSS property defines the display type of an element, which consists of the two basic qualities of how an element generates boxes \u2014 the outer display type defining how the box participates in flow layout, and the inner display type defining how the children of the box are laid out.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "display"
+        }
+    ],
+    "flex-direction": [
+        {
+            "slug": "CSS/flex-direction",
+            "summary": "The flex-direction CSS property sets how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Since Firefox 28, multi-line flexbox is supported.",
+                        "version_added": "20"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": "20"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": [
+                    {
+                        "version_added": "11"
+                    },
+                    {
+                        "prefix": "-ms-",
+                        "version_added": "10"
+                    }
+                ],
+                "opera": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "7"
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "flex-direction"
+        }
+    ],
+    "flex-flow-property": [
+        {
+            "slug": "CSS/flex-flow",
+            "summary": "The flex-flow CSS property is a shorthand property for flex-direction and flex-wrap properties.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "28"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "28"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "6.1"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "9.2"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "7.1"
+                    }
+                ],
+                "webview_android": [
+                    {
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "flex-flow"
+        }
+    ],
+    "flex-grow-property": [
+        {
+            "slug": "CSS/flex-grow",
+            "summary": "The flex-grow CSS property sets how much of the available space in the flex container should be assigned to that item (the flex grow factor).",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Since Firefox 28, multi-line flexbox is supported.",
+                        "version_added": "20"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": "20"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "notes": "Since Firefox 28, multi-line flexbox is supported.",
+                        "version_added": "20"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": "20"
+                    }
+                ],
+                "ie": [
+                    {
+                        "version_added": "11"
+                    },
+                    {
+                        "alternative_name": "-ms-flex-positive",
+                        "version_added": "10"
+                    }
+                ],
+                "opera": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": "6.1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "flex-grow"
+        }
+    ],
+    "flex-property": [
+        {
+            "slug": "CSS/flex",
+            "summary": "The flex CSS property sets how a flex item will grow or shrink to fit the space available in its flex container. It is a shorthand for flex-grow, flex-shrink, and flex-basis.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": [
+                            "Since Firefox 28, multi-line flexbox is supported.",
+                            "Before Firefox 32, Firefox wasn't able to animate values starting or stopping at <code>0</code>."
+                        ],
+                        "version_added": "20"
+                    },
+                    {
+                        "notes": [
+                            "Flex items that are sized according to their content are sized using <a href='https://drafts.csswg.org/css-sizing-3/#column-sizing'>fit-content, not max-content</a>."
+                        ],
+                        "version_added": "20",
+                        "version_removed": "61"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": "28"
+                    }
+                ],
+                "ie": [
+                    {
+                        "notes": [
+                            "Internet Explorer 11 ignores uses of <a href='https://developer.mozilla.org/docs/Web/CSS/calc'><code>calc()</code></a> in the <code>flex-basis</code> part of the <code>flex</code> syntax. This can be worked around by using the longhand properties instead of the shorthand. See <a href='https://github.com/philipwalton/flexbugs#8-flex-basis-doesnt-support-calc'>Flexbug #8</a> for more info.",
+                            "Internet Explorer 11 considers a unitless value in the <code>flex-basis</code> part to be syntactically invalid (and will thus be ignored). A workaround is to always include a unit in the <code>flex-basis</code> part of the <code>flex</code> shorthand value. See <a href='https://github.com/philipwalton/flexbugs#4-flex-shorthand-declarations-with-unitless-flex-basis-values-are-ignored'>Flexbug #4</a> for more info."
+                        ],
+                        "version_added": "11"
+                    },
+                    {
+                        "notes": [
+                            "Internet Explorer 10 and 11 ignore uses of <a href='https://developer.mozilla.org/docs/Web/CSS/calc'><code>calc()</code></a> in the <code>flex-basis</code> part of the <code>flex</code> syntax. This can be worked around by using the longhand properties instead of the shorthand. See <a href='https://github.com/philipwalton/flexbugs#8-flex-basis-doesnt-support-calc'>Flexbug #8</a> for more info.",
+                            "Internet Explorer 10 and 11 consider a unitless value in the <code>flex-basis</code> part to be syntactically invalid (and will thus be ignored). A workaround is to always include a unit in the <code>flex-basis</code> part of the <code>flex</code> shorthand value. See <a href='https://github.com/philipwalton/flexbugs#4-flex-shorthand-declarations-with-unitless-flex-basis-values-are-ignored'>Flexbug #4</a> for more info."
+                        ],
+                        "prefix": "-ms-",
+                        "version_added": "10"
+                    }
+                ],
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": "12.1"
+                },
+                "safari": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "6.1"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "7.1"
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "flex"
+        }
+    ],
+    "flex-shrink": [
+        {
+            "slug": "CSS/flex-shrink",
+            "summary": "The flex-shrink CSS property sets the flex shrink factor of a flex item. If the size of flex items is larger than the flex container, items shrink to fit according to flex-shrink.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": [
+                            "Since Firefox 28, multi-line flexbox is supported.",
+                            "Before Firefox 32, Firefox wasn't able to animate values starting or stopping at <code>0</code>."
+                        ],
+                        "version_added": "20"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": "20"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "notes": [
+                            "Since Firefox 28, multi-line flexbox is supported.",
+                            "Before Firefox 32, Firefox wasn't able to animate values starting or stopping at <code>0</code>."
+                        ],
+                        "version_added": "20"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": "20"
+                    }
+                ],
+                "ie": {
+                    "notes": "Internet Explorer 10 uses <code>0</code> instead of <code>1</code> as the initial value for the <code>flex-shrink</code> property. A workaround is to always set an explicit value for <code>flex-shrink</code>. See <a href='https://github.com/philipwalton/flexbugs#6-the-default-flex-value-has-changed'>Flexbug #6</a> for more info.",
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": "8"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "flex-shrink"
+        }
+    ],
+    "flex-wrap-property": [
+        {
+            "slug": "CSS/flex-wrap",
+            "summary": "The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": "12"
+                },
+                "firefox": {
+                    "version_added": "28"
+                },
+                "firefox_android": {
+                    "version_added": "52"
+                },
+                "ie": {
+                    "notes": "Partial support due to large number of bugs present. See <a href='https://github.com/philipwalton/flexbugs'>Flexbugs</a>.",
+                    "partial_implementation": true,
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "17"
+                },
+                "opera_android": {
+                    "version_added": "12.1"
+                },
+                "safari": {
+                    "version_added": "9"
+                },
+                "safari_ios": {
+                    "version_added": "9.2"
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "flex-wrap"
+        }
+    ],
+    "item-margins": [
+        {
+            "slug": "CSS/margin-left",
+            "summary": "The margin-left CSS property sets the margin area on the left side of an element. A positive value places it farther from its neighbors, while a negative value places it closer.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "margin-left"
+        },
+        {
+            "slug": "CSS/margin-right",
+            "summary": "The margin-right CSS property sets the margin area on the right side of an element. A positive value places it farther from its neighbors, while a negative value places it closer.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "margin-right"
+        }
+    ],
+    "min-auto": [
+        {
+            "slug": "CSS/min-height",
+            "summary": "The min-height CSS property sets the minimum height of an element. It prevents the used value of the height property from becoming smaller than the value specified for min-height.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "CSS 2.1 leaves the behavior of <code>min-height</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Firefox supports applying <code>min-height</code> to <code>table</code> elements.",
+                    "version_added": "3"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "notes": "In Internet Explorer 10 and 11, a <code>min-height</code> declaration on a column-direction flex container doesn't apply to the container's flex items. See <a href='https://github.com/philipwalton/flexbugs#3-min-height-on-a-column-flex-container-wont-apply-to-its-flex-items'>Flexbug #3</a> for more info.",
+                    "version_added": "7"
+                },
+                "opera": {
+                    "notes": "CSS 2.1 leaves the behavior of <code>min-height</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Opera supports applying <code>min-height</code> to <code>table</code> elements.",
+                    "version_added": "4"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "9"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "min-height"
+        }
+    ],
+    "min-size-auto": [
+        {
+            "slug": "CSS/min-width",
+            "summary": "The min-width CSS property sets the minimum width of an element. It prevents the used value of the width property from becoming smaller than the value specified for min-width.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "CSS 2.1 leaves the behavior of <code>min-width</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Firefox supports applying <code>min-width</code> to <code>table</code> elements.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "7"
+                },
+                "opera": {
+                    "notes": "CSS 2.1 leaves the behavior of <code>min-width</code> with <a href='https://developer.mozilla.org/docs/Web/HTML/Element/table'><code>table</code></a> undefined. Opera supports applying <code>min-width</code> to <code>table</code> elements.",
+                    "version_added": "4"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "2"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "min-width"
+        }
+    ],
+    "order-property": [
+        {
+            "slug": "CSS/order",
+            "summary": "The order CSS property sets the order to lay out an item in a flex or grid container. Items in a container are sorted by ascending order value and then by their source code order.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Since Firefox 28, multi-line flexbox is supported.",
+                        "version_added": "20"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": "28"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "notes": "Since Firefox 28, multi-line flexbox is supported.",
+                        "version_added": "20"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": "28"
+                    }
+                ],
+                "ie": [
+                    {
+                        "version_added": "11"
+                    },
+                    {
+                        "prefix": "-ms-",
+                        "version_added": "10"
+                    }
+                ],
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": "12.1"
+                },
+                "safari": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "7"
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "7"
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "order"
+        }
+    ],
+    "propdef-align-items": [
+        {
+            "slug": "CSS/align-items",
+            "summary": "The CSS align-items property sets the align-self value on all direct children as a group. The align-self property sets the alignment of an item within its containing block. In Flexbox it controls the alignment of items on the Cross Axis, in Grid Layout it controls the alignment of items on the Block Axis within their grid area.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Multi-line flexbox has been supported since Firefox 28.",
+                        "version_added": "20"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": true
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "notes": "Multi-line flexbox has been supported since Firefox 28.",
+                        "version_added": "20"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": true
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    }
+                ],
+                "ie": {
+                    "notes": "In Internet Explorer 10 and 11, if column flex items have <code>align-items: center;</code> set on them and their content is too large, then they will overflow the bounds of their container. See <a href='https://github.com/philipwalton/flexbugs#2-column-flex-items-set-to-align-itemscenter-overflow-their-container'>Flexbug #2</a>.",
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": "12.1"
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": "7"
+                },
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": "7"
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "align-items"
+        },
+        {
+            "slug": "CSS/align-items",
+            "summary": "The CSS align-items property sets the align-self value on all direct children as a group. The align-self property sets the alignment of an item within its containing block. In Flexbox it controls the alignment of items on the Cross Axis, in Grid Layout it controls the alignment of items on the Block Axis within their grid area.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": "52"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.2"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "align-items"
+        }
+    ],
+    "propdef-align-self": [
+        {
+            "slug": "CSS/align-self",
+            "summary": "The align-self CSS property aligns flex items of the current flex line overriding the align-items value. If any of the item's cross-axis margin is set to auto, then align-self is ignored. In Grid layout align-self aligns the item inside the grid area.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "36"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "36"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Before Firefox 27, only single-line flexbox is supported.",
+                        "version_added": "20"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": "20"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "37"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "align-self"
+        },
+        {
+            "slug": "CSS/align-self",
+            "summary": "The align-self CSS property aligns flex items of the current flex line overriding the align-items value. If any of the item's cross-axis margin is set to auto, then align-self is ignored. In Grid layout align-self aligns the item inside the grid area.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": "52"
+                },
+                "ie": {
+                    "notes": "IE10 and 11 have the property -ms-grid-column-align which acts in a similar way to align-self.",
+                    "partial_implementation": true,
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.2"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "align-self"
+        }
+    ],
+    "propdef-flex-basis": [
+        {
+            "slug": "CSS/flex-basis",
+            "summary": "The flex-basis CSS property sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with box-sizing.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Since Firefox 28, multi-line flexbox is supported.",
+                        "version_added": "22"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": "28"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "notes": "Since Firefox 28, multi-line flexbox is supported.",
+                        "version_added": "22"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": "28"
+                    }
+                ],
+                "ie": {
+                    "notes": "When a non-<code>auto</code> <code>flex-basis</code> is specified, Internet Explorer 10 and 11 always uses a <code>content-box</code> box model to calculate the size of a flex item, even if <a href='http://developer.mozilla.org/docs/Web/CSS/box-sizing'><code>box-sizing: border-box</code></a> is applied to the element. See <a href='https://github.com/philipwalton/flexbugs#7-flex-basis-doesnt-account-for-box-sizingborder-box'>Flexbug #7</a> for more info.",
+                    "version_added": "11"
+                },
+                "opera": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "12.1"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "15"
+                    }
+                ],
+                "safari": [
+                    {
+                        "version_added": "9"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "7"
+                    }
+                ],
+                "safari_ios": {
+                    "version_added": "9.2"
+                },
+                "webview_android": [
+                    {
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "flex-basis"
+        }
+    ],
+    "propdef-justify-content": [
+        {
+            "slug": "CSS/justify-content",
+            "summary": "The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "21"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "29"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "25"
+                    }
+                ],
+                "edge": [
+                    {
+                        "version_added": "12"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "12"
+                    }
+                ],
+                "edge_mobile": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": [
+                    {
+                        "notes": "Before Firefox 27, Firefox supported only single-line flexbox.",
+                        "version_added": "20"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.flexbox.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "18",
+                        "version_removed": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "48"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": "12.1"
+                },
+                "safari": {
+                    "version_added": "9"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": "52"
+                    },
+                    {
+                        "notes": "Older versions of the specification treat absolute positioned children as though they are a 0 by 0 flex item. Later specification versions take the children out of the flow and set their positions based on align and justify properties. Chrome implements the new behavior beginning with Chrome 52.",
+                        "partial_implementation": true,
+                        "version_added": "4.4"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "justify-content"
+        },
+        {
+            "slug": "CSS/justify-content",
+            "summary": "The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": "16"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": "52"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.2"
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "justify-content"
+        }
+    ],
+    "visibility-collapse": [
+        {
+            "slug": "CSS/visibility",
+            "summary": "The visibility CSS property shows or hides an element without changing the layout of a document. The property can also hide rows or columns in a table.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "notes": [
+                        "Internet Explorer doesn't support <code>visibility: initial</code>.",
+                        "Up to Internet Explorer 7, descendants of <code>hidden</code> elements will still be invisible even if they have <code>visibility</code> set to <code>visible</code>."
+                    ],
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "4"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "visibility"
+        }
+    ]
+}

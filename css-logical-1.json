@@ -1,0 +1,3993 @@
+{
+    "caption-side": [
+        {
+            "slug": "CSS/caption-side",
+            "summary": "The caption-side CSS property puts the content of a table's caption on the specified side. The values are relative to the writing-mode of the table.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "8"
+                },
+                "opera": {
+                    "version_added": "4"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "caption-side"
+        }
+    ],
+    "float-clear": [
+        {
+            "slug": "CSS/clear",
+            "summary": "The clear CSS property sets whether an element must be moved below (cleared) floating elements that precede it. The clear property applies to floating and non-floating elements.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "clear"
+        },
+        {
+            "slug": "CSS/float",
+            "summary": "The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": "6"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "1"
+                }
+            },
+            "title": "float"
+        }
+    ],
+    "logical-dimension-properties": [
+        {
+            "slug": "CSS/block-size",
+            "summary": "The block-size CSS property defines the horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the width or the height property, depending on the value of writing-mode.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "block-size"
+        },
+        {
+            "slug": "CSS/inline-size",
+            "summary": "The inline-size CSS property defines the horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the width or the height property, depending on the value of writing-mode.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "inline-size"
+        }
+    ],
+    "logical-page": [
+        {
+            "slug": "CSS/@page",
+            "summary": "The @page CSS at-rule is used to modify some CSS properties when printing a document. You can't change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored.",
+            "support": {
+                "chrome": {
+                    "version_added": "2"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "19"
+                },
+                "firefox_android": {
+                    "version_added": "19"
+                },
+                "ie": {
+                    "version_added": "8"
+                },
+                "opera": {
+                    "version_added": "6"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "@page"
+        },
+        {
+            "slug": "CSS/page-break-after",
+            "summary": "The page-break-after CSS property adjusts page breaks after the current element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "The values <code>avoid</code>, <code>left</code>, and <code>right</code> are unsupported.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "notes": "The values <code>avoid</code>, <code>left</code>, and <code>right</code> are unsupported.",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1.2"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "page-break-after"
+        },
+        {
+            "slug": "CSS/page-break-before",
+            "summary": "The page-break-before CSS property adjusts page breaks before the current element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "The values <code>avoid</code>, <code>left</code>, and <code>right</code> are unsupported.",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "notes": "The values <code>avoid</code>, <code>left</code>, and <code>right</code> are unsupported.",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "7"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "1.2"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "page-break-before"
+        }
+    ],
+    "logical-shorthand-keyword": [
+        {
+            "slug": "CSS/border-color",
+            "summary": "The border-color shorthand CSS property sets the color of all sides of an element's border.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "Firefox also supports the following non-standard CSS properties to set the border sides to multiple colors: <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors'><code>-moz-border-top-colors</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors'><code>-moz-border-right-colors</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors'><code>-moz-border-bottom-colors</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors'><code>-moz-border-left-colors</code></a>",
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "notes": "Firefox also supports the following non-standard CSS properties to set the border sides to multiple colors: <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors'><code>-moz-border-top-colors</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors'><code>-moz-border-right-colors</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors'><code>-moz-border-bottom-colors</code></a>, <a href='https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors'><code>-moz-border-left-colors</code></a>",
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "4"
+                },
+                "opera": {
+                    "version_added": "3.5"
+                },
+                "opera_android": {
+                    "version_added": "11"
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": "1"
+                },
+                "webview_android": {
+                    "version_added": "4"
+                }
+            },
+            "title": "border-color"
+        }
+    ],
+    "propdef-border-block": [
+        {
+            "slug": "CSS/border-block",
+            "summary": "The border-block CSS property is a shorthand property for setting the individual logical block border property values in a single place in the style sheet.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-block"
+        }
+    ],
+    "propdef-border-block-color": [
+        {
+            "slug": "CSS/border-block-color",
+            "summary": "The border-block-color CSS property defines the color of the logical block borders of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color and border-bottom-color, or border-right-color and border-left-color property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-block-color"
+        }
+    ],
+    "propdef-border-block-end": [
+        {
+            "slug": "CSS/border-block-end",
+            "summary": "The border-block-end CSS property is a shorthand property for setting the individual logical block-end border property values in a single place in the style sheet.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-block-end"
+        }
+    ],
+    "propdef-border-block-end-color": [
+        {
+            "slug": "CSS/border-block-end-color",
+            "summary": "The border-block-end-color CSS property defines the color of the logical block-end border of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color, border-right-color, border-bottom-color, or border-left-color property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "border-block-end-color"
+        }
+    ],
+    "propdef-border-block-end-style": [
+        {
+            "slug": "CSS/border-block-end-style",
+            "summary": "The border-block-end-style CSS property defines the style of the logical block end border of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style, border-right-style, border-bottom-style, or border-left-style property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "border-block-end-style"
+        }
+    ],
+    "propdef-border-block-end-width": [
+        {
+            "slug": "CSS/border-block-end-width",
+            "summary": "The border-block-end-width CSS property defines the width of the logical block-end border of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width, border-right-width, border-bottom-width, or border-left-width property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "border-block-end-width"
+        }
+    ],
+    "propdef-border-block-start": [
+        {
+            "slug": "CSS/border-block-start",
+            "summary": "The border-block-start CSS property is a shorthand property for setting the individual logical block-start border property values in a single place in the style sheet.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-block-start"
+        }
+    ],
+    "propdef-border-block-start-color": [
+        {
+            "slug": "CSS/border-block-start-color",
+            "summary": "The border-block-start-color CSS property defines the color of the logical block-start border of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color, border-right-color, border-bottom-color, or border-left-color property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "border-block-start-color"
+        }
+    ],
+    "propdef-border-block-start-style": [
+        {
+            "slug": "CSS/border-block-start-style",
+            "summary": "The border-block-start-style CSS property defines the style of the logical block start border of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style, border-right-style, border-bottom-style, or border-left-style property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "border-block-start-style"
+        }
+    ],
+    "propdef-border-block-start-width": [
+        {
+            "slug": "CSS/border-block-start-width",
+            "summary": "The border-block-start-width CSS property defines the width of the logical block-start border of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width, border-right-width, border-bottom-width, or border-left-width property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "border-block-start-width"
+        }
+    ],
+    "propdef-border-block-style": [
+        {
+            "slug": "CSS/border-block-style",
+            "summary": "The border-block-style CSS property defines the style of the logical block borders of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style and border-bottom-style, or border-left-style and border-right-style properties depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-block-style"
+        }
+    ],
+    "propdef-border-block-width": [
+        {
+            "slug": "CSS/border-block-width",
+            "summary": "The border-block-width CSS property defines the width of the logical block borders of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width and border-bottom-width, or border-left-width, and border-right-width property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-block-width"
+        },
+        {
+            "slug": "CSS/border-inline-width",
+            "summary": "The border-inline-width CSS property defines the width of the logical inline borders of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width and border-bottom-width, or border-left-width, and border-right-width property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-inline-width"
+        }
+    ],
+    "propdef-border-end-end-radius": [
+        {
+            "slug": "CSS/border-end-end-radius",
+            "summary": "The border-end-end-radius CSS property defines a logical border radius on an element, which maps to a physical border radius that depends on on the element's writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-end-end-radius"
+        }
+    ],
+    "propdef-border-end-start-radius": [
+        {
+            "slug": "CSS/border-end-start-radius",
+            "summary": "The border-end-start-radius CSS property defines a logical border radius on an element, which maps to a physical border radius depending on the element's writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-end-start-radius"
+        }
+    ],
+    "propdef-border-inline": [
+        {
+            "slug": "CSS/border-inline",
+            "summary": "The border-inline CSS property is a shorthand property for setting the individual logical inline border property values in a single place in the style sheet.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-inline"
+        }
+    ],
+    "propdef-border-inline-color": [
+        {
+            "slug": "CSS/border-inline-color",
+            "summary": "The border-inline-color CSS property defines the color of the logical inline borders of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color and border-bottom-color, or border-right-color and border-left-color property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-inline-color"
+        }
+    ],
+    "propdef-border-inline-end": [
+        {
+            "slug": "CSS/border-inline-end",
+            "summary": "The border-inline-end CSS property is a shorthand property for setting the individual logical inline-end border property values in a single place in the style sheet.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-inline-end"
+        }
+    ],
+    "propdef-border-inline-end-color": [
+        {
+            "slug": "CSS/border-inline-end-color",
+            "summary": "The border-inline-end-color CSS property defines the color of the logical inline-end border of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color, border-right-color, border-bottom-color, or border-left-color property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Enabled by default since Firefox 41.",
+                        "version_added": "38"
+                    },
+                    {
+                        "alternative_name": "-moz-border-end-color",
+                        "version_added": true
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Enabled by default since Firefox 41.",
+                        "version_added": "38"
+                    },
+                    {
+                        "alternative_name": "-moz-border-end-color",
+                        "version_added": true
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "border-inline-end-color"
+        }
+    ],
+    "propdef-border-inline-end-style": [
+        {
+            "slug": "CSS/border-inline-end-style",
+            "summary": "The border-inline-end-style CSS property defines the style of the logical inline end border of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style, border-right-style, border-bottom-style, or border-left-style property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Enabled by default since Firefox 41.",
+                        "version_added": "38"
+                    },
+                    {
+                        "alternative_name": "-moz-border-end-style",
+                        "version_added": "38"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Enabled by default since Firefox 41.",
+                        "version_added": "38"
+                    },
+                    {
+                        "alternative_name": "-moz-border-end-style",
+                        "version_added": "38"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "border-inline-end-style"
+        }
+    ],
+    "propdef-border-inline-end-width": [
+        {
+            "slug": "CSS/border-inline-end-width",
+            "summary": "The border-inline-end-width CSS property defines the width of the logical inline-end border of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width, border-right-width, border-bottom-width, or border-left-width property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Enabled by default since Firefox 41.",
+                        "version_added": "38"
+                    },
+                    {
+                        "alternative_name": "-moz-border-end-width",
+                        "version_added": true
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Enabled by default since Firefox 41.",
+                        "version_added": "38"
+                    },
+                    {
+                        "alternative_name": "-moz-border-end-width",
+                        "version_added": true
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "border-inline-end-width"
+        }
+    ],
+    "propdef-border-inline-start": [
+        {
+            "slug": "CSS/border-inline-start",
+            "summary": "The border-inline-start CSS property is a shorthand property for setting the individual logical inline-start border property values in a single place in the style sheet.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-inline-start"
+        }
+    ],
+    "propdef-border-inline-start-color": [
+        {
+            "slug": "CSS/border-inline-start-color",
+            "summary": "The border-inline-start-color CSS property defines the color of the logical inline start border of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color, border-right-color, border-bottom-color, or border-left-color property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Enabled by default since Firefox 41.",
+                        "version_added": "38"
+                    },
+                    {
+                        "alternative_name": "-moz-border-start-color",
+                        "version_added": "38"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Enabled by default since Firefox 41.",
+                        "version_added": "38"
+                    },
+                    {
+                        "alternative_name": "-moz-border-start-color",
+                        "version_added": "38"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "border-inline-start-color"
+        }
+    ],
+    "propdef-border-inline-start-style": [
+        {
+            "slug": "CSS/border-inline-start-style",
+            "summary": "The border-inline-start-style CSS property defines the style of the logical inline start border of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style, border-right-style, border-bottom-style, or border-left-style property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Enabled by default since Firefox 41.",
+                        "version_added": "38"
+                    },
+                    {
+                        "alternative_name": "-moz-border-start-style",
+                        "version_added": true
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Enabled by default since Firefox 41.",
+                        "version_added": "38"
+                    },
+                    {
+                        "alternative_name": "-moz-border-start-style",
+                        "version_added": true
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "border-inline-start-style"
+        }
+    ],
+    "propdef-border-inline-start-width": [
+        {
+            "slug": "CSS/border-inline-start-width",
+            "summary": "The border-inline-start-width CSS property defines the width of the logical inline-start border of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width, border-right-width, border-bottom-width, or border-left-width property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Enabled by default since Firefox 41.",
+                        "version_added": "38"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "notes": "Enabled by default since Firefox 41.",
+                        "version_added": "38"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "border-inline-start-width"
+        }
+    ],
+    "propdef-border-inline-style": [
+        {
+            "slug": "CSS/border-inline-style",
+            "summary": "The border-inline-style CSS property defines the style of the logical inline borders of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style and border-bottom-style, or border-left-style and border-right-style properties depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-inline-style"
+        }
+    ],
+    "propdef-border-start-end-radius": [
+        {
+            "slug": "CSS/border-start-end-radius",
+            "summary": "The border-start-end-radius CSS property defines a logical border radius on an element, which maps to a physical border radius depending on the element's writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-start-end-radius"
+        }
+    ],
+    "propdef-border-start-start-radius": [
+        {
+            "slug": "CSS/border-start-start-radius",
+            "summary": "The border-start-start-radius CSS property defines a logical border radius on an element, which maps to a physical border radius that depends on the element's writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "border-start-start-radius"
+        }
+    ],
+    "propdef-inset": [
+        {
+            "slug": "CSS/inset",
+            "summary": "The inset CSS property defines the logical block and inline start and end offsets of an element, which map to physical offsets depending on the element's writing mode, directionality, and text orientation. It corresponds to the top and bottom, or right and left properties depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "inset"
+        }
+    ],
+    "propdef-inset-block": [
+        {
+            "slug": "CSS/inset-block",
+            "summary": "The inset-block CSS property defines the logical block start and end offsets of an element, which maps to physical offsets depending on the element's writing mode, directionality, and text orientation. It corresponds to the top and bottom, or right and left properties depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "inset-block"
+        }
+    ],
+    "propdef-inset-block-end": [
+        {
+            "slug": "CSS/inset-block-end",
+            "summary": "The inset-block-end CSS property defines the logical block end offset of an element, which maps to a physical inset depending on the element's writing mode, directionality, and text orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "alternative_name": "offset-block-end",
+                        "version_added": "41",
+                        "version_removed": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "alternative_name": "offset-block-end",
+                        "version_added": "41",
+                        "version_removed": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "inset-block-end"
+        }
+    ],
+    "propdef-inset-block-start": [
+        {
+            "slug": "CSS/inset-block-start",
+            "summary": "The inset-block-start CSS property defines the logical block start offset of an element, which maps to a physical inset depending on the element's writing mode, directionality, and text orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "alternative_name": "offset-block-start",
+                        "version_added": "41",
+                        "version_removed": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "alternative_name": "offset-block-start",
+                        "version_added": "41",
+                        "version_removed": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "inset-block-start"
+        }
+    ],
+    "propdef-inset-inline": [
+        {
+            "slug": "CSS/inset-inline",
+            "summary": "The inset-inline CSS property defines the logical block start and end offsets of an element, which maps to physical offsets depending on the element's writing mode, directionality, and text orientation. It corresponds to the top and bottom, or right and left properties depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "inset-inline"
+        }
+    ],
+    "propdef-inset-inline-end": [
+        {
+            "slug": "CSS/inset-inline-end",
+            "summary": "The inset-inline-end CSS property defines the logical inline end inset of an element, which maps to a physical inset depending on the element's writing mode, directionality, and text orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "alternative_name": "offset-inline-end",
+                        "version_added": "41",
+                        "version_removed": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "alternative_name": "offset-inline-end",
+                        "version_added": "41",
+                        "version_removed": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "inset-inline-end"
+        }
+    ],
+    "propdef-inset-inline-start": [
+        {
+            "slug": "CSS/inset-inline-start",
+            "summary": "The inset-inline-start CSS property defines the logical inline start inset of an element, which maps to a physical offset depending on the element's writing mode, directionality, and text orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "alternative_name": "offset-inline-start",
+                        "version_added": "41",
+                        "version_removed": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "63"
+                    },
+                    {
+                        "alternative_name": "offset-inline-start",
+                        "version_added": "41",
+                        "version_removed": "63"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "inset-inline-start"
+        }
+    ],
+    "propdef-margin-block": [
+        {
+            "slug": "CSS/margin-block",
+            "summary": "The margin-block CSS property defines the logical block start and end margins of an element, which maps to physical margins depending on the element's writing mode, directionality, and text orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "margin-block"
+        }
+    ],
+    "propdef-margin-block-end": [
+        {
+            "slug": "CSS/margin-block-end",
+            "summary": "The margin-block-end CSS property defines the logical block end margin of an element, which maps to a physical margin depending on the element's writing mode, directionality, and text orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "margin-block-end"
+        }
+    ],
+    "propdef-margin-block-start": [
+        {
+            "slug": "CSS/margin-block-start",
+            "summary": "The margin-block-start CSS property defines the logical block start margin of an element, which maps to a physical margin depending on the element's writing mode, directionality, and text orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "margin-block-start"
+        }
+    ],
+    "propdef-margin-inline": [
+        {
+            "slug": "CSS/margin-inline",
+            "summary": "The margin-inline CSS property defines the logical inline start and end margins of an element, which maps to physical margins depending on the element's writing mode, directionality, and text orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "margin-inline"
+        }
+    ],
+    "propdef-margin-inline-end": [
+        {
+            "slug": "CSS/margin-inline-end",
+            "summary": "The margin-inline-end CSS property defines the logical inline end margin of an element, which maps to a physical margin depending on the element's writing mode, directionality, and text orientation. In other words, it corresponds to the margin-top, margin-right, margin-bottom or margin-left property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "69"
+                    },
+                    {
+                        "alternative_name": "-webkit-margin-end",
+                        "version_added": "2"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "69"
+                    },
+                    {
+                        "alternative_name": "-webkit-margin-end",
+                        "version_added": "18"
+                    }
+                ],
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    },
+                    {
+                        "alternative_name": "-moz-margin-end",
+                        "version_added": "3"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    },
+                    {
+                        "alternative_name": "-moz-margin-end",
+                        "version_added": "4"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "56"
+                    },
+                    {
+                        "alternative_name": "-webkit-margin-end",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "56"
+                    },
+                    {
+                        "alternative_name": "-webkit-margin-end",
+                        "version_added": "14"
+                    }
+                ],
+                "safari": {
+                    "alternative_name": "-webkit-margin-end",
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "alternative_name": "-webkit-margin-end",
+                    "version_added": "3"
+                },
+                "samsunginternet_android": {
+                    "alternative_name": "-webkit-margin-end",
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": "69"
+                    },
+                    {
+                        "alternative_name": "-webkit-margin-end",
+                        "version_added": "2"
+                    }
+                ]
+            },
+            "title": "margin-inline-end"
+        }
+    ],
+    "propdef-margin-inline-start": [
+        {
+            "slug": "CSS/margin-inline-start",
+            "summary": "The margin-inline-start CSS property defines the logical inline start margin of an element, which maps to a physical margin depending on the element's writing mode, directionality, and text orientation. It corresponds to the margin-top, margin-right, margin-bottom, or margin-left property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "69"
+                    },
+                    {
+                        "alternative_name": "-webkit-margin-start",
+                        "version_added": "2"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "69"
+                    },
+                    {
+                        "alternative_name": "-webkit-margin-start",
+                        "version_added": "18"
+                    }
+                ],
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    },
+                    {
+                        "alternative_name": "-moz-margin-start",
+                        "version_added": "3"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    },
+                    {
+                        "alternative_name": "-moz-margin-start",
+                        "version_added": "4"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "56"
+                    },
+                    {
+                        "alternative_name": "-webkit-margin-start",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "56"
+                    },
+                    {
+                        "alternative_name": "-webkit-margin-start",
+                        "version_added": "14"
+                    }
+                ],
+                "safari": {
+                    "alternative_name": "-webkit-margin-start",
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "alternative_name": "-webkit-margin-start",
+                    "version_added": "3"
+                },
+                "samsunginternet_android": {
+                    "alternative_name": "-webkit-margin-start",
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": "69"
+                    },
+                    {
+                        "alternative_name": "-webkit-margin-start",
+                        "version_added": "2"
+                    }
+                ]
+            },
+            "title": "margin-inline-start"
+        }
+    ],
+    "propdef-max-block-size": [
+        {
+            "slug": "CSS/max-block-size",
+            "summary": "The max-block-size CSS property specifies the maximum size of an element in the direction opposite that of the writing direction as specified by writing-mode.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "max-block-size"
+        }
+    ],
+    "propdef-max-inline-size": [
+        {
+            "slug": "CSS/max-inline-size",
+            "summary": "The max-inline-size CSS property defines the horizontal or vertical maximum size of an element's block depending on its writing mode. It corresponds to the max-width or the max-height property depending on the value defined for writing-mode. If the writing mode is vertically oriented, the value of max-inline-size relates to the maximal height of the element, otherwise it relates to the maximal width of the element. It relates to max-block-size, which defines the other dimension of the element.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "prefix": "-webkit-",
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": "10.2"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "max-inline-size"
+        }
+    ],
+    "propdef-min-block-size": [
+        {
+            "slug": "CSS/min-block-size",
+            "summary": "The min-block-size CSS property defines the minimum horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the min-width or the min-height property, depending on the value of writing-mode.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "min-block-size"
+        }
+    ],
+    "propdef-min-inline-size": [
+        {
+            "slug": "CSS/min-inline-size",
+            "summary": "The min-inline-size CSS property defines the horizontal or vertical minimal size of an element's block, depending on its writing mode. It corresponds to either the min-width or the min-height property, depending on the value of writing-mode.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "44"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "min-inline-size"
+        }
+    ],
+    "propdef-padding-block": [
+        {
+            "slug": "CSS/padding-block",
+            "summary": "The padding-block CSS property defines the logical block start and end padding of an element, which maps to physical padding properties depending on the element's writing mode, directionality, and text orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "padding-block"
+        }
+    ],
+    "propdef-padding-block-end": [
+        {
+            "slug": "CSS/padding-block-end",
+            "summary": "The padding-block-end CSS property defines the logical block end padding of an element, which maps to a physical padding depending on the element's writing mode, directionality, and text orientation. It corresponds to the padding-top, padding-right, padding-bottom, or padding-left property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "padding-block-end"
+        }
+    ],
+    "propdef-padding-block-start": [
+        {
+            "slug": "CSS/padding-block-start",
+            "summary": "The padding-block-start CSS property defines the logical block start padding of an element, which maps to a physical padding depending on the element's writing mode, directionality, and text orientation. It corresponds to the padding-top, padding-right, padding-bottom, or padding-left property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "69"
+                },
+                "chrome_android": {
+                    "version_added": "69"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "56"
+                },
+                "opera_android": {
+                    "version_added": "56"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "69"
+                }
+            },
+            "title": "padding-block-start"
+        }
+    ],
+    "propdef-padding-inline": [
+        {
+            "slug": "CSS/padding-inline",
+            "summary": "The padding-inline CSS property defines the logical inline start and end padding of an element, which maps to physical padding properties depending on the element's writing mode, directionality, and text orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "padding-inline"
+        }
+    ],
+    "propdef-padding-inline-end": [
+        {
+            "slug": "CSS/padding-inline-end",
+            "summary": "The padding-inline-end CSS property defines the logical inline end padding of an element, which maps to a physical padding depending on the element's writing mode, directionality, and text orientation. It corresponds to the padding-top, padding-right, padding-bottom, or padding-left property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "69"
+                    },
+                    {
+                        "alternative_name": "-webkit-padding-end",
+                        "version_added": "2"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "69"
+                    },
+                    {
+                        "alternative_name": "-webkit-padding-end",
+                        "version_added": "18"
+                    }
+                ],
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    },
+                    {
+                        "alternative_name": "-moz-padding-end",
+                        "version_added": "3"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    },
+                    {
+                        "alternative_name": "-moz-padding-end",
+                        "version_added": "4"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "56"
+                    },
+                    {
+                        "alternative_name": "-webkit-padding-end",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "56"
+                    },
+                    {
+                        "alternative_name": "-webkit-padding-end",
+                        "version_added": "14"
+                    }
+                ],
+                "safari": {
+                    "alternative_name": "-webkit-padding-end",
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "alternative_name": "-webkit-padding-end",
+                    "version_added": "3"
+                },
+                "samsunginternet_android": {
+                    "alternative_name": "-webkit-padding-end",
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": "69"
+                    },
+                    {
+                        "alternative_name": "-webkit-padding-end",
+                        "version_added": "2"
+                    }
+                ]
+            },
+            "title": "padding-inline-end"
+        }
+    ],
+    "propdef-padding-inline-start": [
+        {
+            "slug": "CSS/padding-inline-start",
+            "summary": "The padding-inline-start CSS property defines the logical inline start padding of an element, which maps to a physical padding depending on the element's writing mode, directionality, and text orientation. It corresponds to the padding-top, padding-right, padding-bottom, or padding-left property depending on the values defined for writing-mode, direction, and text-orientation.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "69"
+                    },
+                    {
+                        "alternative_name": "-webkit-padding-start",
+                        "version_added": "2"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "69"
+                    },
+                    {
+                        "alternative_name": "-webkit-padding-start",
+                        "version_added": "18"
+                    }
+                ],
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    },
+                    {
+                        "alternative_name": "-moz-padding-start",
+                        "version_added": "3"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "41"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.vertical-text.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "38",
+                        "version_removed": "51"
+                    },
+                    {
+                        "alternative_name": "-moz-padding-start",
+                        "version_added": "4"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "56"
+                    },
+                    {
+                        "alternative_name": "-webkit-padding-start",
+                        "version_added": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "56"
+                    },
+                    {
+                        "alternative_name": "-webkit-padding-start",
+                        "version_added": "14"
+                    }
+                ],
+                "safari": {
+                    "alternative_name": "-webkit-padding-start",
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "alternative_name": "-webkit-padding-start",
+                    "version_added": "3"
+                },
+                "samsunginternet_android": {
+                    "alternative_name": "-webkit-padding-start",
+                    "version_added": true
+                },
+                "webview_android": [
+                    {
+                        "version_added": "69"
+                    },
+                    {
+                        "alternative_name": "-webkit-padding-start",
+                        "version_added": "2"
+                    }
+                ]
+            },
+            "title": "padding-inline-start"
+        }
+    ],
+    "resize": [
+        {
+            "slug": "CSS/resize",
+            "summary": "The resize CSS property sets whether an element is resizable, and if so, in which directions.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-moz-",
+                        "version_added": "4",
+                        "version_removed": true
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": null
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "12.1"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": "3"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "resize"
+        }
+    ],
+    "text-align": [
+        {
+            "slug": "CSS/text-align",
+            "summary": "The text-align CSS property sets the horizontal alignment of an inline or table-cell box. This means it works like vertical-align but in the horizontal direction.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": "3"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "1"
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "text-align"
+        }
+    ]
+}

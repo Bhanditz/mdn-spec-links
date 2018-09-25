@@ -1,0 +1,906 @@
+{
+    "::backdrop-pseudo-element": [
+        {
+            "slug": "CSS/::backdrop",
+            "summary": "The ::backdrop CSS pseudo-element is a box the size of the viewport which is rendered immediately beneath any element being presented in full-screen mode. ",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "37"
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "32"
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "prefix": "-ms-",
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "prefix": "-ms-",
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "47"
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "::backdrop"
+        }
+    ],
+    ":fullscreen-pseudo-class": [
+        {
+            "slug": "CSS/:fullscreen",
+            "summary": "The :fullscreen CSS pseudo-class matches every element which is currently in full-screen mode. If multiple elements have been put into full-screen mode, this selects them all.",
+            "support": {
+                "chrome": {
+                    "alternative_name": ":-webkit-full-screen",
+                    "version_added": "15"
+                },
+                "chrome_android": {
+                    "version_added": null
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "47"
+                    },
+                    {
+                        "alternative_name": ":-moz-full-screen",
+                        "version_added": "9"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "47"
+                    },
+                    {
+                        "alternative_name": ":-moz-full-screen",
+                        "version_added": "9"
+                    }
+                ],
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "alternative_name": ":-webkit-full-screen",
+                    "version_added": "6"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": ":fullscreen"
+        }
+    ],
+    "api": [
+        {
+            "slug": "API/Element",
+            "summary": "Element is the most general base class from which all objects in a Document inherit. It only has methods and properties common to all kinds of elements. More specific classes inherit from Element.",
+            "support": {
+                "chrome": {
+                    "version_added": "1"
+                },
+                "chrome_android": {
+                    "version_added": "18"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": {
+                    "version_added": "1"
+                },
+                "firefox_android": {
+                    "version_added": "4"
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                }
+            },
+            "title": "Element"
+        }
+    ],
+    "dictdef-fullscreenoptions": [
+        {
+            "slug": "API/FullscreenOptions/navigationUI",
+            "summary": "The FullscreenOptions dictionary's navigationUI property is used when calling requestFullscreen() to specify to what extent the user agent should include its standard user interface while the element is presented in full-screen mode.",
+            "support": {
+                "chrome": {
+                    "version_added": "71"
+                },
+                "chrome_android": {
+                    "version_added": "71"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "64"
+                },
+                "firefox_android": {
+                    "version_added": "64"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "71"
+                }
+            },
+            "title": "FullscreenOptions.navigationUI"
+        }
+    ],
+    "dom-document-exitfullscreen": [
+        {
+            "slug": "API/Document/exitFullScreen",
+            "summary": "The Document method exitFullscreen() requests that the element on this document which is currently being presented in full-screen mode be taken out of full-screen mode, restoring the previous state of the screen.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "45"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "45"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": "12"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "49"
+                    },
+                    {
+                        "alternative_name": "mozCancelFullScreen",
+                        "version_added": "9"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "49"
+                    },
+                    {
+                        "alternative_name": "mozCancelFullScreen",
+                        "version_added": "9"
+                    }
+                ],
+                "ie": {
+                    "alternative_name": "msExitFullscreen",
+                    "version_added": "11"
+                },
+                "opera": {
+                    "prefix": "webkit",
+                    "version_added": "15"
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "prefix": "webkit",
+                    "version_added": "5.1"
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "webview_android": [
+                    {
+                        "version_added": "45"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "Document.exitFullscreen()"
+        }
+    ],
+    "dom-document-fullscreenelement": [
+        {
+            "slug": "API/DocumentOrShadowRoot/fullscreenElement",
+            "summary": "The Document.fullscreenElement read-only property returns the Element that is currently being presented in full-screen mode in this document, or null if full-screen mode is not currently in use.",
+            "support": {
+                "chrome": {
+                    "prefix": "webkit",
+                    "version_added": "53"
+                },
+                "chrome_android": {
+                    "prefix": "webkit",
+                    "version_added": "53"
+                },
+                "edge": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "47"
+                    },
+                    {
+                        "alternative_name": "mozFullScreenElement",
+                        "version_added": "9"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "47"
+                    },
+                    {
+                        "alternative_name": "mozFullScreenElement",
+                        "version_added": "9"
+                    }
+                ],
+                "ie": {
+                    "prefix": "ms",
+                    "version_added": true
+                },
+                "opera": {
+                    "prefix": "webkit",
+                    "version_added": "40"
+                },
+                "opera_android": {
+                    "prefix": "webkit",
+                    "version_added": "40"
+                },
+                "safari": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "prefix": "webkit",
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "prefix": "webkit",
+                    "version_added": "53"
+                }
+            },
+            "title": "DocumentOrShadowRoot.fullscreenElement"
+        }
+    ],
+    "dom-document-fullscreenenabled": [
+        {
+            "slug": "API/Document/fullscreenEnabled",
+            "summary": "The read-only fullscreenEnabled property on the Document interface indicates whether or not full-screen mode is available.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "45"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "45"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ],
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "47"
+                    },
+                    {
+                        "alternative_name": "mozFullScreenEnabled",
+                        "version_added": "10"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "47"
+                    },
+                    {
+                        "alternative_name": "mozFullScreenEnabled",
+                        "version_added": "10"
+                    }
+                ],
+                "ie": {
+                    "alternative_name": "msFullScreenEnabled",
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "45"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": true
+                    }
+                ]
+            },
+            "title": "Document.fullscreenEnabled"
+        }
+    ],
+    "dom-element-onfullscreenerror": [
+        {
+            "slug": "API/Element/onfullscreenerror",
+            "summary": "The Element interface's onfullscreenerror property is an event handler for the fullscreenerror event which is sent to the element when an error occurs while attempting to transition into or out of full-screen mode.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "64"
+                },
+                "firefox_android": {
+                    "version_added": "64"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "Element.onfullscreenerror"
+        }
+    ],
+    "dom-element-requestfullscreen": [
+        {
+            "slug": "API/Element/requestFullscreen",
+            "summary": "The Element.requestFullscreen() method issues an asynchronous request to make the element be displayed in full-screen mode.",
+            "support": {
+                "chrome": {
+                    "prefix": "webkit",
+                    "version_added": "15"
+                },
+                "chrome_android": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "edge": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "47"
+                    },
+                    {
+                        "alternative_name": "mozRequestFullScreen",
+                        "notes": "Before Firefox 44, Firefox incorrectly allowed elements inside a <code>&lt;frame&gt;</code> or an <code>&lt;object&gt;</code> to request, and to be granted, fullscreen. In Firefox 44 and onwards this has been fixed: only elements in the top-level document or in an <code><code>&lt;iframe&gt;</code></code> with the <code>allowfullscreen</code> attribute can be displayed fullscreen.",
+                        "version_added": "9"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "47"
+                    },
+                    {
+                        "alternative_name": "mozRequestFullScreen",
+                        "notes": "Before Firefox 44, Firefox incorrectly allowed elements inside a <code>&lt;frame&gt;</code> or an <code>&lt;object&gt;</code> to request, and to be granted, fullscreen. In Firefox 44 and onwards this has been fixed: only elements in the top-level document or in an <code><code>&lt;iframe&gt;</code></code> with the <code>allowfullscreen</code> attribute can be displayed fullscreen.",
+                        "version_added": "9"
+                    }
+                ],
+                "ie": {
+                    "prefix": "ms",
+                    "version_added": "11"
+                },
+                "opera": [
+                    {
+                        "prefix": "webkit",
+                        "version_added": "15"
+                    },
+                    {
+                        "prefix": "o",
+                        "version_added": "12",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "prefix": "webkit",
+                        "version_added": "14"
+                    },
+                    {
+                        "prefix": "o",
+                        "version_added": "12",
+                        "version_removed": "14"
+                    }
+                ],
+                "safari": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "prefix": "webkit",
+                    "version_added": true
+                },
+                "webview_android": {
+                    "prefix": "webkit",
+                    "version_added": true
+                }
+            },
+            "title": "Element.requestFullscreen()"
+        }
+    ],
+    "feature-policy-integration": [
+        {
+            "slug": "HTTP/Headers/Feature-Policy/fullscreen",
+            "summary": "The HTTP Feature-Policy header fullscreen directive controls whether the current document is allowed to use Element.requestFullScreen(). When this policy is enabled, the returned Promise rejects with a TypeError.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "46"
+                },
+                "opera_android": {
+                    "version_added": "46"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "Feature-Policy: fullscreen"
+        }
+    ],
+    "handler-document-onfullscreenchange": [
+        {
+            "slug": "API/Document/onfullscreenchange",
+            "summary": "The Document.onfullscreenchange property is an event handler for the fullscreenchange event that is fired when a document goes in or out of the fullscreen mode.",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "47"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "47"
+                    }
+                ],
+                "ie": {
+                    "alternative_name": "onMSFullscreenChange",
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "Document.onfullscreenchange"
+        },
+        {
+            "slug": "API/Element/onfullscreenchange",
+            "summary": "The Element interface's onfullscreenchange property is an event handler for the fullscreenchange event that is fired when the element has transitioned into or out of full-screen mode.",
+            "support": {
+                "chrome": {
+                    "version_added": "57"
+                },
+                "chrome_android": {
+                    "version_added": "57"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "version_added": "64"
+                },
+                "firefox_android": {
+                    "version_added": "64"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "57"
+                }
+            },
+            "title": "Element.onfullscreenchange"
+        }
+    ],
+    "handler-document-onfullscreenerror": [
+        {
+            "slug": "API/Document/onfullscreenerror",
+            "summary": "The Document.onfullscreenerror property is an event handler for the fullscreenerror event that is sent to the  document when it fails to transition into full-screen mode after a prior call to Element.requestFullscreen().",
+            "support": {
+                "chrome": {
+                    "version_added": "45"
+                },
+                "chrome_android": {
+                    "version_added": "45"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "47"
+                    }
+                ],
+                "firefox_android": [
+                    {
+                        "version_added": "64"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "full-screen-api.unprefix.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "47"
+                    }
+                ],
+                "ie": {
+                    "alternative_name": "onMSFullscreenError",
+                    "version_added": "11"
+                },
+                "opera": {
+                    "version_added": null
+                },
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "45"
+                }
+            },
+            "title": "Document.onfullscreenerror"
+        }
+    ]
+}

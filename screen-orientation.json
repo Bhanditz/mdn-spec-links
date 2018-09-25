@@ -1,0 +1,242 @@
+{
+    "dom-screenorientation-angle": [
+        {
+            "slug": "API/ScreenOrientation/angle",
+            "summary": "The angle read-only property of the ScreenOrientation interface returns the document's current orientation angle.",
+            "support": {
+                "chrome": {
+                    "version_added": "38"
+                },
+                "chrome_android": {
+                    "version_added": "38"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "43"
+                },
+                "firefox_android": {
+                    "version_added": "43"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "25"
+                },
+                "opera_android": {
+                    "version_added": "25"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "38"
+                }
+            },
+            "title": "ScreenOrientation.angle"
+        }
+    ],
+    "dom-screenorientation-lock": [
+        {
+            "slug": "API/ScreenOrientation/lock",
+            "summary": "The lock() property of the ScreenOrientation interface locks the orientation of the containing document to its default orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "38"
+                },
+                "chrome_android": {
+                    "version_added": "38"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "43"
+                },
+                "firefox_android": {
+                    "version_added": "43"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "25"
+                },
+                "opera_android": {
+                    "version_added": "25"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "38"
+                }
+            },
+            "title": "ScreenOrientation.lock()"
+        }
+    ],
+    "dom-screenorientation-type": [
+        {
+            "slug": "API/ScreenOrientation/type",
+            "summary": "The type read-only property of the ScreenOrientation interface returns the document's current orientation type, one of \"portrait-primary\", \"portrait-secondary\", \"landscape-primary\", or \"landscape-secondary\".",
+            "support": {
+                "chrome": {
+                    "version_added": "38"
+                },
+                "chrome_android": {
+                    "version_added": "38"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "43"
+                },
+                "firefox_android": {
+                    "version_added": "43"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "25"
+                },
+                "opera_android": {
+                    "version_added": "25"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "38"
+                }
+            },
+            "title": "ScreenOrientation.type"
+        }
+    ],
+    "dom-screenorientation-unlock": [
+        {
+            "slug": "API/ScreenOrientation/unlock",
+            "summary": "The unlock() property of the ScreenOrientation interface unlocks the orientation of the containing document from its default orientation.",
+            "support": {
+                "chrome": {
+                    "version_added": "38"
+                },
+                "chrome_android": {
+                    "version_added": "38"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "43"
+                },
+                "firefox_android": {
+                    "version_added": "43"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "25"
+                },
+                "opera_android": {
+                    "version_added": "25"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "38"
+                }
+            },
+            "title": "ScreenOrientation.unlock()"
+        }
+    ],
+    "screenorientation-interface": [
+        {
+            "slug": "API/ScreenOrientation",
+            "summary": "The ScreenOrientation interface of the the Screen Orientation API provides information about the current orientation of the document.",
+            "support": {
+                "chrome": {
+                    "version_added": "38"
+                },
+                "chrome_android": {
+                    "version_added": "38"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "43"
+                },
+                "firefox_android": {
+                    "version_added": "43"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "25"
+                },
+                "opera_android": {
+                    "version_added": "25"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "5.0"
+                },
+                "webview_android": {
+                    "version_added": "38"
+                }
+            },
+            "title": "ScreenOrientation"
+        }
+    ]
+}

@@ -1,0 +1,3675 @@
+{
+    "dom-vrdisplay-cancelanimationframe": [
+        {
+            "slug": "API/VRDisplay/cancelAnimationFrame",
+            "summary": "The cancelAnimationFrame() method of the VRDisplay interface is a special implementation of Window.cancelAnimationFrame that unregisters callbacks registered with VRDisplay.requestAnimationFrame().",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.cancelAnimationFrame()"
+        }
+    ],
+    "dom-vrdisplay-capabilities": [
+        {
+            "slug": "API/VRDisplay/capabilities",
+            "summary": "The capabilities read-only property of the VRDisplay interface returns a VRDisplayCapabilities object that indicates the various capabilities of the VRDisplay.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.capabilities"
+        }
+    ],
+    "dom-vrdisplay-depthfar": [
+        {
+            "slug": "API/VRDisplay/depthFar",
+            "summary": "The depthFar property of the VRDisplay interface gets and sets the z-depth defining the far plane of the eye view frustum, i.e. the furthest viewable boundary of the scene.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.depthFar"
+        }
+    ],
+    "dom-vrdisplay-depthnear": [
+        {
+            "slug": "API/VRDisplay/depthNear",
+            "summary": "The depthNear property of the VRDisplay interface gets and sets the z-depth defining the near plane of the eye view frustum, i.e. the nearest viewable boundary of the scene.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.depthNear"
+        }
+    ],
+    "dom-vrdisplay-displayid": [
+        {
+            "slug": "API/VRDisplay/displayId",
+            "summary": "The displayId read-only property of the VRDisplay interface returns an identifier for this particular VRDisplay, which is also used as an association point in the Gamepad API (see Gamepad.displayId).",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.displayId"
+        }
+    ],
+    "dom-vrdisplay-displayname": [
+        {
+            "slug": "API/VRDisplay/displayName",
+            "summary": "The displayName read-only property of the VRDisplay interface returns a human-readable name to identify the VRDisplay.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.displayName"
+        }
+    ],
+    "dom-vrdisplay-exitpresent": [
+        {
+            "slug": "API/VRDisplay/exitPresent",
+            "summary": "The exitPresent() method of the VRDisplay interface stops the VRDisplay presenting a scene.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.exitPresent()"
+        }
+    ],
+    "dom-vrdisplay-geteyeparameters": [
+        {
+            "slug": "API/VRDisplay/getEyeParameters",
+            "summary": "The getEyeParameters() method of the VRDisplay interface returns the VREyeParameters object containing the eye parameters for the specified eye.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.getEyeParameters()"
+        },
+        {
+            "slug": "API/VRDisplay/getFrameData",
+            "summary": "The getFrameData() method of the VRDisplay interface accepts a VRFrameData object and populates it with the information required to render the current frame.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.getFrameData()"
+        }
+    ],
+    "dom-vrdisplay-getlayers": [
+        {
+            "slug": "API/VRDisplay/getLayers",
+            "summary": "The getLayers() method of the VRDisplay interface returns the layers currently being presented by the VRDisplay.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.getLayers()"
+        }
+    ],
+    "dom-vrdisplay-ispresenting": [
+        {
+            "slug": "API/VRDisplay/isPresenting",
+            "summary": "The isPresenting read-only property of the VRDisplay interface returns a Boolean indicating whether the VRDisplay is currently having content presented through it.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.isPresenting"
+        }
+    ],
+    "dom-vrdisplay-requestanimationframe": [
+        {
+            "slug": "API/VRDisplay/requestAnimationFrame",
+            "summary": "The requestAnimationFrame() method of the VRDisplay interface is a special implementation of Window.requestAnimationFrame containing a callback function that will be called every time a new frame of the VRDisplay presentation is rendered:",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.requestAnimationFrame()"
+        }
+    ],
+    "dom-vrdisplay-requestpresent": [
+        {
+            "slug": "API/VRDisplay/requestPresent",
+            "summary": "The requestPresent() method of the VRDisplay interface starts the VRDisplay presenting a scene.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.requestPresent()"
+        }
+    ],
+    "dom-vrdisplay-stageparameters": [
+        {
+            "slug": "API/VRDisplay/stageParameters",
+            "summary": "The stageParameters read-only property of the VRDisplay interface returns a VRStageParameters object containing room-scale parameters, if the VRDisplay is capable of supporting room-scale experiences.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.stageParameters"
+        }
+    ],
+    "dom-vrdisplay-submitframe": [
+        {
+            "slug": "API/VRDisplay/submitFrame",
+            "summary": "The submitFrame() method of the VRDisplay interface captures the current state of the VRLayerInit currently being presented and displays it on the VRDisplay.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay.submitFrame()"
+        }
+    ],
+    "dom-vrdisplaycapabilities-canpresent": [
+        {
+            "slug": "API/VRDisplayCapabilities/canPresent",
+            "summary": "The canPresent read-only property of the VRDisplayCapabilities interface returns a Boolean stating whether the VR display is capable of presenting content (e.g. through an HMD).",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplayCapabilities.canPresent"
+        }
+    ],
+    "dom-vrdisplaycapabilities-hasexternaldisplay": [
+        {
+            "slug": "API/VRDisplayCapabilities/hasExternalDisplay",
+            "summary": "The hasExternalDisplay read-only property of the VRDisplayCapabilities interface returns a Boolean stating whether the VR display is separate from the device's primary display.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplayCapabilities.hasExternalDisplay"
+        }
+    ],
+    "dom-vrdisplaycapabilities-hasposition": [
+        {
+            "slug": "API/VRDisplayCapabilities/hasPosition",
+            "summary": "The hasPosition read-only property of the VRDisplayCapabilities interface returns a Boolean stating whether the VR display can track and return position information.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplayCapabilities.hasPosition"
+        }
+    ],
+    "dom-vrdisplaycapabilities-maxlayers": [
+        {
+            "slug": "API/VRDisplayCapabilities/maxLayers",
+            "summary": "The maxLayers read-only property of the VRDisplayCapabilities interface returns a number indicating the maximum number of VRLayers that the VR display can present at once (e.g. the maximum length of the array that Display.requestPresent() can accept.)",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplayCapabilities.maxLayers"
+        }
+    ],
+    "dom-vrdisplayevent-vrdisplayevent": [
+        {
+            "slug": "API/VRDisplayEvent/VRDisplayEvent",
+            "summary": "The VRDisplayEvent constructor creates a VRDisplayEvent object instance.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplayEvent.VRDisplayEvent()"
+        }
+    ],
+    "dom-vrdisplayeventinit-display": [
+        {
+            "slug": "API/VRDisplayEvent/display",
+            "summary": "The display read-only property of the VRDisplayEvent interface returns the VRDisplay associated with this event.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplayEvent.display"
+        }
+    ],
+    "dom-vrdisplayeventinit-reason": [
+        {
+            "slug": "API/VRDisplayEvent/reason",
+            "summary": "The reason read-only property of the VRDisplayEvent interface returns a human-readable reason why the event was fired.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplayEvent.reason"
+        }
+    ],
+    "dom-vreyeparameters-fieldofview": [
+        {
+            "slug": "API/VREyeParameters/fieldOfView",
+            "summary": "The fieldOfView read-only property of the VREyeParameters interface returns a VRFieldOfView object describing the current field of view for the eye, which can vary as the user adjusts their interpupillary distance (IPD).",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VREyeParameters.fieldOfView"
+        }
+    ],
+    "dom-vreyeparameters-offset": [
+        {
+            "slug": "API/VREyeParameters/offset",
+            "summary": "The offset read-only property of the VREyeParameters interface represents the offset from the center point between the user's eyes to the center of the eye, measured in meters.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VREyeParameters.offset"
+        }
+    ],
+    "dom-vreyeparameters-renderheight": [
+        {
+            "slug": "API/VREyeParameters/renderHeight",
+            "summary": "The renderHeight read-only property of the VREyeParameters interface describes the recommended render target height of each eye viewport, in pixels.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VREyeParameters.renderHeight"
+        }
+    ],
+    "dom-vreyeparameters-renderwidth": [
+        {
+            "slug": "API/VREyeParameters/renderWidth",
+            "summary": "The renderWidth read-only property of the VREyeParameters interface describes the recommended render target width of each eye viewport, in pixels.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VREyeParameters.renderWidth"
+        }
+    ],
+    "dom-vrfieldofview-downdegrees": [
+        {
+            "slug": "API/VRFieldOfView/downDegrees",
+            "summary": "The downDegrees read-only property of the VRFieldOfView interface returns the number of degrees downwards that the field of view extends in.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFieldOfView.downDegrees"
+        }
+    ],
+    "dom-vrfieldofview-leftdegrees": [
+        {
+            "slug": "API/VRFieldOfView/leftDegrees",
+            "summary": "The leftDegrees read-only property of the VRFieldOfView interface returns the number of degrees to the left that the field of view extends in.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFieldOfView.leftDegrees"
+        }
+    ],
+    "dom-vrfieldofview-rightdegrees": [
+        {
+            "slug": "API/VRFieldOfView/rightDegrees",
+            "summary": "The rightDegrees read-only property of the VRFieldOfView interface returns the number of degrees to the right that the field of view extends in.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFieldOfView.rightDegrees"
+        }
+    ],
+    "dom-vrfieldofview-updegrees": [
+        {
+            "slug": "API/VRFieldOfView/upDegrees",
+            "summary": "The upDegrees read-only property of the VRFieldOfView interface returns the number of degrees upwards that the field of view extends in.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFieldOfView.upDegrees"
+        }
+    ],
+    "dom-vrframedata-leftprojectionmatrix": [
+        {
+            "slug": "API/VRFrameData/leftProjectionMatrix",
+            "summary": "The leftProjectionMatrix read-only property of the VRFrameData interface returns a Float32Array representing a 4x4 matrix that describes the projection to be used for the left eye\u2019s rendering.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFrameData.leftProjectionMatrix"
+        }
+    ],
+    "dom-vrframedata-leftviewmatrix": [
+        {
+            "slug": "API/VRFrameData/leftViewMatrix",
+            "summary": "The leftViewMatrix read-only property of the VRFrameData interface returns a Float32Array representing a 4x4 matrix that describes the view transform to be used for the left eye\u2019s rendering.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFrameData.leftViewMatrix"
+        }
+    ],
+    "dom-vrframedata-pose": [
+        {
+            "slug": "API/VRFrameData/pose",
+            "summary": "The pose read-only property of the VRFrameData interface returns the VRPose of the VRDisplay at the current VRFrameData.timestamp.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFrameData.pose"
+        }
+    ],
+    "dom-vrframedata-rightprojectionmatrix": [
+        {
+            "slug": "API/VRFrameData/rightProjectionMatrix",
+            "summary": "The rightProjectionMatrix read-only property of the VRFrameData interface returns a Float32Array representing a 4x4 matrix that describes the projection to be used for the right eye\u2019s rendering.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFrameData.rightProjectionMatrix"
+        }
+    ],
+    "dom-vrframedata-rightviewmatrix": [
+        {
+            "slug": "API/VRFrameData/rightViewMatrix",
+            "summary": "The rightViewMatrix read-only property of the VRFrameData interface returns a Float32Array representing a 4x4 matrix that describes the view transform to be used for the right eye\u2019s rendering.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFrameData.rightViewMatrix"
+        }
+    ],
+    "dom-vrframedata-timestamp": [
+        {
+            "slug": "API/VRFrameData/timestamp",
+            "summary": "The timestamp read-only property of the VRFrameData interface returns a constantly increasing timestamp value representing the time a frame update occurred.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFrameData.timestamp"
+        }
+    ],
+    "dom-vrframedata-vrframedata": [
+        {
+            "slug": "API/VRFrameData/VRFrameData",
+            "summary": "The VRFrameData constructor creates a VRFrameData object instance.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFrameData.VRFrameData()"
+        }
+    ],
+    "dom-vrlayerinit-leftbounds": [
+        {
+            "slug": "API/VRLayerInit/leftBounds",
+            "summary": "The leftBounds property of the VRLayerInit interface (dictionary) defines the left texture bounds of the canvas whose contents will be presented by the VRDisplay.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRLayerInit.leftBounds"
+        }
+    ],
+    "dom-vrlayerinit-rightbounds": [
+        {
+            "slug": "API/VRLayerInit/rightBounds",
+            "summary": "The rightBounds property of the VRLayerInit interface (dictionary) defines the right texture bounds of the canvas whose contents will be presented by the VRDisplay.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRLayerInit.rightBounds"
+        }
+    ],
+    "dom-vrlayerinit-source": [
+        {
+            "slug": "API/VRLayerInit/source",
+            "summary": "The source property of the VRLayerInit interface (dictionary) defines the canvas whose contents will be presented by the VRDisplay.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRLayerInit.source"
+        }
+    ],
+    "dom-vrpose-angularacceleration": [
+        {
+            "slug": "API/VRPose/angularAcceleration",
+            "summary": "The angularAcceleration read-only property of the VRPose interface returns an array representing the angular acceleration vector of the VRDisplay at the current VRPose.timestamp, in meters per second per second.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRPose.angularAcceleration"
+        }
+    ],
+    "dom-vrpose-angularvelocity": [
+        {
+            "slug": "API/VRPose/angularVelocity",
+            "summary": "The angularVelocity read-only property of the VRPose interface returns an array representing the angular velocity vector of the VRDisplay at the current VRPose.timestamp, in radians per second.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRPose.angularVelocity"
+        }
+    ],
+    "dom-vrpose-linearacceleration": [
+        {
+            "slug": "API/VRPose/linearAcceleration",
+            "summary": "The linearAcceleration read-only property of the VRPose interface returns an array representing the linear acceleration vector of the VRDisplay at the current VRPose.timestamp, in meters per second per second.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRPose.linearAcceleration"
+        }
+    ],
+    "dom-vrpose-linearvelocity": [
+        {
+            "slug": "API/VRPose/linearVelocity",
+            "summary": "The linearVelocity read-only property of the VRPose interface returns an array representing the linear velocity vector of the VRDisplay at the current VRPose.timestamp, in meters per second.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRPose.linearVelocity"
+        }
+    ],
+    "dom-vrpose-orientation": [
+        {
+            "slug": "API/VRPose/orientation",
+            "summary": "The orientation read-only property of the VRPositionState interface returns the orientation of the sensor at the current VRPose.timestamp, as a quarternion value.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRPose.orientation"
+        }
+    ],
+    "dom-vrpose-position": [
+        {
+            "slug": "API/VRPose/position",
+            "summary": "The position read-only property of the VRPose interface returns the position of the VRDisplay at the current VRPose.timestamp as a 3D vector.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRPose.position"
+        }
+    ],
+    "dom-vrstageparameters-sittingtostandingtransform": [
+        {
+            "slug": "API/VRStageParameters/sittingToStandingTransform",
+            "summary": "The sittingToStandingTransform read-only property of the VRStageParameters interface contains a matrix that transforms the sitting-space view matrices of VRFrameData to standing-space.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRStageParameters.sittingToStandingTransform"
+        }
+    ],
+    "dom-vrstageparameters-sizex": [
+        {
+            "slug": "API/VRStageParameters/sizeX",
+            "summary": "The sizeX read-only property of the VRStageParameters interface returns the width of the play-area bounds in meters.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRStageParameters.sizeX"
+        }
+    ],
+    "dom-vrstageparameters-sizey": [
+        {
+            "slug": "API/VRStageParameters/sizeY",
+            "summary": "The sizeY read-only property of the VRStageParameters interface returns the depth of the play-area bounds in meters.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRStageParameters.sizeY"
+        }
+    ],
+    "dom-window-onvrdisplayactivate": [
+        {
+            "slug": "API/Window/onvrdisplayactivate",
+            "summary": "The onvrdisplayactivate property of the Window interface represents an event handler that will run when a display is able to be presented to (when the vrdisplayactivate event fires), for example if an HMD has been moved to bring it out of standby, or woken up by being put on.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Window.onvrdisplayactivate"
+        }
+    ],
+    "dom-window-onvrdisplayblur": [
+        {
+            "slug": "API/Window/onvrdisplayblur",
+            "summary": "The onvrdisplayblur property of the Window interface represents an event handler that will run when presentation to a display has been paused for some reason by the browser, OS, or VR hardware (when the vrdisplayblur event fires) \u2014 for example, while the user is interacting with a system menu or browser, to prevent tracking or loss of experience.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Window.onvrdisplayblur"
+        }
+    ],
+    "dom-window-onvrdisplayconnect": [
+        {
+            "slug": "API/Window/onvrdisplayconnect",
+            "summary": "The onvrdisplayconnect property of the Window interface represents an event handler that will run when a compatible VR display has been connected to the computer (when the vrdisplayconnect event fires).",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "notes": [
+                        "Chrome for Android 56 supports only Google Daydream View.",
+                        "Chrome for Android 57 adds support for Google Cardboard."
+                    ],
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "notes": "Supported on Samsung Internet for GearVR.",
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Window.onvrdisplayconnect"
+        }
+    ],
+    "dom-window-onvrdisplaydeactivate": [
+        {
+            "slug": "API/Window/onvrdisplaydeactivate",
+            "summary": "The onvrdisplaydeactivate property of the Window interface represents an event handler that will run when a display can no longer be presented to (when the vrdisplaydeactivate event fires), for example if an HMD has gone into standby or sleep mode due to a period of inactivity.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Window.onvrdisplaydeactivate"
+        }
+    ],
+    "dom-window-onvrdisplaydisconnect": [
+        {
+            "slug": "API/Window/onvrdisplaydisconnect",
+            "summary": "The onvrdisplaydisconnect event handler property of the Window interface is called when a compatible VR display has been disconnected from the computer (when the vrdisplaydisconnect event fires).",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "notes": [
+                        "Chrome for Android 56 supports only Google Daydream View.",
+                        "Chrome for Android 57 adds support for Google Cardboard."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "notes": "Supported on Samsung Internet for GearVR.",
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Window.onvrdisplaydisconnect"
+        }
+    ],
+    "dom-window-onvrdisplayfocus": [
+        {
+            "slug": "API/Window/onvrdisplayfocus",
+            "summary": "The onvrdisplayfocus property of the Window interface represents an event handler that will run when presentation to a display has resumed after being blurred (when the vrdisplayfocus event fires).",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Window.onvrdisplayfocus"
+        }
+    ],
+    "dom-window-onvrdisplaypresentchange": [
+        {
+            "slug": "API/Window/onvrdisplaypresentchange",
+            "summary": "The onvrdisplaypresentchange property of the Window interface represents an event handler that will run when the presenting state of a VR display changes \u2014 i.e. goes from presenting to not presenting, or vice versa (when the vrdisplaypresentchange event fires).",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference",
+                            "value_to_set": "Enabled"
+                        }
+                    ],
+                    "version_added": "65"
+                },
+                "chrome_android": {
+                    "notes": [
+                        "Chrome for Android 56 supports only Google Daydream View.",
+                        "Chrome for Android 57 adds support for Google Cardboard."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "notes": "Supported on Samsung Internet for GearVR.",
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": null
+                }
+            },
+            "title": "Window.onvrdisplaypresentchange"
+        }
+    ],
+    "gamepad-getvrdisplays-attribute": [
+        {
+            "slug": "API/Gamepad",
+            "summary": "The Gamepad interface of the Gamepad API defines an individual gamepad or other controller, allowing access to information such as button presses, axis positions, and id.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "35"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "21",
+                        "version_removed": "34"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "35"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "25",
+                        "version_removed": "34"
+                    }
+                ],
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": true
+                },
+                "firefox": [
+                    {
+                        "version_added": "29"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "dom.gamepad.enabled",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "version_added": "24",
+                        "version_removed": "28"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "32"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "22"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "15",
+                        "version_removed": "21"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "22"
+                    },
+                    {
+                        "prefix": "webkit",
+                        "version_added": "15",
+                        "version_removed": "21"
+                    }
+                ],
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Gamepad"
+        },
+        {
+            "slug": "API/Gamepad/displayId",
+            "summary": "The displayId read-only property of the Gamepad interface returns the VRDisplay.displayId of the associated VRDisplay \u2014 the VRDisplay that the gamepad is controlling the displayed scene of.",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": "Only works on desktop in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a> (other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked).",
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "notes": "Currently supported only by Google Daydream.",
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "15"
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "Gamepad.displayId"
+        }
+    ],
+    "interface-interface-vrfieldofview": [
+        {
+            "slug": "API/VRFieldOfView",
+            "summary": "The VRFieldOfView interface of the WebVR API represents a field of view defined by 4 different degree values describing the view from a center point.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFieldOfView"
+        }
+    ],
+    "interface-vrdisplay": [
+        {
+            "slug": "API/VRDisplay",
+            "summary": "The VRDisplay interface of the WebVR API represents any VR device supported by this API. It includes generic information such as device IDs and descriptions, as well as methods for starting to present a VR scene, retrieving eye parameters and display capabilities, and other important functionality.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplay"
+        }
+    ],
+    "interface-vrdisplaycapabilities": [
+        {
+            "slug": "API/VRDisplayCapabilities",
+            "summary": "The VRDisplayCapabilities interface of the WebVR API describes the capabilities of a VRDisplay \u2014 its features can be used to perform VR device capability tests, for example can it return position information.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplayCapabilities"
+        }
+    ],
+    "interface-vrdisplayevent": [
+        {
+            "slug": "API/VRDisplayEvent",
+            "summary": "The VRDisplayEvent interface of the WebVR API represents represents the event object of WebVR-related events (see the list of WebVR window extensions).",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRDisplayEvent"
+        },
+        {
+            "slug": "API/VRFrameData",
+            "summary": "The VRFrameData interface of the WebVR API represents all the information needed to render a single frame of a VR scene; constructed by VRDisplay.getFrameData().",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRFrameData"
+        }
+    ],
+    "interface-vrlayerinit": [
+        {
+            "slug": "API/VRLayerInit",
+            "summary": "The VRLayerInit interface (dictionary) of the WebVR API represents a content layer (an HTMLCanvasElement or OffscreenCanvas) that you want to present in a VR display.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRLayerInit"
+        }
+    ],
+    "interface-vrpose": [
+        {
+            "slug": "API/VRPose",
+            "summary": "The VRPose interface of the WebVR API represents the state of a VR sensor at a given timestamp (which includes orientation, position, velocity, and acceleration information.)",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRPose"
+        }
+    ],
+    "interface-vrstageparameters": [
+        {
+            "slug": "API/VRStageParameters",
+            "summary": "The VRStageParameters interface of the WebVR API represents the values describing the the stage area for devices that support room-scale experiences.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VRStageParameters"
+        }
+    ],
+    "vreyeparameters": [
+        {
+            "slug": "API/VREyeParameters",
+            "summary": "The VREyeParameters interface of the WebVR API represents all the information required to correctly render a scene for a given eye, including field of view information.",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "chrome_android": {
+                    "flags": [
+                        {
+                            "name": "WebVR",
+                            "type": "preference"
+                        }
+                    ],
+                    "notes": [
+                        "Only works in an <a href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+                        "Daydream View supported in Chrome 56.",
+                        "Google Cardboard supported in Chrome 57."
+                    ],
+                    "version_added": "56"
+                },
+                "edge": {
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": [
+                    {
+                        "notes": "Windows support was enabled in Firefox 55.",
+                        "version_added": "55"
+                    },
+                    {
+                        "notes": "macOS support was enabled in Firefox 64.",
+                        "version_added": "64"
+                    }
+                ],
+                "firefox_android": {
+                    "version_added": "55"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": false
+                }
+            },
+            "title": "VREyeParameters"
+        }
+    ]
+}

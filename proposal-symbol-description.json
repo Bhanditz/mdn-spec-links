@@ -1,0 +1,53 @@
+{
+    "sec-symbol.prototype.description": [
+        {
+            "slug": "JavaScript/Reference/Global_Objects/Symbol/description",
+            "summary": "The read-only description property is a string returning the optional description of Symbol objects.",
+            "support": {
+                "chrome": {
+                    "version_added": "70"
+                },
+                "chrome_android": {
+                    "version_added": "70"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "nodejs": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "57"
+                },
+                "opera_android": {
+                    "version_added": "57"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": "70"
+                }
+            },
+            "title": "Symbol.prototype.description"
+        }
+    ]
+}

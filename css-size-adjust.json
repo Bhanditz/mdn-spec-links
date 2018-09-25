@@ -1,0 +1,91 @@
+{
+    "adjustment-control": [
+        {
+            "slug": "CSS/text-size-adjust",
+            "summary": "The text-size-adjust CSS property controls the text inflation algorithm used on some smartphones and tablets. Other browsers will ignore this property.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "54"
+                    },
+                    {
+                        "notes": "Instead of ignoring the <code>-webkit-text-size-adjust</code> property, a bug prevents desktop Chrome users from zooming in or out. The bug was fixed after Chrome 26.",
+                        "prefix": "-webkit-",
+                        "version_added": false
+                    }
+                ],
+                "chrome_android": {
+                    "version_added": "54"
+                },
+                "edge": {
+                    "prefix": "-webkit-",
+                    "version_added": "12"
+                },
+                "edge_mobile": [
+                    {
+                        "prefix": "-ms-",
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": true
+                    }
+                ],
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": [
+                    {
+                        "prefix": "-moz-",
+                        "version_added": true
+                    },
+                    {
+                        "prefix": "-webkit-",
+                        "version_added": "49"
+                    },
+                    {
+                        "flags": [
+                            {
+                                "name": "layout.css.prefixes.webkit",
+                                "type": "preference",
+                                "value_to_set": "true"
+                            }
+                        ],
+                        "prefix": "-webkit-",
+                        "version_added": "44"
+                    }
+                ],
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "42"
+                },
+                "opera_android": {
+                    "version_added": "42"
+                },
+                "safari": [
+                    {
+                        "version_added": false
+                    },
+                    {
+                        "notes": "Instead of ignoring the <code>-webkit-text-size-adjust</code> property, a bug prevents desktop Safari users from zooming in or out. The bug was fixed after Safari 5.",
+                        "prefix": "-webkit-",
+                        "version_added": false
+                    }
+                ],
+                "safari_ios": {
+                    "prefix": "-webkit-",
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "54"
+                }
+            },
+            "title": "text-size-adjust"
+        }
+    ]
+}

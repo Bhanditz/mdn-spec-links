@@ -1,0 +1,112 @@
+{
+    "extending-viewport-rule": [
+        {
+            "slug": "CSS/@viewport",
+            "summary": "The @viewport CSS at-rule lets you configure the viewport through which the document is viewed. It's primarily used for mobile devices, but is also used by desktop browsers that support features like \"snap to edge\" (such as Microsoft Edge).",
+            "support": {
+                "chrome": {
+                    "flags": [
+                        {
+                            "name": "--enable-experimental-webkit-features",
+                            "type": "runtime_flag"
+                        },
+                        {
+                            "name": "--enable-viewport",
+                            "type": "runtime_flag"
+                        }
+                    ],
+                    "notes": "See Chromium <a href='https://crbug.com/235457'>bug 235457</a>.",
+                    "version_added": "29"
+                },
+                "chrome_android": {
+                    "version_added": "29"
+                },
+                "edge": {
+                    "flags": [
+                        {
+                            "name": "Enable @-ms-viewport rules",
+                            "type": "preference"
+                        }
+                    ],
+                    "prefix": "-ms-",
+                    "version_added": true
+                },
+                "edge_mobile": {
+                    "flags": [
+                        {
+                            "name": "Enable @-ms-viewport rules",
+                            "type": "preference"
+                        }
+                    ],
+                    "prefix": "-ms-",
+                    "version_added": true
+                },
+                "firefox": {
+                    "notes": "See Firefox <a href='https://bugzil.la/747754'>bug 747754</a>.",
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "notes": "See Firefox <a href='https://bugzil.la/747754'>bug 747754</a>.",
+                    "version_added": false
+                },
+                "ie": {
+                    "prefix": "-ms-",
+                    "version_added": "10"
+                },
+                "opera": [
+                    {
+                        "flags": [
+                            {
+                                "name": "--enable-experimental-webkit-features",
+                                "type": "runtime_flag"
+                            },
+                            {
+                                "name": "--enable-viewport",
+                                "type": "runtime_flag"
+                            }
+                        ],
+                        "version_added": "16"
+                    },
+                    {
+                        "prefix": "-o-",
+                        "version_added": "11.1",
+                        "version_removed": "15"
+                    }
+                ],
+                "opera_android": {
+                    "version_added": null
+                },
+                "safari": {
+                    "notes": "See WebKit <a href='https://bugs.webkit.org/show_bug.cgi?id=95959'>bug 95959</a>.",
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "notes": "See WebKit <a href='https://bugs.webkit.org/show_bug.cgi?id=95959'>bug 95959</a>.",
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "4.4"
+                }
+            },
+            "title": "@viewport"
+        }
+    ],
+    "viewport-fit-descriptor": [
+        {
+            "slug": "CSS/@viewport/viewport-fit",
+            "summary": "The viewport-fit CSS @viewport descriptor controls how a document's viewport fills the screen.",
+            "support": {
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                }
+            },
+            "title": "viewport-fit"
+        }
+    ]
+}

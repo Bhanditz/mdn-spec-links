@@ -1,0 +1,654 @@
+{
+    "dom-visualviewport-height": [
+        {
+            "slug": "API/VisualViewport/height",
+            "summary": "The height read-only property of the VisualViewport interface returns the height of the visual viewport, in CSS pixels.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "VisualViewport.height"
+        }
+    ],
+    "dom-visualviewport-offsettop": [
+        {
+            "slug": "API/VisualViewport/offsetTop",
+            "summary": "The offsetTop read-only property of the VisualViewport interface returns the offset of the top edge of the visual viewport from the top edge of the layout viewport in CSS pixels.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "VisualViewport.offsetTop"
+        }
+    ],
+    "dom-visualviewport-onresize": [
+        {
+            "slug": "API/VisualViewport/onresize",
+            "summary": "The onresize event handler of the VisualViewport interface is the EventHandler called when a viewport is resized.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "62"
+                    },
+                    {
+                        "partial_implementation": true,
+                        "version_added": "61"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "62"
+                    },
+                    {
+                        "partial_implementation": true,
+                        "version_added": "61"
+                    }
+                ],
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "partial_implementation": true,
+                        "version_added": "48"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "partial_implementation": true,
+                        "version_added": "48"
+                    }
+                ],
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "62"
+                    },
+                    {
+                        "partial_implementation": true,
+                        "version_added": "61"
+                    }
+                ]
+            },
+            "title": "VisualViewport.onresize"
+        }
+    ],
+    "dom-visualviewport-onscroll": [
+        {
+            "slug": "API/VisualViewport/onscroll",
+            "summary": "The onscroll event handler of the VisualViewport interface is the EventHandler called when a viewport is scrolled.",
+            "support": {
+                "chrome": [
+                    {
+                        "version_added": "62"
+                    },
+                    {
+                        "partial_implementation": true,
+                        "version_added": "61"
+                    }
+                ],
+                "chrome_android": [
+                    {
+                        "version_added": "62"
+                    },
+                    {
+                        "partial_implementation": true,
+                        "version_added": "61"
+                    }
+                ],
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "partial_implementation": true,
+                        "version_added": "48"
+                    }
+                ],
+                "opera_android": [
+                    {
+                        "version_added": "49"
+                    },
+                    {
+                        "partial_implementation": true,
+                        "version_added": "48"
+                    }
+                ],
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": [
+                    {
+                        "version_added": "62"
+                    },
+                    {
+                        "partial_implementation": true,
+                        "version_added": "61"
+                    }
+                ]
+            },
+            "title": "VisualViewport.onscroll"
+        }
+    ],
+    "dom-visualviewport-pageleft": [
+        {
+            "slug": "API/VisualViewport/pageLeft",
+            "summary": "The pageLeft read-only property of the VisualViewport interface returns the x coordinate relative to the initial containing block origin of the left edge of the visual viewport, in CSS pixels.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "VisualViewport.pageLeft"
+        }
+    ],
+    "dom-visualviewport-pagetop": [
+        {
+            "slug": "API/VisualViewport/pageTop",
+            "summary": "The pageTop read-only property of the VisualViewport interface returns the y coordinate relative to the initial containing block origin of the top edge of the visual viewport, in CSS pixels.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "VisualViewport.pageTop"
+        }
+    ],
+    "dom-visualviewport-scale": [
+        {
+            "slug": "API/VisualViewport/scale",
+            "summary": "The scale read-only property of the VisualViewport interface returns the pinch-zoom scaling factor applied to the visual viewport.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "VisualViewport.scale"
+        }
+    ],
+    "dom-visualviewport-width": [
+        {
+            "slug": "API/VisualViewport/width",
+            "summary": "The width read-only property of the VisualViewport interface returns the width of the visual viewport, in CSS pixels.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "VisualViewport.width"
+        }
+    ],
+    "dom-window-visualviewport": [
+        {
+            "slug": "API/Window/visualViewport",
+            "summary": "The visualViewport read-only property of the Window interface returns a VisualViewport object representing the visual viewport for a given window.",
+            "support": {
+                "chrome": {
+                    "version_added": "60"
+                },
+                "chrome_android": {
+                    "version_added": "60"
+                },
+                "edge": {
+                    "version_added": null
+                },
+                "edge_mobile": {
+                    "version_added": null
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": null
+                },
+                "opera": {
+                    "version_added": "47"
+                },
+                "opera_android": {
+                    "version_added": "47"
+                },
+                "safari": {
+                    "version_added": null
+                },
+                "safari_ios": {
+                    "version_added": null
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "60"
+                }
+            },
+            "title": "Window.visualViewport"
+        }
+    ],
+    "the-visualviewport-interface": [
+        {
+            "slug": "API/VisualViewport",
+            "summary": "The VisualViewport interface of the the Visual Viewport API represents the visual viewport for a given window. For a page containing iframes, each iframe, as well as the containing page, will have a unique window object. Each window on a page will have a unique VisualViewport representing the properties associated with that window.",
+            "support": {
+                "chrome": {
+                    "version_added": "61"
+                },
+                "chrome_android": {
+                    "version_added": "61"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "edge_mobile": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "firefox_android": {
+                    "flags": [
+                        {
+                            "name": "dom.visualviewport.enabled",
+                            "type": "preference",
+                            "value_to_set": "true"
+                        }
+                    ],
+                    "version_added": "63"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "48"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": null
+                },
+                "webview_android": {
+                    "version_added": "61"
+                }
+            },
+            "title": "VisualViewport"
+        }
+    ]
+}
